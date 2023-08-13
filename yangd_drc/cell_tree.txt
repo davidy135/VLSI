@@ -1,0 +1,17 @@
+RX_Frontend
+
+RX_Frontend
+	M4M5_CDNS_20
+	M3M4_CDNS_22
+	M2M3_CDNS_23
+	M1M2_CDNS_24
+	L1M1_CDNS_25
+	PYL1_CDNS_26
+	nmos_CDNS_59
+	rpoly_CDNS_60
+	nmos_CDNS_61
+	nmos_lvt_CDNS_62
+	rpoly_CDNS_65
+	nmos_CDNS_66
+	nmos_CDNS_67
+

@@ -1,0 +1,9 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary TwoStage_layout
+Iref 1 VDD 43765 41000 metal1
+VDD 1 VDD 62340 93770 metal8
+Vin+ 1 VDD 60915 37385 metal1
+Vin- 1 VDD 63765 37485 metal1
+Vout+ 1 VDD 51180 75670 metal1
+Vout- 1 VDD 73485 75650 metal1
+VSS 1 VDD 62355 31865 metal8

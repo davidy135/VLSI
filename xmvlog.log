@@ -1,0 +1,20 @@
+xmvlog: *W,DLNOHV: Unable to find an 'hdl.var' file to load in.
+TOOL:	xmvlog(64)	20.09-s008: Started on Dec 15, 2022 at 02:53:02 EST
+xmvlog
+    -ESCAPEDNAME
+    -work __nclib
+    -view module
+    -specificunit CKBD3
+    /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/TSMCHOME/digital/Front_End/verilog/tcbn65gplus_200a/tcbn65gplus_pwr.v
+    -logfile xmvlog.log
+    -cdslib /tmp/ihdl_cdslibb4905_4905
+    -messages
+    -nostdout
+    -nocopyright
+
+file: /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/TSMCHOME/digital/Front_End/verilog/tcbn65gplus_200a/tcbn65gplus_pwr.v
+	module __nclib.CKBD3:module
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+TOOL:	xmvlog(64)	20.09-s008: Exiting on Dec 15, 2022 at 02:53:02 EST  (total: 00:00:00)

@@ -1,0 +1,3336 @@
+1602 0
+1 G.1:DNWi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:NWi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:OD_18i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:OD_25i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:OD25_33 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:OD25_18 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:OD_33i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:OD_DECAP 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:PPi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:NPi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CBi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RPOi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:NT_Ni 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:NCap_NTNi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:FWALi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:FWCUi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:POFUSE 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:FUSELINK 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:SEALRINGi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VTH_Ni 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VTH_Pi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VTL_Ni 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VTL_Pi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:UHVT_Ni 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:UHVT_Pi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RH 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:ESD3 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VARi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:APi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CBMi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CTMi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RVi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DCOi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:HVD_P 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:HVD_N_nw 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:SRM_ULL 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:BJTDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:NWDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RPDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:PMDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:SDI 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:ESD1DMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:ESD2DMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RODMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:SRM 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CDUDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:TCDDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:LOGO 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:INDDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CTMDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CTMDMY_10 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CTMDMY_15 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CTMDMY_20 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CTMDMY_21 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_1 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_2 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_3 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_4 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_5 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_6 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_7 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_8 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_9 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_AP 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RTMOMDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_2T 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MOMDMY_100 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RFDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:WBDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DIODMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:SRAMDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:SRAMDMY_4 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:SRAMDMY_5 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:SRAMDMY_1 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:OD1Ti 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CLDDi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CROWNi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:P3i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:SNCTi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:LUPWDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:LUPWDMY_2 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VDDDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VSSDMY 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:MATCHING 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M1i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M1_real 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DM1_O 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM1 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M2i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M2_real 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DM2_O 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM2 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M3i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M3_real 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DM3_O 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM3 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M4i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M4_real 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DM4_O 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM4 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M5i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M5_real 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DM5_O 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM5 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M6i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M6_real 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DM6_O 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM6 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M7i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M7_real 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DM7_O 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM7 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M8_OLD 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M8_NEW 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM8_OLD 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM8_NEW 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M9_OLD 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:M9_NEW 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM9_OLD 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DUM9_NEW 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA1i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA2i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA3i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA4i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA5i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA6i 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA7_OLD 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA7_NEW 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA8_OLD 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:VIA8_NEW 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:ODi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DOD 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:DPO 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:mVTLi 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMY1 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMY2 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMY3 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMY4 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMY5 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMY6 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMY7 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMY8 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMY9 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:RMDMYAP 1
+"grid must be an integer multiple of 0.005 um"
+1 G.1:CO 1
+"5nm grid is required for CO except CO inside layer 186,5"
+1 G.1:PO 1
+"5nm grid is required for PO except PO inside layer 186,5"
+1 G.2:DNWi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:NWi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:OD_18i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:OD_25i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:OD25_33 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:OD25_18 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:OD_33i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:OD_DECAP 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:PPi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:NPi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:COi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CO_PUSH 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CBi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CB2i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RPOi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:NT_Ni 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:NCap_NTNi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:FWALi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:FWCUi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:POFUSE 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:FUSELINK 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:PMi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:PM1i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:PM2i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:SEALRINGi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VTH_Ni 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VTH_Pi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VTL_Ni 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VTL_Pi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:UHVT_Ni 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:UHVT_Pi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CBDi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:UBMi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RH 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:ESD3 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VARi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:APi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:Cu_PPIi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CBMi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CTMi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RVi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DCOi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:HVD_P 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:HVD_N_nw 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:SRM_ULL 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:BJTDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:NWDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RPDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:PMDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:SDI 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:ESD1DMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:ESD2DMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RODMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:SRM 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CDUDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:TCDDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:LOGO 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:INDDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CTMDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CTMDMY_10 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CTMDMY_15 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CTMDMY_20 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CTMDMY_21 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_1 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_2 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_3 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_4 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_5 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_6 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_7 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_8 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_9 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_AP 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RTMOMDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_2T 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MOMDMY_100 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RFDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:WBDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DIODMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:SRAMDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:SRAMDMY_4 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:SRAMDMY_5 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:SRAMDMY_1 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RAM1TDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:OD1Ti 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CLDDi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:CROWNi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:P3i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:SNCTi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:LUPWDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:LUPWDMY_2 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VDDDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VSSDMY 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:MATCHING 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M1i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M1_real 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DM1_O 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM1 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M2i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M2_real 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DM2_O 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM2 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M3i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M3_real 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DM3_O 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM3 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M4i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M4_real 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DM4_O 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM4 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M5i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M5_real 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DM5_O 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM5 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M6i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M6_real 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DM6_O 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM6 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M7i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M7_real 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DM7_O 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM7 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M8_OLD 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M8_NEW 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM8_OLD 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM8_NEW 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M9_OLD 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:M9_NEW 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM9_OLD 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DUM9_NEW 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA1i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA2i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA3i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA4i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA5i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA6i 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA7_OLD 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA7_NEW 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA8_OLD 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:VIA8_NEW 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:ODi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DOD 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:POi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:DPO 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:mVTLi 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMY1 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMY2 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMY3 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMY4 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMY5 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMY6 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMY7 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMY8 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMY9 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.2:RMDMYAP 1
+"LAYERS Shapes with acute angles between line segments are not allowed."
+1 G.3:DNWi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:NWi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:OD_18i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:OD_25i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:OD25_33 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:OD25_18 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:OD_33i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:OD_DECAP 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:PPi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:NPi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:COi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CO_PUSH 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CBi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RPOi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:NT_Ni 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:NCap_NTNi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:FWALi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:FWCUi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:POFUSE 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:FUSELINK 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:SEALRINGi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VTH_Ni 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VTH_Pi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VTL_Ni 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VTL_Pi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:UHVT_Ni 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:UHVT_Pi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RH 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:ESD3 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VARi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:APi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CBMi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CTMi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RVi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DCOi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:HVD_P 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:HVD_N_nw 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:SRM_ULL 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:BJTDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:NWDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RPDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:SDI 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:ESD1DMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:ESD2DMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RODMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:SRM 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CDUDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:TCDDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:LOGO 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:INDDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CTMDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CTMDMY_10 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CTMDMY_15 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CTMDMY_20 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CTMDMY_21 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_1 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_2 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_3 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_4 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_5 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_6 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_7 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_8 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_9 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_AP 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RTMOMDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_2T 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MOMDMY_100 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RFDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:WBDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DIODMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:SRAMDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:SRAMDMY_4 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:SRAMDMY_5 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:SRAMDMY_1 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RAM1TDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:OD1Ti 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CLDDi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:CROWNi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:P3i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:SNCTi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:LUPWDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:LUPWDMY_2 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VDDDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VSSDMY 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:MATCHING 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M1i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M1_real 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DM1_O 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM1 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M2i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M2_real 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DM2_O 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM2 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M3i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M3_real 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DM3_O 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM3 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M4i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M4_real 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DM4_O 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM4 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M5i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M5_real 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DM5_O 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM5 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M6i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M6_real 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DM6_O 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM6 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M7i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M7_real 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DM7_O 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM7 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M8_OLD 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M8_NEW 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM8_OLD 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM8_NEW 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M9_OLD 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:M9_NEW 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM9_OLD 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DUM9_NEW 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA1i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA2i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA3i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA4i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA5i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA6i 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA7_OLD 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA7_NEW 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA8_OLD 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:VIA8_NEW 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:ODi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DOD 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:POi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:DPO 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:mVTLi 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMY1 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMY2 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMY3 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMY4 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMY5 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMY6 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMY7 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMY8 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMY9 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.3:RMDMYAP 1
+"Shapes must be orthogonal or on a 45 degree angle."
+1 G.4:ODi 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:POi 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:VTH_Ni 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:VTH_Pi 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:VTL_Ni 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:VTL_Pi 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:PPi 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:NPi 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:M1i 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:M2i 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:M3i 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:M4i 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:M5i 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:M6i 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.4:M7i 1
+"Adjacent edges with length less than min. width is not allowed."
+1 G.5:NOTUSEM1 1
+"Do not use NOTUSEM1 which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEM2 1
+"Do not use NOTUSEM2 which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEM3 1
+"Do not use NOTUSEM3 which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEM4 1
+"Do not use NOTUSEM4 which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEM5 1
+"Do not use NOTUSEM5 which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEM6 1
+"Do not use NOTUSEM6 which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEM7 1
+"Do not use NOTUSEM7 which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEM8 1
+"Do not use NOTUSEM8 which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEM9 1
+"Do not use NOTUSEM9 which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEOD 1
+"Do not use NOTUSEOD which is reserved for tsmc internal mask making"
+1 G.5:NOTUSEPO 1
+"Do not use NOTUSEPO which is reserved for tsmc internal mask making"
+1 USER_GUIDE.M1 1
+"Metal layers with forbidden datatypes."
+1 USER_GUIDE.M2 1
+"Metal layers with forbidden datatypes."
+1 USER_GUIDE.M3 1
+"Metal layers with forbidden datatypes."
+1 USER_GUIDE.M4 1
+"Metal layers with forbidden datatypes."
+1 USER_GUIDE.M5 1
+"Metal layers with forbidden datatypes."
+1 USER_GUIDE.M6 1
+"Metal layers with forbidden datatypes."
+1 USER_GUIDE.M7 1
+"Metal layers with forbidden datatypes."
+1 USER_GUIDE.M8 1
+"Metal layers with forbidden datatypes."
+1 USER_GUIDE.M9 1
+"Metal layers with forbidden datatypes."
+1 USER_GUIDE.VIA1 1
+"Via layers with forbidden datatypes."
+1 USER_GUIDE.VIA2 1
+"Via layers with forbidden datatypes."
+1 USER_GUIDE.VIA3 1
+"Via layers with forbidden datatypes."
+1 USER_GUIDE.VIA4 1
+"Via layers with forbidden datatypes."
+1 USER_GUIDE.VIA5 1
+"Via layers with forbidden datatypes."
+1 USER_GUIDE.VIA6 1
+"Via layers with forbidden datatypes."
+1 USER_GUIDE.VIA7 1
+"Via layers with forbidden datatypes."
+1 USER_GUIDE.VIA8 1
+"Via layers with forbidden datatypes."
+1 USER_GUIDE.2 1
+"Dummy metal,poly,od can't be used to connect"
+1 NW_DATATYPE:WARNING1 1
+"Extreme user care needs to be taken when using any layer other than (3,0) that default MT form considers to create NW mask. The tapeout engineer must explicitly explain that those non-default layers must be considered equivalent to NW in the MT form to ensure complete fabrication. It is strongly recommended to use NW,drawing (3,0) layer to define NW regions."
+1 OD_DATATYPE:WARNING1 1
+"Extreme user care needs to be taken when using any other layer to create OD mask such as pdiff (7,0), ndiff (8,0) or any layer other than (6,0), and (6,1) that default MT form considers. The tapeout engineer must explicitly explain that those non-default layers must be considered equivalent to OD in the MT form to ensure complete fabrication.  It is strongly recommended to use only OD,drawing (6,0) and OD,dummy (6,1) layers to defined OD and DOD regions."
+1 OD_DATATYPE:WARNING2 1
+"SRAM OD (6,11-13) layer are only allowed in SRAM region."
+1 OD_DATATYPE:WARNING3 1
+"Layer (6,3) is for recognition purpose of RF devices, please take care if this layer is adopted for non-RF designs and not for masking purpose of diffusion regions together with OD (6,0)."
+1 PO_DATATYPE:WARNING1 1
+"Extreme user care needs to be taken when using any layer other than (17,0), and (17,1) that default MT form considers to create PO mask. The tapeout engineer must explicitly explain that those non-default layers must be considered equivalent to PO in the MT form to ensure complete fabrication. It is strongly recommended to use PO,drawing (17,0) and PO,dummy (17,1) layer to define PO and DPO regions."
+1 PO_DATATYPE:WARNING2 1
+"SRAM PO (17,11-13) layer are only allowed in SRAM region."
+1 CO_DATATYPE:WARNING1 1
+"Extreme user care needs to be taken when using any layer other than (30,0) that default MT form considers to create CO mask. The tapeout engineer must explicitly explain that those non-default layers must be considered equivalent to CO in the MT form to ensure complete fabrication. It is strongly recommended to use CO,drawing (30,0) to define CO regions."
+1 CO_DATATYPE:WARNING2 1
+"SRAM CO (30,11-13) layer are only allowed in SRAM region."
+1 NW.W.1 1
+"Width >= 0.47 um"
+1 NW.S.1 1
+"Space >= 0.47 um"
+1 NW.S.2 1 connected
+"Space of two NW1V with different potentials >= 1 um"
+1 NW.S.3 1 connected
+"NW1V space to NW2V with different potentials >= 1.2 um"
+1 NW.S.4 1 connected
+"Space of two NW2V with different potentials >= NW2V 1.2 um"
+1 SUGGESTED.NW.S.3__NW.S.4 2 connected
+"A more conservative way to check NW.S.3, NW.S.4 with"
+"varied operating voltages determination of nwels."
+1 NW.S.5 1
+"Space to PW STRAP >= 0.16 um"
+1 NW.S.6 1
+"Space to N+active except dummy TCD region >= 0.16 um"
+1 NW.S.7 1
+"Space to (N+active interact OD2) >= 0.31 um"
+1 NW.EN.1 1
+"Enclosure of NW STRAP >= 0.16 um"
+1 NW.EN.2 1
+"Enclosure of P+active >= 0.16 um"
+1 NW.EN.3 1
+"ENClosure of (P+active interact with OD2) >= 0.31 um"
+1 NW.A.1 1
+"Area >= 0.64 um2"
+1 NW.A.2 1
+"Enclosed Area >= 0.64 um2"
+1 NW.A.3 1
+"Area (one of edge length < 0.8 um) >= 1 um2"
+1 NW.A.4 1
+"Enclosed Area (one of the enclosed edge length < 0.8 um) >= 1 um2"
+1 NWROD.W.1 1
+"Width >= 1.8 (NWRSTI.W.1 is checked by NWROD.W.1)"
+1 NWROD.S.1 2
+"Space to NWROD or to NW >= 1.2"
+"NWRSTI.S.1  Space to NWRSTI or to NW >= 1.2"
+1 NWROD.S.2 1
+"Min. space to RPO >= 0.3 um"
+1 NWROD.EN.1 1
+"Min. enclose by OD >= 1 um"
+1 NWROD.EN.2 1
+"Min. enclose by CO >= 0.3 um"
+1 NWROD.O.1 1
+"RPO overlap of NP. Use exact value 0.4 um on side touching NWDMY"
+1 NWROD.O.2 1
+"{OD and NWDMY} overlap of {NP, PP, VTH_N, VTH_P, VTL_N, or VTL_P} (all implant layers except NW) is not allowed"
+1 NWROD.R.4 1
+"Only one polygon of NW in NWROD is allowed in one OD"
+1 NWROD.R.5 1
+"Only two polygons of NP in NWROD is allowed in one OD"
+1 NWROD.R.6 1
+"Only two polygons of RPO hole(Salicide) in NWROD is allowed in same OD"
+1 NWROD.R.7 1
+"OD space for NW with parallel length > 0 if NW space <= 5um"
+1 NWRSTI.EN.1 1
+"NP enclosure of OD >= 0.4 um"
+1 NWRSTI.EN.2 2
+"OD extension on NWRSTI >= 0.3 um"
+"NWRSTI.EN.3 Enclosure of CO >= 0.3 um"
+1 NWRSTI.EX.1 1
+"OD extension on NWRSTI >= 0.3 um"
+1 NWRSTI.O.1 1
+"{NP interact with NWDMY} overlap of {PP, VTH_P, or VTL_P} (all p-type implant layers) is not allowed"
+1 NT_N.W.1 1
+"Width >= 0.47 um"
+1 NT_N.W.2 1
+"Channel length of 1.0V native device >= 0.2 um"
+1 NT_N.W.3 1
+"Channel length of 2.5V/3.3V native device >= 1.2 um"
+1 NT_N.W.4 1
+"Channel length of 1.8V native device >= 0.8 um"
+1 NT_N.W.5 1
+"Channel width >= 0.5 um"
+1 NT_N.S.1 1
+"Space >= 0.47 um"
+1 NT_N.S.2 1
+"Space to [Active outside NT_N] >= 0.38 um"
+1 NT_N.S.3 1
+"Space to NW >= 1.2 um"
+1 NT_N.EN.1 1
+"Enclosure range of N+OD >= 0.26 um <= 0.285 um"
+1 NT_N.EX.1 1
+"PO extension on (OD inside NT_N) (PO endcap) >= 0.35 um"
+1 NT_N.A.1 1
+"Area >= 0.64 um2"
+1 NT_N.A.2 1
+"Enclosed area >= 0.64 um2"
+1 NT_N.A.3 1
+"Area [one of edge length < 0.8 um] >= 1 um2"
+1 NT_N.A.4 1
+"Enclosed Area [one of the enclosed edge length < 0.8 um] >= 1 um2"
+1 NT_N.R.1 1
+"Overlap of (NW or DNW) is not allowed"
+1 NT_N.R.2 1
+"P+Gate is not allowed in NT_N"
+1 NT_N.R.3 4 connected
+"Only one OD is allowed in NT_N"
+"Except NMOS capacitors with the same potential"
+"You have to draw a NCap_NTN layer to cover the NMOS capacitors. The NCap_NTN enclosure of OD have to be >= 0 um."
+"DRC also flags NCap_NTN and OD, which is outside of the NCap_NTN in the same NT_N."
+1 DNW.W.1 1
+"Width >= 3"
+1 DNW.S.1 1
+"Space >= 3.5"
+1 DNW.S.2 1 connected
+"Space to NW with different potential >= 2.5"
+1 DNW.S.3 1
+"Space to {N+ACTIVE outside DNW} except dummy TCD region >= 1.65"
+1 DNW.S.4 1 connected
+" RW space to {RW or PW} with different potential >= 1 um"
+1 DNW.S.5 1 connected
+"{RW or PW} space to {RW interact with OD2} with different potential >= 1.2 um"
+1 DNW.EN.3 1
+"Enclosure of N+ACTIVE >= 0.56"
+1 DNW.O.1 1
+"Overlap of NW >= 0.4"
+1 DNW.R.5 1
+"N+ACTIVE cut DNW is not allowed."
+1 OD.W.1 1
+"Width >= 0.08 um"
+1 OD.W.2 1
+"Width of MOS (<=1.2V)[for core device] >= 0.12 um"
+1 OD.W.3 1
+"Width of MOS (>1.2V to <=3.3V)[for I/O device] >= 0.4 um"
+1 OD.W.4 1
+"Width of 45 degree bent OD Please make sure the vertex of 45 degree pattern is on 5nm grid >= 0.18 um"
+1 OD.S.1 1
+"Spacing >= 0.11 um"
+1 OD.S.2 1
+"Spacing (inside OD2) >= 0.18 um"
+1 OD.S.3 1
+"Space of two ODs (width (W) > 0.15 um), if the parallel length (L) >= 0.2 um >= 0.13 um"
+1 OD.S.3.1 1
+"Space to OD (width (W) > 0.15 um), if the parallel length (L) >= 0.2 um >= 0.125 um"
+1 OD.S.4 1
+"Space to 45 degree bent OD >= 0.18 um"
+1 OD.S.5 1
+"Space between two segments of U-shape or O-shape (notch only) >= 0.18 um"
+1 OD.A.1 1
+"Area >= 0.054 um2"
+1 OD.A.2 1
+"Enclosed area >= 0.085 um2"
+1 OD.L.1 1
+"Maximum length of {ACTIVE (source) [width < 0.15 um] interacts with butted_STRAP} <= 0.5 um"
+1 OD.L.2 1
+"Maximum OD length [OD width is < 0.15 um] between two contacts as well as between one contact and the OD line end <= 25 um"
+1 OD.R.1 1
+"OD must be fully covered by {NP or PP} except for {DOD or NWDMY}"
+1 DOD.W.1 1
+"Width >= 0.5 um"
+1 DOD.S.1 1
+"Space of DOD >= 0.4"
+1 DOD.S.2 1
+"Space to OD >= 0.34 um (Overlap is not allowed)"
+1 DOD.S.3 1
+"Space to PO >= 0.3 um (Overlap is not allowed)"
+1 DOD.S.5 1
+"Space to NW >= 0.3 um"
+1 DOD.S.6 1
+"Space to FW (Overlap is not allowed) >= 1.2 um"
+1 DOD.S.7 1
+"Space to LMARK (Overlap is not allowed) >= 1.2 um"
+1 DOD.S.7.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DOD.S.8 1
+"Space to NWDMY (Overlap is not allowed) >= 0.6 um"
+1 DOD.S.9 1
+"Space to LOGO (Overlap is not allowed) >= 0 um"
+1 DOD.S.10 1
+"Space to INDDMY (Overlap is not allowed) >= 1.2 um"
+1 DOD.EN.1 1
+"Enclosure by NW >= 0.3 um (DOD CUT NW is not allowed)"
+1 OD.DN.2 1 density
+"Min. OD density over window 150 step 75 >= 20%"
+1 OD.DN.2.2 1 density
+"Max. OD density over window 150 step 75 <= 90%"
+1 OD.DN.2.1 1 density
+"Max. OD density over window 150 step 75 <= 80% in core"
+1 OD.DN.3 1 density
+"Min. OD density over window 150 step 75 >= 20% (within ODBLK)"
+1 OD.DN.3.2 1 density
+"Max. OD density over window 150 step 75 <= 90% (within ODBLK)"
+1 OD.DN.3.1 1 density
+"Max. OD density over window 150 step 75 <= 80% in core (within ODBLK)"
+1 DOD.R.3 1
+"Only square (or rectangular) and solid shapes are allowed. A 45-degree shape is not allowed."
+1 OD2.W.1 1
+"Width >= 0.47 um"
+1 OD2.W.2 2
+"Width of (OD2 or (NW or NT_N)) >= 0.47 um"
+"DRC filter out the errors only on NW."
+1 OD2.S.1 1
+"Space >= 0.47 um"
+1 OD2.S.2 1
+"Space to {ACTIVE or GATE} >= 0.27 um"
+1 OD2.S.3 1
+"Space to 1.0V or 1.2V gate in S/D direction >= 0.34 um"
+1 OD2.S.4 1
+"Space to NW. Space = 0 is allowed. >= 0.47 um"
+1 OD2.S.5 1
+"Space of (NW NOT OD2) >= 0.47 um"
+1 OD2.S.6 1
+"Space of (NW and OD2) >= 0.47 um"
+1 OD2.S.7 1
+"Space of (OD2 NOT (NW or NT_N)) >= 0.47 um"
+1 OD2.EN.1 1
+"Enclosure of 1.8V or 2.5V or 3.3V Gate in S/D direction. >= 0.34 um"
+1 OD2.EX.1 1
+"NW extension on OD2. Extension = 0 is allowed. >= 0.47 um"
+1 OD2.EX.2 1
+"Extension on NW. Extension = 0 is allowed. >= 0.47 um"
+1 OD2.EX.3 1
+"Extension on {ACTIVE or GATE} >= 0.27 um"
+1 OD2.O.1 1
+"Overlap of NW. Overlap = 0 is allowed. >= 0.47 um"
+1 OD2.R.1 1
+"OD_33, OD_25, and OD_18 can not be used on the same die."
+1 OD25_33.W.1 1
+"Channel length of 2.5V NMOS overdriven to 3.3V (NMOS Gate and OD25_33) expect gate without PO CO in RFDMY >= 0.5 um"
+1 OD25_33.W.2 1
+"Channel length of 2.5V PMOS overdriven to 3.3V (PMOS Gate and OD25_33) expect gate without PO CO in RFDMY>= 0.4 um"
+1 OD25_33.R.1 1
+"{GATE and OD25_33} can't overlap OD_18,OD33,or OD25_18. {Gate and OD25_33} must be covered by OD_25. OD25_33 can't cut GATE"
+1 OD25_18.W.1 1
+"Channel length of 2.5V MOS underdriven to 1.8V (Gate and OD25_18) >= 0.26 um"
+1 OD25_18.R.1 1
+"{GATE and OD25_18} can't overlap OD_18 or OD33 or OD25_33. {Gate and OD25_18} must be covered by OD_25. OD25_18 can't cut GATE"
+1 PO.W.1 1
+"Width >= 0.06 um"
+1 PO.S.1 1
+"Space >= 0.12 um"
+1 PO.S.2 1
+"GATE space in the same OD >= 0.13 um."
+1 PO.W.2 1
+"Channel length of 2.5V MOS >= 0.28 um"
+1 PO.W.3 1
+"Channel length of 3.3V MOS except gate without PO CO in RFDMY >= 0.38 um"
+1 PO.W.4 1
+"Channel length of 1.8V MOS >= 0.2 um"
+1 PO.W.5 2
+"Width of 45 degree FIELD poly (expect PO fuse element, POFUSE, 156,0)>= 0.19 um"
+"DRC will also flag the width < 0.08um in the POFUSE. Please make sure the vertex of 45 degree pattern is on 5nm grid"
+1 PO.S.2.1 1
+"Gate space [either one channel length > 0.09 um] >= 0.15 um"
+1 PO.S.3 1
+"Min. two 1.8V,2.5V or 3.3V POLY space on OD w/o contact >= 0.25 um"
+1 PO.S.4 1
+"Field PO space to OD >= 0.05 um"
+1 PO.S.4.1 1
+"Gate space when the area enclosed by (L-shape OD & PO < 0.0121 um2) >= 0.15 um"
+1 PO.S.5 1
+"Space to L-shape OD when PO & OD are in same MOS [channel width < 0.15 um] >= 0.1 um"
+1 PO.S.6 1
+"L-shape PO space to OD when PO and OD are in same MOS [channel width < 0.15 um] >= 0.1 um"
+1 PO.S.7 1
+"Space if at least one PO width is > 0.13 um, and the PO parallel run length is > 0.18 um (individual projection) >= 0.18 um"
+1 PO.S.9 1
+"Space of {PO and RPO} >= 0.25 um"
+1 PO.S.10 1
+"Space at PO line-end (W<Q1=0.090) in a dense-line-end configuration: If PO has parallel run length with opposite PO (measured with T1=0.035 extension) along 2 adjacent edges of PO [any one edge <Q1 distance from the corner of the two edges], then one of the space (S1 or S2) needs to be at least this value (except for small jog with edge length < 0.06 um(R)) >= 0.14 um"
+1 PO.S.15 1 density
+"Large PO to gate [channel length <=0.08 um] space. The large PO is defined as PO area >=630 um and interact with regions of density > 70% flagged by 30 um x 30 um (stepping 15 um) window density check. DPO will be excluded from density check >= 1 um"
+1 PO.S.16 1
+"Space to 45 degree FIELD poly >= 0.19 um"
+1 PO.EX.1 1
+"Extension on OD (end-cap) >= 0.14 um"
+1 PO.EX.2 1
+"OD extension on PO >= 0.115 um"
+1 PO.EX.3 1
+"Extension on OD (end-cap) when the PO space to L-shape OD (in the same MOS) is < 0.1 um, and the channel width (W) is >= 0.15 um. >= 0.16 um"
+1 PO.L.1 1
+"Maximum PO length between 2 contacts, as well as the length bewteen one contact and the end of PO gate, when the PO width  < 0.13 um (except RTMOM region) <= 25 um"
+1 PO.A.1 1
+"Area >= 0.042 um2"
+1 PO.A.1.1 1
+"Area {PO not interacting with gate} >= 0.051 um2"
+1 PO.A.2 1
+"Enclosed area >= 0.094 um2"
+1 PO.DN.2 1 density
+"{OD or DOD or PO or DPO } local density (minimun) over window 20um x 20um stepping 10um >= 0.1%"
+1 PO.DN.3 1 density
+"PO density within POBLK expect {TCDDMY or RFDMY}>= 14%"
+1 PO.R.1 1
+"GATE must be a rectangle orthogonal to grid. (Both bent GATE and Gate to have jog are not allowed)"
+1 PO.R.4 1
+"PO intersecting OD must form two or more diffusions except RTMOM region (RTMOMDMY, CAD layer: 155,21)"
+1 PO.R.6 1
+"H-gate forbidden with channel length (V) < 0.11 mm, PO center bar length (U) < 0.425 mm, all four H-legs length (X) > 0.065 mm, and all four H-legs width (Y) < 0.255 um."
+1 DPO.W.1 1
+"Width >= 0.4 um"
+1 DPO.S.1 1
+"Space >= 0.3 um"
+1 DPO.S.2 1
+"Space to OD (Overlap is not allowed) >= 0.2 um"
+1 DPO.S.3 1
+"Space to PO (Overlap is not allowed) >= 0.5 um"
+1 DPO.S.5 1
+"Space to FW (Overlap is not allowed) >= 1.2 um"
+1 DPO.S.6 1
+"Space to LMARK (Overlap is not allowed) >= 1.2 um"
+1 DPO.S.6.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DPO.S.8 1
+"Space to LOGO (Overlap is not allowed) >= 0 um"
+1 DPO.S.9 1
+"Space to INDDMY (Overlap is not allowed) >= 1.2 um"
+1 DPO.R.3 1
+"Only square (or rectangular) and solid shapes are allowed. A 45-degree shape is not allowed"
+1 DTCD.W.1 1
+"Width of TCDDMY  = 12 or 9.245"
+1 DTCD.R.1 1
+"TCDDMY should contain OD/PO/PP/NP/POBLK/ODBLK layer"
+1 DTCD.R.2 1
+"OD/PO/PP/NP/POBLK/ODBLK layout in the TCDDMY must exactly same as them in tsmc's utility."
+1 DTCD.R.3 1
+"TCDDMY overlap of DOD, DPO, NW, OD2, DCO, NT_N, POFUSE, RPO, RH, VAR, mVTL, VTH_P, VTH_N, VTL_P, VTL_N, SRM, SRAMDMY, FW, LMARK, INDDMY, LOGO, or MOMDMY is not allowed."
+1 VTH_N.W.1 1
+"Min. dimension of VTH_N (except Point touch of vertex [Width >= 0.4 um])>= 0.18 um."
+1 VTH_N.S.1 1
+"Min. space between two VTH_N  (except Point touch of vertex [Width >= 0.4 um]) >= 0.18 um."
+1 VTH_N.S.2__VTH_N.S.2.1 2
+"Space to gate in PO endcap direction >= 0.16"
+"Space to gate in S/D direction >= 0.185"
+1 VTH_N.S.3 1
+"Min. clearance from VTH_N to OD resistor >= 0.22 um"
+1 VTH_N.EN.1__VTH_N.EN.2 2
+"Enclosure of gate in S/D direction >= 0.185"
+"Enclosure of gate in PO endcap direction >= 0.16"
+1 VTH_N.A.1 1
+"Min. VTH_N area >= 0.27 um"
+1 VTH_N.A.2 1
+"Min. area of an enclosed VTH_N >= 0.27 um"
+1 VTH_N.R.1 1
+"Overlap PACT, VTLN, NT_N or OD2 is not allowed"
+1 VTH_P.W.1 1
+"Min. dimension of VTH_P (except Point touch of vertex [Width >= 0.4 um])>= 0.18 um."
+1 VTH_P.S.1 1
+"Min. space between two VTH_P  (except Point touch of vertex [Width >= 0.4 um]) >= 0.18 um."
+1 VTH_P.S.2__VTH_P.S.2.1 2
+"Space to gate in PO endcap direction >= 0.16"
+"Space to gate in S/D direction >= 0.185"
+1 VTH_P.S.3 1
+"Min. clearance from VTH_P to OD resistor >= 0.22 um"
+1 VTH_P.EN.1__VTH_P.EN.2 2
+"Enclosure of gate in S/D direction >= 0.185"
+"Enclosure of gate in PO endcap direction >= 0.16"
+1 VTH_P.A.1 1
+"Min. VTH_P area >= 0.27 um"
+1 VTH_P.A.2 1
+"Min. area of an enclosed VTH_P >= 0.27 um"
+1 VTH_P.R.1 1
+"Overlap NACT, VTLP, NT_N or OD2 is not allowed"
+1 VTL_N.W.1 1
+"Min. dimension of VTL_N (except Point touch of vertex [Width >= 0.4 um])>= 0.18 um."
+1 VTL_N.S.1 1
+"Min. space between two VTL_N  (except Point touch of vertex [Width >= 0.4 um]) >= 0.18 um."
+1 VTL_N.S.2__VTL_N.S.2.1 2
+"Space to gate in PO endcap direction >= 0.16"
+"Space to gate in S/D direction >= 0.185"
+1 VTL_N.S.3 1
+"Min. clearance from VTL_N to OD resistor >= 0.22 um"
+1 VTL_N.EN.1__VTL_N.EN.2 2
+"Enclosure of gate in S/D direction >= 0.185"
+"Enclosure of gate in PO endcap direction >= 0.16"
+1 VTL_N.A.1 1
+"Min. VTL_N area >= 0.27 um"
+1 VTL_N.A.2 1
+"Min. area of an enclosed VTL_N >= 0.27 um"
+1 VTL_N.R.1 1
+"Overlap PACT, VTHN, NT_N or OD2 is not allowed"
+1 VTL_P.W.1 1
+"Min. dimension of VTL_P (except Point touch of vertex [Width >= 0.4 um])>= 0.18 um."
+1 VTL_P.S.1 1
+"Min. space between two VTL_P  (except Point touch of vertex [Width >= 0.4 um]) >= 0.18 um."
+1 VTL_P.S.2__VTL_P.S.2.1 2
+"Space to gate in PO endcap direction >= 0.16"
+"Space to gate in S/D direction >= 0.185"
+1 VTL_P.S.3 1
+"Min. clearance from VTL_P to OD resistor >= 0.22 um"
+1 VTL_P.EN.1__VTL_P.EN.2 2
+"Enclosure of gate in S/D direction >= 0.185"
+"Enclosure of gate in PO endcap direction >= 0.16"
+1 VTL_P.A.1 1
+"Min. VTL_P area >= 0.27 um"
+1 VTL_P.A.2 1
+"Min. area of an enclosed VTL_P >= 0.27 um"
+1 VTL_P.R.1 1
+"Overlap NACT, VTHP, NT_N or OD2 is not allowed"
+1 mVTL.EN.1 1
+"Enclosure of gate >= 0.05um"
+1 mVTL.S.1 1
+"Space to  gate >= 0.05um"
+1 mVTL.R.1 1
+"Overlap of VTH_N,VTH_P,VTL_N,VTL_P, NT_N, or OD2 is not allowed."
+1 PP.W.1 1
+"Width >= 0.18 um"
+1 PP.S.1 1
+"Space >= 0.18 um"
+1 PP.S.2 1
+"Space to N+ACTIVE (non-butted) >= 0.13 um"
+1 PP.S.4 1
+"Space to NW STRAP (non-butted) >= 0.02 um"
+1 PP.S.5 1
+"{PP edge on OD} space to NMOS GATE >= 0.32 um"
+1 PP.S.6 1
+"Butted PW STRAP space to PO in the same OD [the butted N+ACTIVE extending 0 < J1 < 0.16 mm] >= 0.32 um"
+1 PP.S.7 1
+"Space to N-type unsilicided OD/PO >= 0.2 um"
+1 PP.EN.1 1
+"{NP or PP} enclosure of PO (except DPO) >= 0.15 um"
+1 PP.EX.1 1
+"Extension on P+ACTIVE >= 0.13 um"
+1 PP.EX.2 1
+"Extension on PW STRAP >= 0.02 um"
+1 PP.EX.3 1
+"Extension on P-type unsilicided OD/PO >= 0.2 um"
+1 PP.EX.4 1
+"{PP edge on OD} extension on PMOS GATE >= 0.32 um"
+1 PP.O.1 1
+"Overlap of PP and OD >= 0.13 um"
+1 PP.A.1 1
+"Area >= 0.122 um2"
+1 PP.A.2 1
+"Enclosed area >= 0.122 um2"
+1 PP.A.3 1
+"Area of butted PW STRAP >= 0.04 um"
+1 PP.R.1 1
+"PP must fully cover {PMOS GATE SIZING 0.16 um} >= 0.16 um"
+1 PP.R.2 1
+"Overlap of NP is not allowed"
+1 NP.W.1 1
+"Width >= 0.18 um"
+1 NP.S.1 1
+"Space >= 0.18 um"
+1 NP.S.2 1
+"Space to P+ACTIVE (non-butted) >= 0.13 um"
+1 NP.S.4 1
+"Space to PW STRAP (non-butted) >= 0.02 um"
+1 NP.S.5 1
+"{NP edge on OD} space to PMOS GATE >= 0.32 um"
+1 NP.S.6 1
+"Butted NW STRAP space to PO in the same OD [the butted P+ACTIVE extending 0 < J1 < 0.16 um] >= 0.32 um"
+1 NP.S.7 1
+"Space to P-type unsilicided OD/PO >= 0.2 um"
+1 NP.EX.1 1
+"Extension on N+ACTIVE >= 0.13 um"
+1 NP.EX.2 1
+"Extension on NW STRAP >= 0.02 um"
+1 NP.EX.3 1
+"Extension on N-type unsilicided OD/PO >= 0.2 um"
+1 NP.EX.4 1
+"{NP edge on OD} extension on NMOS GATE >= 0.32 um"
+1 NP.O.1 1
+"Overlap of OD >= 0.13 um"
+1 NP.A.1 1
+"Area >= 0.122 um2"
+1 NP.A.2 1
+"Enclosed area >= 0.122 um2"
+1 NP.A.3 1
+"Area of butted NW STRAP >= 0.04 um"
+1 NP.R.1 1
+"NP must fully cover {NMOS GATE SIZING 0.16 um} >= 0.16 um"
+1 LDN.EX.1 4
+"NP extension on NW  >= 0.18"
+"LDN.EX.2  NP extension on {OD2 or DCO} >= 0.18"
+"LDN.EX.3  NP extension on {RH or BJTDMY} >= 0.18"
+"LDN.EX.4  NP extension on VAR >= 0.18"
+1 LDN.EX.1:DCO 5
+"NP extension on NW  >= 0.18"
+"LDN.EX.2  NP extension on OD2 >= 0.18"
+"LDN.O.1   NP overlap of DCO   >= 0.18"
+"LDN.EX.3  NP extension on {RH or BJTDMY} >= 0.18"
+"LDN.EX.4  NP extension on VAR >= 0.18"
+1 LDN.O.1 4
+"NP overlap of OD2  >= 0.18."
+"LDN.EX.1  NP extension on NW  >= 0.18"
+"LDN.EX.3  NP extension on {RH or BJTDMY} >= 0.18"
+"LDN.EX.4  NP extension on VAR >= 0.18"
+1 LDP.EX.1 4
+"PP extension on {OD2 or DCO} >= 0.18"
+"LDP.EX.2  PP extension on {RH or BJTDMY} >= 0.18"
+"LDP.EX.3  PP extension on VAR  >= 0.18"
+"LDP.O.1  PP overlap of NW  >= 0.18"
+1 LDP.EX.1:DCO 5
+"PP extension on OD2 >= 0.18"
+"LDP.O.2  PP overlap of DCO >= 0.18"
+"LDP.EX.2  PP extension on {RH or BJTDMY} >= 0.18"
+"LDP.EX.3  PP extension on VAR >= 0.18"
+"LDP.O.1  PP overlap of NW >= 0.18"
+1 LDP.O.2 4
+"PP overlap of OD2 >= 0.18"
+"LDP.EX.2  PP extension on {RH or BJTDMY} >= 0.18"
+"LDP.EX.3  PP extension on VAR >= 0.18"
+"LDP.O.1  PP overlap of NW >= 0.18"
+1 VT.S.1 1
+"VTL_N space to {OD2 or NW or DCO} >= 0.18"
+1 VT.EX.2 1
+"NW extension on {OD2 or VTL_P or DCO} >= 0.18"
+1 RPO.W.1 1
+"Width >= 0.43 um"
+1 RPO.S.1 1
+"Space >= 0.43 um"
+1 RPO.S.2 1
+"Space to OD >= 0.22 um"
+1 RPO.S.3 1
+"Space to CO (overlap of CO is not allowed.) >= 0.22 um"
+1 RPO.S.4 1
+"Space to GATE (overlap of GATE is not allowed except ESD circuit.) >= 0.38 um"
+1 RPO.S.5 1
+"Space to PO >= 0.3 um"
+1 RPO.EX.1 1
+"Extension on unsilicided OD/PO >= 0.22 um"
+1 RPO.EX.1.1 1
+"Extension on unsilicided OD/PO [RPO width > 10um] >= 0.3 um"
+1 RPO.EX.2 1
+"OD extension on RPO >= 0.22 um"
+1 RPO.A.1 1
+"Area >= 1 um2"
+1 RPO.A.2 1
+"Enclosed area >= 1 um2"
+1 RPO.R.1 1
+"Butted NP/PP on unsilicided OD/PO is not allowed"
+1 RES.8 1
+"RH space to GATE (overlap is not allowed) >= 0.16 um"
+1 RES.10 1
+"RPO intersecting (PO and RH) must form two more POs (except BJT or ESD circuit)"
+1 RES.11 1
+"RPO intersecting (OD and RH) must form two more ODs (except BJT or ESD circuit)"
+1 RES.21 1
+"NP OD resistor is not allowed interacting with NW"
+1 RES.22 1
+"PP OD resistor is only allowed inside NW"
+1 RES.12g 1
+"{RPO and PO} must be fully covered by RH except for BJT or ESD circuits"
+1 RES.13g 1
+"{RPO and OD} must be fully covered by RH except for BJT or ESD circuits"
+1 VAR.W.1 1
+"Length of {gate and VAR} >= 0.2 um"
+1 VAR.W.4 1
+"Channel width of { gate and VAR } >= 0.4 um"
+1 VAR.S.1 1
+"Space to Active >= 0.13"
+1 VAR.EN.1 1
+"Enclosure of OD >= 0.16"
+1 VAR.R.1 1
+"VAR layer must be drawn to fully cover the varactor devices."
+1 VAR.R.2 1
+"Overlap of VTL_N, VTL_P, VTH_N, VTH_P, mVTL, NT_N, PW, or RPO is not allowed."
+1 VAR.R.3 1
+"PP overlap of {gate and VAR} is not allowed."
+1 VAR.R.4 1
+"Overlap of {gate SIZING 0.16 um} is not allowed."
+1 VAR.R.5 1
+"NP must fully cover ((((VAR and GATE) SIZING 0.19) and OD) SIZING 0.13)"
+1 HVD_N:WARN 1
+"5V HV MOS is allowed only in LP process"
+1 HVD_P:WARN 1
+"5V HV MOS is allowed only in LP process"
+1 GR.R.1 1
+"It is not allowed to place HVNMOS and HVPMOS inside the same guard-ring"
+1 GR.R.7__GR.R.8 1
+"For one row and two rows multi-OD in the same guard ring, the outer edge of OD in PO endcap direction of each HV PMOS space to the N+/NW guard ring (NW STRAP) <= 2 um. The OD space in PO endcap direction between two rows multi-OD HV PMOS in the same guard ring <= 4 um"
+1 GR.R.10__GR.R.11 1
+"For one row and two rows multi-OD in the same guard ring, the outer edge of OD in S/D direction of HV PMOS row space to the N+/NW guard ring (NW STRAP) <= 2 um. The OD space in S/D direction between each HV PMOS in the same guard ring <= 2 um"
+1 GR.R.13 1
+"The OD width of two rows multi-OD HV PMOS within the same guard ring <= 10 um"
+1 GR.R.14 1
+"HV N/PMOS enclosed by (guard ring with RPO) is not allowed."
+1 CO.W.1 2
+"Width (maximum = minimum except for seal-ring and fuse protection ring) = 0.09 um"
+"CO.R.3  45-degree rotated CO is not allowed"
+1 CO.W.2 1
+"CO bar width = 0.09 um (CO bar is covered by SEALRING layer and only allowed in seal-ring and fuse protecion ring)"
+1 CO.S.1 1
+"Spacing >= 0.11 um"
+1 CO.S.2 1
+"Space to 3-neighboring CO (< 0.15 um distance) >= 0.14 um"
+1 CO.S.2.1 1 connected
+"Space to neighboring CO [different net and common parallel run length > 0] >= 0.14 um"
+1 CO.S.2.2 1 connected
+"Space to neighboring CO [different net] >= 0.12 um"
+1 CO.S.3 1
+"Space to GATE (Overlap of GATE is not allowed) >= 0.055 um"
+1 CO.S.4 1
+"{CO inside PO} space to OD >= 0.07 um"
+1 CO.S.5 1
+"{CO inside OD} space to 1.8V or 2.5V or 3.3V GATE >= 0.09 um"
+1 CO.S.6 1
+"Space to butted PP/NP edge on OD (overlap of NP/PP boundary on OD is not allowed.) >= 0.06 um"
+1 CO.EN.1 1
+"Enclosure by OD >= 0.015 um"
+1 CO.EN.1.1 1
+"Enclosure by OD [at least two opposite side] >= 0.03 um."
+1 CO.EN.2 1
+"Enclosure by PO >= 0.01"
+1 CO.EN.3__CO.EN.4 1
+"Enclosure by PO [at least two opposite sides] >= 0.04 ,or [all sides] >= 0.03"
+1 M1.W.1 1
+"Width >= 0.09 um"
+1 M1.W.2 1
+"Width of 45-degree bent MM1 Please make sure the vertex of 45 degree pattern is on 5nm grid >= 0.19 um"
+1 M1.W.3 1
+"Maximum width <= 12 um"
+1 M1.S.1 1
+"Spacing >= 0.09 um"
+1 M1.S.2 1
+"Space [at least one metal line width > 0.2 um  and the parallel metal run length > 0.38 um ] (union projection) >= 0.11"
+1 M1.S.2.1 1
+"Space [at least one metal line width > 0.42 um  and the parallel metal run length > 0.42 um ] (union projection) >= 0.16"
+1 M1.S.3 1
+"Space [at least one metal line width > 1.5 um  and the parallel metal run length > 1.5 um ] (union projection) >= 0.5"
+1 M1.S.4 1
+"Space [at least one metal line width > 4.5 um  and the parallel metal run length > 4.5 um ] (union projection) >= 1.5"
+1 M1.S.5 1
+"If M1 has parallel run length with opposite M1 along two adjacent edges of M1 [any one edge < 0.11 um (Q) and its opposite extension< 0.035um (T) distance from the corner of the two edges of M1], then one of the space (S1 or S2) to opposite M1 must be >= 0.11 um."
+1 M1.S.6 1
+"Space to 45-degree bent M1 >= 0.19 um"
+1 M1.EN.1 1
+"Enclosure of CO >= 0 um"
+1 M1.EN.2__M1.EN.3 1
+"Enclosure of CO [at least two opposite sides] >= 0.04, or [all sides] >= 0.025 um"
+1 M1.EN.4 1
+"Enclosure of CO [M1 width > 1um] >= 0.04 um"
+1 M1.A.1 1
+"Area >= 0.042 um2"
+1 M1.A.2 1
+"Enclosed area >= 0.2 um2"
+1 M1.DN.1 1 density
+"M1 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+1 M1.DN.1.1 1 density
+"M1 local density must be <= 0.8 range over 100 um x 100 um step 50 um"
+1 M1.DN.2 1 density
+"M1 local density must be <= 0.9 range over 20 um x 20 um step 10 um"
+1 M1.DN.4 1 density
+"The metal density difference between any two 250 um x 250 um neighboring checking windows including DM1EXCL <= 0.4"
+1 VIA1.W.1 2
+"Width (maximum = minimum except for seal-ring and fuse protection ring) = 0.1 um"
+"VIA1.R.1 45-degree rotated VIA is not allowed"
+1 VIA1.W.2 1
+"VIA1 bar width = 0.1 (VIA1 bar is covered by SEALRING layer and only allowed in seal-ring and fuse protecion ring)"
+1 VIA1.S.1 1
+"Spacing >= 0.1 um"
+1 VIA1.S.2 1
+"Space to 3-neighboring VIAx (< 0.14 um distance) >= 0.13 um"
+1 VIA1.S.3 1 connected
+"Space to neighboring VIAx [different net and common parallel run length > 0] >= 0.13 um"
+1 VIA1.EN.1 1
+"Enclosure by M1 >= 0 um"
+1 VIA1.EN.2__VIA1.EN.3 1
+"Enclosure by M1 [at least two opposite sides] >= 0.04 , or [all sides] >= 0.03"
+1 VIA1.R.2__VIA1.R.3 4
+"When M1 or M2 width > 0.3 um, more than one VIA1 is required."
+"2 vias spacing should be <= 0.2 um or 4 vias spacing should be <= 0.25 um"
+"When M1 or M2 width > 0.7 um, more than three VIA1 is required."
+"4 vias spacing should be <= 0.2 um or 9 vias spacing should be <= 0.35 um"
+1 VIA1.R.4:M1 1
+" At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA1.R.4:M2 1
+"At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA1.R.5:M1 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA1.R.5:M2 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA1.R.6:M1 1
+" At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA1.R.6:M2 1
+"At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA1.R.11 4
+"Single VIAx is not allowed for H-shape  Mx+1 when all of the following conditions come into existence:"
+"1. The Mx+1 has H-shape interact with two metal holes : both two metal hole area <= 5 um2 and two metal hole length(L2) <= 5 um"
+"2. The VIAx overlaps on the center metal bar of this H-shape Mx+1"
+"3. The length (L) of the center metal bar <= 1 um and the width of metal bar is <= 0.3 um."
+1 M2.W.1 1
+"Width >= 0.1 um"
+1 M2.W.2 1
+"Width of 45-degree bent Mx Please make sure the vertex of 45 degree pattern is on 5nm grid >= 0.19 um"
+1 M2.W.3 1
+"Maximum width <= 12 um"
+1 M2.S.1 1
+"Spacing >= 0.1 um"
+1 M2.S.2 1
+"Space [at least one metal line width > 0.2 um  and the parallel metal run length > 0.38 um ] (union projection) >= 0.12"
+1 M2.S.2.1 1
+"Space [at least one metal line width > 0.4 um  and the parallel metal run length > 0.4 um ] (union projection) >= 0.16"
+1 M2.S.3 1
+"Space [at least one metal line width > 1.5 um  and the parallel metal run length > 1.5 um ] (union projection) >= 0.5"
+1 M2.S.4 1
+"Space [at least one metal line width > 4.5 um  and the parallel metal run length > 4.5 um ] (union projection) >= 1.5"
+1 M2.S.5 1
+"Space at Mx line-end (W<Q=0.120) in a dense-line-end configuration: If Mx has parallel run length with opposite Mx (measured with T=0.035 extension) along 2 adjacent edges of Mx [any one edge <Q distance from the corner of the two edges], then one of the space (S1 or S2) needs to be at least this value (except for small jog with edge length < 0.10 um (R)) >= 0.12 um."
+1 M2.EN.1 1
+" Enclosure of VIA1 >= 0 um"
+1 M2.EN.2__M2.EN.3 1
+"Enclosure of VIA1 [at least two opposite sides] >= 0.04 ,or [all sides] >= 0.03"
+1 M2.A.1 1
+"Area >= 0.052 um2"
+1 M2.A.2 1
+"Enclosed area >= 0.2 um"
+1 M2.S.6 1
+"Space to 45 degree bent M2 >=  M2_S_6 um"
+1 M2.DN.1 1 density
+"M2 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+1 M2.DN.1.1 1 density
+"M2 local density must be <= 0.8 range over 100 um x 100 um step 50 um"
+1 M2.DN.2 1 density
+"M2 local density must be <= 0.9 range over 20 um x 20 um step 10 um"
+1 M2.DN.4 1 density
+"The metal density difference between any two 250 um x 250 um neighboring checking windows including DM2EXCL <= 0.4"
+1 VIA2.W.1 2
+"Width (maximum = minimum except for seal-ring and fuse protection ring) = 0.1 um"
+"VIA2.R.1 45-degree rotated VIA is not allowed"
+1 VIA2.W.2 1
+"VIA2 bar width = 0.1 (VIA2 bar is covered by SEALRING layer and only allowed in seal-ring and fuse protecion ring)"
+1 VIA2.S.1 1
+"Spacing >= 0.1 um"
+1 VIA2.S.2 1
+"Space to 3-neighboring VIAx (< 0.14 um distance) >= 0.13 um"
+1 VIA2.S.3 1 connected
+"Space to neighboring VIAx [different net and common parallel run length > 0] >= 0.13 um"
+1 VIA2.EN.1 1
+"Enclosure by M2 >= 0 um"
+1 VIA2.EN.2__VIA2.EN.3 1
+"Enclosure by M2 [at least two opposite sides] >= 0.04 , or [all sides] >= 0.03"
+1 VIA2.R.2__VIA2.R.3 4
+"When M2 or M3 width > 0.3 um, more than one VIA2 is required."
+"2 vias spacing should be <= 0.2 um or 4 vias spacing should be <= 0.25 um"
+"When M2 or M3 width > 0.7 um, more than three VIA2 is required."
+"4 vias spacing should be <= 0.2 um or 9 vias spacing should be <= 0.35 um"
+1 VIA2.R.4:M2 1
+" At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA2.R.4:M3 1
+"At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA2.R.5:M2 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA2.R.5:M3 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA2.R.6:M2 1
+" At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA2.R.6:M3 1
+"At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA2.R.11 4
+"Single VIAx is not allowed for H-shape  Mx+1 when all of the following conditions come into existence:"
+"1. The Mx+1 has H-shape interact with two metal holes : both two metal hole area <= 5 um2 and two metal hole length(L2) <= 5 um"
+"2. The VIAx overlaps on the center metal bar of this H-shape Mx+1"
+"3. The length (L) of the center metal bar <= 1 um and the width of metal bar is <= 0.3 um."
+1 M3.W.1 1
+"Width >= 0.1 um"
+1 M3.W.2 1
+"Width of 45-degree bent Mx Please make sure the vertex of 45 degree pattern is on 5nm grid >= 0.19 um"
+1 M3.W.3 1
+"Maximum width <= 12 um"
+1 M3.S.1 1
+"Spacing >= 0.1 um"
+1 M3.S.2 1
+"Space [at least one metal line width > 0.2 um  and the parallel metal run length > 0.38 um ] (union projection) >= 0.12"
+1 M3.S.2.1 1
+"Space [at least one metal line width > 0.4 um  and the parallel metal run length > 0.4 um ] (union projection) >= 0.16"
+1 M3.S.3 1
+"Space [at least one metal line width > 1.5 um  and the parallel metal run length > 1.5 um ] (union projection) >= 0.5"
+1 M3.S.4 1
+"Space [at least one metal line width > 4.5 um  and the parallel metal run length > 4.5 um ] (union projection) >= 1.5"
+1 M3.S.5 1
+"Space at Mx line-end (W<Q=0.120) in a dense-line-end configuration: If Mx has parallel run length with opposite Mx (measured with T=0.035 extension) along 2 adjacent edges of Mx [any one edge <Q distance from the corner of the two edges], then one of the space (S1 or S2) needs to be at least this value (except for small jog with edge length < 0.10 um (R)) >= 0.12 um."
+1 M3.EN.1 1
+" Enclosure of VIA2 >= 0 um"
+1 M3.EN.2__M3.EN.3 1
+"Enclosure of VIA2 [at least two opposite sides] >= 0.04 ,or [all sides] >= 0.03"
+1 M3.A.1 1
+"Area >= 0.052 um2"
+1 M3.A.2 1
+"Enclosed area >= 0.2 um"
+1 M3.S.6 1
+"Space to 45 degree bent M3 >=  M3_S_6 um"
+1 M3.DN.1 1 density
+"M3 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+1 M3.DN.1.1 1 density
+"M3 local density must be <= 0.8 range over 100 um x 100 um step 50 um"
+1 M3.DN.2 1 density
+"M3 local density must be <= 0.9 range over 20 um x 20 um step 10 um"
+1 M3.DN.4 1 density
+"The metal density difference between any two 250 um x 250 um neighboring checking windows including DM3EXCL <= 0.4"
+1 M1.DN.5 1 density
+"It is not allowed to have local density > 0.8 of all 3 consecutive metal (M1,M2,M3) over any 50 um x 50 um window (stepping 25 um)"
+1 M1.DN.6 1 connected
+"It is not allowed to have local density < 0.15 of all 3 consecutive metal (M1,M2,M3) under ((CBM SIZING 25) SIZING -25) whose size is >= 200um X 200um"
+1 VIA3.W.1 2
+"Width (maximum = minimum except for seal-ring and fuse protection ring) = 0.1 um"
+"VIA3.R.1 45-degree rotated VIA is not allowed"
+1 VIA3.W.2 1
+"VIA3 bar width = 0.1 (VIA3 bar is covered by SEALRING layer and only allowed in seal-ring and fuse protecion ring)"
+1 VIA3.S.1 1
+"Spacing >= 0.1 um"
+1 VIA3.S.2 1
+"Space to 3-neighboring VIAx (< 0.14 um distance) >= 0.13 um"
+1 VIA3.S.3 1 connected
+"Space to neighboring VIAx [different net and common parallel run length > 0] >= 0.13 um"
+1 VIA3.EN.1 1
+"Enclosure by M3 >= 0 um"
+1 VIA3.EN.2__VIA3.EN.3 1
+"Enclosure by M3 [at least two opposite sides] >= 0.04 , or [all sides] >= 0.03"
+1 VIA3.R.2__VIA3.R.3 4
+"When M3 or M4 width > 0.3 um, more than one VIA3 is required."
+"2 vias spacing should be <= 0.2 um or 4 vias spacing should be <= 0.25 um"
+"When M3 or M4 width > 0.7 um, more than three VIA3 is required."
+"4 vias spacing should be <= 0.2 um or 9 vias spacing should be <= 0.35 um"
+1 VIA3.R.4:M3 1
+" At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA3.R.4:M4 1
+"At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA3.R.5:M3 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA3.R.5:M4 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA3.R.6:M3 1
+" At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA3.R.6:M4 1
+"At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA3.R.11 4
+"Single VIAx is not allowed for H-shape  Mx+1 when all of the following conditions come into existence:"
+"1. The Mx+1 has H-shape interact with two metal holes : both two metal hole area <= 5 um2 and two metal hole length(L2) <= 5 um"
+"2. The VIAx overlaps on the center metal bar of this H-shape Mx+1"
+"3. The length (L) of the center metal bar <= 1 um and the width of metal bar is <= 0.3 um."
+1 M4.W.1 1
+"Width >= 0.1 um"
+1 M4.W.2 1
+"Width of 45-degree bent Mx Please make sure the vertex of 45 degree pattern is on 5nm grid >= 0.19 um"
+1 M4.W.3 1
+"Maximum width <= 12 um"
+1 M4.S.1 1
+"Spacing >= 0.1 um"
+1 M4.S.2 1
+"Space [at least one metal line width > 0.2 um  and the parallel metal run length > 0.38 um ] (union projection) >= 0.12"
+1 M4.S.2.1 1
+"Space [at least one metal line width > 0.4 um  and the parallel metal run length > 0.4 um ] (union projection) >= 0.16"
+1 M4.S.3 1
+"Space [at least one metal line width > 1.5 um  and the parallel metal run length > 1.5 um ] (union projection) >= 0.5"
+1 M4.S.4 1
+"Space [at least one metal line width > 4.5 um  and the parallel metal run length > 4.5 um ] (union projection) >= 1.5"
+1 M4.S.5 1
+"Space at Mx line-end (W<Q=0.120) in a dense-line-end configuration: If Mx has parallel run length with opposite Mx (measured with T=0.035 extension) along 2 adjacent edges of Mx [any one edge <Q distance from the corner of the two edges], then one of the space (S1 or S2) needs to be at least this value (except for small jog with edge length < 0.10 um (R)) >= 0.12 um."
+1 M4.EN.1 1
+" Enclosure of VIA3 >= 0 um"
+1 M4.EN.2__M4.EN.3 1
+"Enclosure of VIA3 [at least two opposite sides] >= 0.04 ,or [all sides] >= 0.03"
+1 M4.A.1 1
+"Area >= 0.052 um2"
+1 M4.A.2 1
+"Enclosed area >= 0.2 um"
+1 M4.S.6 1
+"Space to 45 degree bent M4 >=  M4_S_6 um"
+1 M4.DN.1 1 density
+"M4 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+1 M4.DN.1.1 1 density
+"M4 local density must be <= 0.8 range over 100 um x 100 um step 50 um"
+1 M4.DN.2 1 density
+"M4 local density must be <= 0.9 range over 20 um x 20 um step 10 um"
+1 M4.DN.4 1 density
+"The metal density difference between any two 250 um x 250 um neighboring checking windows including DM4EXCL <= 0.4"
+1 M2.DN.5 1 density
+"It is not allowed to have local density > 0.8 of all 3 consecutive metal (M2,M3,M4) over any 50 um x 50 um window (stepping 25 um)"
+1 M2.DN.6 1 connected
+"It is not allowed to have local density < 0.15 of all 3 consecutive metal (M2,M3,M4) under ((CBM SIZING 25) SIZING -25) whose size is >= 200um X 200um"
+1 VIA4.W.1 2
+"Width (maximum = minimum except for seal-ring and fuse protection ring) = 0.1 um"
+"VIA4.R.1 45-degree rotated VIA is not allowed"
+1 VIA4.W.2 1
+"VIA4 bar width = 0.1 (VIA4 bar is covered by SEALRING layer and only allowed in seal-ring and fuse protecion ring)"
+1 VIA4.S.1 1
+"Spacing >= 0.1 um"
+1 VIA4.S.2 1
+"Space to 3-neighboring VIAx (< 0.14 um distance) >= 0.13 um"
+1 VIA4.S.3 1 connected
+"Space to neighboring VIAx [different net and common parallel run length > 0] >= 0.13 um"
+1 VIA4.EN.1 1
+"Enclosure by M4 >= 0 um"
+1 VIA4.EN.2__VIA4.EN.3 1
+"Enclosure by M4 [at least two opposite sides] >= 0.04 , or [all sides] >= 0.03"
+1 VIA4.R.2__VIA4.R.3 4
+"When M4 or M5 width > 0.3 um, more than one VIA4 is required."
+"2 vias spacing should be <= 0.2 um or 4 vias spacing should be <= 0.25 um"
+"When M4 or M5 width > 0.7 um, more than three VIA4 is required."
+"4 vias spacing should be <= 0.2 um or 9 vias spacing should be <= 0.35 um"
+1 VIA4.R.4:M4 1
+" At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA4.R.4:M5 1
+"At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA4.R.5:M4 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA4.R.5:M5 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA4.R.6:M4 1
+" At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA4.R.6:M5 1
+"At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA4.R.11 4
+"Single VIAx is not allowed for H-shape  Mx+1 when all of the following conditions come into existence:"
+"1. The Mx+1 has H-shape interact with two metal holes : both two metal hole area <= 5 um2 and two metal hole length(L2) <= 5 um"
+"2. The VIAx overlaps on the center metal bar of this H-shape Mx+1"
+"3. The length (L) of the center metal bar <= 1 um and the width of metal bar is <= 0.3 um."
+1 M5.W.1 1
+"Width >= 0.1 um"
+1 M5.W.2 1
+"Width of 45-degree bent Mx Please make sure the vertex of 45 degree pattern is on 5nm grid >= 0.19 um"
+1 M5.W.3 1
+"Maximum width <= 12 um"
+1 M5.S.1 1
+"Spacing >= 0.1 um"
+1 M5.S.2 1
+"Space [at least one metal line width > 0.2 um  and the parallel metal run length > 0.38 um ] (union projection) >= 0.12"
+1 M5.S.2.1 1
+"Space [at least one metal line width > 0.4 um  and the parallel metal run length > 0.4 um ] (union projection) >= 0.16"
+1 M5.S.3 1
+"Space [at least one metal line width > 1.5 um  and the parallel metal run length > 1.5 um ] (union projection) >= 0.5"
+1 M5.S.4 1
+"Space [at least one metal line width > 4.5 um  and the parallel metal run length > 4.5 um ] (union projection) >= 1.5"
+1 M5.S.5 1
+"Space at Mx line-end (W<Q=0.120) in a dense-line-end configuration: If Mx has parallel run length with opposite Mx (measured with T=0.035 extension) along 2 adjacent edges of Mx [any one edge <Q distance from the corner of the two edges], then one of the space (S1 or S2) needs to be at least this value (except for small jog with edge length < 0.10 um (R)) >= 0.12 um."
+1 M5.EN.1 1
+" Enclosure of VIA4 >= 0 um"
+1 M5.EN.2__M5.EN.3 1
+"Enclosure of VIA4 [at least two opposite sides] >= 0.04 ,or [all sides] >= 0.03"
+1 M5.A.1 1
+"Area >= 0.052 um2"
+1 M5.A.2 1
+"Enclosed area >= 0.2 um"
+1 M5.S.6 1
+"Space to 45 degree bent M5 >=  M5_S_6 um"
+1 M5.DN.1 1 density
+"M5 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+1 M5.DN.1.1 1 density
+"M5 local density must be <= 0.8 range over 100 um x 100 um step 50 um"
+1 M5.DN.2 1 density
+"M5 local density must be <= 0.9 range over 20 um x 20 um step 10 um"
+1 M5.DN.4 1 density
+"The metal density difference between any two 250 um x 250 um neighboring checking windows including DM5EXCL <= 0.4"
+1 M3.DN.5 1 density
+"It is not allowed to have local density > 0.8 of all 3 consecutive metal (M3,M4,M5) over any 50 um x 50 um window (stepping 25 um)"
+1 M3.DN.6 1 connected
+"It is not allowed to have local density < 0.15 of all 3 consecutive metal (M3,M4,M5) under ((CBM SIZING 25) SIZING -25) whose size is >= 200um X 200um"
+1 VIA5.W.1 2
+"Width (maximum = minimum except for seal-ring and fuse protection ring) = 0.1 um"
+"VIA5.R.1 45-degree rotated VIA is not allowed"
+1 VIA5.W.2 1
+"VIA5 bar width = 0.1 (VIA5 bar is covered by SEALRING layer and only allowed in seal-ring and fuse protecion ring)"
+1 VIA5.S.1 1
+"Spacing >= 0.1 um"
+1 VIA5.S.2 1
+"Space to 3-neighboring VIAx (< 0.14 um distance) >= 0.13 um"
+1 VIA5.S.3 1 connected
+"Space to neighboring VIAx [different net and common parallel run length > 0] >= 0.13 um"
+1 VIA5.EN.1 1
+"Enclosure by M5 >= 0 um"
+1 VIA5.EN.2__VIA5.EN.3 1
+"Enclosure by M5 [at least two opposite sides] >= 0.04 , or [all sides] >= 0.03"
+1 VIA5.R.2__VIA5.R.3 4
+"When M5 or M6 width > 0.3 um, more than one VIA5 is required."
+"2 vias spacing should be <= 0.2 um or 4 vias spacing should be <= 0.25 um"
+"When M5 or M6 width > 0.7 um, more than three VIA5 is required."
+"4 vias spacing should be <= 0.2 um or 9 vias spacing should be <= 0.35 um"
+1 VIA5.R.4:M5 1
+" At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA5.R.4:M6 1
+"At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA5.R.5:M5 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA5.R.5:M6 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA5.R.6:M5 1
+" At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA5.R.6:M6 1
+"At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA5.R.11 4
+"Single VIAx is not allowed for H-shape  Mx+1 when all of the following conditions come into existence:"
+"1. The Mx+1 has H-shape interact with two metal holes : both two metal hole area <= 5 um2 and two metal hole length(L2) <= 5 um"
+"2. The VIAx overlaps on the center metal bar of this H-shape Mx+1"
+"3. The length (L) of the center metal bar <= 1 um and the width of metal bar is <= 0.3 um."
+1 M6.W.1 1
+"Width >= 0.1 um"
+1 M6.W.2 1
+"Width of 45-degree bent Mx Please make sure the vertex of 45 degree pattern is on 5nm grid >= 0.19 um"
+1 M6.W.3 1
+"Maximum width <= 12 um"
+1 M6.S.1 1
+"Spacing >= 0.1 um"
+1 M6.S.2 1
+"Space [at least one metal line width > 0.2 um  and the parallel metal run length > 0.38 um ] (union projection) >= 0.12"
+1 M6.S.2.1 1
+"Space [at least one metal line width > 0.4 um  and the parallel metal run length > 0.4 um ] (union projection) >= 0.16"
+1 M6.S.3 1
+"Space [at least one metal line width > 1.5 um  and the parallel metal run length > 1.5 um ] (union projection) >= 0.5"
+1 M6.S.4 1
+"Space [at least one metal line width > 4.5 um  and the parallel metal run length > 4.5 um ] (union projection) >= 1.5"
+1 M6.S.5 1
+"Space at Mx line-end (W<Q=0.120) in a dense-line-end configuration: If Mx has parallel run length with opposite Mx (measured with T=0.035 extension) along 2 adjacent edges of Mx [any one edge <Q distance from the corner of the two edges], then one of the space (S1 or S2) needs to be at least this value (except for small jog with edge length < 0.10 um (R)) >= 0.12 um."
+1 M6.EN.1 1
+" Enclosure of VIA5 >= 0 um"
+1 M6.EN.2__M6.EN.3 1
+"Enclosure of VIA5 [at least two opposite sides] >= 0.04 ,or [all sides] >= 0.03"
+1 M6.A.1 1
+"Area >= 0.052 um2"
+1 M6.A.2 1
+"Enclosed area >= 0.2 um"
+1 M6.S.6 1
+"Space to 45 degree bent M6 >=  M6_S_6 um"
+1 M6.DN.1 1 density
+"M6 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+1 M6.DN.1.1 1 density
+"M6 local density must be <= 0.8 range over 100 um x 100 um step 50 um"
+1 M6.DN.2 1 density
+"M6 local density must be <= 0.9 range over 20 um x 20 um step 10 um"
+1 M6.DN.4 1 density
+"The metal density difference between any two 250 um x 250 um neighboring checking windows including DM6EXCL <= 0.4"
+1 M4.DN.5 1 density
+"It is not allowed to have local density > 0.8 of all 3 consecutive metal (M4,M5,M6) over any 50 um x 50 um window (stepping 25 um)"
+1 M4.DN.6 1 connected
+"It is not allowed to have local density < 0.15 of all 3 consecutive metal (M4,M5,M6) under ((CBM SIZING 25) SIZING -25) whose size is >= 200um X 200um"
+1 VIA6.W.1 2
+"Width (maximum = minimum except for seal-ring and fuse protection ring) = 0.1 um"
+"VIA6.R.1 45-degree rotated VIA is not allowed"
+1 VIA6.W.2 1
+"VIA6 bar width = 0.1 (VIA6 bar is covered by SEALRING layer and only allowed in seal-ring and fuse protecion ring)"
+1 VIA6.S.1 1
+"Spacing >= 0.1 um"
+1 VIA6.S.2 1
+"Space to 3-neighboring VIAx (< 0.14 um distance) >= 0.13 um"
+1 VIA6.S.3 1 connected
+"Space to neighboring VIAx [different net and common parallel run length > 0] >= 0.13 um"
+1 VIA6.EN.1 1
+"Enclosure by M6 >= 0 um"
+1 VIA6.EN.2__VIA6.EN.3 1
+"Enclosure by M6 [at least two opposite sides] >= 0.04 , or [all sides] >= 0.03"
+1 VIA6.R.2__VIA6.R.3 4
+"When M6 or M7 width > 0.3 um, more than one VIA6 is required."
+"2 vias spacing should be <= 0.2 um or 4 vias spacing should be <= 0.25 um"
+"When M6 or M7 width > 0.7 um, more than three VIA6 is required."
+"4 vias spacing should be <= 0.2 um or 9 vias spacing should be <= 0.35 um"
+1 VIA6.R.4:M6 1
+" At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA6.R.4:M7 1
+"At least two VIAx must be used for a connection that is <= 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W). (It is allowed to use one VIAx for a connection that is > 0.8 um (D) away from a metal plate (either Mx or Mx+1) with length > 0.3 um (L) and width > 0.3 um (W).)"
+1 VIA6.R.5:M6 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA6.R.5:M7 1
+"At least two VIAx must be used for a connection that is <= 2 um (D) away from a metal plate (either Mx or Mx+1) with length > 2 um (L) and width > 2 um (W). It is allowed to use one VIAx for a connection that is > 2 um (D) away from a metal plate (either Mx or Mx+1) with length> 2 um (L) and width > 2 um (W)."
+1 VIA6.R.6:M6 1
+" At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA6.R.6:M7 1
+"At least two VIAx must be used for a connection that is <= 5 um (D) away from a metal plate (either Mx or Mx+1) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIAx for a connection that is > 5 um (D) away from a metal plate (either Mx or Mx+1) with length> 10 um (L) and width > 3 um (W))."
+1 VIA6.R.11 4
+"Single VIAx is not allowed for H-shape  Mx+1 when all of the following conditions come into existence:"
+"1. The Mx+1 has H-shape interact with two metal holes : both two metal hole area <= 5 um2 and two metal hole length(L2) <= 5 um"
+"2. The VIAx overlaps on the center metal bar of this H-shape Mx+1"
+"3. The length (L) of the center metal bar <= 1 um and the width of metal bar is <= 0.3 um."
+1 M7.W.1 1
+"Width >= 0.1 um"
+1 M7.W.2 1
+"Width of 45-degree bent Mx Please make sure the vertex of 45 degree pattern is on 5nm grid >= 0.19 um"
+1 M7.W.3 1
+"Maximum width <= 12 um"
+1 M7.S.1 1
+"Spacing >= 0.1 um"
+1 M7.S.2 1
+"Space [at least one metal line width > 0.2 um  and the parallel metal run length > 0.38 um ] (union projection) >= 0.12"
+1 M7.S.2.1 1
+"Space [at least one metal line width > 0.4 um  and the parallel metal run length > 0.4 um ] (union projection) >= 0.16"
+1 M7.S.3 1
+"Space [at least one metal line width > 1.5 um  and the parallel metal run length > 1.5 um ] (union projection) >= 0.5"
+1 M7.S.4 1
+"Space [at least one metal line width > 4.5 um  and the parallel metal run length > 4.5 um ] (union projection) >= 1.5"
+1 M7.S.5 1
+"Space at Mx line-end (W<Q=0.120) in a dense-line-end configuration: If Mx has parallel run length with opposite Mx (measured with T=0.035 extension) along 2 adjacent edges of Mx [any one edge <Q distance from the corner of the two edges], then one of the space (S1 or S2) needs to be at least this value (except for small jog with edge length < 0.10 um (R)) >= 0.12 um."
+1 M7.EN.1 1
+" Enclosure of VIA6 >= 0 um"
+1 M7.EN.2__M7.EN.3 1
+"Enclosure of VIA6 [at least two opposite sides] >= 0.04 ,or [all sides] >= 0.03"
+1 M7.A.1 1
+"Area >= 0.052 um2"
+1 M7.A.2 1
+"Enclosed area >= 0.2 um"
+1 M7.S.6 1
+"Space to 45 degree bent M7 >=  M7_S_6 um"
+1 M7.DN.1 1 density
+"M7 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+1 M7.DN.1.1 1 density
+"M7 local density must be <= 0.8 range over 100 um x 100 um step 50 um"
+1 M7.DN.2 1 density
+"M7 local density must be <= 0.9 range over 20 um x 20 um step 10 um"
+1 M7.DN.4 1 density
+"The metal density difference between any two 250 um x 250 um neighboring checking windows including DM7EXCL <= 0.4"
+1 M5.DN.5 1 density
+"It is not allowed to have local density > 0.8 of all 3 consecutive metal (M5,M6,M7) over any 50 um x 50 um window (stepping 25 um)"
+1 M5.DN.6 1 connected
+"It is not allowed to have local density < 0.15 of all 3 consecutive metal (M5,M6,M7) under ((CBM SIZING 25) SIZING -25) whose size is >= 200um X 200um"
+1 VIA7.W.1 2
+"Width (maximum = minimum except for seal-ring and fuse protection ring) = 0.36"
+"VIA7.R.1 45-degree rotated VIA is not allowed"
+1 VIA7.W.2 1
+"VIA7 bar width = 0.36 (VIA7 bar is covered by SEALRING layer and only allowed in seal-ring and fuse protecion ring)"
+1 VIA7.S.1 1
+" Space >= 0.34 um"
+1 VIA7.S.2 1
+"Space to 3-neighboring VIAz (<0.56 um distance) >= 0.54 um"
+1 VIA7.EN.1 1
+"Enclosure by M7 >= 0.02 um"
+1 VIA7.EN.2 1
+"Enclosure by M7 [at least two opposite sides] >= 0.08 um"
+1 VIA7.R.2 1
+"At least two VIA7 with spacing <= 1.7 um are required to connect M7 and M8 when one of these metals has a width and length > 1.8 um."
+1 VIA7.R.3:M7 1
+"At least two VIA7 must be used for a connection that is <= 5 um (D) away from a metal plate (either M7 or M8) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIA7 for a connection that is > 5 um (D) away from a metal plate (either M7 or M8) with length> 10 um (L) and width > 3 um (W))."
+1 VIA7.R.3:M8 1
+"At least two VIA7 must be used for a connection that is <= 5 um (D) away from a metal plate (either M7 or M8) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIA7 for a connection that is > 5 um (D) away from a metal plate (either M7 or M8) with length> 10 um (L) and width > 3 um (W))."
+1 VIA7.EN.3 1
+"Enclosure by CTM (cut is not allowed) >= 0.24"
+1 VIA7.EN.4 1
+"Enclosure by CBM (cut is not allowed) >= 0.2"
+1 VIA7.S.3 1
+"[VIA7 inside CBM but outside CTM] space to CTM >= 0.3"
+1 VIA7.S.4 1
+"Space of VIA7 inside CTM  >= 0.54"
+1 VIA7.S.5 1
+"Space of VIA7 inside CBM >= 0.54"
+1 VIA7.R.7 1
+"Single VIA7 for in a CTM or [CBM NOT CTM] or connect to [M7 (top Mx) layer inside a CTMDMY] is not allowed."
+1 M8.W.1 1
+"Width >= 0.4 um"
+1 M8.W.2 1
+"Maximum width [except bond pad] <= 12 um"
+1 M8.S.1 1
+"Space >= 0.4 um"
+1 M8.S.2 1
+" Space [at least one metal line width > 1.5 um (W1) and the parallel metal run length > 1.5 um (L1)] >= 0.5"
+1 M8.S.3 1
+"Space [at least one metal line width > 4.5 um (W1) and the parallel metal run length > 4.5 um (L1)] >= 1.5"
+1 M8.EN.1 1
+"Enclosure of VIA7 >= 0.02"
+1 M8.EN.2 1
+"Enclosure of VIA7 [at least two opposite sides] >= 0.08"
+1 M8.A.1 1
+"Area >= 0.565 um2"
+1 M8.A.2 1
+"Enclosed area >= 0.565 um2"
+1 M8.DN.1 1 density
+"M8 local density must be >= 0.2 range over 75 um x 75 um step 37.5 um"
+1 M8.DN.1.1 1 density
+"M8 local density must be <= 0.8 range over 100 um x 100 um step 50 um"
+1 M8.DN.2 1 density
+"M8 local density must be <= 0.9 range over 20 um x 20 um step 10 um"
+1 M8.DN.4 1 density
+"The metal density difference between any two 250 um x 250 um neighboring checking windows including DM8EXCL <= 0.4"
+1 M8.EN.3 1
+"M8 enclosure of [VIA7 inside CTMDMY] >= 0.1"
+1 M8.DN.5:L 1 density
+"M8 density inside CTMDMY over any 200 um x 200 um area (checked by stepping in 100 um increments) [the overlapped area of checking window and CTMDMY >= 2500 um2] >= 0.5"
+1 M8.DN.5:H 1 density
+"M8 density inside CTMDMY over any 100 um x 100 um area (checked by stepping in 50 um increments) [the overlapped area of checking window and CTMDMY >= 2500 um2] <= 0.8"
+1 M8.W.4 1
+"Width of {M8 inside CTMDMY} >= 0.84"
+1 M8.S.4 1
+"Space of {M8 inside CTMDMY} >= 0.84"
+1 VIA8.W.1 2
+"Width (maximum = minimum except for seal-ring and fuse protection ring) = 0.36"
+"VIA8.R.1 45-degree rotated VIA is not allowed"
+1 VIA8.W.2 1
+"VIA8 bar width = 0.36 (VIA8 bar is covered by SEALRING layer and only allowed in seal-ring and fuse protecion ring)"
+1 VIA8.S.1 1
+" Space >= 0.34 um"
+1 VIA8.S.2 1
+"Space to 3-neighboring VIAz (<0.56 um distance) >= 0.54 um"
+1 VIA8.EN.5 1
+"VIA8(VIAu) enclosure by M8 >= 0.08 um"
+1 VIA8.R.8 1
+"At least two VIA8(VIAu) with space <= 1.7 um is required to connect M9(Mu) and M8(Mz or Mx)."
+1 VIA8.R.3:M8 1
+"At least two VIA8 must be used for a connection that is <= 5 um (D) away from a metal plate (either M8 or M9) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIA8 for a connection that is > 5 um (D) away from a metal plate (either M8 or M9) with length> 10 um (L) and width > 3 um (W))."
+1 VIA8.R.3:M9 1
+"At least two VIA8 must be used for a connection that is <= 5 um (D) away from a metal plate (either M8 or M9) with length > 10 um (L) and width > 3 um (W). (It is allowed to use one VIA8 for a connection that is > 5 um (D) away from a metal plate (either M8 or M9) with length> 10 um (L) and width > 3 um (W))."
+1 M9.W.1 1
+"Width >= 2 um."
+1 M9.W.2 1
+"Maximun width [except bond pad and inductor] <= 12 um."
+1 M9.S.1 1
+"Space >= 2 um"
+1 M9.EN.1 1
+"Enclosure of VIA8 >= 0.3 um."
+1 M9.A.1 1
+"Area >= 9 um2."
+1 M9.A.2 1
+"Enclosed area >= 9 um2"
+1 M9.DN.2 1 density
+"Min M9 density must be >= 0.2 range over any 75 um x 75 um area by step 37.5 um"
+1 M9.DN.2.1 1 density
+"Max M9 density must be <= 0.8 range over any 100 um x 100 um  area by step 50 um"
+1 CTM.W.1 1
+"Width >= 2 um"
+1 CTM.W.2 1
+"Maximum length and width <= 100 um"
+1 CTM.S.1 1
+"Space >= 0.8 um"
+1 CTM.EN.1 1
+"Enclosure by CBM  >= 0.4 um (CTM must be fully inside CBM)"
+1 CTM.R.1 1
+"The different unit capacitance can not co-exist on same product"
+1 CBM.W.1 1
+"Width >= 2.8 um"
+1 CBM.W.2 1
+"Maximum length and width <= 210 um"
+1 CBM.S.1 1
+"Space (For CTMDMY area <= 40000 um2) >= 2 um"
+1 CBM.S.2 1
+"Space (For CTMDMY area > 40000 um2)  >= 2.6 um"
+1 CBM.S.3 1
+"Space to the top Mx (M7) >= 0.5 um."
+1 CBM.EN.2 2
+"CTMDMY is equal to CBM layer sizing up 10 um for each side."
+"DRC checking layer(CTMDMY,GDS layer 148) is needed to specify MiM capacitor region."
+1 CBM.R.1 1
+"The top Mx (M7) layer (including the top dummy Mx) interacting with CBM is not allowed."
+1 MOM.A.1 1
+"Maximum sidewall area of total metals in MOM without Via <= 70100000"
+1 MOM.A.2 1
+"Maximum sidewall area of {total metals+ total Vias} in MOM with Via. <= 172000"
+1 MOM.S.1 1
+"Space of M1 in MOMDMY_1 >= 0.1 um"
+1 MOM.S.2:M1 1
+"Space of metal (M1/Mx) line end in MOMDMY_n >= 0.12"
+1 MOM.S.2:M2 1
+"Space of metal (M1/Mx) line end in MOMDMY_n >= 0.12"
+1 MOM.S.2:M3 1
+"Space of metal (M1/Mx) line end in MOMDMY_n >= 0.12"
+1 MOM.S.2:M4 1
+"Space of metal (M1/Mx) line end in MOMDMY_n >= 0.12"
+1 MOM.S.2:M5 1
+"Space of metal (M1/Mx) line end in MOMDMY_n >= 0.12"
+1 MOM.S.2:M6 1
+"Space of metal (M1/Mx) line end in MOMDMY_n >= 0.12"
+1 MOM.S.2:M7 1
+"Space of metal (M1/Mx) line end in MOMDMY_n >= 0.12"
+1 MOM.S.3:M1 1
+"Space of Metal (M1/Mx) in MOM with Via >= 0.13 um"
+1 MOM.S.3:M2 1
+"Space of Metal (M1/Mx) in MOM with Via >= 0.13 um"
+1 MOM.S.3:M3 1
+"Space of Metal (M1/Mx) in MOM with Via >= 0.13 um"
+1 MOM.S.3:M4 1
+"Space of Metal (M1/Mx) in MOM with Via >= 0.13 um"
+1 MOM.S.3:M5 1
+"Space of Metal (M1/Mx) in MOM with Via >= 0.13 um"
+1 MOM.S.3:M6 1
+"Space of Metal (M1/Mx) in MOM with Via >= 0.13 um"
+1 MOM.S.3:M7 1
+"Space of Metal (M1/Mx) in MOM with Via >= 0.13 um"
+1 MOM.S.4:VIA1 1 connected
+"Space of VIAx in MOM with Via in different net >= 0.13 um"
+1 MOM.S.4:VIA2 1 connected
+"Space of VIAx in MOM with Via in different net >= 0.13 um"
+1 MOM.S.4:VIA3 1 connected
+"Space of VIAx in MOM with Via in different net >= 0.13 um"
+1 MOM.S.4:VIA4 1 connected
+"Space of VIAx in MOM with Via in different net >= 0.13 um"
+1 MOM.S.4:VIA5 1 connected
+"Space of VIAx in MOM with Via in different net >= 0.13 um"
+1 MOM.S.4:VIA6 1 connected
+"Space of VIAx in MOM with Via in different net >= 0.13 um"
+1 MOM.R.1 3 connected
+"Poly shielding and underneath NW or PW must bias at same potential for reliability consideration. If poly shielding terminal could not be tied to the underneath NW or PW, customer should keep bias between poly terminal and underneath well within thin gate oxide (Without OD2) or thick gate oxide (With OD2) maximum applied voltage for reliability consideration."
+"DRC only check following conditions:"
+"(1) {(MOM_PO INTERACT (MOM_OD NOT INSIDE OD2)) INTERACT ((MOMDMY(155,100) or MOMDMY(155,0)) NOT (MOMDMY(155,27))} [Poly shielding MOM with dummy OD underneath] and underneath NW or PW must bias at same potential through metal connection."
+1 RM.WARN.1 1
+"CO overlap (NWDMY and NW) is not allowed"
+1 RM.WARN.2 1
+"CO overlap (RH and RPDMY) and (OD or PO) is not allowed."
+1 RM.WARN.3 1
+"CO overlap (RMDMY1 and M1) is not allowed"
+1 RM.WARN.4:M1 1
+"VIA1 overlap (RMDMY1 and M1) is not allowed"
+1 RM.WARN.4:M2 1
+"(VIA2 or VIA1) overlap (RMDMY2 and M2) is not allowed"
+1 RM.WARN.4:M3 1
+"(VIA3 or VIA2) overlap (RMDMY3 and M3) is not allowed"
+1 RM.WARN.4:M4 1
+"(VIA4 or VIA3) overlap (RMDMY4 and M4) is not allowed"
+1 RM.WARN.4:M5 1
+"(VIA5 or VIA4) overlap (RMDMY5 and M5) is not allowed"
+1 RM.WARN.4:M6 1
+"(VIA6 or VIA5) overlap (RMDMY6 and M6) is not allowed"
+1 RM.WARN.4:M7 1
+"(VIA7 or VIA6) overlap (RMDMY7 and M7) is not allowed"
+1 RM.WARN.4:M8 1
+"(VIA8 or VIA7) overlap (RMDMY8 and M8) is not allowed"
+1 RM.WARN.4:M9 1
+"VIA8 overlap (RMDMY9 and M9) is not allowed"
+1 RM.WARN.5:M9 1
+"RV overlap (RMDMY9 and M9) is not allowed"
+1 RM.WARN.5:AP 1
+"RV overlap (RMDMYAP and AP) is not allowed"
+1 RM.WARN.6 1
+"RPDMY intersecting (PO or OD) must form two or more (PO or OD)s (Except unsilicided OD/PO resistor)"
+1 RM.WARN.7 1
+"NWDMY intersecting NW must form two or more NWs"
+1 IND.W.1 1
+"M1 width in (INDDMY SIZING 12um) >= 0.4"
+1 IND.W.2:M2 1
+"Mx width in (INDDMY SIZING 12um) >= 0.I6"
+1 IND.W.2:M3 1
+"Mx width in (INDDMY SIZING 12um) >= 0.I6"
+1 IND.W.2:M4 1
+"Mx width in (INDDMY SIZING 12um) >= 0.I6"
+1 IND.W.2:M5 1
+"Mx width in (INDDMY SIZING 12um) >= 0.I6"
+1 IND.W.2:M6 1
+"Mx width in (INDDMY SIZING 12um) >= 0.I6"
+1 IND.W.2:M7 1
+"Mx width in (INDDMY SIZING 12um) >= 0.I6"
+1 IND.W.3:M8 1
+"Mz width in (INDDMY SIZING 12um) >= 0.8"
+1 IND.S.1 1
+"M1 space in (INDDMY SIZING 12um) >= 0.4"
+1 IND.S.2:M2 1
+"Mx space in (INDDMY SIZING 12um) >= 0.6"
+1 IND.S.2:M3 1
+"Mx space in (INDDMY SIZING 12um) >= 0.6"
+1 IND.S.2:M4 1
+"Mx space in (INDDMY SIZING 12um) >= 0.6"
+1 IND.S.2:M5 1
+"Mx space in (INDDMY SIZING 12um) >= 0.6"
+1 IND.S.2:M6 1
+"Mx space in (INDDMY SIZING 12um) >= 0.6"
+1 IND.S.2:M7 1
+"Mx space in (INDDMY SIZING 12um) >= 0.6"
+1 IND.S.3:M8 1
+"Mz space in (INDDMY SIZING 12um) >= 0.8"
+1 IND.S.4:M1 1
+"M1 space in (INDDMY SIZING 12 um) [at least one metal width > 1.5 um and parallel length > 1.5 um] >= 1.0"
+1 IND.S.5:M1 1
+"M1 space in (INDDMY SIZING 12 um) [at least one metal width > 4.5 um and parallel length > 4.5 um] >= 2.0"
+1 IND.S.4:M2 1
+"M2 space in (INDDMY SIZING 12 um) [at least one metal width > 1.5 um and parallel length > 1.5 um] >= 1.0"
+1 IND.S.5:M2 1
+"M2 space in (INDDMY SIZING 12 um) [at least one metal width > 4.5 um and parallel length > 4.5 um] >= 2.0"
+1 IND.S.4:M3 1
+"M3 space in (INDDMY SIZING 12 um) [at least one metal width > 1.5 um and parallel length > 1.5 um] >= 1.0"
+1 IND.S.5:M3 1
+"M3 space in (INDDMY SIZING 12 um) [at least one metal width > 4.5 um and parallel length > 4.5 um] >= 2.0"
+1 IND.S.4:M4 1
+"M4 space in (INDDMY SIZING 12 um) [at least one metal width > 1.5 um and parallel length > 1.5 um] >= 1.0"
+1 IND.S.5:M4 1
+"M4 space in (INDDMY SIZING 12 um) [at least one metal width > 4.5 um and parallel length > 4.5 um] >= 2.0"
+1 IND.S.4:M5 1
+"M5 space in (INDDMY SIZING 12 um) [at least one metal width > 1.5 um and parallel length > 1.5 um] >= 1.0"
+1 IND.S.5:M5 1
+"M5 space in (INDDMY SIZING 12 um) [at least one metal width > 4.5 um and parallel length > 4.5 um] >= 2.0"
+1 IND.S.4:M6 1
+"M6 space in (INDDMY SIZING 12 um) [at least one metal width > 1.5 um and parallel length > 1.5 um] >= 1.0"
+1 IND.S.5:M6 1
+"M6 space in (INDDMY SIZING 12 um) [at least one metal width > 4.5 um and parallel length > 4.5 um] >= 2.0"
+1 IND.S.4:M7 1
+"M7 space in (INDDMY SIZING 12 um) [at least one metal width > 1.5 um and parallel length > 1.5 um] >= 1.0"
+1 IND.S.5:M7 1
+"M7 space in (INDDMY SIZING 12 um) [at least one metal width > 4.5 um and parallel length > 4.5 um] >= 2.0"
+1 IND.S.4:M8 1
+"M8 space in (INDDMY SIZING 12 um) [at least one metal width > 1.5 um and parallel length > 1.5 um] >= 1.0"
+1 IND.S.5:M8 1
+"M8 space in (INDDMY SIZING 12 um) [at least one metal width > 4.5 um and parallel length > 4.5 um] >= 2.0"
+1 IND.W.4:M1 1
+"M1/Mx maximum width <= 12 um, except WBDMY if Mx is Mtop-1 layer"
+1 IND.W.4:M2 1
+"M1/Mx maximum width <= 12 um, except WBDMY if Mx is Mtop-1 layer"
+1 IND.W.4:M3 1
+"M1/Mx maximum width <= 12 um, except WBDMY if Mx is Mtop-1 layer"
+1 IND.W.4:M4 1
+"M1/Mx maximum width <= 12 um, except WBDMY if Mx is Mtop-1 layer"
+1 IND.W.4:M5 1
+"M1/Mx maximum width <= 12 um, except WBDMY if Mx is Mtop-1 layer"
+1 IND.W.4:M6 1
+"M1/Mx maximum width <= 12 um, except WBDMY if Mx is Mtop-1 layer"
+1 IND.W.4:M7 1
+"M1/Mx maximum width <= 12 um, except WBDMY if Mx is Mtop-1 layer"
+1 IND.W.6:M8 1
+"Mz/Mu maximum width for inductor application only [inside (INDDMY SIZING 18 um)] <= 30.0"
+1 IND.W.6:M9 1
+"Mz/Mu maximum width for inductor application only [inside (INDDMY SIZING 18 um)] <= 30.0"
+1 IND.W.7 1
+"Max. dimension (either width or length) of an INDDMY region <= 600 um"
+1 IND.DN.1:M1 1 connected
+"M1 density within ring region b  >= 10%  <= 80%"
+1 IND.DN.1:M2 1 connected
+"M2 density within ring region b  >= 10%  <= 80%"
+1 IND.DN.1:M3 1 connected
+"M3 density within ring region b  >= 10%  <= 80%"
+1 IND.DN.1:M4 1 connected
+"M4 density within ring region b  >= 10%  <= 80%"
+1 IND.DN.1:M5 1 connected
+"M5 density within ring region b  >= 10%  <= 80%"
+1 IND.DN.1:M6 1 connected
+"M6 density within ring region b  >= 10%  <= 80%"
+1 IND.DN.1:M7 1 connected
+"M7 density within ring region b  >= 10%  <= 80%"
+1 IND.DN.1:M8 1 connected
+"M8 density within ring region b  >= 10%  <= 80%"
+1 IND.DN.1:M9 1 connected
+"M9 density within ring region b  >= 10%  <= 80%"
+1 IND.R.8:M1 1
+"Maximun empty area within ring region b <= 4 x 12"
+1 IND.R.8:M2 1
+"Maximun empty area within ring region b <= 4 x 12"
+1 IND.R.8:M3 1
+"Maximun empty area within ring region b <= 4 x 12"
+1 IND.R.8:M4 1
+"Maximun empty area within ring region b <= 4 x 12"
+1 IND.R.8:M5 1
+"Maximun empty area within ring region b <= 4 x 12"
+1 IND.R.8:M6 1
+"Maximun empty area within ring region b <= 4 x 12"
+1 IND.R.8:M7 1
+"Maximun empty area within ring region b <= 4 x 12"
+1 IND.R.8:M8 1
+"Maximun empty area within ring region b <= 4 x 12"
+1 IND.R.8:M9 1
+"Maximun empty area within ring region b <= 4 x 12"
+1 IND.R.1 1
+"In the region of (INDDMY SIZING 12um), inter-via (Vx) is not allowed."
+1 IND.R.2__IND.R.3:VIA7 1
+"More than 4 VIA7 with space <= 1.7 um is required to connect M8(Mz or Mu) and M7(Mz or Mx) for inductor application only."
+1 IND.R.2__IND.R.3:VIA8 1
+"More than 4 VIA8 with space <= 1.7 um is required to connect M9(Mz or Mu) and M8(Mz or Mx) for inductor application only."
+1 IND.R.4 1
+"In the region a of (INDDMY SIZING -4 um), except the Mx layer directly below [Mz or Mu], any other inter-metal layer (Mx) is not allowed."
+1 IND.R.13 1
+"INDDMY enclosure of top metal(inductor) >= 4 um."
+1 IND.R.6 1
+"In region b, 3um x 3um metal islands with 3um space from M2~Mtop are required."
+1 IND.DN.7:M1 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND.DN.7:M2 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND.DN.7:M3 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND.DN.7:M4 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND.DN.7:M5 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND.DN.7:M6 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND.DN.7:M7 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND.DN.7:M8 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND.DN.8:M1 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND.DN.8:M2 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND.DN.8:M3 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND.DN.8:M4 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND.DN.8:M5 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND.DN.8:M6 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND.DN.8:M7 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND.DN.8:M8 1 density
+"Maximum density within (INDDMY SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND_MD.DN.11:L_M1 1 density
+"M1 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:H_M1 1 density
+"M1 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:L_M2 1 density
+"M2 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:H_M2 1 density
+"M2 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:L_M3 1 density
+"M3 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:H_M3 1 density
+"M3 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:L_M4 1 density
+"M4 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:H_M4 1 density
+"M4 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:L_M5 1 density
+"M5 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:H_M5 1 density
+"M5 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:L_M6 1 density
+"M6 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:H_M6 1 density
+"M6 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:L_M7 1 density
+"M7 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:H_M7 1 density
+"M7 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:L_M8 1 density
+"M8 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:H_M8 1 density
+"M8 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:L_M9 1 density
+"M9 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.11:H_M9 1 density
+"M9 density in the region of (INDDMY_MD NOT (INDDMY_COIL and INDDMY_MD)) >= 15%, <= 80%"
+1 IND_MD.DN.10:M1 1 density
+"For the region of (INDDMY_MD SIZING 12um) with VIAx adopted, mim metal density over any 15*15um2 area for all lower mental layer >= 15%"
+1 IND_MD.DN.10:M2 1 density
+"For the region of (INDDMY_MD SIZING 12um) with VIAx adopted, mim metal density over any 15*15um2 area for all lower mental layer >= 15%"
+1 IND_MD.DN.10:M3 1 density
+"For the region of (INDDMY_MD SIZING 12um) with VIAx adopted, mim metal density over any 15*15um2 area for all lower mental layer >= 15%"
+1 IND_MD.DN.10:M4 1 density
+"For the region of (INDDMY_MD SIZING 12um) with VIAx adopted, mim metal density over any 15*15um2 area for all lower mental layer >= 15%"
+1 IND_MD.DN.10:M5 1 density
+"For the region of (INDDMY_MD SIZING 12um) with VIAx adopted, mim metal density over any 15*15um2 area for all lower mental layer >= 15%"
+1 IND_MD.DN.10:M6 1 density
+"For the region of (INDDMY_MD SIZING 12um) with VIAx adopted, mim metal density over any 15*15um2 area for all lower mental layer >= 15%"
+1 IND_MD.R.17:VIA1 1
+"At least 100 VIA1 with space <= 0.2 um are required to connect M2(Mx) and M1(Mx or M1) in (INDDMY_MD SIZING 12 um)"
+1 IND_MD.R.17:VIA2 1
+"At least 100 VIA2 with space <= 0.2 um are required to connect M3(Mx) and M2(Mx or M1) in (INDDMY_MD SIZING 12 um)"
+1 IND_MD.R.17:VIA3 1
+"At least 100 VIA3 with space <= 0.2 um are required to connect M4(Mx) and M3(Mx or M1) in (INDDMY_MD SIZING 12 um)"
+1 IND_MD.R.17:VIA4 1
+"At least 100 VIA4 with space <= 0.2 um are required to connect M5(Mx) and M4(Mx or M1) in (INDDMY_MD SIZING 12 um)"
+1 IND_MD.R.17:VIA5 1
+"At least 100 VIA5 with space <= 0.2 um are required to connect M6(Mx) and M5(Mx or M1) in (INDDMY_MD SIZING 12 um)"
+1 IND_MD.R.17:VIA6 1
+"At least 100 VIA6 with space <= 0.2 um are required to connect M7(Mx) and M6(Mx or M1) in (INDDMY_MD SIZING 12 um)"
+1 IND_MD.W.1 1
+"M1, DM1, DM1_O width in (INDDMY_COIL SIZING 16 um) >= 0.4"
+1 IND_MD.W.2:M2 1
+"Mx , DMx , DMx_O width in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.W.2:M3 1
+"Mx , DMx , DMx_O width in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.W.2:M4 1
+"Mx , DMx , DMx_O width in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.W.2:M5 1
+"Mx , DMx , DMx_O width in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.W.2:M6 1
+"Mx , DMx , DMx_O width in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.W.2:M7 1
+"Mx , DMx , DMx_O width in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.W.3:M8 1
+"Mz , DMz width in (INDDMY_COIL SIZING 16 um)>= 0.8"
+1 IND_MD.W.4:M1 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O maximum width <= 12"
+1 IND_MD.W.4:M2 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O maximum width <= 12"
+1 IND_MD.W.4:M3 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O maximum width <= 12"
+1 IND_MD.W.4:M4 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O maximum width <= 12"
+1 IND_MD.W.4:M5 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O maximum width <= 12"
+1 IND_MD.W.4:M6 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O maximum width <= 12"
+1 IND_MD.W.4:M7 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O maximum width <= 12"
+1 IND_MD.W.7 1
+"Max. dimension (either width or length) of an INDDMY_MD region <= 600 um"
+1 IND_MD.S.1 1
+"M1, DM1,DM1_O space in (INDDMY_COIL SIZING 16 um) >= 0.4"
+1 IND_MD.S.2:M2 1
+"Mx, DMx, DMx_O space in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.S.2:M3 1
+"Mx, DMx, DMx_O space in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.S.2:M4 1
+"Mx, DMx, DMx_O space in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.S.2:M5 1
+"Mx, DMx, DMx_O space in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.S.2:M6 1
+"Mx, DMx, DMx_O space in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.S.2:M7 1
+"Mx, DMx, DMx_O space in (INDDMY_COIL SIZING 16 um) >= 0.6"
+1 IND_MD.S.3:M8 1
+"Mz, DMz space in (INDDMY_COIL SIZING 16um) >= 0.8"
+1 IND_MD.S.4:M1 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 1.5 um (W1) and the parallel metal run length > 1.5 um (L1)] >= 1.0"
+1 IND_MD.S.5:M1 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 4.5 um (W2) and the parallel metal run length > 4.5 um (L2)] >= 2.0"
+1 IND_MD.S.4:M2 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 1.5 um (W1) and the parallel metal run length > 1.5 um (L1)] >= 1.0"
+1 IND_MD.S.5:M2 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 4.5 um (W2) and the parallel metal run length > 4.5 um (L2)] >= 2.0"
+1 IND_MD.S.4:M3 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 1.5 um (W1) and the parallel metal run length > 1.5 um (L1)] >= 1.0"
+1 IND_MD.S.5:M3 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 4.5 um (W2) and the parallel metal run length > 4.5 um (L2)] >= 2.0"
+1 IND_MD.S.4:M4 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 1.5 um (W1) and the parallel metal run length > 1.5 um (L1)] >= 1.0"
+1 IND_MD.S.5:M4 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 4.5 um (W2) and the parallel metal run length > 4.5 um (L2)] >= 2.0"
+1 IND_MD.S.4:M5 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 1.5 um (W1) and the parallel metal run length > 1.5 um (L1)] >= 1.0"
+1 IND_MD.S.5:M5 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 4.5 um (W2) and the parallel metal run length > 4.5 um (L2)] >= 2.0"
+1 IND_MD.S.4:M6 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 1.5 um (W1) and the parallel metal run length > 1.5 um (L1)] >= 1.0"
+1 IND_MD.S.5:M6 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 4.5 um (W2) and the parallel metal run length > 4.5 um (L2)] >= 2.0"
+1 IND_MD.S.4:M7 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 1.5 um (W1) and the parallel metal run length > 1.5 um (L1)] >= 1.0"
+1 IND_MD.S.5:M7 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 4.5 um (W2) and the parallel metal run length > 4.5 um (L2)] >= 2.0"
+1 IND_MD.S.4:M8 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 1.5 um (W1) and the parallel metal run length > 1.5 um (L1)] >= 1.0"
+1 IND_MD.S.5:M8 1
+"M1, DM1, DM1_O/Mx, DMx, DMx_O/Mz, DMz space in (INDDMY_COIL SIZING 16 um) [at least one metal line width > 4.5 um (W2) and the parallel metal run length > 4.5 um (L2)] >= 2.0"
+1 IND_MD.R.2__IND_MD.R.3:VIA7 1
+"More than 4 VIA7 with space <= 1.7 um is required to connect M8(Mz or Mu) and M7(Mz or Mx) in (INDDMY_MD SIZING 12 um)"
+1 IND_MD.R.2__IND_MD.R.3:VIA8 1
+"More than 4 VIA8 with space <= 1.7 um is required to connect M9(Mz or Mu) and M8(Mz or Mx) in (INDDMY_MD SIZING 12 um)"
+1 IND_MD.R.13:M1 1
+"INDDMY_MD enclosure of inductor metal spirals >= 4 um."
+1 IND_MD.R.13:M2 1
+"INDDMY_MD enclosure of inductor metal spirals >= 4 um."
+1 IND_MD.R.13:M3 1
+"INDDMY_MD enclosure of inductor metal spirals >= 4 um."
+1 IND_MD.R.13:M4 1
+"INDDMY_MD enclosure of inductor metal spirals >= 4 um."
+1 IND_MD.R.13:M5 1
+"INDDMY_MD enclosure of inductor metal spirals >= 4 um."
+1 IND_MD.R.13:M6 1
+"INDDMY_MD enclosure of inductor metal spirals >= 4 um."
+1 IND_MD.R.13:M7 1
+"INDDMY_MD enclosure of inductor metal spirals >= 4 um."
+1 IND_MD.R.13:M8 1
+"INDDMY_MD enclosure of inductor metal spirals >= 4 um."
+1 IND_MD.R.13:M9 1
+"INDDMY_MD enclosure of inductor metal spirals >= 4 um."
+1 IND_MD.DN.7:M1 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND_MD.DN.7:M2 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND_MD.DN.7:M3 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND_MD.DN.7:M4 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND_MD.DN.7:M5 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND_MD.DN.7:M6 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND_MD.DN.7:M7 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND_MD.DN.7:M8 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 50um x 50um area (stepping in 25um) <= 90%"
+1 IND_MD.DN.8:M1 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND_MD.DN.8:M2 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND_MD.DN.8:M3 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND_MD.DN.8:M4 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND_MD.DN.8:M5 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND_MD.DN.8:M6 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND_MD.DN.8:M7 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 IND_MD.DN.8:M8 1 density
+"Maximum M1/Mx/Mz density within (INDDMY_MD SIZING 12 um) over any 100um x 100um area (stepping in 50um) <= 80%"
+1 CSR.R.2:A 1
+"CSR structure must include Mtop~M1/VIAtop~VIA1/CO/PP/OD"
+1 CSR.R.2:B 1
+"M1~M8 must be stacked and coincident the edge."
+1 CSR.R.2:C 1
+"CSR structure must be covered with CSRDMY"
+1 CSR.R.2:D 1
+"M1~M8 fence metal width & space = 2.5 um"
+1 CSR.R.2:E 1
+"The CSR pattern must be covered by solid L-mark Metal."
+1 CSR.R.2:F 1
+"The L-slot can't overlap AP or PO"
+1 CSR.S.1 1
+"CO space >= 0.36 um"
+1 CSR.EN.1 1
+"CO enclosure by M1[crossing area] >= 0.53 um"
+1 CSR.S.2 1
+"VIAx space at the same level >= 0.35 um"
+1 CSR.EN.2 1
+"VIAx enclosure by metal[crossing area] >= 0.525 um"
+1 CSR.S.4 1
+"VIAz space >= 0.56 um"
+1 CSR.EN.4 1
+"VIAz enclosure by metal[crossing area] >= 0.61 um"
+1 CSR.R.3:CO 1
+"CO number at M1 crossing area = 16 um"
+1 CSR.R.3:VIA1 1
+"VIA1 number at M1 crossing area = 16 um"
+1 CSR.R.3:VIA2 1
+"VIA2 number at M2 crossing area = 16 um"
+1 CSR.R.3:VIA3 1
+"VIA3 number at M3 crossing area = 16 um"
+1 CSR.R.3:VIA4 1
+"VIA4 number at M4 crossing area = 16 um"
+1 CSR.R.3:VIA5 1
+"VIA5 number at M5 crossing area = 16 um"
+1 CSR.R.3:VIA6 1
+"VIA6 number at M6 crossing area = 16 um"
+1 CSR.R.3:VIA7 1
+"VIA7 number at M7 crossing area = 4 um"
+1 CSR.R.3:VIA8 1
+"VIA8 number at M8 crossing area = 4 um"
+1 CSR.W.1 1
+"Width of L-slot = 10 um"
+1 CSR.W.2 1
+"Width of 45 degree corner of L-slot, >= 6 um <= 10 um"
+1 CSR.L.1 1
+"Length of L-slot, >= 20 um <= 25 um"
+1 CSR.EN.5 1
+"L-mark metal in CSR enclosure of L-slot [in the direction of L-slot length] >= 4 um <= 8 um"
+1 CSR.EN.6 2
+"L-mark metal in CSR enclosure of L-slot"
+"[perpendicular to the direction of the L-slot length] >= 27 um <= 29 um"
+1 CSR.EN.7:VIA1 1
+"Metal enclosure of VIA1 around L-slot >= 0.52 um"
+1 CSR.EN.7:VIA2 1
+"Metal enclosure of VIA2 around L-slot >= 0.52 um"
+1 CSR.EN.7:VIA3 1
+"Metal enclosure of VIA3 around L-slot >= 0.52 um"
+1 CSR.EN.7:VIA4 1
+"Metal enclosure of VIA4 around L-slot >= 0.52 um"
+1 CSR.EN.7:VIA5 1
+"Metal enclosure of VIA5 around L-slot >= 0.52 um"
+1 CSR.EN.7:VIA6 1
+"Metal enclosure of VIA6 around L-slot >= 0.52 um"
+1 CSR.EN.7:VIA7 1
+"Metal enclosure of VIA7 around L-slot >= 0.58 um"
+1 CSR.EN.7:VIA8 1
+"Metal enclosure of VIA8 around L-slot >= 0.58 um"
+1 CSR.EN.8 1
+"Metal enclosure by L-mark metal in CSR around L-slot >= 0.25 um"
+1 CDU.R.2 1
+"OD/POLY/CO/M1/NP must be inside layer CDUDMY."
+1 CDU:WARNING1 1
+"CDU width == 5.6 um"
+1 CDU:WARNING2 1
+"The space from the CDU long edge to the sealring inner edge is 2.2 um"
+1 DM1.W.1 1
+"Width >= 0.3 um"
+1 DM1.W.2 1
+"Max. width of dummy M1 3 um"
+1 DM1.S.1 1
+"Space >= 0.3 um"
+1 DM1.S.2 1
+"Space to M1 >= 0.3 um"
+1 DM1.S.3 1
+"Space to Mx (Overlap is not allowed) [Mx width > 4.5 um and the parallel metal run length > 4.5 um] >=  1.5"
+1 DM1.S.3.1 1
+"Space to Mx (Overlap is not allowed) [Mx width > 1.5 um and the parallel metal run length > 1.5 um] >= 0.5"
+1 DM1.S.4 1
+"Space to FW (Overlap is not allowed) >= 5 um"
+1 DM1.S.5 1
+"Space to LMARK (Overlap is not allowed) >= 5 um"
+1 DM1.S.5.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DM1.S.7 1
+"Space to LOGO (Overlap is not allowed) >= 0.0 um"
+1 DM1.S.8 1
+"Space to INDDMY (Overlap is not allowed) >= 2.5 um"
+1 DM1.S.10 1
+"Space to 45-degree bent Mx >= 0.4 um2"
+1 DM1.A.1 1
+"Min. area >= 0.24 um2"
+1 DM1.A.2 1
+"Max. area <= 80 um2"
+1 DM1.R.3 1
+"0 or 45 degree solid shapes are allowed (Only rectangle and solid dummy is allowed)"
+1 DM1_O.R.1 1
+"DM1_O interact M1 is not allowed"
+1 DM2.W.1 1
+"Width >= 0.3 um"
+1 DM2.W.2 1
+"Max. width of dummy M2 3 um"
+1 DM2.S.1 1
+"Space >= 0.3 um"
+1 DM2.S.2 1
+"Space to M2 >= 0.3 um"
+1 DM2.S.3 1
+"Space to Mx (Overlap is not allowed) [Mx width > 4.5 um and the parallel metal run length > 4.5 um] >=  1.5"
+1 DM2.S.3.1 1
+"Space to Mx (Overlap is not allowed) [Mx width > 1.5 um and the parallel metal run length > 1.5 um] >= 0.5"
+1 DM2.S.4 1
+"Space to FW (Overlap is not allowed) >= 5 um"
+1 DM2.S.5 1
+"Space to LMARK (Overlap is not allowed) >= 5 um"
+1 DM2.S.5.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DM2.S.7 1
+"Space to LOGO (Overlap is not allowed) >= 0.0 um"
+1 DM2.S.8 1
+"Space to INDDMY (Overlap is not allowed) >= 2.5 um"
+1 DM2.S.10 1
+"Space to 45-degree bent Mx >= 0.4 um2"
+1 DM2.A.1 1
+"Min. area >= 0.24 um2"
+1 DM2.A.2 1
+"Max. area <= 80 um2"
+1 DM2.R.3 1
+"0 or 45 degree solid shapes are allowed (Only rectangle and solid dummy is allowed)"
+1 DM2_O.R.1 1
+"DM2_O interact M2 is not allowed"
+1 DM3.W.1 1
+"Width >= 0.3 um"
+1 DM3.W.2 1
+"Max. width of dummy M3 3 um"
+1 DM3.S.1 1
+"Space >= 0.3 um"
+1 DM3.S.2 1
+"Space to M3 >= 0.3 um"
+1 DM3.S.3 1
+"Space to Mx (Overlap is not allowed) [Mx width > 4.5 um and the parallel metal run length > 4.5 um] >=  1.5"
+1 DM3.S.3.1 1
+"Space to Mx (Overlap is not allowed) [Mx width > 1.5 um and the parallel metal run length > 1.5 um] >= 0.5"
+1 DM3.S.4 1
+"Space to FW (Overlap is not allowed) >= 5 um"
+1 DM3.S.5 1
+"Space to LMARK (Overlap is not allowed) >= 5 um"
+1 DM3.S.5.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DM3.S.7 1
+"Space to LOGO (Overlap is not allowed) >= 0.0 um"
+1 DM3.S.8 1
+"Space to INDDMY (Overlap is not allowed) >= 2.5 um"
+1 DM3.S.10 1
+"Space to 45-degree bent Mx >= 0.4 um2"
+1 DM3.A.1 1
+"Min. area >= 0.24 um2"
+1 DM3.A.2 1
+"Max. area <= 80 um2"
+1 DM3.R.3 1
+"0 or 45 degree solid shapes are allowed (Only rectangle and solid dummy is allowed)"
+1 DM3_O.R.1 1
+"DM3_O interact M3 is not allowed"
+1 DM4.W.1 1
+"Width >= 0.3 um"
+1 DM4.W.2 1
+"Max. width of dummy M4 3 um"
+1 DM4.S.1 1
+"Space >= 0.3 um"
+1 DM4.S.2 1
+"Space to M4 >= 0.3 um"
+1 DM4.S.3 1
+"Space to Mx (Overlap is not allowed) [Mx width > 4.5 um and the parallel metal run length > 4.5 um] >=  1.5"
+1 DM4.S.3.1 1
+"Space to Mx (Overlap is not allowed) [Mx width > 1.5 um and the parallel metal run length > 1.5 um] >= 0.5"
+1 DM4.S.4 1
+"Space to FW (Overlap is not allowed) >= 5 um"
+1 DM4.S.5 1
+"Space to LMARK (Overlap is not allowed) >= 5 um"
+1 DM4.S.5.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DM4.S.7 1
+"Space to LOGO (Overlap is not allowed) >= 0.0 um"
+1 DM4.S.8 1
+"Space to INDDMY (Overlap is not allowed) >= 2.5 um"
+1 DM4.S.10 1
+"Space to 45-degree bent Mx >= 0.4 um2"
+1 DM4.A.1 1
+"Min. area >= 0.24 um2"
+1 DM4.A.2 1
+"Max. area <= 80 um2"
+1 DM4.R.3 1
+"0 or 45 degree solid shapes are allowed (Only rectangle and solid dummy is allowed)"
+1 DM4_O.R.1 1
+"DM4_O interact M4 is not allowed"
+1 DM5.W.1 1
+"Width >= 0.3 um"
+1 DM5.W.2 1
+"Max. width of dummy M5 3 um"
+1 DM5.S.1 1
+"Space >= 0.3 um"
+1 DM5.S.2 1
+"Space to M5 >= 0.3 um"
+1 DM5.S.3 1
+"Space to Mx (Overlap is not allowed) [Mx width > 4.5 um and the parallel metal run length > 4.5 um] >=  1.5"
+1 DM5.S.3.1 1
+"Space to Mx (Overlap is not allowed) [Mx width > 1.5 um and the parallel metal run length > 1.5 um] >= 0.5"
+1 DM5.S.4 1
+"Space to FW (Overlap is not allowed) >= 5 um"
+1 DM5.S.5 1
+"Space to LMARK (Overlap is not allowed) >= 5 um"
+1 DM5.S.5.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DM5.S.7 1
+"Space to LOGO (Overlap is not allowed) >= 0.0 um"
+1 DM5.S.8 1
+"Space to INDDMY (Overlap is not allowed) >= 2.5 um"
+1 DM5.S.10 1
+"Space to 45-degree bent Mx >= 0.4 um2"
+1 DM5.A.1 1
+"Min. area >= 0.24 um2"
+1 DM5.A.2 1
+"Max. area <= 80 um2"
+1 DM5.R.3 1
+"0 or 45 degree solid shapes are allowed (Only rectangle and solid dummy is allowed)"
+1 DM5_O.R.1 1
+"DM5_O interact M5 is not allowed"
+1 DM6.W.1 1
+"Width >= 0.3 um"
+1 DM6.W.2 1
+"Max. width of dummy M6 3 um"
+1 DM6.S.1 1
+"Space >= 0.3 um"
+1 DM6.S.2 1
+"Space to M6 >= 0.3 um"
+1 DM6.S.3 1
+"Space to Mx (Overlap is not allowed) [Mx width > 4.5 um and the parallel metal run length > 4.5 um] >=  1.5"
+1 DM6.S.3.1 1
+"Space to Mx (Overlap is not allowed) [Mx width > 1.5 um and the parallel metal run length > 1.5 um] >= 0.5"
+1 DM6.S.4 1
+"Space to FW (Overlap is not allowed) >= 5 um"
+1 DM6.S.5 1
+"Space to LMARK (Overlap is not allowed) >= 5 um"
+1 DM6.S.5.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DM6.S.7 1
+"Space to LOGO (Overlap is not allowed) >= 0.0 um"
+1 DM6.S.8 1
+"Space to INDDMY (Overlap is not allowed) >= 2.5 um"
+1 DM6.S.10 1
+"Space to 45-degree bent Mx >= 0.4 um2"
+1 DM6.A.1 1
+"Min. area >= 0.24 um2"
+1 DM6.A.2 1
+"Max. area <= 80 um2"
+1 DM6.R.3 1
+"0 or 45 degree solid shapes are allowed (Only rectangle and solid dummy is allowed)"
+1 DM6_O.R.1 1
+"DM6_O interact M6 is not allowed"
+1 DM7.W.1 1
+"Width >= 0.3 um"
+1 DM7.W.2 1
+"Max. width of dummy M7 3 um"
+1 DM7.S.1 1
+"Space >= 0.3 um"
+1 DM7.S.2 1
+"Space to M7 >= 0.3 um"
+1 DM7.S.3 1
+"Space to Mx (Overlap is not allowed) [Mx width > 4.5 um and the parallel metal run length > 4.5 um] >=  1.5"
+1 DM7.S.3.1 1
+"Space to Mx (Overlap is not allowed) [Mx width > 1.5 um and the parallel metal run length > 1.5 um] >= 0.5"
+1 DM7.S.4 1
+"Space to FW (Overlap is not allowed) >= 5 um"
+1 DM7.S.5 1
+"Space to LMARK (Overlap is not allowed) >= 5 um"
+1 DM7.S.5.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DM7.S.7 1
+"Space to LOGO (Overlap is not allowed) >= 0.0 um"
+1 DM7.S.8 1
+"Space to INDDMY (Overlap is not allowed) >= 2.5 um"
+1 DM7.S.9 1
+"Space to CBM [CBM between Mx and Mx+1] (Overlap is not allowed) >= 1.5 um"
+1 DM7.S.10 1
+"Space to 45-degree bent Mx >= 0.4 um2"
+1 DM7.A.1 1
+"Min. area >= 0.24 um2"
+1 DM7.A.2 1
+"Max. area <= 80 um2"
+1 DM7.R.3 1
+"0 or 45 degree solid shapes are allowed (Only rectangle and solid dummy is allowed)"
+1 DM7_O.R.1 1
+"DM7_O interact M7 is not allowed"
+1 DM8.W.1 1
+"Width >= 0.4 um"
+1 DM8.W.2 1
+"Max. width of dummy M8 3 um"
+1 DM8.S.1 1
+"Space >= 0.4 um"
+1 DM8.S.2 1
+"Space to M8 >= 0.6 um"
+1 DM8.S.3 1
+"Space to Mx (Overlap is not allowed) [Mx width > 4.5 um and the parallel metal run length > 4.5 um] >=  1.5"
+1 DM8.S.4 1
+"Space to FW (Overlap is not allowed) >= 5 um"
+1 DM8.S.5 1
+"Space to LMARK (Overlap is not allowed) >= 5 um"
+1 DM8.S.5.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DM8.S.7 1
+"Space to LOGO (Overlap is not allowed) >= 0.0 um"
+1 DM8.S.8 1
+"Space to INDDMY (Overlap is not allowed) >= 2.5 um"
+1 DM8.A.1 1
+"Min. area >= 0.565 um2"
+1 DM8.A.2 1
+"Max. area <= 160 um2"
+1 DM8.R.3 1
+"0 or 45 degree solid shapes are allowed (Only rectangle and solid dummy is allowed)"
+1 DM9.W.1 1
+"Width >= 3 um"
+1 DM9.W.2 1
+"Max. width of dummy M9 3 um"
+1 DM9.S.1 1
+"Space >= 3 um"
+1 DM9.S.2 1
+"Space to M9 >= 3 um"
+1 DM9.S.3 1
+"Space to Mx (Overlap is not allowed) [Mx width > 4.5 um and the parallel metal run length > 4.5 um] >=  1.5"
+1 DM9.S.4 1
+"Space to FW (Overlap is not allowed) >= 5 um"
+1 DM9.S.5 1
+"Space to LMARK (Overlap is not allowed) >= 5 um"
+1 DM9.S.5.1 1
+"Space to L-slot (Overlap is not allowed) >= 5 um"
+1 DM9.S.7 1
+"Space to LOGO (Overlap is not allowed) >= 0.0 um"
+1 DM9.S.8 1
+"Space to INDDMY (Overlap is not allowed) >= 2.5 um"
+1 DM9.A.1 1
+"Min. area >= 9 um2"
+1 DM9.A.2 1
+"Max. area <= 600 um2"
+1 DM9.R.3 1
+"0 or 45 degree solid shapes are allowed (Only rectangle and solid dummy is allowed)"
+1 RV.W.1.WB 1
+"Width (maximum = minimum) (Not inside seal ring) = 3 um"
+1 RV.S.1.WB 1
+"Space >= 3 um"
+1 RV.S.3.WB 1
+"Space to CB/CB2/FW {Overlap is not allowed} >= 6 um"
+1 RV.EN.1.WB 1
+"Enclosure by Mtop (Not inside seal ring) >= 1.5 um"
+1 RV.R.1.WB 1
+"A 45-degree rotated RV is prohibited."
+1 AP.W.1.WB 1
+"Width [interconnect only] [ not inside FW_AP or sealring] >= 3 um"
+1 AP.W.2.WB 1
+"Maximum width [interconnect only] [ not inside UBM, CB or CB2] <= 35 um"
+1 AP.S.1.FC 1
+"Space (Except space in the same polygon within {UBM SIZING 5um} region) >= 2 um"
+1 AP.S.1.WB 1
+"Space (Except space in the same polygon within {CB2 SIZING 5um} region) >= 2 um"
+1 AP.S.2.WB 1
+"Space to FW_CU/FW_AP [(overlap FW_CU)/(Cut FW_AP) is prohibited] >= 5 um"
+1 AP.S.3.WB 1
+"Space to LMARK [overlap is prohibited, except seal-ring] >= 5 um"
+1 AP.EN.1.WB 1
+"Enclosured of RV (Not inside seal ring) >= 1.5 um"
+1 AP.EN.2.WB 1
+"Enclosure of CB/CB2 >= 1 um"
+1 FUSE_WARN.1 1
+"AP fuse must be covered by PMDMY."
+1 FUSE_WARN.2 1
+"PWELL/PMDMY/FW should be used in fuse structure."
+1 FUSE_WARN.3 1
+"Metal fuse should be a dog bone shape."
+1 FU.L.1.1 1
+"Length of AP fuse between dog bone >= 8 um"
+1 FU.S.1 1
+"Spece of AP fuse >= 5.6 um"
+1 LW.W.1 2
+"Minimum width of L-slot  >= 10 um"
+"Maximum width of L-slot   <= 20 um"
+1 LW.L.1 2
+"Minimum length of L-slot  >= 30 um"
+"Maximum length of L-slot  <= 50 um"
+1 LW.EN.1 1
+"LMARK enclosure of L-slot [in the direction of the L-slot length] >= 12 um"
+1 LW.EN.2 1
+"LMARK enclosure of L-slot [perpendicular to the direction of the L-slot length] >= 30 um"
+1 LOGO.S.1 1
+"Min. chearance from LOGO to real OD/PO/Metal 10 um"
+1 LOGO.O.1 1
+"Overlap of CTP, CB, DOD, DPO, or DMx is not allowed."
+1 LOGO.R.4 1
+"NW, OD, PO and Metals cut LOGO is not allowed"
+1 LUP.1g 2 connected
+"Any N+ OD injector or an N+ OD injector cluster connected to an I/O pad must be surrounded by a P+ guard-ring."
+"Any P+ OD injector or a P+ OD injector cluster connected to an I/O pad must be surrounded by a N+ guard-ring."
+1 LUP.2g 1 connected
+"Within 15 um space from the OD injector, a P+ guard-ring is required to surround an NMOS or an NMOS cluster. And an N+ guard-ring is required to surround a PMOS or a PMOS cluster."
+1 LUP.3.1.1g 1 connected
+"For the 1.2V or 1.0V N/PMOS which connects to an I/O pad, space between the NMOS and the PMOS >= 2 um"
+1 LUP.3.1.2g 2 connected
+"For the 1.2V or 1.0V N/PMOS which connects to an I/O pad, space between the NMOS and the PMOS >= 3 um"
+"if one of guard-ring < 0.2 um"
+1 LUP.3.2.1g 1 connected
+"For the 1.8V N/PMOS which connects to an I/O pad directly, space between the 1.8V NMOS and the 1.8V/1.2V/1.0V PMOS, space between the 1.8V PMOS and the 1.8V/1.2V/1.0V NMOS >= 2.3 um"
+1 LUP.3.2.2g 1 connected
+"For the 1.8V N/PMOS which connects to an I/O pad directly, space between the 1.8V NMOS and the 1.8V/1.2V/1.0V PMOS, space between the 1.8V PMOS and the 1.8V/1.2V/1.0V NMOS >= 4 um  if one of guard-ring < 0.2 um"
+1 LUP.3.3.1g 1 connected
+"For the 2.5V N/PMOS which connects to an I/O pad directly, space between the 2.5V NMOS and the 2.5V/1.2V/1.0V PMOS, space between the 2.5V PMOS and the 2.5V/1.2V/1.0V NMOS >= 2.6 um"
+1 LUP.3.3.2g 1 connected
+"For the 2.5V N/PMOS which connects to an I/O pad directly, space between the 2.5V NMOS and the 2.5V/1.2V/1.0V PMOS, space between the 2.5V PMOS and the 2.5V/1.2V/1.0V NMOS >= 5 um if one of guard-ring < 0.2 um"
+1 LUP.3.4.1g 1 connected
+"For the 3.3V N/PMOS which connects to an I/O pad directly, space between the 3.3V NMOS and the 3.3V/1.2V/1.0V PMOS, space between the 3.3V PMOS and the 3.3V/1.2V/1.0V NMOS >= 4 um"
+1 LUP.3.4.2g 1 connected
+"For the 3.3V N/PMOS which connects to an I/O pad directly, space between the 3.3V NMOS and the 3.3V/1.2V/1.0V PMOS, space between the 3.3V PMOS and the 3.3V/1.2V/1.0V NMOS >= 8 um if one of guard-ring < 0.2 um"
+1 LUP.4g 1 connected
+"Width of the N+ guard-ring, P+ guard-ring, N+ STRAP and P+ STRAP for the OD injector, and also MOS within 15 um space from OD injector. >= 0.12 um"
+1 LUP.5.1.1g 3 connected
+"Minimum space >= 2 um"
+"1. between 1.2V-1.0V N+ OD injector which connects to the IO pad and the the PMOS in the internal circuit"
+"2. between 1.2V-1.0V P+ OD injector which connects to the IO pad and the the NMOS in the internal circuit"
+1 LUP.5.1.2g 3 connected
+"Minimum space >= 3 um if one of guard-ring < 0.2 um"
+"1. between 1.2V-1.0V N+ OD injector which connects to the IO pad and the the PMOS in the internal circuit"
+"2. between 1.2V-1.0V P+ OD injector which connects to the IO pad and the the NMOS in the internal circuit"
+1 LUP.5.2.1g 3 connected
+"Minimum space >= 2.3 um"
+"1. between 1.8V N+ OD injector which connects to the IO pad and the the PMOS in the internal circuit"
+"2. between 1.8V P+ OD injector which connects to the IO pad and the the NMOS in the internal circuit"
+1 LUP.5.2.2g 3 connected
+"Minimum space >= 4 um if one of guard-ring < 0.2 um"
+"1. between 1.8V N+ OD injector which connects to the IO pad and the the PMOS in the internal circuit"
+"2. between 1.8V P+ OD injector which connects to the IO pad and the the NMOS in the internal circuit"
+1 LUP.5.3.1g 3 connected
+"Minimum space >= 2.6 um"
+"1. between 2.5V N+ OD injector which connects to the IO pad and the the PMOS in the internal circuit"
+"2. between 2.5V P+ OD injector which connects to the IO pad and the the NMOS in the internal circuit"
+1 LUP.5.3.2g 3 connected
+"Minimum space >= 5 um if one of guard-ring < 0.2 um"
+"1. between 2.5V N+ OD injector which connects to the IO pad and the the PMOS in the internal circuit"
+"2. between 2.5V P+ OD injector which connects to the IO pad and the the NMOS in the internal circuit"
+1 LUP.5.4.1g 3 connected
+"Minimum space >= 4 um"
+"1. between 3.3V N+ OD injector which connects to the IO pad and the the PMOS in the internal circuit"
+"2. between 3.3V P+ OD injector which connects to the IO pad and the the NMOS in the internal circuit"
+1 LUP.5.4.2g 3 connected
+"Minimum space >= 8 um if one of guard-ring < 0.2 um"
+"1. between 3.3V N+ OD injector which connects to the IO pad and the the PMOS in the internal circuit"
+"2. between 3.3V P+ OD injector which connects to the IO pad and the the NMOS in the internal circuit"
+1 LUP.6 3
+"Any point inside NMOS source/drain space to the nearest PW STRAP in the same PW <= 30 um"
+"Any point inside PMOS source/drain space to the nearest NW STRAP in the same NW <= 30 um"
+"In SRAM bit cell region, the rule is relaxed to 40 um"
+1 LUP.10__LUP.13 3 connected
+"For Area I/O, within 75 um from OD injector (covered by LUPWDMY_2),"
+"Any point inside NMOS source/drain space to the nearest PW STRAP in the same PW <= 15 um"
+"Any point inside PMOS source/drain space to the nearest NW STRAP in the same NW <= 15 um"
+1 LUP.14.g 1 connected
+"For Area I/O, width of picup ring and guard rings for the OD injector >= 0.2"
+1 ESD.WARN.2 1
+"SDI encloure of ACTIVE >= 0"
+1 ESD.1g 1 connected
+" Use thin oxide transistor for thin oxide power clamp and thin oxide I/O buffers, use thick oxide transistor for the thick oxide Power Clamp and thick oxide I/O buffers"
+1 ESD.3g 1
+"Unit finger width of NMOS and PMOS for I/O buffer and Power Clamp Device  = 15-60"
+1 ESD.4g 1 connected
+"The OD area of the edge side of I/O buffer and Power Clamp should be Source or Bulk rather than Drain, to avoid an unwanted parasitic bipolar effect or an abnormal discharge path in ESD zapping."
+1 ESD.5g 1
+"For same type OD of the I/O buffer and Power Clamp should be surrounded by a guard-ring. All other type ODs should be placed outside this guard-ring."
+1 ESD.6g 1 connected
+"Butted STRAP and the STRAP which are between two sources of the N/PMOS in the same I/O buffer and Power Clamp are strictly prohibited."
+1 ESD.7g 4 connected
+"Excepting the ESD device, either of the following two condition must be followed."
+"1. the space of two same type ODs >= 2.4um   2. two same type ODs should be separated by different type OD."
+"The same type ODs are N+OD and N+OD in the same PW, or P+OD and P+OD in the same NW, which connect to two different Pad."
+"However,if a resistor between pad and checked OD, DRC will not flag the error."
+1 ESD.12g 1 connected
+"It is not recommended to use OD RPO resistor or NW resistor connected to PAD"
+1 ESD.16g 2 connected
+"Total finger width for NMOS in same connection > 360"
+"ESD.24g/ESD.36g/ESD.44g/ESD.53g are also checked by ESD.16g"
+1 ESD.17g 2 connected
+"Total finger width for PMOS in same connection > 360"
+"ESD.25g/ESD.45g are also checked by ESD.17g"
+1 ESD.18g 5
+"Channel length of 3.3V I/O and Power Clamp >= 0.4"
+"Channel length of 2.5V I/O and Power Clamp >= 0.35"
+"Channel length of 1.8V I/O and Power Clamp >= 0.20"
+"Channel length of 1.0V/1.2V I/O and Power Clamp >= 0.1"
+"ESD.26g/ESD.38g/ESD.46g/ESD.54g are also checked by ESD.18g"
+1 ESD.19g 2 connected
+"The NMOS and PMOS should have an unsilicided area on the drain side. That is, the RPO mask should block the drain side of the device (except the contact region which should remain silicided)."
+"ESD.27g/ESD.39g are also checked by ESD.19g"
+1 ESD.20g 2 connected
+"Overlap of RPO on the drain side to the poly gate =0.06"
+"ESD.29g/ESD.40g are also checked by ESD.20g"
+1 ESD.21g 2 connected
+"Width of the RPO on the drain side for NMOS 	>= 1"
+"ESD.41g is also checked by ESD.21g"
+1 ESD.22g 2 connected
+"Width of the RPO on the drain side for PMOS 	>= 1.0"
+"ESD.31g is also checked by ESD.22g"
+1 ESD.23g 2
+"Space of poly to CO on the source side >= 0.22"
+"ESD.32g/ESD.42g are also checked by ESD.23g"
+1 ESD.27g 1 connected
+"The NMOS and PMOS should have an unsilicided area on the drain side. That is, the RPO mask should block the drain side of the device (except the contact region which should remain silicided).DRC only flag no RPO in this device."
+1 ESD.28g 1 connected
+"For NMOS, the RPO needs to cover all inactive poly gates(N2) and extend to overlap the N3 gate = 0.06"
+1 ESD.30g 1 connected
+"Width of the RPO on the drain side for NMOS. >= 1.0"
+1 ESD.32g 1
+"Space of poly to CO on the source side >= 0.22"
+1 ESD.33g 1 connected
+"For NMOS, space of the N2 gate to the N3 gate. = 0.25"
+1 ESD.34g 1
+"The NMOS should have ESD3 or ESDIMP"
+1 ESD.37g 1 connected
+"Total finger width for Power Clamp in same connection > 900"
+1 ESD.47g 1 connected
+"The NMOS and PMOS should have an unsilicided area on the drain side. That is, the RPO mask should be in the drain side of the device (except the contact region which should remain silicided)."
+1 ESD.48g 1 connected
+"RPO on the drain side space to the poly gate = 0.45"
+1 ESD.49g 1 connected
+"Width of the RPO on the drain side for NMOS. >= 1.0"
+1 ESD.50g 1 connected
+"Width of the RPO on the drain side for PMOS. >= 1.0"
+1 ESD.51g 1
+"Space of poly to CO on the source side  >= 0.22"
+1 ESD.52g 1
+"1.8V regular IO INTERACT OD_25 or OD_33 is not recommended."
+1 ESD.55g 1 connected
+"The NMOS should have an unsilicided area on the drain/source side. That is, the RPO mask should be in the drain/source side of the device (except the contact region which should remain silicided)."
+1 ESD.56g 1 connected
+"Width of the RPO on the drain side for NMOS >= 1.0"
+1 ESD.57g 1
+"Space of poly to CO on the source side  >= 0.22"
+1 ESD.58g 1 connected
+"Total width for NFD in same connection of collector >= 360"
+1 ESD.59g 1 connected
+"Total width for PFD in same connection of collector >= 360"
+1 ESD.60g 1 connected
+"STI spacing of the NFD and PFD = 0.44"
+1 ESD.61g 1 connected
+"Unit collector width of NFD and PFD = 15 ~ 60"
+1 ESD.62g 1 connected
+"Unit emitter width of NFD and PFD should be the same as unit collector width"
+1 ESD.63g 1 connected
+"Unit emitter length of NFD and PFD >= 0.86"
+1 ESD.64g 1 connected
+"Width of the RPO on the collector side for NFD and PFD >= 1.95"
+1 ESD.65g 1 connected
+"Width of the RPO on the emitter side for NFD and PFD	= 0.1"
+1 ESD.66g 1
+"Space of RPO to CO on the collector and emitter side >= 0.22"
+1 ESD.72g 1
+"The layer of OD2 is required for 5V protection (NFD and PFD)"
+1 ESDIMP.W.1 1
+"Width >= 0.6"
+1 ESDIMP.S.1 1
+"Space >= 0.6"
+1 ESDIMP.S.2 1
+"Space to ESD3 >= 0.6 Overlap is prohibited"
+1 ESDIMP.EN.1 1
+"(OD NOT PO) enclosure of ESDIMP >= 0.4. ESDIMP must be fully inside (OD NOT PO)"
+1 ESDIMP.A.1 1
+"Area >= 1"
+1 ESDIMP.A.2 1
+"Enclosed area >= 1"
+1 ESDIMP.R.1 1
+"ESDIMP MUST BE FULLY INSIDE N+ACTVE"
+1 ESDIMP.EN.1:R 1
+"(OD NOT PO) enclosure of ESDIMP >= 0.4. ESDIMP must be fully inside (OD NOT PO)"
+1 SRAM.W.1 1
+"SRM width (interact with OD) >= 0.28 um"
+1 SRAM.S.1 1
+"SRM space (interact with OD) >= 0.28 um"
+1 SRAM.S.2 1
+"SRM space to {GATE not interact with SRM} >= 0.12 um"
+1 SRAM.EN.1 1
+"SRM enclosusre of GATE >= 0.12 um"
+1 SRAM.EX.1 1
+"SRM Extension on NWEL (interact with OD). Extension = 0 is allowed. >= 0.28 um"
+1 SRAM.O.1 1
+"SRM Overlap of NWEL (interact with OD) >= 0.28 um"
+1 SRAM.R.12 1
+"SRMDMY_4(186,4) overlap SRAMDMY_0(186,0) is not allowed."
+1 SRAM.R.13 1
+"SRM must fully cover GATE."
+1 SRAM.R.15 5
+"CO_11 (30,11) is a must for CO mask tape-out"
+"1.if CO_11 exists, it must cover CO"
+"2.CO_11 must be 0.09 um x 0.09 um"
+"3.CO_11 must be exactly the same as CO"
+"4.CO_11 must be fully covered by SRM(50,0) and SRAMDMY(186,0)"
+1 SRAM.R.17 1
+"SRAMDMY(186,0) must fully cover OD,CO,VIA1"
+1 SRAM.WARN.1 3 connected
+"Warning: It is important to add different redundancies according to different memory density,"
+"if the accumulated SRAM density is greater than 8Mb bits, please refer to T-000-CL-RP-002,"
+"DRC only flags the total BTC counts inside 0.525um2, 0.62um2, 0.499um2, 0.974um2 and 1.158um2 cell in full chip > 8388608"
+1 SRAM.A.1 1
+"Enclosed area of Donut-type OD (Enclosed area of OD > 0) interact with poly in SRM region >= 0.6"
+1 NW.S.1:SRM_SRAMDMY 1
+"Spacing between NW along the boundary of SRM and SRAMDMY"
+1 OD.S.1:SRM_SRAMDMY 1
+"Spacing between OD along the boundary of SRM and SRAMDMY"
+1 PO.S.1:SRM_SRAMDMY 1
+"Spacing between POLY along the boundary of SRM and SRAMDMY"
+1 NP.S.1:SRM_SRAMDMY 1
+"Spacing between NP along the boundary of SRM and SRAMDMY"
+1 PP.S.1:SRM_SRAMDMY 1
+"Spacing between PP along the boundary of SRM and SRAMDMY"
+1 CO.S.1:SRM_SRAMDMY 1
+"Spacing between CO along the boundary of SRM and SRAMDMY"
+1 M1.S.1:SRM_SRAMDMY 1
+"Spacing between M1 along the boundary of SRM and SRAMDMY"
+1 VIA1.S.1:SRM_SRAMDMY 1
+"Spacing between VIA1 along the boundary of SRM and SRAMDMY"
+1 WLD.R.1 1
+" CO to PO space inside SRAMDMY (186,4) >= 0.05"
+1 WLD.R.2 1
+" CO to PO space inside SRAMDMY (186,5) >= 0.043"
+1 WLD.R.3 1 connected
+"CO space on the same OD [inside SRAMDMY (186,4 & 186,5)] >= 0.14"
+1 WLD.R.6 1
+"SRAMDMY (186,4 & 186,5) edge cut CO is not allowed"
+1 WLD.R.7 1
+"SRMDMY (186,0) upsized 200 um must cover SRMDMY (186,4,5)"
+1 PO.S.14m 1
+"Gate space to ( OD2 or (NW or NT_N) ) in Core NMOS >= 1.0um"
+1 PO.EN.1m 2
+"1.0V or 1.2V PMOS gate enclosure by ((NW NOT OD2) NOT NT_N) for 3.3V IO process >= 1.0 um"
+"1.0V or 1.2V PMOS gate enclosure by (NW NOT NT_N) for 1.8V or 2.5V IO process >= 1.0 um"
+1 PO.EN.2m 1
+"Gate enclosure by ( OD2 NOT (NW or NT_N) ) in IO NMOS >= 2.0um"
+1 PO.EN.3m 2
+" 3.3V PMOS gate enclosure by ((NW and OD2) NOT NT_N) >= 1.5 um"
+" 1.8V or 2.5V PMOS gate enclosure by (NW NOT NT_N) >= 1.5 um"
+1 BJT.R.1 1
+"RPO needs to cover 0.3um on EM OD edge from OD and STI sides"
+1 BJT.R.8 1
+"{RH or BJTDMY} enclosure of  Emitter OD >=0.13"
+1 RES.2m:OD 1
+"Width >= 0.4um and length >= 0.4um for unsilicided OD resistor"
+1 RES.2m:PO 1
+"Width >= 0.4um and length >= 0.4um for unsilicided PO resistor"
+1 NWROD.R.1m 1
+"Width >= 1.8um and length >= 20um for NW resistor with OD"
+1 NWRSTI.R.1m 1
+"Width >= 1.8um and length >= 20um for NW resistor under STI"
+1 AN.R.46:M1 1
+"In MATCHING layer, one of differential pair covered by M1 layer but without all fully covered is not allowed"
+1 DRM.R.1 1
+"DRM.R.1 is a warining message to remind the users to check the related DRMs. Please refer to DRM.R.1 in the DRM for the details."

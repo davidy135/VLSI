@@ -1,0 +1,108 @@
+********************************************************************************
+db2gds 20.10-p029 64 bit (Mon Sep 28 20:09:41 PDT 2020)
+Build Ref No.: 029 Production (09-28-2020) [pvs_2010]
+
+Copyright 2020 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 2.6.32-431.11.2.el6.x86_64
+Executed on:     ice05 (Linux x86_64 3.10.0-1160.62.1.el7.x86_64)
+Process Id:      21595
+Starting Time:   Sat Apr 30 23:25:37 2022 (Sun May  1 03:25:37 2022 GMT)
+With parameters: TwoStage_layout_21447 erc.db TwoStage_layout -lmap lmapszxXhW -gdslib drc.db -gds_scale 1000 -property 
+********************************************************************************
+
+Library name: TwoStage_layout_21447
+GDSII file name: erc.db
+Cells to be written out: TwoStage_layout
+Source Library: TwoStage_layout_21447
+Layer mapping file(GDS <- DMC): lmapszxXhW
+    0 (dt:0) <- 0
+    0 (dt:0) <- 1
+    0 (dt:0) <- 2
+    0 (dt:0) <- 3
+    0 (dt:0) <- 4
+    0 (dt:0) <- 5
+    0 (dt:0) <- 6
+    0 (dt:0) <- 7
+    0 (dt:0) <- 8
+Cell name case: PRESERVE
+Option: output object property
+
+
+                Object Statistics of Cells                            
+Cell Name         Box  Polygon     Path   Label Instance Array    Total
+----------------------------------------------------------------------
+TwoStage_layout        0        2        0       0   680      0       682
+M8_M7_CDNS_1        1        0        0       0     0      0         1
+M7_M6_CDNS_2        1        0        0       0     0      0         1
+M2_M1_CDNS_3        0        0        0       0     0      0         0
+M3_M2_CDNS_4        0        0        0       0     0      0         0
+M8_M7_CDNS_5        0        0        0       0     0      0         0
+M6_M5_CDNS_6        1        0        0       0     0      0         1
+M3_M2_CDNS_11        0        0        0       0     0      0         0
+M2_M1_CDNS_13        0        0        0       0     0      0         0
+M5_M4_CDNS_14        1        0        0       0     0      0         1
+M4_M3_CDNS_15        1        0        0       0     0      0         1
+M8_M7_CDNS_16        0        0        0       0     0      0         0
+M7_M6_CDNS_17        0        0        0       0     0      0         0
+M6_M5_CDNS_18        0        0        0       0     0      0         0
+M5_M4_CDNS_19        0        0        0       0     0      0         0
+M4_M3_CDNS_20        0        0        0       0     0      0         0
+M1_PO_CDNS_21        0        0        0       0     0      0         0
+M3_M2_CDNS_22        0        0        0       0     0      0         0
+M2_M1_CDNS_23        0        0        0       0     0      0         0
+M3_M2_CDNS_24        0        0        0       0     0      0         0
+M4_M3_CDNS_25        0        0        0       0     0      0         0
+M5_M4_CDNS_26        0        0        0       0     0      0         0
+M6_M5_CDNS_27        0        0        0       0     0      0         0
+M7_M6_CDNS_28        0        0        0       0     0      0         0
+M8_M7_CDNS_29        0        0        0       0     0      0         0
+M1_PO_CDNS_30        0        0        0       0     0      0         0
+M7_M6_CDNS_31        0        0        0       0     0      0         0
+M6_M5_CDNS_32        0        0        0       0     0      0         0
+M5_M4_CDNS_33        0        0        0       0     0      0         0
+M4_M3_CDNS_34        0        0        0       0     0      0         0
+M3_M2_CDNS_35        0        0        0       0     0      0         0
+M2_M1_CDNS_36        0        0        0       0     0      0         0
+M2_M1_CDNS_37        0        0        0       0     0      0         0
+M2_M1_CDNS_38        0        0        0       0     0      0         0
+M1_PO_CDNS_39        0        0        0       0     0      0         0
+M1_OD_CDNS_40        0        0        0       0     0      0         0
+M2_M1_CDNS_42        0        0        0       0     0      0         0
+M1_PO_CDNS_43        0        0        0       0     0      0         0
+M2_M1_CDNS_44        0        0        0       0     0      0         0
+rppolywo_CDNS_45        0        0        0       0     0      0         0
+rppolywo_CDNS_46        0        0        0       0     0      0         0
+mimcap_woum_rf_9m_1p0_CDNS_47        0        0        0       0     4      0         4
+nch_CDNS_57         0        0        0       0     0      0         0
+nch_CDNS_58         0        0        0       0     0      0         0
+pch_CDNS_59         1        0        0       0     0      0         1
+pch_CDNS_60         1        0        0       0     0      0         1
+nch_CDNS_61         0        0        0       0     0      0         0
+VIAonctm_CDNS_53        0        0        0       0    11      0        11
+couple_via_CDNS_54        0        0        0       0     0      0         0
+----------------------------------------------------------------------
+
+Object Statistics of Layers
+Layer   Objects
+----------------
+   0           9
+----------------
+
+Object Summary
+------------------
+     Box         7
+ Polygon         2
+    Path         0
+   Label         0
+Instance       695
+   Array         0
+------------------
+   Total       704
+
+
+Output property: 695
+Total CPU Time          : 0(s)
+Total Real Time         : 0(s)
+Peak Memory Used        : 7(M)

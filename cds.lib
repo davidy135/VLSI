@@ -1,0 +1,44 @@
+INCLUDE /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/cds.lib
+INCLUDE /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+DEFINE simple_inverter /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/simple_inverter
+DEFINE avTech /afs/ee.cooper.edu/dist/cadence-2021/installs/assura/tools.lnx86/assura/etc/avtech/avTech
+DEFINE FBAR_model /afs/ee.cooper.edu/dist/koo/FBAR_model
+DEFINE Operational_Amplifier /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier
+DEFINE Oscillator /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Oscillator
+
+DEFINE DVLSI /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/DVLSI
+DEFINE results /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/results
+DEFINE syn /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/syn
+
+-- Technology/Primitives Library
+----------------------------------------------------------------------
+DEFINE PDK_HOME /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305
+DEFINE S130 /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/S130
+
+
+-- Digital Standard Cell Libraries
+----------------------------------------------------------------------
+#DEFINE scs130hd   $PDK_HOME/DIG/scs130hd/oa/scs130hd
+#DEFINE scs130hdll $PDK_HOME/DIG/scs130hdll/oa/scs130hdll
+#DEFINE scs130hvl  $PDK_HOME/DIG/scs130hvl/oa/scs130hvl
+#DEFINE scs130lp   $PDK_HOME/DIG/scs130lp/oa/scs130lp
+#DEFINE scs130ls   $PDK_HOME/DIG/scs130ls/oa/scs130ls
+#DEFINE scs130ms   $PDK_HOME/DIG/scs130ms/oa/scs130ms
+
+DEFINE scs130hd   /afs/ee.cooper.edu/dist/skywater/S130IP_HD_HV_MSV2.1.200/V2.1.200/scs130hd
+DEFINE scs130hdll /afs/ee.cooper.edu/dist/skywater/S130IP_HD_HV_MSV2.1.200/V2.1.200/scs130hdll
+DEFINE scs130hvl /afs/ee.cooper.edu/dist/skywater/S130IP_HD_HV_MSV2.1.200/V2.1.200/scs130hvl
+DEFINE scs130lp  /afs/ee.cooper.edu/dist/skywater/S130IP_LP_V2.1.200/V2.1.200/scs130lp
+DEFINE scs130ls  /afs/ee.cooper.edu/dist/skywater/S130IP_LS_V2.1.200/V2.1.200/scs130ls
+DEFINE scs130ms   /afs/ee.cooper.edu/dist/skywater/S130IP_HD_HV_MSV2.1.200/V2.1.200/scs130ms
+
+
+-- IO Libraries
+----------------------------------------------------------------------
+#DEFINE s130iom0              $PDK_HOME/IO/s130iom0/oa/s130iom0
+#DEFINE s130_esd              $PDK_HOME/IO/s130_esd/oa/s130_esd
+DEFINE s130iom0              /afs/ee.cooper.edu/dist/skywater/S130_IO_V2.1.302/V2.1.302/s130iom0
+DEFINE s130_esd              /afs/ee.cooper.edu/dist/skywater/S130_IO_V2.1.302/V2.1.302/s130_esd
+DEFINE RX_Frontend /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/RX_Frontend
+DEFINE PLL /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/PLL
+#Removed by ddDeleteObj: DEFINE RX_Frontend_V2 /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/RX_Frontend_V2

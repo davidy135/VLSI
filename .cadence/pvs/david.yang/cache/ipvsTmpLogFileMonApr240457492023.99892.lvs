@@ -1,0 +1,2742 @@
+********************************************************************************
+pvs 20.10-p029 64 bit (Mon Sep 28 20:09:41 PDT 2020)
+Build Ref No.: 029 Production (09-28-2020) [pvs_2010]
+
+Copyright 2020 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 2.6.32-431.11.2.el6.x86_64
+Executed on:     conway (Linux x86_64 5.4.211-1.el7.elrepo.x86_64)
+Process Id:      23952
+Starting Time:   Mon Apr 24 04:57:48 2023 (Mon Apr 24 08:57:48 2023 GMT)
+With parameters: -lvs -get_rules /tmp/pvsrng.4911@conway.1 -tc top -gds /dev/null -get_options /tmp/pvsoptpar.4911@conway.1 -gen_tags /tmp/pvsgentags.4911@conway.1 -stc top -cdl /dev/null -control /tmp/ipvsRulesCheckControl.4911@conway.1 /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul.4911@conway.1 
+********************************************************************************
+
+
+########################################################################
+Get host info ...
+########################################################################
+CPU info:
+    model name      :  AMD EPYC 7443P 24-Core Processor
+    cpu MHz         :  3118.844
+    cache size      :  512 KB
+    physical cores  :  24
+    logical cores   :  48
+    hyper-threading on
+
+Memory info:
+    257684M physical memory installed.
+
+    MemTotal:       263869492 kB
+    MemFree:        210248824 kB
+    MemAvailable:   256277468 kB
+    Buffers:          583364 kB
+    Cached:         21947160 kB
+    SwapCached:            0 kB
+    Active:          7633180 kB
+    Inactive:       17949196 kB
+    Active(anon):    3564172 kB
+    Inactive(anon):   202856 kB
+    Active(file):    4069008 kB
+    Inactive(file): 17746340 kB
+    Unevictable:          64 kB
+    Mlocked:              64 kB
+    SwapTotal:       8388604 kB
+    SwapFree:        8388604 kB
+    Dirty:               632 kB
+    Writeback:             0 kB
+    AnonPages:       3010920 kB
+    Mapped:          1053216 kB
+    Shmem:            715184 kB
+    KReclaimable:   26506368 kB
+    Slab:           27218116 kB
+    SReclaimable:   26506368 kB
+    SUnreclaim:       711748 kB
+    KernelStack:       30016 kB
+    PageTables:       113428 kB
+    NFS_Unstable:          0 kB
+    Bounce:                0 kB
+    WritebackTmp:          0 kB
+    CommitLimit:    140323348 kB
+    Committed_AS:   12223804 kB
+    VmallocTotal:   34359738367 kB
+    VmallocUsed:      233128 kB
+    VmallocChunk:          0 kB
+    Percpu:            46272 kB
+    HardwareCorrupted:     0 kB
+    AnonHugePages:   1130496 kB
+    ShmemHugePages:        0 kB
+    ShmemPmdMapped:        0 kB
+    FileHugePages:         0 kB
+    FilePmdMapped:         0 kB
+    HugePages_Total:       0
+    HugePages_Free:        0
+    HugePages_Rsvd:        0
+    HugePages_Surp:        0
+    Hugepagesize:       2048 kB
+    Hugetlb:               0 kB
+    DirectMap4k:     1022788 kB
+    DirectMap2M:    31342592 kB
+    DirectMap1G:    236978176 kB
+
+
+########################################################################
+Get environment info ...
+########################################################################
+ENV VAR: TCL_LIBRARY = /afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/share/lib/tcltk/08.64/tcl8.6
+ENV VAR: TCLX_LIBRARY = /afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/share/lib/tclx/08.40
+ENV VAR: TCLLIBPATH = /afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/share/lib/itcl/3.4.1 /afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/share/lib/tclxml/3.2 /afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/share/lib/tcllib/1.18 /afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/share/lib/itcl/3.4.1 /afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/share/lib/tclxml/3.2 /afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/share/lib/tcllib/1.18 
+
+
+########################################################################
+Parsing Control File /tmp/ipvsRulesCheckControl.4911@conway.1 ...
+########################################################################
+RESULTS_DB -erc "/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/RX_Frontend.erc_errors.ascii" -ascii;
+LVS_RUN_ERC_CHECKS yes;
+
+########################################################################
+Parsing Rule File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul.4911@conway.1 ...
+########################################################################
+TECHNOLOGY s130 -ruleSet default -techLib /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/SAMPLES/pvtech.lib;
+[INFO] TECHNOLOGY: Rules file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul will be included after the remainder of the current rules are processed.
+[INFO] TECHNOLOGY s130 -techLib /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/SAMPLES/pvtech.lib: End of additions.
+LVS_SPICE -allow_unquoted_strings YES;
+LAYOUT_ALLOW_DUPLICATE_CELL YES;
+EXCEPTION_SEVERITY DUPLICATE_CELL 3;
+LAYOUT_USE_DATABASE_PRECISION YES;
+LVS_REPORT_UNITS NO;
+LVS_COMPARE_CASE YES;
+LAYOUT_CASE_SENSITIVE YES;
+SCHEMATIC_CASE_SENSITIVE YES;
+UNIT -length m;
+EXCEPTION_SEVERITY METRIC_RULE_FILE 0;
+SCHEMATIC_FORMAT SPICE;
+[WARN] Cmd-line override: SCHEMATIC_FORMAT "cdl";
+FLOW_DATA ui_data;
+MASK_SVDB_DIR svdb -query -xrc -cci -ixf -nxf -slph;
+[WARN]: MASK_SVDB_DIR: non-supported option(s) '-xrc -cci -slph' skipped at line 99 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul.
+LVS_REPORT_OPT NONE;
+[WARN]: lvs_report_opt: Skipping invalid option "NONE" at line 101 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul
+LVS_REPORT_MAX 50;
+LVS_RECOGNIZE_GATES -none;
+LVS_ABORT -softchk NO;
+LVS_ABORT -supply_error YES;
+LVS_IGNORE_PORTS NO;
+LVS_SHOW_SEED_PROMOTIONS NO;
+[WARN]: lvs_show_seed_promotions: Option "NO" at line 109 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not yet supported.
+LVS_SHOW_SEED_PROMOTIONS_MAX 50;
+[WARN]: lvs_show_seed_promotions_max: at line 110 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not yet supported.
+LVS_COMPARE_PORT_NAMES YES;
+LVS_FIND_SHORTS no;
+LVS_BUILTIN_DEVICE_PIN_SWAP NO;
+VIRTUAL_CONNECT -colon NO;
+VIRTUAL_CONNECT -report NO;
+LVS_FILTER_DEVICE icecap -open -source;
+LAYER_DEF nwell_i 1000;
+LAYER_MAP 64 -datatype 20 1000;
+LAYER_DEF diff_i 1002;
+LAYER_MAP 65 -datatype 20 1002;
+LAYER_DEF poly_i 1004;
+LAYER_MAP 66 -datatype 20 1004;
+LAYER_DEF lvtn_i 1005;
+LAYER_MAP 125 -datatype 44 1005;
+LAYER_DEF hvtp_i 1006;
+LAYER_MAP 78 -datatype 44 1006;
+LAYER_DEF npc_i 1007;
+LAYER_MAP 95 -datatype 20 1007;
+LAYER_DEF nsdm_i 1008;
+LAYER_MAP 93 -datatype 44 1008;
+LAYER_DEF psdm_i 1009;
+LAYER_MAP 94 -datatype 20 1009;
+LAYER_DEF mcon_i 1010;
+LAYER_MAP 67 -datatype 44 1010;
+LAYER_DEF met1_i 1011;
+LAYER_MAP 68 -datatype 20 1011;
+LAYER_DEF m1res_i 1212;
+LAYER_MAP 68 -datatype 13 1212;
+LAYER_DEF via1_i 1012;
+LAYER_MAP 68 -datatype 44 1012;
+LAYER_DEF met2_i 1013;
+LAYER_MAP 69 -datatype 20 1013;
+LAYER_DEF m2res_i 1214;
+LAYER_MAP 69 -datatype 13 1214;
+LAYER_DEF via2_i 1014;
+LAYER_MAP 69 -datatype 44 1014;
+LAYER_DEF met3_i 1015;
+LAYER_MAP 70 -datatype 20 1015;
+LAYER_DEF m3res_i 1216;
+LAYER_MAP 70 -datatype 13 1216;
+LAYER_DEF via3i_i 1016;
+LAYER_MAP 70 -datatype 44 1016;
+LAYER_DEF met4_i 1017;
+LAYER_MAP 71 -datatype 20 1017;
+LAYER_DEF m4res_i 1218;
+LAYER_MAP 71 -datatype 13 1218;
+LAYER_DEF via4i_i 1018;
+LAYER_MAP 71 -datatype 44 1018;
+LAYER_DEF met5_i 1019;
+LAYER_MAP 72 -datatype 20 1019;
+LAYER_DEF m5res_i 1220;
+LAYER_MAP 72 -datatype 13 1220;
+LAYER_DEF pad_i 1020;
+LAYER_MAP 76 -datatype 20 1020;
+LAYER_DEF licon_i 1021;
+LAYER_MAP 66 -datatype 44 1021;
+LAYER_DEF li_ii 1022;
+LAYER_MAP 67 -datatype 20 1022;
+LAYER_DEF lires_i 1223;
+LAYER_MAP 67 -datatype 13 1223;
+LAYER_DEF pnp_i 1023;
+LAYER_MAP 82 -datatype 44 1023;
+LAYER_DEF npn_i 1024;
+LAYER_MAP 82 -datatype 20 1024;
+LAYER_DEF v5_i 1025;
+LAYER_MAP 75 -datatype 20 1025;
+LAYER_DEF ldntm_i 1026;
+LAYER_MAP 11 -datatype 44 1026;
+LAYER_DEF capacitor_i 1027;
+LAYER_MAP 82 -datatype 64 1027;
+LAYER_DEF ncm_i 1028;
+LAYER_MAP 92 -datatype 44 1028;
+LAYER_DEF rdl_i 1029;
+LAYER_MAP 74 -datatype 20 1029;
+LAYER_DEF rpm_i 1030;
+LAYER_MAP 86 -datatype 20 1030;
+LAYER_DEF inductor_i 1031;
+LAYER_MAP 82 -datatype 24 1031;
+LAYER_DEF pmm_i 1032;
+LAYER_MAP 85 -datatype 44 1032;
+LAYER_DEF ubm_i 1033;
+LAYER_MAP 127 -datatype 21 1033;
+LAYER_DEF bump_i 1034;
+LAYER_MAP 127 -datatype 22 1034;
+LAYER_DEF dnwell_i 1047;
+LAYER_MAP 64 -datatype 18 1047;
+LAYER_DEF DiodeID_i 1048;
+LAYER_MAP 81 -datatype 23 1048;
+LAYER_DEF ESDID_i 1049;
+LAYER_MAP 81 -datatype 19 1049;
+LAYER_DEF ENID_i 1050;
+LAYER_MAP 81 -datatype 57 1050;
+LAYER_DEF COREID_i 1051;
+LAYER_MAP 81 -datatype 2 1051;
+LAYER_DEF SEALID_i 1052;
+LAYER_MAP 81 -datatype 1 1052;
+LAYER_DEF FRAMEID_i 1053;
+LAYER_MAP 81 -datatype 3 1053;
+LAYER_DEF LVID_i 1054;
+LAYER_MAP 81 -datatype 60 1054;
+LAYER_DEF STDCID_i 1055;
+LAYER_MAP 81 -datatype 4 1055;
+LAYER_DEF localSub_i 1056;
+LAYER_MAP 81 -datatype 53 1056;
+LAYER_DEF PHdiodeID_i 1057;
+LAYER_MAP 81 -datatype 81 1057;
+LAYER_DEF diffres_i 1060;
+LAYER_MAP 65 -datatype 13 1060;
+LAYER_DEF fuse_i 1062;
+LAYER_MAP 71 -datatype 17 1062;
+LAYER_DEF padCenter_i 1063;
+LAYER_MAP 81 -datatype 20 1063;
+LAYER_DEF LVS_exclude 1064;
+LAYER_MAP 84 -datatype 44 1064;
+LAYER_DEF polyres_i 1065;
+LAYER_MAP 66 -datatype 13 1065;
+LAYER_DEF pwres_i 1075;
+LAYER_MAP 64 -datatype 13 1075;
+LAYER_DEF padtt 1077 1078;
+LAYER_MAP 76 -texttype 20 1077;
+LAYER_MAP 76 -texttype 5 1078;
+LAYER_DEF rdltt 1079 1080;
+LAYER_MAP 74 -texttype 20 1079;
+LAYER_MAP 74 -texttype 5 1080;
+LAYER_DEF met5tt 1082;
+LAYER_MAP 72 -texttype 5 1082;
+LAYER_DEF met4tt 1085;
+LAYER_MAP 71 -texttype 5 1085;
+LAYER_DEF met3tt 1088;
+LAYER_MAP 70 -texttype 5 1088;
+LAYER_DEF met2tt 1091;
+LAYER_MAP 69 -texttype 5 1091;
+LAYER_DEF met1tt 1094;
+LAYER_MAP 68 -texttype 5 1094;
+LAYER_DEF litt 1097;
+LAYER_MAP 67 -texttype 5 1097;
+LAYER_DEF polytt 1100;
+LAYER_MAP 66 -texttype 5 1100;
+LAYER_DEF difftt 1103;
+LAYER_MAP 65 -texttype 6 1103;
+LAYER_DEF pwelltt 1105;
+LAYER_MAP 64 -texttype 59 1105;
+LAYER_DEF pwellisott 1106;
+LAYER_MAP 44 -texttype 5 1106;
+LAYER_DEF nwelltt 1108;
+LAYER_MAP 64 -texttype 5 1108;
+LAYER_DEF pwell_pin 1111;
+LAYER_MAP 122 -datatype 16 1111;
+LAYER_DEF pwelliso_pin 1112;
+LAYER_MAP 44 -datatype 16 1112;
+LAYER_DEF nwell_pin 1113;
+LAYER_MAP 64 -datatype 16 1113;
+LAYER_DEF diff_pin 1114;
+LAYER_MAP 65 -datatype 16 1114;
+LAYER_DEF poly_pin 1115;
+LAYER_MAP 66 -datatype 16 1115;
+LAYER_DEF li_pin 1116;
+LAYER_MAP 67 -datatype 16 1116;
+LAYER_DEF met1_pin 1117;
+LAYER_MAP 68 -datatype 16 1117;
+LAYER_DEF met2_pin 1118;
+LAYER_MAP 69 -datatype 16 1118;
+LAYER_DEF met3_pin 1119;
+LAYER_MAP 70 -datatype 16 1119;
+LAYER_DEF met4_pin 1120;
+LAYER_MAP 71 -datatype 16 1120;
+LAYER_DEF met5_pin 1121;
+LAYER_MAP 72 -datatype 16 1121;
+LAYER_DEF rdl_pin 1122;
+LAYER_MAP 74 -datatype 16 1122;
+LAYER_DEF pad_pin 1123;
+LAYER_MAP 76 -datatype 16 1123;
+LAYER_DEF pwellpt_i 1124;
+LAYER_MAP 122 -texttype 16 1124;
+LAYER_MAP 122 -texttype 0 1124;
+LAYER_DEF pwellisopt_i 1125;
+LAYER_MAP 44 -texttype 16 1125;
+LAYER_MAP 44 -texttype 0 1125;
+LAYER_DEF nwellpt_i 1126;
+LAYER_MAP 64 -texttype 16 1126;
+LAYER_MAP 64 -texttype 0 1126;
+LAYER_DEF diffpt_i 1127;
+LAYER_MAP 65 -texttype 16 1127;
+LAYER_MAP 65 -texttype 0 1127;
+LAYER_DEF polypt_i 1128;
+LAYER_MAP 66 -texttype 16 1128;
+LAYER_MAP 66 -texttype 0 1128;
+LAYER_DEF lipt_i 1129;
+LAYER_MAP 67 -texttype 16 1129;
+LAYER_MAP 67 -texttype 0 1129;
+LAYER_DEF met1pt_i 1130;
+LAYER_MAP 68 -texttype 16 1130;
+LAYER_MAP 68 -texttype 0 1130;
+LAYER_DEF met2pt_i 1131;
+LAYER_MAP 69 -texttype 16 1131;
+LAYER_MAP 69 -texttype 0 1131;
+LAYER_DEF met3pt_i 1132;
+LAYER_MAP 70 -texttype 16 1132;
+LAYER_MAP 70 -texttype 0 1132;
+LAYER_DEF met4pt_i 1133;
+LAYER_MAP 71 -texttype 16 1133;
+LAYER_MAP 71 -texttype 0 1133;
+LAYER_DEF met5pt_i 1134;
+LAYER_MAP 72 -texttype 16 1134;
+LAYER_MAP 72 -texttype 0 1134;
+LAYER_DEF rdlpt_i 1135;
+LAYER_MAP 74 -texttype 16 1135;
+LAYER_MAP 74 -texttype 0 1135;
+LAYER_DEF padpt_i 1136;
+LAYER_MAP 76 -texttype 16 1136;
+LAYER_MAP 76 -texttype 0 1136;
+LAYER_DEF moduleCutAREA_i 1153;
+LAYER_MAP 81 -datatype 10 1153;
+LAYER_DEF indLabel_i 1154;
+LAYER_MAP 82 -texttype 25 1154;
+LAYER_DEF indTerm1_i 1155;
+LAYER_MAP 82 -datatype 26 1155;
+LAYER_DEF indTerm2_i 1156;
+LAYER_MAP 82 -datatype 27 1156;
+LAYER_DEF indTerm3_i 1157;
+LAYER_MAP 82 -datatype 28 1157;
+LAYER_DEF capm_i 1158;
+LAYER_MAP 89 -datatype 44 1158;
+LAYER_DEF cap2m_i 1159;
+LAYER_MAP 97 -datatype 44 1159;
+LAYER_DEF urpm_i 1160;
+LAYER_MAP 79 -datatype 20 1160;
+LAYER_DEF EXTDRAIN20_i 1161;
+LAYER_MAP 81 -datatype 58 1161;
+LAYER_DEF pwbm_i 1162;
+LAYER_MAP 19 -datatype 44 1162;
+LAYER_DEF pwde_i 1163;
+LAYER_MAP 124 -datatype 20 1163;
+LAYER_DEF LOWVTID_i 1164;
+LAYER_MAP 81 -datatype 108 1164;
+LAYER_DEF v20_i 1165;
+LAYER_MAP 74 -datatype 22 1165;
+LAYER_DEF v12_i 1166;
+LAYER_MAP 74 -datatype 21 1166;
+LAYER_DEF padLength_i 1167;
+LAYER_MAP 81 -datatype 67 1167;
+LAYER_DEF etest_i 1168;
+LAYER_MAP 81 -datatype 101 1168;
+LAYER_DEF thkox_i 1169;
+LAYER_MAP 75 -datatype 21 1169;
+LAYER_DEF poly_fill 1170;
+LAYER_MAP 66 -datatype 99 1170;
+LAYER_DEF diff_fill 1171;
+LAYER_MAP 65 -datatype 99 1171;
+LAYER_DEF li_fill 1172;
+LAYER_MAP 67 -datatype 99 1172;
+LAYER_DEF met1_fill 1173;
+LAYER_MAP 68 -datatype 99 1173;
+LAYER_DEF met2_fill 1174;
+LAYER_MAP 69 -datatype 99 1174;
+LAYER_DEF met3_fill 1175;
+LAYER_MAP 70 -datatype 99 1175;
+LAYER_DEF met4_fill 1176;
+LAYER_MAP 71 -datatype 99 1176;
+LAYER_DEF met5_fill 1177;
+LAYER_MAP 72 -datatype 99 1177;
+LAYER_DEF poly_gate 1178;
+LAYER_MAP 66 -datatype 9 1178;
+EXTENT_DRAWN -original -outputlayer boundary;
+TREAT_NON_BASELAYER_AS_TOPLAYER yes;
+BASE_LAYER diff_i poly_i pnp_i npn_i nsdm_i psdm_i thkox_i v5_i v12_i v20_i lvtn_i hvtp_i;
+NOT nwell_i LVS_exclude -outputlayer nwell;
+NOT diff_i LVS_exclude _EPTMPL262148;
+OR _EPTMPL262148 diff_fill -outputlayer diff;
+NOT poly_i LVS_exclude _EPTMPL262150;
+OR _EPTMPL262150 poly_fill -outputlayer poly;
+NOT lvtn_i LVS_exclude -outputlayer lvtn;
+NOT hvtp_i LVS_exclude -outputlayer hvtp;
+NOT npc_i LVS_exclude -outputlayer npc;
+NOT nsdm_i LVS_exclude -outputlayer nsdm;
+NOT psdm_i LVS_exclude -outputlayer psdm;
+NOT mcon_i LVS_exclude -outputlayer mcon;
+NOT met1_i LVS_exclude _EPTMPL262158;
+OR _EPTMPL262158 met1_fill -outputlayer met1;
+NOT m1res_i LVS_exclude -outputlayer m1res;
+NOT via1_i LVS_exclude -outputlayer via1;
+NOT met2_i LVS_exclude _EPTMPL262162;
+OR _EPTMPL262162 met2_fill -outputlayer met2;
+NOT m2res_i LVS_exclude -outputlayer m2res;
+NOT via2_i LVS_exclude -outputlayer via2;
+NOT met3_i LVS_exclude _EPTMPL262166;
+OR _EPTMPL262166 met3_fill -outputlayer met3;
+NOT m3res_i LVS_exclude -outputlayer m3res;
+NOT via3i_i LVS_exclude -outputlayer via3i;
+NOT met4_i LVS_exclude _EPTMPL262170;
+OR _EPTMPL262170 met4_fill -outputlayer met4;
+NOT m4res_i LVS_exclude -outputlayer m4res;
+NOT via4i_i LVS_exclude -outputlayer via4i;
+NOT met5_i LVS_exclude _EPTMPL262174;
+OR _EPTMPL262174 met5_fill -outputlayer met5;
+NOT m5res_i LVS_exclude -outputlayer m5res;
+NOT pad_i LVS_exclude -outputlayer pad;
+NOT licon_i LVS_exclude -outputlayer licon;
+NOT li_ii LVS_exclude _EPTMPL262179;
+OR _EPTMPL262179 li_fill -outputlayer li_i;
+NOT lires_i LVS_exclude _EPTMPL262181;
+NOT _EPTMPL262181 li_fill -outputlayer lires;
+NOT pnp_i LVS_exclude -outputlayer pnp;
+NOT npn_i LVS_exclude -outputlayer npn;
+NOT v5_i LVS_exclude -outputlayer v5;
+NOT ldntm_i LVS_exclude -outputlayer ldntm;
+NOT capacitor_i LVS_exclude -outputlayer capacitor;
+NOT ncm_i LVS_exclude -outputlayer ncm;
+NOT rdl_i LVS_exclude -outputlayer rdl;
+NOT rpm_i LVS_exclude -outputlayer rpm;
+NOT inductor_i LVS_exclude -outputlayer inductor;
+NOT pmm_i LVS_exclude -outputlayer pmm;
+NOT ubm_i LVS_exclude -outputlayer ubm;
+NOT bump_i LVS_exclude -outputlayer bump;
+NOT dnwell_i LVS_exclude -outputlayer dnwell;
+NOT DiodeID_i LVS_exclude -outputlayer DiodeID;
+NOT ESDID_i LVS_exclude -outputlayer ESDID;
+NOT ENID_i LVS_exclude -outputlayer ENID;
+NOT COREID_i LVS_exclude -outputlayer COREID;
+NOT SEALID_i LVS_exclude -outputlayer SEALID;
+NOT FRAMEID_i LVS_exclude -outputlayer FRAMEID;
+NOT LVID_i LVS_exclude -outputlayer LVID;
+NOT STDCID_i LVS_exclude -outputlayer STDCID;
+NOT localSub_i LVS_exclude -outputlayer localSub;
+NOT PHdiodeID_i LVS_exclude -outputlayer PHdiodeID;
+NOT diffres_i LVS_exclude -outputlayer diffres;
+NOT fuse_i LVS_exclude -outputlayer fuse;
+NOT padCenter_i LVS_exclude -outputlayer padCenter;
+NOT polyres_i LVS_exclude -outputlayer polyres;
+NOT pwres_i LVS_exclude -outputlayer pwres;
+NOT pwellpt_i LVS_exclude -outputlayer pwellpt;
+NOT pwellisopt_i LVS_exclude -outputlayer pwellisopt;
+NOT nwellpt_i LVS_exclude -outputlayer nwellpt;
+NOT diffpt_i LVS_exclude -outputlayer diffpt;
+NOT polypt_i LVS_exclude -outputlayer polypt;
+NOT lipt_i LVS_exclude -outputlayer lipt;
+NOT met1pt_i LVS_exclude -outputlayer met1pt;
+NOT met2pt_i LVS_exclude -outputlayer met2pt;
+NOT met3pt_i LVS_exclude -outputlayer met3pt;
+NOT met4pt_i LVS_exclude -outputlayer met4pt;
+NOT met5pt_i LVS_exclude -outputlayer met5pt;
+NOT rdlpt_i LVS_exclude -outputlayer rdlpt;
+NOT padpt_i LVS_exclude -outputlayer padpt;
+NOT moduleCutAREA_i LVS_exclude -outputlayer moduleCutAREA;
+NOT indLabel_i LVS_exclude -outputlayer indLabel;
+NOT indTerm1_i LVS_exclude -outputlayer indTerm1;
+NOT indTerm2_i LVS_exclude -outputlayer indTerm2;
+NOT indTerm3_i LVS_exclude -outputlayer indTerm3;
+NOT capm_i LVS_exclude -outputlayer capm;
+NOT cap2m_i LVS_exclude -outputlayer cap2m;
+NOT urpm_i LVS_exclude -outputlayer urpm;
+NOT EXTDRAIN20_i LVS_exclude -outputlayer EXTDRAIN20;
+NOT pwbm_i LVS_exclude -outputlayer pwbm;
+NOT pwde_i LVS_exclude -outputlayer pwde;
+NOT LOWVTID_i LVS_exclude -outputlayer LOWVTID;
+NOT v20_i LVS_exclude -outputlayer v20;
+NOT v12_i LVS_exclude -outputlayer v12;
+NOT padLength_i LVS_exclude -outputlayer padLength;
+NOT etest_i LVS_exclude -outputlayer etest;
+NOT thkox_i LVS_exclude -outputlayer thkox;
+AND pad met5 _EPTMPL262241;
+NOT _EPTMPL262241 etest -outputlayer pad_rec1;
+SIZE pad_rec1 -by -20 -outputlayer pad_rec2;
+SIZE pad_rec2 -by 20 -outputlayer pad_rec;
+SELECT -label "pad" -textname "u-test" -outputlayer upad_rec0;
+AND upad_rec0 met5 _EPTMPL262246;
+AND _EPTMPL262246 etest -outputlayer upad_rec1;
+SIZE upad_rec1 -by -3 -outputlayer upad_rec2;
+SIZE upad_rec2 -by 3 -outputlayer upad_rec;
+SELECT -label "pad" -textname "e-test" -outputlayer epad_rec0;
+AND epad_rec0 met5 _EPTMPL262251;
+AND _EPTMPL262251 etest -outputlayer epad_rec1;
+SIZE epad_rec1 -by -15 -outputlayer epad_rec2;
+SIZE epad_rec2 -by 15 -outputlayer epad_rec;
+SIZE localSub -by 0.005 -outputlayer substrateCutDonut1;
+SIZE localSub -by -0.005 -outputlayer substrateCutDonut2;
+NOT substrateCutDonut1 substrateCutDonut2 -outputlayer substrateCutDonut;
+OR localSub nwell _EPTMPL262258;
+NOT boundary _EPTMPL262258 _EPTMPL262259;
+HOLES nwell _EPTMPL262260;
+AND _EPTMPL262260 dnwell _EPTMPL262261;
+OR _EPTMPL262261 substrateCutDonut _EPTMPL262262;
+NOT _EPTMPL262259 _EPTMPL262262 -outputlayer pwell;
+HOLES nwell -inner _EPTMPL262264;
+AND _EPTMPL262264 dnwell _EPTMPL262265;
+SIZE _EPTMPL262265 -by -0.005 _EPTMPL262266;
+OR pwres pwell pwbm _EPTMPL262267;
+NOT _EPTMPL262266 _EPTMPL262267 -outputlayer ptub_a;
+HOLES nwell -inner _EPTMPL262269;
+AND _EPTMPL262269 dnwell _EPTMPL262270;
+SIZE _EPTMPL262270 -by -0.005 _EPTMPL262271;
+NOT _EPTMPL262271 pwell _EPTMPL262272;
+SIZE _EPTMPL262272 -by 0.005 -outputlayer ptub_b;
+HOLES nwell -inner _EPTMPL262274;
+AND _EPTMPL262274 dnwell _EPTMPL262275;
+SIZE _EPTMPL262275 -by -0.005 _EPTMPL262276;
+OR pwres pwell _EPTMPL262277;
+NOT _EPTMPL262276 _EPTMPL262277 _EPTMPL262278;
+SIZE _EPTMPL262278 -by 0.005 _EPTMPL262279;
+NOT _EPTMPL262279 pwres -outputlayer ptub_c;
+HOLES nwell -inner _EPTMPL262281;
+AND _EPTMPL262281 dnwell _EPTMPL262282;
+SELECT -interact _EPTMPL262282 pwres _EPTMPL262283;
+SELECT -interact diff pwres _EPTMPL262284;
+NOT _EPTMPL262283 _EPTMPL262284 _EPTMPL262285;
+SIZE _EPTMPL262285 -by 0.005 -outputlayer ptub_in_pwres;
+COPY ptub_a -outputlayer ptub;
+SIZE boundary -by 0.005 _EPTMPL262288;
+NOT _EPTMPL262288 substrateCutDonut -outputlayer pwell_all_a;
+NOT pwell_all_a ptub -outputlayer pwell_all;
+AND diff psdm _EPTMPL262291;
+NOT ptub nwell _EPTMPL262292;
+AND _EPTMPL262291 _EPTMPL262292 -outputlayer ptubtap_1;
+AND diff psdm _EPTMPL262294;
+NOT _EPTMPL262294 nwell _EPTMPL262295;
+NOT _EPTMPL262295 ptub _EPTMPL262296;
+NOT _EPTMPL262296 ptubtap _EPTMPL262297;
+NOT _EPTMPL262297 pwbm -outputlayer ptap_1;
+AND diff nsdm _EPTMPL262299;
+AND _EPTMPL262299 nwell -outputlayer ntap_1;
+AND diff nsdm _EPTMPL262301;
+NOT _EPTMPL262301 nwell _EPTMPL262302;
+NOT _EPTMPL262302 gate -outputlayer nsd1;
+AND diff psdm _EPTMPL262304;
+AND _EPTMPL262304 nwell _EPTMPL262305;
+NOT _EPTMPL262305 gate -outputlayer psd1;
+SELECT -interact -not poly poly_gate _EPTMPL262307;
+AND poly poly_gate _EPTMPL262308;
+OR _EPTMPL262307 _EPTMPL262308 _EPTMPL262309;
+AND diff _EPTMPL262309 -outputlayer gate;
+AND gate nsdm _EPTMPL262311;
+AND _EPTMPL262311 pwell_all _EPTMPL262312;
+OR diff_fill poly_fill v5 v12 v20 lvtn ESDID LVID npn pnp thkox _EPTMPL262313;
+NOT _EPTMPL262312 _EPTMPL262313 -outputlayer ngate_nom_pw;
+AND gate nsdm _EPTMPL262315;
+AND _EPTMPL262315 ptub _EPTMPL262316;
+OR diff_fill poly_fill v5 v12 v20 lvtn ESDID LVID npn pnp thkox _EPTMPL262317;
+NOT _EPTMPL262316 _EPTMPL262317 -outputlayer ngate_nom_pt;
+AND gate nsdm _EPTMPL262319;
+NOT _EPTMPL262319 v5 _EPTMPL262320;
+AND _EPTMPL262320 ESDID _EPTMPL262321;
+AND _EPTMPL262321 ptub _EPTMPL262322;
+NOT _EPTMPL262322 thkox _EPTMPL262323;
+OR diff_fill poly_fill v12 v20 lvtn LVID pnp npn _EPTMPL262324;
+NOT _EPTMPL262323 _EPTMPL262324 -outputlayer ngate_nom_esd_pt;
+AND gate nsdm _EPTMPL262326;
+NOT _EPTMPL262326 v5 _EPTMPL262327;
+AND _EPTMPL262327 ESDID _EPTMPL262328;
+AND _EPTMPL262328 pwell_all _EPTMPL262329;
+NOT _EPTMPL262329 thkox _EPTMPL262330;
+OR diff_fill poly_fill v12 v20 lvtn LVID pnp npn _EPTMPL262331;
+NOT _EPTMPL262330 _EPTMPL262331 -outputlayer ngate_nom_esd_pw;
+AND gate nsdm _EPTMPL262333;
+AND _EPTMPL262333 lvtn _EPTMPL262334;
+AND _EPTMPL262334 pwell_all _EPTMPL262335;
+OR diff_fill poly_fill v5 v12 v20 ESDID LVID npn pnp thkox _EPTMPL262336;
+NOT _EPTMPL262335 _EPTMPL262336 -outputlayer ngate_lvt_pw;
+AND gate nsdm _EPTMPL262338;
+AND _EPTMPL262338 lvtn _EPTMPL262339;
+AND _EPTMPL262339 ptub _EPTMPL262340;
+OR diff_fill poly_fill v5 v12 v20 ESDID LVID pnp npn thkox _EPTMPL262341;
+NOT _EPTMPL262340 _EPTMPL262341 -outputlayer ngate_lvt_pt;
+AND gate nsdm _EPTMPL262343;
+AND _EPTMPL262343 v5 _EPTMPL262344;
+AND _EPTMPL262344 thkox _EPTMPL262345;
+AND _EPTMPL262345 pwell_all _EPTMPL262346;
+OR diff_fill poly_fill v12 v20 lvtn ESDID LVID pnp npn _EPTMPL262347;
+NOT _EPTMPL262346 _EPTMPL262347 -outputlayer ngate_v5_pw;
+AND gate nsdm _EPTMPL262349;
+AND _EPTMPL262349 v5 _EPTMPL262350;
+AND _EPTMPL262350 thkox _EPTMPL262351;
+AND _EPTMPL262351 ptub _EPTMPL262352;
+OR diff_fill poly_fill v12 v20 lvtn ESDID LVID pnp npn _EPTMPL262353;
+NOT _EPTMPL262352 _EPTMPL262353 -outputlayer ngate_v5_pt;
+AND gate nsdm _EPTMPL262355;
+AND _EPTMPL262355 v12 _EPTMPL262356;
+AND _EPTMPL262356 pwell_all _EPTMPL262357;
+AND _EPTMPL262357 thkox _EPTMPL262358;
+OR diff_fill poly_fill v5 v20 lvtn ESDID LVID pnp npn ENID _EPTMPL262359;
+NOT _EPTMPL262358 _EPTMPL262359 -outputlayer ngate_v12_pw;
+AND gate nsdm _EPTMPL262361;
+AND _EPTMPL262361 v12 _EPTMPL262362;
+AND _EPTMPL262362 ptub _EPTMPL262363;
+AND _EPTMPL262363 thkox _EPTMPL262364;
+OR diff_fill poly_fill v5 v20 lvtn ESDID LVID pnp npn ENID _EPTMPL262365;
+NOT _EPTMPL262364 _EPTMPL262365 -outputlayer ngate_v12_pt;
+HOLES pwbm -outputlayer pwbm_holes;
+AND gate nsdm _EPTMPL262368;
+AND _EPTMPL262368 v20 _EPTMPL262369;
+NOT _EPTMPL262369 dnwell _EPTMPL262370;
+AND _EPTMPL262370 thkox _EPTMPL262371;
+AND _EPTMPL262371 lvtn _EPTMPL262372;
+OR diff_fill poly_fill v5 v12 ESDID LVID pnp npn _EPTMPL262373;
+NOT _EPTMPL262372 _EPTMPL262373 -outputlayer ngate_v20a;
+AND gate nsdm _EPTMPL262375;
+AND _EPTMPL262375 v20 _EPTMPL262376;
+AND _EPTMPL262376 dnwell _EPTMPL262377;
+AND _EPTMPL262377 thkox _EPTMPL262378;
+NOT _EPTMPL262378 lvtn _EPTMPL262379;
+OR diff_fill poly_fill ngate_v20a v5 v12 ESDID LVID pnp npn _EPTMPL262380;
+NOT _EPTMPL262379 _EPTMPL262380 -outputlayer ngate_v20_iso_rec;
+HOLES pwbm _EPTMPL262382;
+SELECT -interact _EPTMPL262382 ngate_v20_iso_rec _EPTMPL262383;
+AND _EPTMPL262383 dnwell -outputlayer ngate_v20_iso_sub;
+AND psdm diff _EPTMPL262385;
+AND _EPTMPL262385 ngate_v20_iso_sub -outputlayer ngate_v20_iso_sub_cont;
+COPY ngate_v20_iso_rec -outputlayer ngate_v20_iso_gate;
+OR ngate_v20a ngate_v20_iso_rec -outputlayer ngate_v20;
+AND diff nsdm _EPTMPL262389;
+NOT _EPTMPL262389 ngate_v20 -outputlayer nsd_20v;
+NOT nsd_20v ngate_v20 _EPTMPL262391;
+EDGE_BOOLEAN -coincident_only _EPTMPL262391 ENID _EPTMPL262392;
+EDGE_EXPAND _EPTMPL262392 -outside_by 0.05 -outputlayer nsd_20v_src_1;
+NOT nsd_20v ngate_v20 _EPTMPL262394;
+SELECT -touch _EPTMPL262394 nsd_20v_src_1 -eq 3 -outputlayer nsd_20v_src;
+SELECT -enclose lvtn nsdm _EPTMPL262396;
+AND _EPTMPL262396 ngate_v20 _EPTMPL262397;
+NOT _EPTMPL262397 pwbm -outputlayer ngate_v20_nat;
+SELECT -interact ENID ngate_v20_nat _EPTMPL262399;
+NOT _EPTMPL262399 ngate_v20_nat _EPTMPL262400;
+NOT _EPTMPL262400 nsd_20v_src -outputlayer nsd_20v_nat_drn;
+SELECT -interact ENID ngate_v20 _EPTMPL262402;
+NOT _EPTMPL262402 ngate_v20 _EPTMPL262403;
+NOT _EPTMPL262403 nsd_20v_src _EPTMPL262404;
+NOT _EPTMPL262404 nsd_20v_nat_drn -outputlayer nsd_20v_drn;
+SELECT -cut lvtn nsdm _EPTMPL262406;
+SELECT -enclose lvtn nsdm _EPTMPL262407;
+NOT _EPTMPL262406 _EPTMPL262407 _EPTMPL262408;
+AND _EPTMPL262408 ngate_v20 _EPTMPL262409;
+OR ngate_v20_iso_rec ngate_v20_nat _EPTMPL262410;
+NOT _EPTMPL262409 _EPTMPL262410 -outputlayer ngate_v20_zvt;
+OR ngate_v20_nat ngate_v20_zvt ngate_v20_iso_rec _EPTMPL262412;
+SELECT -interact poly _EPTMPL262412 _EPTMPL262413;
+NOT ngate_v20 _EPTMPL262413 -outputlayer ngate_v20_nom;
+AND ngate_v20_iso_rec poly -outputlayer ngate_de_20v_iso_gate_conn;
+AND ngate_v20_nom poly -outputlayer ngate_de_20v_nom_gate_conn;
+AND ngate_v20_zvt poly -outputlayer ngate_de_20v_zvt_gate_conn;
+AND ngate_v20_nat poly -outputlayer ngate_de_20v_nat_gate_conn;
+AND gate nsdm _EPTMPL262419;
+AND _EPTMPL262419 v5 _EPTMPL262420;
+AND _EPTMPL262420 lvtn _EPTMPL262421;
+AND _EPTMPL262421 ESDID _EPTMPL262422;
+AND _EPTMPL262422 pwell_all _EPTMPL262423;
+AND _EPTMPL262423 thkox _EPTMPL262424;
+OR diff_fill poly_fill v12 v20 LVID pnp npn _EPTMPL262425;
+NOT _EPTMPL262424 _EPTMPL262425 -outputlayer ngate_esd_nat_5v_pw;
+AND gate nsdm _EPTMPL262427;
+AND _EPTMPL262427 v5 _EPTMPL262428;
+AND _EPTMPL262428 lvtn _EPTMPL262429;
+AND _EPTMPL262429 ESDID _EPTMPL262430;
+AND _EPTMPL262430 ptub _EPTMPL262431;
+AND _EPTMPL262431 thkox _EPTMPL262432;
+OR diff_fill poly_fill v12 v20 LVID pnp npn _EPTMPL262433;
+NOT _EPTMPL262432 _EPTMPL262433 -outputlayer ngate_esd_nat_5v_pt;
+AND gate nsdm _EPTMPL262435;
+AND _EPTMPL262435 v5 _EPTMPL262436;
+AND _EPTMPL262436 ESDID _EPTMPL262437;
+AND _EPTMPL262437 pwell_all _EPTMPL262438;
+AND _EPTMPL262438 thkox _EPTMPL262439;
+OR diff_fill poly_fill v12 v20 lvtn LVID pnp npn _EPTMPL262440;
+NOT _EPTMPL262439 _EPTMPL262440 -outputlayer ngate_esd_5v_pw;
+AND gate nsdm _EPTMPL262442;
+AND _EPTMPL262442 v5 _EPTMPL262443;
+AND _EPTMPL262443 ESDID _EPTMPL262444;
+AND _EPTMPL262444 ptub _EPTMPL262445;
+AND _EPTMPL262445 thkox _EPTMPL262446;
+OR diff_fill poly_fill v12 v20 lvtn LVID pnp npn _EPTMPL262447;
+NOT _EPTMPL262446 _EPTMPL262447 -outputlayer ngate_esd_5v_pt;
+AND gate nsdm _EPTMPL262449;
+AND _EPTMPL262449 LVID _EPTMPL262450;
+AND _EPTMPL262450 lvtn _EPTMPL262451;
+AND _EPTMPL262451 v5 _EPTMPL262452;
+AND _EPTMPL262452 pwell_all _EPTMPL262453;
+AND _EPTMPL262453 thkox _EPTMPL262454;
+OR diff_fill poly_fill v12 v20 ESDID pnp npn _EPTMPL262455;
+NOT _EPTMPL262454 _EPTMPL262455 -outputlayer ngate_nat_3v_pw;
+AND gate nsdm _EPTMPL262457;
+AND _EPTMPL262457 LVID _EPTMPL262458;
+AND _EPTMPL262458 lvtn _EPTMPL262459;
+AND _EPTMPL262459 v5 _EPTMPL262460;
+AND _EPTMPL262460 ptub _EPTMPL262461;
+OR diff_fill poly_fill v12 v20 ESDID pnp npn _EPTMPL262462;
+NOT _EPTMPL262461 _EPTMPL262462 -outputlayer ngate_nat_3v_pt;
+AND gate nsdm _EPTMPL262464;
+AND _EPTMPL262464 lvtn _EPTMPL262465;
+AND _EPTMPL262465 v5 _EPTMPL262466;
+AND _EPTMPL262466 pwell_all _EPTMPL262467;
+AND _EPTMPL262467 thkox _EPTMPL262468;
+OR diff_fill poly_fill v12 v20 ESDID LVID pnp npn _EPTMPL262469;
+NOT _EPTMPL262468 _EPTMPL262469 -outputlayer ngate_nat_5v_pw;
+AND gate nsdm _EPTMPL262471;
+AND _EPTMPL262471 lvtn _EPTMPL262472;
+AND _EPTMPL262472 v5 _EPTMPL262473;
+AND _EPTMPL262473 ptub _EPTMPL262474;
+AND _EPTMPL262474 thkox _EPTMPL262475;
+OR diff_fill poly_fill v12 v20 ESDID LVID pnp npn _EPTMPL262476;
+NOT _EPTMPL262475 _EPTMPL262476 -outputlayer ngate_nat_5v_pt;
+AND gate nsdm _EPTMPL262478;
+AND _EPTMPL262478 v12 _EPTMPL262479;
+AND _EPTMPL262479 ENID _EPTMPL262480;
+NOT _EPTMPL262480 nwell _EPTMPL262481;
+AND _EPTMPL262481 thkox _EPTMPL262482;
+OR diff_fill poly_fill v5 v20 ESDID LVID pnp npn _EPTMPL262483;
+NOT _EPTMPL262482 _EPTMPL262483 -outputlayer ngate_de_12v_pw;
+AND ngate_de_12v_pw poly -outputlayer ngate_de_12v_gate_conn;
+SELECT -interact nsd1 ngate_de_12v_pw -outputlayer nsrc_de_12v;
+SELECT -enclose ENID ntap_1 _EPTMPL262487;
+SELECT -interact _EPTMPL262487 ngate_de_12v_pw _EPTMPL262488;
+NOT _EPTMPL262488 ngate_de_12v_pw _EPTMPL262489;
+NOT _EPTMPL262489 nsrc_de_12v _EPTMPL262490;
+AND _EPTMPL262490 nwell -outputlayer ndrn_de_12v;
+AND gate psdm _EPTMPL262492;
+OR diff_fill poly_fill v5 v12 v20 lvtn ESDID hvtp LVID npn pnp ENID thkox _EPTMPL262493;
+NOT _EPTMPL262492 _EPTMPL262493 -outputlayer pgate_nom;
+AND gate psdm _EPTMPL262495;
+AND _EPTMPL262495 lvtn _EPTMPL262496;
+OR diff_fill poly_fill v5 v12 v20 ESDID hvtp LVID npn pnp ENID thkox _EPTMPL262497;
+NOT _EPTMPL262496 _EPTMPL262497 -outputlayer pgate_lvt;
+AND gate psdm _EPTMPL262499;
+AND _EPTMPL262499 hvtp _EPTMPL262500;
+OR diff_fill poly_fill v5 v12 v20 ESDID lvtn LVID npn pnp ENID thkox _EPTMPL262501;
+NOT _EPTMPL262500 _EPTMPL262501 -outputlayer pgate_hvt;
+AND gate psdm _EPTMPL262503;
+AND _EPTMPL262503 v5 _EPTMPL262504;
+AND _EPTMPL262504 thkox _EPTMPL262505;
+OR diff_fill poly_fill v12 v20 lvtn ESDID hvtp LVID npn pnp ENID _EPTMPL262506;
+NOT _EPTMPL262505 _EPTMPL262506 -outputlayer pgate_v5;
+AND gate psdm _EPTMPL262508;
+AND _EPTMPL262508 v12 _EPTMPL262509;
+AND _EPTMPL262509 thkox _EPTMPL262510;
+OR v5 v20 lvtn ESDID hvtp LVID npn pnp ENID _EPTMPL262511;
+NOT _EPTMPL262510 _EPTMPL262511 -outputlayer pgate_v12;
+AND gate psdm _EPTMPL262513;
+AND _EPTMPL262513 v5 _EPTMPL262514;
+AND _EPTMPL262514 ESDID _EPTMPL262515;
+AND _EPTMPL262515 thkox _EPTMPL262516;
+OR diff_fill poly_fill v12 v20 LVID npn pnp ENID _EPTMPL262517;
+NOT _EPTMPL262516 _EPTMPL262517 -outputlayer pgate_esd_v5;
+AND gate psdm _EPTMPL262519;
+AND _EPTMPL262519 v12 _EPTMPL262520;
+AND _EPTMPL262520 ENID _EPTMPL262521;
+AND _EPTMPL262521 nwell _EPTMPL262522;
+AND _EPTMPL262522 thkox _EPTMPL262523;
+OR diff_fill poly_fill v5 v20 ESDID LVID pnp npn _EPTMPL262524;
+NOT _EPTMPL262523 _EPTMPL262524 -outputlayer pgate_de_12v_pw;
+SELECT -interact psd1 pgate_de_12v_pw -outputlayer psrc_de_12v;
+SELECT -enclose ENID ptap_1 _EPTMPL262527;
+SELECT -enclose _EPTMPL262527 pgate_de_12v_pw _EPTMPL262528;
+NOT _EPTMPL262528 pgate_de_12v_pw _EPTMPL262529;
+NOT _EPTMPL262529 psrc_de_12v _EPTMPL262530;
+NOT _EPTMPL262530 nwell -outputlayer pdrn_de_12v;
+AND pgate_de_12v_pw poly -outputlayer pgate_de_12v_gate_conn;
+NOT poly poly_fill _EPTMPL262533;
+AND _EPTMPL262533 v20 _EPTMPL262534;
+AND _EPTMPL262534 thkox _EPTMPL262535;
+NOT diff diff_fill _EPTMPL262536;
+AND _EPTMPL262535 _EPTMPL262536 _EPTMPL262537;
+AND _EPTMPL262537 psdm _EPTMPL262538;
+NOT _EPTMPL262538 lvtn -outputlayer pgate_de_20v;
+COPY pgate_de_20v -outputlayer pgate_de_20v_conn;
+AND diff psdm _EPTMPL262541;
+NOT _EPTMPL262541 pgate_de_20v -outputlayer psd_20v;
+NOT psd_20v pgate_de_20v _EPTMPL262543;
+EDGE_BOOLEAN -coincident_only _EPTMPL262543 ENID _EPTMPL262544;
+EDGE_EXPAND _EPTMPL262544 -outside_by 0.05 -outputlayer psd_20v_src_1;
+NOT psd_20v pgate_de_20v _EPTMPL262546;
+SELECT -touch _EPTMPL262546 psd_20v_src_1 -eq 3 -outputlayer psrc_de_20v;
+SELECT -interact ENID pgate_de_20v _EPTMPL262548;
+OR pgate_de_20v psrc_de_20v _EPTMPL262549;
+NOT _EPTMPL262548 _EPTMPL262549 -outputlayer pdrn_de_20v;
+OR diff_fill ngate_de_12v_pw ngate_nat_5v_pt pgate_de_12v_pw _EPTMPL262551;
+SELECT -interact ENID _EPTMPL262551 _EPTMPL262552;
+SELECT -interact ntap_1 _EPTMPL262552 _EPTMPL262553;
+NOT ntap_1 _EPTMPL262553 -outputlayer ntap;
+OR diff_fill pgate_de_12v_pw ngate_de_12v_pw pdrn_de_20v ngate_v20_iso_sub _EPTMPL262555;
+SELECT -interact ptap_1 _EPTMPL262555 _EPTMPL262556;
+NOT ptap_1 _EPTMPL262556 -outputlayer ptap;
+SIZE ptubtap_1 -by 0.005 _EPTMPL262558;
+OR pgate_de_12v_pw ngate_de_12v_pw _EPTMPL262559;
+SELECT -touch _EPTMPL262558 _EPTMPL262559 _EPTMPL262560;
+NOT ptubtap_1 _EPTMPL262560 _EPTMPL262561;
+OR pwbm diff_fill _EPTMPL262562;
+NOT _EPTMPL262561 _EPTMPL262562 -outputlayer ptubtap;
+AND pwres psdm _EPTMPL262564;
+HOLES nwell _EPTMPL262565;
+AND _EPTMPL262565 dnwell _EPTMPL262566;
+AND _EPTMPL262564 _EPTMPL262566 -outputlayer pwres_rec;
+NOT psdm pwres _EPTMPL262568;
+SELECT -enclose _EPTMPL262568 diff _EPTMPL262569;
+SELECT -touch _EPTMPL262569 pwres_rec -eq 1 -outputlayer pwres_term;
+NOT poly poly_fill _EPTMPL262571;
+AND _EPTMPL262571 polyres -outputlayer hp_poly_1;
+AND hp_poly_1 npc -outputlayer hp_poly_2;
+AND hp_poly_2 psdm -outputlayer hp_poly_3;
+AND hp_poly_3 rpm -outputlayer hp_poly;
+AND hp_poly nwell -outputlayer hp_poly_nw;
+AND hp_poly pwell_all _EPTMPL262577;
+NOT _EPTMPL262577 nwell -outputlayer hp_poly_pw;
+AND hp_poly ptub -outputlayer hp_poly_pt;
+NOT poly poly_fill _EPTMPL262580;
+AND _EPTMPL262580 polyres -outputlayer hs_poly_1;
+AND hs_poly_1 npc -outputlayer hs_poly_2;
+AND hs_poly_2 psdm -outputlayer hs_poly_3;
+AND hs_poly_3 urpm -outputlayer hs_poly;
+AND hs_poly nwell -outputlayer hs_poly_nw;
+AND hs_poly pwell_all _EPTMPL262586;
+NOT _EPTMPL262586 nwell -outputlayer hs_poly_pw;
+AND hs_poly ptub -outputlayer hs_poly_pt;
+AND poly polyres _EPTMPL262589;
+OR poly_fill hp_poly hs_poly _EPTMPL262590;
+NOT _EPTMPL262589 _EPTMPL262590 -outputlayer rpoly_rec;
+NOT diff diff_fill _EPTMPL262592;
+AND psdm _EPTMPL262592 _EPTMPL262593;
+AND _EPTMPL262593 diffres -outputlayer rpdiff_res_1;
+AND rpdiff_res_1 nwell _EPTMPL262595;
+OR diff_fill thkox v5 v12 v20 _EPTMPL262596;
+NOT _EPTMPL262595 _EPTMPL262596 -outputlayer rpdiff_nom;
+AND rpdiff_res_1 nwell _EPTMPL262598;
+AND _EPTMPL262598 V5 _EPTMPL262599;
+AND _EPTMPL262599 thkox _EPTMPL262600;
+OR diff_fill v12 v20 _EPTMPL262601;
+NOT _EPTMPL262600 _EPTMPL262601 -outputlayer rpdiff_5v;
+NOT diff diff_fill _EPTMPL262603;
+AND nsdm _EPTMPL262603 _EPTMPL262604;
+AND _EPTMPL262604 diffres -outputlayer rndiff_res_1;
+AND rndiff_res_1 pwell_all _EPTMPL262606;
+OR thkox v5 v12 v20 _EPTMPL262607;
+NOT _EPTMPL262606 _EPTMPL262607 -outputlayer rndiff_nom_pw;
+AND rndiff_res_1 ptub _EPTMPL262609;
+OR thkox v5 v12 v20 _EPTMPL262610;
+NOT _EPTMPL262609 _EPTMPL262610 -outputlayer rndiff_nom_pt;
+AND rndiff_res_1 pwell_all _EPTMPL262612;
+AND _EPTMPL262612 v5 _EPTMPL262613;
+AND _EPTMPL262613 thkox _EPTMPL262614;
+OR v12 v20 _EPTMPL262615;
+NOT _EPTMPL262614 _EPTMPL262615 -outputlayer rndiff_5v_pw;
+AND rndiff_res_1 ptub _EPTMPL262617;
+AND _EPTMPL262617 v5 _EPTMPL262618;
+AND _EPTMPL262618 thkox _EPTMPL262619;
+OR v12 v20 _EPTMPL262620;
+NOT _EPTMPL262619 _EPTMPL262620 -outputlayer rndiff_5v_pt;
+AND diodeID nsdm _EPTMPL262622;
+NOT _EPTMPL262622 nwell _EPTMPL262623;
+AND _EPTMPL262623 diff _EPTMPL262624;
+OR diff_fill ESDID v5 v12 v20 lvtn hvtp LVID _EPTMPL262625;
+NOT _EPTMPL262624 _EPTMPL262625 _EPTMPL262626;
+AND _EPTMPL262626 pwell_all -outputlayer dnsd_pw;
+AND diodeID nsdm _EPTMPL262628;
+NOT _EPTMPL262628 nwell _EPTMPL262629;
+AND _EPTMPL262629 diff _EPTMPL262630;
+OR diff_fill ESDID v5 v12 v20 lvtn hvtp LVID _EPTMPL262631;
+NOT _EPTMPL262630 _EPTMPL262631 _EPTMPL262632;
+AND _EPTMPL262632 ptub -outputlayer dnsd_pt;
+AND diodeID nsdm _EPTMPL262634;
+NOT _EPTMPL262634 nwell _EPTMPL262635;
+AND _EPTMPL262635 diff _EPTMPL262636;
+AND _EPTMPL262636 ESDID _EPTMPL262637;
+OR diff_fill v5 v12 v20 lvtn hvtp LVID _EPTMPL262638;
+NOT _EPTMPL262637 _EPTMPL262638 _EPTMPL262639;
+AND _EPTMPL262639 pwell_all -outputlayer dnsd_pw_esd;
+AND diodeID nsdm _EPTMPL262641;
+NOT _EPTMPL262641 nwell _EPTMPL262642;
+AND _EPTMPL262642 diff _EPTMPL262643;
+AND _EPTMPL262643 ESDID _EPTMPL262644;
+OR diff_fill v5 v12 v20 lvtn hvtp LVID _EPTMPL262645;
+NOT _EPTMPL262644 _EPTMPL262645 _EPTMPL262646;
+AND _EPTMPL262646 ptub -outputlayer dnsd_pt_esd;
+AND diodeID nsdm _EPTMPL262648;
+NOT _EPTMPL262648 nwell _EPTMPL262649;
+AND _EPTMPL262649 diff _EPTMPL262650;
+AND _EPTMPL262650 ESDID _EPTMPL262651;
+AND _EPTMPL262651 v5 _EPTMPL262652;
+AND _EPTMPL262652 thkox _EPTMPL262653;
+OR diff_fill v12 v20 lvtn hvtp LVID _EPTMPL262654;
+NOT _EPTMPL262653 _EPTMPL262654 _EPTMPL262655;
+AND _EPTMPL262655 pwell_all -outputlayer dnsd_pw_esd_v5;
+AND diodeID nsdm _EPTMPL262657;
+NOT _EPTMPL262657 nwell _EPTMPL262658;
+AND _EPTMPL262658 diff _EPTMPL262659;
+AND _EPTMPL262659 ESDID _EPTMPL262660;
+AND _EPTMPL262660 v5 _EPTMPL262661;
+AND _EPTMPL262661 thkox _EPTMPL262662;
+OR diff_fill v12 v20 lvtn hvtp LVID _EPTMPL262663;
+NOT _EPTMPL262662 _EPTMPL262663 _EPTMPL262664;
+AND _EPTMPL262664 ptub -outputlayer dnsd_pt_esd_v5;
+AND diodeID nsdm _EPTMPL262666;
+NOT _EPTMPL262666 nwell _EPTMPL262667;
+AND _EPTMPL262667 diff _EPTMPL262668;
+AND _EPTMPL262668 lvtn _EPTMPL262669;
+OR ESDID v5 v12 v20 hvtp LVID _EPTMPL262670;
+NOT _EPTMPL262669 _EPTMPL262670 _EPTMPL262671;
+AND _EPTMPL262671 pwell_all -outputlayer dnsd_pw_lvt;
+AND diodeID nsdm _EPTMPL262673;
+NOT _EPTMPL262673 nwell _EPTMPL262674;
+AND _EPTMPL262674 diff _EPTMPL262675;
+AND _EPTMPL262675 lvtn _EPTMPL262676;
+OR ESDID v5 v12 v20 hvtp LVID _EPTMPL262677;
+NOT _EPTMPL262676 _EPTMPL262677 _EPTMPL262678;
+AND _EPTMPL262678 ptub -outputlayer dnsd_pt_lvt;
+AND diodeID nsdm _EPTMPL262680;
+NOT _EPTMPL262680 nwell _EPTMPL262681;
+AND _EPTMPL262681 diff _EPTMPL262682;
+AND _EPTMPL262682 LVID _EPTMPL262683;
+AND _EPTMPL262683 lvtn _EPTMPL262684;
+OR diff_fill ESDID v5 v12 v20 hvtp _EPTMPL262685;
+NOT _EPTMPL262684 _EPTMPL262685 _EPTMPL262686;
+AND _EPTMPL262686 pwell_all -outputlayer dnsd_pw_nat;
+AND diodeID nsdm _EPTMPL262688;
+NOT _EPTMPL262688 nwell _EPTMPL262689;
+AND _EPTMPL262689 diff _EPTMPL262690;
+AND _EPTMPL262690 LVID _EPTMPL262691;
+AND _EPTMPL262691 lvtn _EPTMPL262692;
+OR diff_fill ESDID v5 v12 v20 hvtp _EPTMPL262693;
+NOT _EPTMPL262692 _EPTMPL262693 _EPTMPL262694;
+AND _EPTMPL262694 ptub -outputlayer dnsd_pt_nat;
+AND diodeID nsdm _EPTMPL262696;
+NOT _EPTMPL262696 nwell _EPTMPL262697;
+AND _EPTMPL262697 diff _EPTMPL262698;
+AND _EPTMPL262698 v5 _EPTMPL262699;
+AND _EPTMPL262699 thkox _EPTMPL262700;
+OR diff_fill v12 v20 lvtn hvtp ESDID LVID _EPTMPL262701;
+NOT _EPTMPL262700 _EPTMPL262701 _EPTMPL262702;
+AND _EPTMPL262702 pwell_all -outputlayer dnsd_pw_v5;
+AND diodeID nsdm _EPTMPL262704;
+NOT _EPTMPL262704 nwell _EPTMPL262705;
+AND _EPTMPL262705 diff _EPTMPL262706;
+AND _EPTMPL262706 v5 _EPTMPL262707;
+AND _EPTMPL262707 thkox _EPTMPL262708;
+OR diff_fill v12 v20 lvtn hvtp ESDID LVID _EPTMPL262709;
+NOT _EPTMPL262708 _EPTMPL262709 _EPTMPL262710;
+AND _EPTMPL262710 ptub -outputlayer dnsd_pt_v5;
+AND diodeID psdm _EPTMPL262712;
+AND _EPTMPL262712 nwell _EPTMPL262713;
+AND _EPTMPL262713 diff _EPTMPL262714;
+OR diff_fill thkox v5 v12 v20 lvtn hvtp ESDID LVID _EPTMPL262715;
+NOT _EPTMPL262714 _EPTMPL262715 -outputlayer dpsd_nw;
+AND diodeID psdm _EPTMPL262717;
+AND _EPTMPL262717 nwell _EPTMPL262718;
+AND _EPTMPL262718 diff _EPTMPL262719;
+AND _EPTMPL262719 ESDID _EPTMPL262720;
+OR diff_fill thkox v5 v12 v20 lvtn hvtp LVID _EPTMPL262721;
+NOT _EPTMPL262720 _EPTMPL262721 -outputlayer dpsd_nw_esd;
+AND diodeID psdm _EPTMPL262723;
+AND _EPTMPL262723 nwell _EPTMPL262724;
+AND _EPTMPL262724 diff _EPTMPL262725;
+AND _EPTMPL262725 ESDID _EPTMPL262726;
+AND _EPTMPL262726 v5 _EPTMPL262727;
+AND _EPTMPL262727 thkox _EPTMPL262728;
+OR diff_fill v12 v20 lvtn hvtp LVID _EPTMPL262729;
+NOT _EPTMPL262728 _EPTMPL262729 -outputlayer dpsd_nw_esd_v5;
+AND diodeID psdm _EPTMPL262731;
+AND _EPTMPL262731 nwell _EPTMPL262732;
+AND _EPTMPL262732 diff _EPTMPL262733;
+AND _EPTMPL262733 hvtp _EPTMPL262734;
+OR diff_fill thkox v5 v12 v20 lvtn ESDID LVID _EPTMPL262735;
+NOT _EPTMPL262734 _EPTMPL262735 -outputlayer dpsd_nw_hvt;
+AND diodeID psdm _EPTMPL262737;
+AND _EPTMPL262737 nwell _EPTMPL262738;
+AND _EPTMPL262738 diff _EPTMPL262739;
+AND _EPTMPL262739 lvtn _EPTMPL262740;
+OR diff_fill thkox v5 v12 v20 hvtp ESDID LVID _EPTMPL262741;
+NOT _EPTMPL262740 _EPTMPL262741 -outputlayer dpsd_nw_lvt;
+AND diodeID psdm _EPTMPL262743;
+AND _EPTMPL262743 nwell _EPTMPL262744;
+AND _EPTMPL262744 diff _EPTMPL262745;
+AND _EPTMPL262745 v5 _EPTMPL262746;
+AND _EPTMPL262746 thkox _EPTMPL262747;
+OR diff_fill v12 v20 lvtn hvtp ESDID LVID _EPTMPL262748;
+NOT _EPTMPL262747 _EPTMPL262748 -outputlayer dpsd_nw_v5;
+OR npn pnp _EPTMPL262750;
+SELECT -interact dnwell _EPTMPL262750 _EPTMPL262751;
+NOT dnwell _EPTMPL262751 _EPTMPL262752;
+SELECT -interact _EPTMPL262752 v20 -outputlayer dnw_sub_v20;
+HOLES nwell _EPTMPL262754;
+AND _EPTMPL262754 dnwell _EPTMPL262755;
+OR npn pnp pwres _EPTMPL262756;
+SELECT -interact dnwell _EPTMPL262756 _EPTMPL262757;
+NOT _EPTMPL262755 _EPTMPL262757 _EPTMPL262758;
+SELECT -interact _EPTMPL262758 v20 _EPTMPL262759;
+NOT _EPTMPL262759 pwbm -outputlayer dpw_dnw_v20;
+HOLES nwell _EPTMPL262761;
+AND _EPTMPL262761 dnwell _EPTMPL262762;
+OR npn pnp _EPTMPL262763;
+SELECT -interact dnwell _EPTMPL262763 _EPTMPL262764;
+NOT _EPTMPL262762 _EPTMPL262764 _EPTMPL262765;
+SELECT -interact _EPTMPL262765 v20 _EPTMPL262766;
+SELECT -interact _EPTMPL262766 pwres _EPTMPL262767;
+NOT _EPTMPL262767 pwres -outputlayer dpw_dnw_v20_pwres;
+OR npn pnp _EPTMPL262769;
+SELECT -interact dnwell _EPTMPL262769 _EPTMPL262770;
+NOT dnwell _EPTMPL262770 _EPTMPL262771;
+SELECT -interact _EPTMPL262771 v12 _EPTMPL262772;
+SELECT -interact -not _EPTMPL262772 dnw_sub_v20 _EPTMPL262773;
+SELECT -interact dnwell ngate_v20_iso_rec _EPTMPL262774;
+SELECT -interact -not _EPTMPL262773 _EPTMPL262774 -outputlayer dnw_sub_v12;
+HOLES nwell _EPTMPL262776;
+AND _EPTMPL262776 dnwell _EPTMPL262777;
+OR npn pnp pwres _EPTMPL262778;
+SELECT -interact dnwell _EPTMPL262778 _EPTMPL262779;
+NOT _EPTMPL262777 _EPTMPL262779 _EPTMPL262780;
+SELECT -interact _EPTMPL262780 v12 _EPTMPL262781;
+SELECT -interact -not _EPTMPL262781 dpw_dnw_v20 -outputlayer dpw_dnw_v12;
+HOLES nwell _EPTMPL262783;
+AND _EPTMPL262783 dnwell _EPTMPL262784;
+OR npn pnp _EPTMPL262785;
+SELECT -interact dnwell _EPTMPL262785 _EPTMPL262786;
+NOT _EPTMPL262784 _EPTMPL262786 _EPTMPL262787;
+SELECT -interact _EPTMPL262787 v12 _EPTMPL262788;
+SELECT -interact -not _EPTMPL262788 dpw_dnw_v20 _EPTMPL262789;
+SELECT -interact _EPTMPL262789 pwres _EPTMPL262790;
+NOT _EPTMPL262790 pwres -outputlayer dpw_dnw_v12_pwres;
+OR npn pnp _EPTMPL262792;
+SELECT -interact dnwell _EPTMPL262792 _EPTMPL262793;
+NOT dnwell _EPTMPL262793 _EPTMPL262794;
+SELECT -interact _EPTMPL262794 v5 _EPTMPL262795;
+OR dnw_sub_v20 dnw_sub_v12 _EPTMPL262796;
+SELECT -interact -not _EPTMPL262795 _EPTMPL262796 _EPTMPL262797;
+SELECT -interact dnwell ngate_v20_iso_rec _EPTMPL262798;
+SELECT -interact -not _EPTMPL262797 _EPTMPL262798 -outputlayer dnw_sub_v5;
+HOLES nwell _EPTMPL262800;
+AND _EPTMPL262800 dnwell _EPTMPL262801;
+OR npn pnp pwres _EPTMPL262802;
+SELECT -interact dnwell _EPTMPL262802 _EPTMPL262803;
+NOT _EPTMPL262801 _EPTMPL262803 _EPTMPL262804;
+SELECT -interact _EPTMPL262804 v5 _EPTMPL262805;
+OR dpw_dnw_v20 dpw_dnw_v12 _EPTMPL262806;
+SELECT -interact -not _EPTMPL262805 _EPTMPL262806 -outputlayer dpw_dnw_v5;
+HOLES nwell _EPTMPL262808;
+AND _EPTMPL262808 dnwell _EPTMPL262809;
+OR npn pnp _EPTMPL262810;
+SELECT -interact dnwell _EPTMPL262810 _EPTMPL262811;
+NOT _EPTMPL262809 _EPTMPL262811 _EPTMPL262812;
+SELECT -interact _EPTMPL262812 v5 _EPTMPL262813;
+OR dpw_dnw_v20 dpw_dnw_v12 _EPTMPL262814;
+SELECT -interact -not _EPTMPL262813 _EPTMPL262814 _EPTMPL262815;
+SELECT -interact _EPTMPL262815 pwres _EPTMPL262816;
+NOT _EPTMPL262816 pwres -outputlayer dpw_dnw_v5_pwres;
+OR npn pnp _EPTMPL262818;
+SELECT -interact dnwell _EPTMPL262818 _EPTMPL262819;
+NOT dnwell _EPTMPL262819 _EPTMPL262820;
+OR dnw_sub_v20 dnw_sub_v12 dnw_sub_v5 _EPTMPL262821;
+SELECT -interact -not _EPTMPL262820 _EPTMPL262821 _EPTMPL262822;
+SELECT -interact dnwell ngate_v20_iso_rec _EPTMPL262823;
+SELECT -interact -not _EPTMPL262822 _EPTMPL262823 -outputlayer dnw_sub_nom;
+HOLES nwell -inner _EPTMPL262825;
+AND _EPTMPL262825 dnwell _EPTMPL262826;
+OR npn pnp pwres _EPTMPL262827;
+SELECT -interact dnwell _EPTMPL262827 _EPTMPL262828;
+NOT _EPTMPL262826 _EPTMPL262828 _EPTMPL262829;
+OR dpw_dnw_v20 dpw_dnw_v12 dpw_dnw_v5 _EPTMPL262830;
+SELECT -interact -not _EPTMPL262829 _EPTMPL262830 _EPTMPL262831;
+NOT _EPTMPL262831 pwbm -outputlayer dpw_dnw_nom;
+HOLES nwell -inner _EPTMPL262833;
+AND _EPTMPL262833 dnwell _EPTMPL262834;
+OR npn pnp _EPTMPL262835;
+SELECT -interact dnwell _EPTMPL262835 _EPTMPL262836;
+NOT _EPTMPL262834 _EPTMPL262836 _EPTMPL262837;
+OR dpw_dnw_v20 dpw_dnw_v12 dpw_dnw_v5 _EPTMPL262838;
+SELECT -interact -not _EPTMPL262837 _EPTMPL262838 _EPTMPL262839;
+SELECT -interact _EPTMPL262839 pwres _EPTMPL262840;
+NOT _EPTMPL262840 pwres -outputlayer dpw_dnw_nom_pwres;
+AND met3 met4 _EPTMPL262842;
+AND _EPTMPL262842 capm -outputlayer cap_34;
+AND met4 met5 _EPTMPL262844;
+AND _EPTMPL262844 cap2m -outputlayer cap_45;
+NOT via3i cap_34 -outputlayer via3;
+NOT via4i cap_45 -outputlayer via4;
+HOLES nwell -outputlayer donut_nw;
+SELECT -enclose dnwell donut_nw -outputlayer dnw_over_nw_hole;
+HOLES nwell _EPTMPL262850;
+OR nwell _EPTMPL262850 _EPTMPL262851;
+SELECT -enclose _EPTMPL262851 dnw_over_nw_hole _EPTMPL262852;
+SELECT -interact _EPTMPL262852 npn -outputlayer npn_1a;
+AND diff npn_1a _EPTMPL262854;
+HOLES _EPTMPL262854 -outputlayer npn_1;
+NOT diff diff_fill _EPTMPL262856;
+AND npn _EPTMPL262856 _EPTMPL262857;
+AND _EPTMPL262857 nsdm _EPTMPL262858;
+SELECT -inside _EPTMPL262858 npn_1 -outputlayer npn_ndiff;
+ANGLE npn_ndiff -eq 45 _EPTMPL262860;
+EDGE_EXPAND _EPTMPL262860 -outside_by 0.005 -outputlayer npn_ndiff_oct_1;
+VERTEX -eq 8 npn_ndiff _EPTMPL262862;
+SELECT -interact _EPTMPL262862 npn_ndiff_oct_1 -eq 4 -outputlayer npn_ndiff_oct;
+NOT npn_ndiff nwell -outputlayer npn_emit;
+AREA npn_emit -ge 0 _EPTMPL262865;
+AREA npn_emit -lt 2 _EPTMPL262866;
+AND _EPTMPL262865 _EPTMPL262866 _EPTMPL262867;
+SELECT -enclose npn_1 _EPTMPL262867 _EPTMPL262868;
+OR diff_fill thkox v5 v12 v20 _EPTMPL262869;
+NOT _EPTMPL262868 _EPTMPL262869 -outputlayer npn_1x1_rec;
+AREA npn_emit -ge 2 _EPTMPL262871;
+SELECT -enclose npn_1 _EPTMPL262871 _EPTMPL262872;
+OR diff_fill thkox v5 v12 v20 _EPTMPL262873;
+NOT _EPTMPL262872 _EPTMPL262873 -outputlayer npn_1x2_rec;
+SELECT -enclose npn_1 npn_ndiff_oct _EPTMPL262875;
+AND thkox v5 _EPTMPL262876;
+AND _EPTMPL262875 _EPTMPL262876 -outputlayer npn_1x1_rec_v5;
+AND pnp diff _EPTMPL262878;
+RECT_CHK _EPTMPL262878 -eq 0.68 -aspect -eq 1 _EPTMPL262879;
+SELECT -interact pnp _EPTMPL262879 _EPTMPL262880;
+OR diff_fill thkox v5 v12 v20 _EPTMPL262881;
+NOT _EPTMPL262880 _EPTMPL262881 -outputlayer pnp_rec_1x_a;
+AND diff pnp_rec_1x_a _EPTMPL262883;
+HOLES _EPTMPL262883 -outputlayer pnp_rec_1x;
+AND pnp diff _EPTMPL262885;
+RECT_CHK _EPTMPL262885 -eq 3.4 -aspect -eq 1 _EPTMPL262886;
+SELECT -interact pnp _EPTMPL262886 _EPTMPL262887;
+OR diff_fill thkox v5 v12 v20 _EPTMPL262888;
+NOT _EPTMPL262887 _EPTMPL262888 -outputlayer pnp_rec_5x_a;
+AND diff pnp_rec_5x_a _EPTMPL262890;
+HOLES _EPTMPL262890 -outputlayer pnp_rec_5x;
+NOT met4 met4_fill _EPTMPL262892;
+AND _EPTMPL262892 fuse -outputlayer m4fuse;
+NOT met1 m1res -outputlayer m1;
+NOT met2 m2res -outputlayer m2;
+NOT met3 m3res -outputlayer m3;
+OR m4res fuse _EPTMPL262897;
+NOT met4 _EPTMPL262897 -outputlayer m4;
+NOT met5 m5res -outputlayer m5;
+NOT li_i lires -outputlayer li;
+NOT poly polyres -outputlayer ply;
+NOT nsd1 diffres -outputlayer nsd;
+NOT psd1 diffres -outputlayer psd;
+CONNECT rdl pad;
+CONNECT m5 pad;
+CONNECT m5 m4 -by via4;
+CONNECT m4 m3 -by via3;
+CONNECT m3 m2 -by via2;
+CONNECT m2 m1 -by via1;
+CONNECT m1 li -by mcon;
+CONNECT li ply -by licon;
+CONNECT li nsd -by licon;
+CONNECT li psd -by licon;
+CONNECT li ntap -by licon;
+CONNECT li ptap -by licon;
+CONNECT li ptubtap -by licon;
+CONNECT li pwres_term -by licon;
+CONNECT li nsrc_de_12v -by licon;
+CONNECT li nsd_20v_src -by licon;
+CONNECT li nsd_20v_drn -by licon;
+CONNECT li nsd_20v_nat_drn -by licon;
+CONNECT li psrc_de_20v -by licon;
+CONNECT li pdrn_de_20v -by licon;
+CONNECT li ndrn_de_12v -by licon;
+CONNECT li psrc_de_12v -by licon;
+CONNECT li pdrn_de_12v -by licon;
+CONNECT ply ngate_de_12v_pw -by ngate_de_12v_gate_conn;
+CONNECT ply pgate_de_12v_pw -by pgate_de_12v_gate_conn;
+CONNECT ply ngate_v20_iso_gate -by ngate_de_20v_iso_gate_conn;
+CONNECT ply ngate_v20_nom -by ngate_de_20v_nom_gate_conn;
+CONNECT ply ngate_v20_zvt -by ngate_de_20v_zvt_gate_conn;
+CONNECT ply ngate_v20_nat -by ngate_de_20v_nat_gate_conn;
+CONNECT ply pgate_de_20v -by pgate_de_20v_conn;
+CONNECT li ngate_v20_iso_sub -by ngate_v20_iso_sub_cont;
+SCONNECT ntap nwell;
+LVS_SOFTCHK nwell -type UPPER;
+LVS_SOFTCHK nwell -type LOWER;
+SCONNECT ptap pwell;
+LVS_SOFTCHK pwell -type UPPER;
+LVS_SOFTCHK pwell -type LOWER;
+SCONNECT ptap pwell_all;
+LVS_SOFTCHK pwell_all -type UPPER;
+LVS_SOFTCHK pwell_all -type LOWER;
+SCONNECT ptubtap ptub;
+LVS_SOFTCHK ptub -type UPPER;
+LVS_SOFTCHK ptub -type LOWER;
+SCONNECT nwell dnwell;
+LVS_SOFTCHK dnwell -type UPPER;
+LVS_SOFTCHK dnwell -type LOWER;
+TEXT_LAYER met1tt met2tt met3tt met4tt met5tt rdltt difftt litt polytt nwelltt;
+PORT -text_layer rdltt;
+ATTACH rdltt rdl;
+ATTACH rdl_pin rdl;
+PORT -text_layer met5tt;
+ATTACH met5tt m5;
+ATTACH met5_pin m5;
+PORT -text_layer met4tt;
+ATTACH met4tt m4;
+ATTACH met4_pin m4;
+PORT -text_layer met3tt;
+ATTACH met3tt m3;
+ATTACH met3_pin m3;
+PORT -text_layer met2tt;
+ATTACH met2tt m2;
+ATTACH met2_pin m2;
+PORT -text_layer met1tt;
+ATTACH met1tt m1;
+ATTACH met1_pin m1;
+PORT -text_layer litt;
+ATTACH litt li;
+ATTACH li_pin li;
+PORT -text_layer polytt;
+ATTACH polytt ply;
+ATTACH poly_pin ply;
+PORT -text_layer difftt;
+ATTACH difftt nsd;
+ATTACH difftt psd;
+ATTACH difftt ntap;
+ATTACH difftt ptap;
+ATTACH diff_pin psd;
+ATTACH diff_pin nsd;
+ATTACH diff_pin ptap;
+ATTACH diff_pin ntap;
+PORT -text_layer pwelltt;
+ATTACH pwelltt pwell_all;
+ATTACH pwell_pin pwell_all;
+ATTACH pwelltt ptub;
+ATTACH pwell_pin ptub;
+PORT -text_layer nwelltt;
+ATTACH nwelltt nwell;
+ATTACH nwell_pin nwell;
+DEVICE pad_bond pad_rec m5 ( pin0 ) < padLength > [ 
+ PROPERTY w , l , m 
+ m = 1 
+ a = area ( pad_rec ) 
+ l = ( perimeter_inside ( padLength , pad_rec ) ) / 2 
+ w = a / l 
+ ];
+LVS_CHECK_PROPERTY pad_bond l l -tolerance 0;
+LVS_CHECK_PROPERTY pad_bond w w -tolerance 0;
+LVS_CHECK_PROPERTY pad_bond m m -tolerance 0;
+LVS_REDUCE_DEVICE pad_bond -parallel yes [ 
+ tolerance w 0 
+ l 0 
+ EFFECTIVE m , l , w 
+ m = sum ( m ) 
+ l = sum ( l ) 
+ w = sum ( w ) 
+ 
+ ];
+DEVICE pad_microprobe upad_rec m5 ( pin0 ) < padLength > [ 
+ PROPERTY w , l , m 
+ m = 1 
+ a = area ( upad_rec ) 
+ l = ( perimeter_inside ( padLength , upad_rec ) ) / 2 
+ w = a / l 
+ ];
+LVS_CHECK_PROPERTY pad_microprobe l l -tolerance 0;
+LVS_CHECK_PROPERTY pad_microprobe w w -tolerance 0;
+LVS_CHECK_PROPERTY pad_microprobe m m -tolerance 0;
+LVS_REDUCE_DEVICE pad_microprobe -parallel yes [ 
+ tolerance w 0 
+ l 0 
+ EFFECTIVE m , l , w 
+ m = sum ( m ) 
+ l = sum ( l ) 
+ w = sum ( w ) 
+ 
+ ];
+DEVICE pad_probe epad_rec m5 ( pin0 ) < padLength > [ 
+ PROPERTY w , l , m 
+ m = 1 
+ a = area ( epad_rec ) 
+ l = ( perimeter_inside ( padLength , epad_rec ) ) / 2 
+ w = a / l 
+ ];
+LVS_CHECK_PROPERTY pad_probe l l -tolerance 0;
+LVS_CHECK_PROPERTY pad_probe w w -tolerance 0;
+LVS_CHECK_PROPERTY pad_probe m m -tolerance 0;
+LVS_REDUCE_DEVICE pad_probe -parallel yes [ 
+ tolerance w 0 
+ l 0 
+ EFFECTIVE m , l , w 
+ m = sum ( m ) 
+ l = sum ( l ) 
+ w = sum ( w ) 
+ 
+ ];
+DEVICE MN ( nmos ) ngate_nom_pw ply nsd nsd pwell_all;
+DEVICE MN ( nmos ) ngate_nom_pw ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_nom_pw ) 
+ w = perimeter_coincide ( ngate_nom_pw , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_esd ) ngate_nom_esd_pw ply nsd nsd pwell_all [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_nom_esd_pw ) 
+ w = perimeter_coincide ( ngate_nom_esd_pw , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_esd ) ngate_nom_esd_pt ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_nom_esd_pt ) 
+ w = perimeter_coincide ( ngate_nom_esd_pt , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos ) ngate_nom_pt ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_nom_pt ) 
+ w = perimeter_coincide ( ngate_nom_pt , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_lvt ) ngate_lvt_pw ply nsd nsd pwell_all [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_lvt_pw ) 
+ w = perimeter_coincide ( ngate_lvt_pw , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_lvt ) ngate_lvt_pt ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_lvt_pt ) 
+ w = perimeter_coincide ( ngate_lvt_pt , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_v5 ) ngate_v5_pw ply nsd nsd pwell_all [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_v5_pw ) 
+ w = perimeter_coincide ( ngate_v5_pw , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_v5 ) ngate_v5_pt ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_v5_pt ) 
+ w = perimeter_coincide ( ngate_v5_pt , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_v12 ) ngate_v12_pw ply nsd nsd pwell_all [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_v12_pw ) 
+ w = perimeter_coincide ( ngate_v12_pw , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_v12 ) ngate_v12_pt ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_v12_pt ) 
+ w = perimeter_coincide ( ngate_v12_pt , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE nmos_de_iso_v20 ngate_v20_iso_rec nsd_20v_src ( src ) ngate_v20_iso_gate ( gate ) nsd_20v_drn ( drn ) pwell_all ( b ) ngate_v20_iso_sub ( sub ) [ 
+ PROPERTY w , l , m 
+ m = 1 
+ a = area ( ngate_v20_iso_rec ) 
+ w = perimeter_coincide ( ngate_v20_iso_rec , nsd_20v_src ) 
+ l = a / w 
+ AS = area ( nsd_20v_src ) * 0.5 
+ PS = perimeter ( nsd_20v_src ) * 0.5 
+ AD = area ( nsd_20v_drn ) * 0.5 
+ PD = perimeter ( nsd_20v_drn ) * 0.5 
+ nrs = 0 
+ nrd = 0 
+ ];
+LVS_REDUCE_DEVICE nmos_de_iso_v20 -parallel yes [ effective w , l , m 
+ p = sum ( w * l ) 
+ q = sum ( w / l ) 
+ w = sqrt ( p * q ) 
+ l = sqrt ( p / q ) 
+ m = sum ( m ) 
+ ];
+LVS_CHECK_PROPERTY nmos_de_iso_v20 l l -tolerance 0;
+LVS_CHECK_PROPERTY nmos_de_iso_v20 w w -tolerance 0;
+LVS_CHECK_PROPERTY nmos_de_iso_v20 m m -tolerance 0;
+DEVICE MN ( nmos_de_nat_v20 ) ngate_v20_nat ngate_v20_nat nsd_20v_src nsd_20v_nat_drn pwell_all [ 
+ PROPERTY w , l , m 
+ m = 1 
+ a = area ( ngate_v20_nat ) 
+ w = perimeter_coincide ( ngate_v20_nat , nsd_20v_src ) 
+ l = a / w 
+ AS = area ( nsd_20v_src ) * 0.5 
+ PS = perimeter ( nsd_20v_src ) * 0.5 
+ AD = area ( nsd_20v_nat_drn ) * 0.5 
+ PD = perimeter ( nsd_20v_nat_drn ) * 0.5 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_de_zvt_v20 ) ngate_v20_zvt ngate_v20_zvt nsd_20v_src nsd_20v_drn pwell_all [ 
+ PROPERTY w , l , m 
+ m = 1 
+ a = area ( ngate_v20_zvt ) 
+ w = perimeter_coincide ( ngate_v20_zvt , nsd_20v_src ) 
+ l = a / w 
+ AS = area ( nsd_20v_src ) * 0.5 
+ PS = perimeter ( nsd_20v_src ) * 0.5 
+ AD = area ( nsd_20v_drn ) * 0.5 
+ PD = perimeter ( nsd_20v_drn ) * 0.5 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_de_v20 ) ngate_v20_nom ngate_v20_nom nsd_20v_src nsd_20v_drn pwell_all [ 
+ PROPERTY w , l , m 
+ m = 1 
+ a = area ( ngate_v20_nom ) 
+ w = perimeter_coincide ( ngate_v20_nom , nsd_20v_src ) 
+ l = a / w 
+ AS = area ( nsd_20v_src ) * 0.5 
+ PS = perimeter ( nsd_20v_src ) * 0.5 
+ AD = area ( nsd_20v_drn ) * 0.5 
+ PD = perimeter ( nsd_20v_drn ) * 0.5 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_esd_nat_v5 ) ngate_esd_nat_5v_pw ply nsd nsd pwell_all [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_esd_nat_5v_pw ) 
+ w = perimeter_coincide ( ngate_esd_nat_5v_pw , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_esd_nat_v5 ) ngate_esd_nat_5v_pt ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_esd_nat_5v_pt ) 
+ w = perimeter_coincide ( ngate_esd_nat_5v_pt , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_esd_v5 ) ngate_esd_5v_pw ply nsd nsd pwell_all [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_esd_5v_pw ) 
+ w = perimeter_coincide ( ngate_esd_5v_pw , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_esd_v5 ) ngate_esd_5v_pt ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_esd_5v_pt ) 
+ w = perimeter_coincide ( ngate_esd_5v_pt , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_nat_v3 ) ngate_nat_3v_pw ply nsd nsd pwell_all [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_nat_3v_pw ) 
+ w = perimeter_coincide ( ngate_nat_3v_pw , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_nat_v3 ) ngate_nat_3v_pt ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_nat_3v_pt ) 
+ w = perimeter_coincide ( ngate_nat_3v_pt , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_nat_v5 ) ngate_nat_5v_pw ply nsd nsd pwell_all [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_nat_5v_pw ) 
+ w = perimeter_coincide ( ngate_nat_5v_pw , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_nat_v5 ) ngate_nat_5v_pt ply nsd nsd ptub [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( ngate_nat_5v_pt ) 
+ w = perimeter_coincide ( ngate_nat_5v_pt , nsd ) * 0.5 
+ l = a / w 
+ AS = area ( nsd ) * 0.5 
+ PS = perimeter ( nsd ) * 0.5 - w 
+ AD = area ( nsd ) * 0.5 
+ PD = perimeter ( nsd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MN ( nmos_de_v12 ) ngate_de_12v_pw ngate_de_12v_pw ( G ) nsrc_de_12v ( S ) ndrn_de_12v ( D ) pwell_all [ 
+ PROPERTY w , l , m 
+ m = 1 
+ a = area ( ngate_de_12v_pw ) 
+ w = perimeter_coincide ( ngate_de_12v_pw , nsrc_de_12v ) 
+ l = a / w 
+ AS = area ( nsrc_de_12v ) * 0.5 
+ PS = perimeter ( nsrc_de_12v ) * 0.5 
+ AD = area ( nsrc_de_12v ) * 0.5 
+ PD = perimeter ( nsrc_de_12v ) * 0.5 
+ nrs = 0 
+ nrd = 0 
+ ];
+LVS_CHECK_PROPERTY MN l l -tolerance 0;
+LVS_CHECK_PROPERTY MN w w -tolerance 0;
+LVS_CHECK_PROPERTY MN m m -tolerance 0;
+DEVICE MP ( pmos ) pgate_nom ply psd psd nwell [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( pgate_nom ) 
+ w = perimeter_coincide ( pgate_nom , psd ) * 0.5 
+ l = a / w 
+ AS = area ( psd ) * 0.5 
+ PS = perimeter ( psd ) * 0.5 - w 
+ AD = area ( psd ) * 0.5 
+ PD = perimeter ( psd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MP ( pmos_lvt ) pgate_lvt ply psd psd nwell [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( pgate_lvt ) 
+ w = perimeter_coincide ( pgate_lvt , psd ) * 0.5 
+ l = a / w 
+ AS = area ( psd ) * 0.5 
+ PS = perimeter ( psd ) * 0.5 - w 
+ AD = area ( psd ) * 0.5 
+ PD = perimeter ( psd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MP ( pmos_hvt ) pgate_hvt ply psd psd nwell [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( pgate_hvt ) 
+ w = perimeter_coincide ( pgate_hvt , psd ) * 0.5 
+ l = a / w 
+ AS = area ( psd ) * 0.5 
+ PS = perimeter ( psd ) * 0.5 - w 
+ AD = area ( psd ) * 0.5 
+ PD = perimeter ( psd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MP ( pmos_v5 ) pgate_v5 ply psd psd nwell [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( pgate_v5 ) 
+ w = perimeter_coincide ( pgate_v5 , psd ) * 0.5 
+ l = a / w 
+ AS = area ( psd ) * 0.5 
+ PS = perimeter ( psd ) * 0.5 - w 
+ AD = area ( psd ) * 0.5 
+ PD = perimeter ( psd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MP ( pmos_v12 ) pgate_v12 ply psd psd nwell [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( pgate_v12 ) 
+ w = perimeter_coincide ( pgate_v12 , psd ) * 0.5 
+ l = a / w 
+ AS = area ( psd ) * 0.5 
+ PS = perimeter ( psd ) * 0.5 - w 
+ AD = area ( psd ) * 0.5 
+ PD = perimeter ( psd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MP ( pmos_de_v20 ) pgate_de_20v pgate_de_20v psrc_de_20v pdrn_de_20v nwell;
+DEVICE MP ( pmos_esd_v5 ) pgate_esd_v5 ply psd psd nwell [ 
+ PROPERTY w , l , m , AS , AD , PS , PD , nrd , nrs 
+ m = 1 
+ a = area ( pgate_esd_v5 ) 
+ w = perimeter_coincide ( pgate_esd_v5 , psd ) * 0.5 
+ l = a / w 
+ AS = area ( psd ) * 0.5 
+ PS = perimeter ( psd ) * 0.5 - w 
+ AD = area ( psd ) * 0.5 
+ PD = perimeter ( psd ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+DEVICE MP ( pmos_de_v12 ) pgate_de_12v_pw pgate_de_12v_pw ( G ) psrc_de_12v ( S ) pdrn_de_12v ( D ) nwell [ 
+ PROPERTY w , l , m 
+ m = 1 
+ a = area ( pgate_de_12v_pw ) 
+ w = perimeter_coincide ( pgate_de_12v_pw , psrc_de_12v ) 
+ l = a / w 
+ AS = area ( psrc_de_12v ) * 0.5 
+ PS = perimeter ( psrc_de_12v ) * 0.5 - w 
+ AD = area ( psrc_de_12v ) * 0.5 
+ PD = perimeter ( psrc_de_12v ) * 0.5 - w 
+ nrs = 0 
+ nrd = 0 
+ ];
+LVS_CHECK_PROPERTY MP l l -tolerance 0;
+LVS_CHECK_PROPERTY MP w w -tolerance 0;
+LVS_CHECK_PROPERTY MP m m -tolerance 0;
+LVS_REDUCE yes -parallel_mos [ effective w , l , m 
+ p = sum ( w * l ) 
+ q = sum ( w / l ) 
+ w = sqrt ( p * q ) 
+ l = sqrt ( p / q ) 
+ m = sum ( m ) 
+ ];
+LVS_REDUCE_SPLIT_GATES yes -same_order [ effective w , l , m 
+ p = sum ( w * l ) 
+ q = sum ( w / l ) 
+ w = sqrt ( p * q ) 
+ l = sqrt ( p / q ) 
+ m = sum ( m ) 
+ ];
+DEVICE R ( rli ) lires li ( POS ) li ( NEG ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( lires ) 
+ w = perimeter_coincide ( lires , li ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rli ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rli ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rli ) m m -tolerance 0;
+DEVICE R ( rm1 ) m1res m1 ( POS ) m1 ( NEG ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( m1res ) 
+ w = perimeter_coincide ( m1res , m1 ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rm1 ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm1 ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm1 ) m m -tolerance 0;
+DEVICE R ( rm2 ) m2res m2 ( POS ) m2 ( NEG ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( m2res ) 
+ w = perimeter_coincide ( m2res , m2 ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rm2 ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm2 ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm2 ) m m -tolerance 0;
+DEVICE R ( rm3 ) m3res m3 ( POS ) m3 ( NEG ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( m3res ) 
+ w = perimeter_coincide ( m3res , m3 ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rm3 ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm3 ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm3 ) m m -tolerance 0;
+DEVICE R ( rm4 ) m4res m4 ( POS ) m4 ( NEG ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( m4res ) 
+ w = perimeter_coincide ( m4res , m4 ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rm4 ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm4 ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm4 ) m m -tolerance 0;
+DEVICE R ( rm5 ) m5res m5 ( POS ) m5 ( NEG ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( m5res ) 
+ w = perimeter_coincide ( m5res , m5 ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rm5 ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm5 ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rm5 ) m m -tolerance 0;
+DEVICE R ( rpoly_hp_pw ) hp_poly_pw ply ( POS ) ply ( NEG ) pwell_all ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ dev_perim = perimeter ( hp_poly_pw ) * 0.5 
+ w = perimeter_coincide ( hp_poly_pw , ply ) * 0.5 
+ nbend = bends ( hp_poly_pw ) 
+ segments = 1 + bends ( hp_poly_pw ) / 2 
+ l = dev_perim - ( w * ( 1 + ( nbend * 0.5 ) ) ) - ( w * nbend * 0.5 ) + ( w * 1.414 * nbend * 0.5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rpoly_hp_pw ) [ 
+ PROPERTY l , w , m , segments 
+ tolerance_l = 5 
+ tolerance_w = 1 
+ tolerance_m = 0 
+ tolerance_s = 0 
+ 
+ lay_l = layout_numeric_value ( l ) 
+ src_l = source_numeric_value ( l ) 
+ 
+ lay_w = layout_numeric_value ( w ) 
+ src_w = source_numeric_value ( w ) 
+ 
+ lay_m = layout_numeric_value ( m ) 
+ src_m = source_numeric_value ( m ) 
+ 
+ lay_s = layout_numeric_value ( segments ) 
+ src_s = source_numeric_value ( segments ) 
+ 
+ 
+ 
+ if ( src_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / src_l 
+ } else if ( lay_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / lay_l 
+ } 
+ 
+ if ( lay_s > 1 ) { 
+ tolerance_l = 5 
+ } else { tolerance_l = 1 } 
+ 
+ if ( discrepency > tolerance_l ) { 
+ report_numeric_discrepancy ( l , discrepency ) 
+ } 
+ 
+ if ( src_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / src_w 
+ } else if ( lay_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / lay_w 
+ } 
+ if ( discrepency > tolerance_w ) { 
+ report_numeric_discrepancy ( w , discrepency ) 
+ } 
+ 
+ if ( src_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / src_m 
+ } else if ( lay_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / lay_m 
+ } 
+ if ( discrepency > tolerance_m ) { 
+ report_numeric_discrepancy ( m , discrepency ) 
+ } 
+ 
+ if ( src_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / src_s 
+ } else if ( lay_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / lay_s 
+ } 
+ if ( discrepency > tolerance_s ) { 
+ report_numeric_discrepancy ( segments , discrepency ) 
+ } 
+ ];
+DEVICE R ( rpoly_hp_pw ) hp_poly_pt ply ( POS ) ply ( NEG ) ptub ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ dev_perim = perimeter ( hp_poly_pt ) * 0.5 
+ w = perimeter_coincide ( hp_poly_pt , ply ) * 0.5 
+ nbend = bends ( hp_poly_pt ) 
+ segments = 1 + bends ( hp_poly_pt ) / 2 
+ l = dev_perim - ( w * ( 1 + ( nbend * 0.5 ) ) ) - ( w * nbend * 0.5 ) + ( w * 1.414 * nbend * 0.5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rpoly_hp_pt ) [ 
+ PROPERTY l , w , m , segments 
+ tolerance_l = 5 
+ tolerance_w = 1 
+ tolerance_m = 0 
+ tolerance_s = 0 
+ 
+ lay_l = layout_numeric_value ( l ) 
+ src_l = source_numeric_value ( l ) 
+ 
+ lay_w = layout_numeric_value ( w ) 
+ src_w = source_numeric_value ( w ) 
+ 
+ lay_m = layout_numeric_value ( m ) 
+ src_m = source_numeric_value ( m ) 
+ 
+ lay_s = layout_numeric_value ( segments ) 
+ src_s = source_numeric_value ( segments ) 
+ 
+ 
+ 
+ if ( src_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / src_l 
+ } else if ( lay_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / lay_l 
+ } 
+ 
+ if ( lay_s > 1 ) { 
+ tolerance_l = 5 
+ } else { tolerance_l = 1 } 
+ 
+ if ( discrepency > tolerance_l ) { 
+ report_numeric_discrepancy ( l , discrepency ) 
+ } 
+ 
+ if ( src_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / src_w 
+ } else if ( lay_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / lay_w 
+ } 
+ if ( discrepency > tolerance_w ) { 
+ report_numeric_discrepancy ( w , discrepency ) 
+ } 
+ 
+ if ( src_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / src_m 
+ } else if ( lay_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / lay_m 
+ } 
+ if ( discrepency > tolerance_m ) { 
+ report_numeric_discrepancy ( m , discrepency ) 
+ } 
+ 
+ if ( src_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / src_s 
+ } else if ( lay_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / lay_s 
+ } 
+ if ( discrepency > tolerance_s ) { 
+ report_numeric_discrepancy ( segments , discrepency ) 
+ } 
+ ];
+DEVICE R ( rpoly_hp_nw ) hp_poly_nw ply ( POS ) ply ( NEG ) nwell ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ dev_perim = perimeter ( hp_poly_nw ) * 0.5 
+ w = perimeter_coincide ( hp_poly_nw , ply ) * 0.5 
+ nbend = bends ( hp_poly_nw ) 
+ segments = 1 + bends ( hp_poly_nw ) / 2 
+ l = dev_perim - ( w * ( 1 + ( nbend * 0.5 ) ) ) - ( w * nbend * 0.5 ) + ( w * 1.414 * nbend * 0.5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rpoly_hp_nw ) [ 
+ PROPERTY l , w , m , segments 
+ tolerance_l = 5 
+ tolerance_w = 1 
+ tolerance_m = 0 
+ tolerance_s = 0 
+ 
+ lay_l = layout_numeric_value ( l ) 
+ src_l = source_numeric_value ( l ) 
+ 
+ lay_w = layout_numeric_value ( w ) 
+ src_w = source_numeric_value ( w ) 
+ 
+ lay_m = layout_numeric_value ( m ) 
+ src_m = source_numeric_value ( m ) 
+ 
+ lay_s = layout_numeric_value ( segments ) 
+ src_s = source_numeric_value ( segments ) 
+ 
+ 
+ 
+ if ( src_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / src_l 
+ } else if ( lay_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / lay_l 
+ } 
+ 
+ if ( lay_s > 1 ) { 
+ tolerance_l = 5 
+ } else { tolerance_l = 1 } 
+ 
+ if ( discrepency > tolerance_l ) { 
+ report_numeric_discrepancy ( l , discrepency ) 
+ } 
+ 
+ if ( src_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / src_w 
+ } else if ( lay_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / lay_w 
+ } 
+ if ( discrepency > tolerance_w ) { 
+ report_numeric_discrepancy ( w , discrepency ) 
+ } 
+ 
+ if ( src_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / src_m 
+ } else if ( lay_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / lay_m 
+ } 
+ if ( discrepency > tolerance_m ) { 
+ report_numeric_discrepancy ( m , discrepency ) 
+ } 
+ 
+ if ( src_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / src_s 
+ } else if ( lay_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / lay_s 
+ } 
+ if ( discrepency > tolerance_s ) { 
+ report_numeric_discrepancy ( segments , discrepency ) 
+ } 
+ ];
+DEVICE R ( rpoly_hp2K_pw ) hs_poly_pw ply ( POS ) ply ( NEG ) pwell_all ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ dev_perim = perimeter ( hs_poly_pw ) * 0.5 
+ w = perimeter_coincide ( hs_poly_pw , ply ) * 0.5 
+ nbend = bends ( hs_poly_pw ) 
+ segments = 1 + bends ( hs_poly_pw ) / 2 
+ l = dev_perim - ( w * ( 1 + ( nbend * 0.5 ) ) ) - ( w * nbend * 0.5 ) + ( w * 1.414 * nbend * 0.5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY R ( hs_poly_pw ) [ 
+ PROPERTY l , w , m , segments 
+ tolerance_l = 5 
+ tolerance_w = 1 
+ tolerance_m = 0 
+ tolerance_s = 0 
+ 
+ lay_l = layout_numeric_value ( l ) 
+ src_l = source_numeric_value ( l ) 
+ 
+ lay_w = layout_numeric_value ( w ) 
+ src_w = source_numeric_value ( w ) 
+ 
+ lay_m = layout_numeric_value ( m ) 
+ src_m = source_numeric_value ( m ) 
+ 
+ lay_s = layout_numeric_value ( segments ) 
+ src_s = source_numeric_value ( segments ) 
+ 
+ 
+ 
+ if ( src_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / src_l 
+ } else if ( lay_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / lay_l 
+ } 
+ 
+ if ( lay_s > 1 ) { 
+ tolerance_l = 5 
+ } else { tolerance_l = 1 } 
+ 
+ if ( discrepency > tolerance_l ) { 
+ report_numeric_discrepancy ( l , discrepency ) 
+ } 
+ 
+ if ( src_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / src_w 
+ } else if ( lay_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / lay_w 
+ } 
+ if ( discrepency > tolerance_w ) { 
+ report_numeric_discrepancy ( w , discrepency ) 
+ } 
+ 
+ if ( src_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / src_m 
+ } else if ( lay_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / lay_m 
+ } 
+ if ( discrepency > tolerance_m ) { 
+ report_numeric_discrepancy ( m , discrepency ) 
+ } 
+ 
+ if ( src_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / src_s 
+ } else if ( lay_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / lay_s 
+ } 
+ if ( discrepency > tolerance_s ) { 
+ report_numeric_discrepancy ( segments , discrepency ) 
+ } 
+ ];
+DEVICE R ( rpoly_hp2K_pw ) hs_poly_pt ply ( POS ) ply ( NEG ) ptub ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ dev_perim = perimeter ( hs_poly_pt ) * 0.5 
+ w = perimeter_coincide ( hs_poly_pt , ply ) * 0.5 
+ nbend = bends ( hs_poly_pt ) 
+ segments = 1 + bends ( hs_poly_pt ) / 2 
+ l = dev_perim - ( w * ( 1 + ( nbend * 0.5 ) ) ) - ( w * nbend * 0.5 ) + ( w * 1.414 * nbend * 0.5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rpoly_hp2K_pw ) [ 
+ PROPERTY l , w , m , segments 
+ tolerance_l = 5 
+ tolerance_w = 1 
+ tolerance_m = 0 
+ tolerance_s = 0 
+ 
+ lay_l = layout_numeric_value ( l ) 
+ src_l = source_numeric_value ( l ) 
+ 
+ lay_w = layout_numeric_value ( w ) 
+ src_w = source_numeric_value ( w ) 
+ 
+ lay_m = layout_numeric_value ( m ) 
+ src_m = source_numeric_value ( m ) 
+ 
+ lay_s = layout_numeric_value ( segments ) 
+ src_s = source_numeric_value ( segments ) 
+ 
+ 
+ 
+ if ( src_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / src_l 
+ } else if ( lay_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / lay_l 
+ } 
+ 
+ if ( lay_s > 1 ) { 
+ tolerance_l = 5 
+ } else { tolerance_l = 1 } 
+ 
+ if ( discrepency > tolerance_l ) { 
+ report_numeric_discrepancy ( l , discrepency ) 
+ } 
+ 
+ if ( src_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / src_w 
+ } else if ( lay_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / lay_w 
+ } 
+ if ( discrepency > tolerance_w ) { 
+ report_numeric_discrepancy ( w , discrepency ) 
+ } 
+ 
+ if ( src_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / src_m 
+ } else if ( lay_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / lay_m 
+ } 
+ if ( discrepency > tolerance_m ) { 
+ report_numeric_discrepancy ( m , discrepency ) 
+ } 
+ 
+ if ( src_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / src_s 
+ } else if ( lay_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / lay_s 
+ } 
+ if ( discrepency > tolerance_s ) { 
+ report_numeric_discrepancy ( segments , discrepency ) 
+ } 
+ ];
+DEVICE R ( rpoly_hp2K_nw ) hs_poly_nw ply ( POS ) ply ( NEG ) nwell ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ dev_perim = perimeter ( hs_poly_nw ) * 0.5 
+ w = perimeter_coincide ( hs_poly_nw , ply ) * 0.5 
+ nbend = bends ( hs_poly_nw ) 
+ segments = 1 + bends ( hs_poly_nw ) / 2 
+ l = dev_perim - ( w * ( 1 + ( nbend * 0.5 ) ) ) - ( w * nbend * 0.5 ) + ( w * 1.414 * nbend * 0.5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rpoly_hp2K_nw ) [ 
+ PROPERTY l , w , m , segments 
+ tolerance_l = 5 
+ tolerance_w = 1 
+ tolerance_m = 0 
+ tolerance_s = 0 
+ 
+ lay_l = layout_numeric_value ( l ) 
+ src_l = source_numeric_value ( l ) 
+ 
+ lay_w = layout_numeric_value ( w ) 
+ src_w = source_numeric_value ( w ) 
+ 
+ lay_m = layout_numeric_value ( m ) 
+ src_m = source_numeric_value ( m ) 
+ 
+ lay_s = layout_numeric_value ( segments ) 
+ src_s = source_numeric_value ( segments ) 
+ 
+ 
+ 
+ if ( src_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / src_l 
+ } else if ( lay_l != 0 ) { 
+ diff = ABS ( lay_l - src_l ) 
+ discrepency = 100 * diff / lay_l 
+ } 
+ 
+ if ( lay_s > 1 ) { 
+ tolerance_l = 5 
+ } else { tolerance_l = 1 } 
+ 
+ if ( discrepency > tolerance_l ) { 
+ report_numeric_discrepancy ( l , discrepency ) 
+ } 
+ 
+ if ( src_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / src_w 
+ } else if ( lay_w != 0 ) { 
+ diff = ABS ( lay_w - src_w ) 
+ discrepency = 100 * diff / lay_w 
+ } 
+ if ( discrepency > tolerance_w ) { 
+ report_numeric_discrepancy ( w , discrepency ) 
+ } 
+ 
+ if ( src_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / src_m 
+ } else if ( lay_m != 0 ) { 
+ diff = ABS ( lay_m - src_m ) 
+ discrepency = 100 * diff / lay_m 
+ } 
+ if ( discrepency > tolerance_m ) { 
+ report_numeric_discrepancy ( m , discrepency ) 
+ } 
+ 
+ if ( src_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / src_s 
+ } else if ( lay_s != 0 ) { 
+ diff = ABS ( lay_s - src_s ) 
+ discrepency = 100 * diff / lay_s 
+ } 
+ if ( discrepency > tolerance_s ) { 
+ report_numeric_discrepancy ( segments , discrepency ) 
+ } 
+ ];
+DEVICE R ( rpoly ) rpoly_rec ply ( POS ) ply ( NEG ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( rpoly_rec ) 
+ w = perimeter_coincide ( rpoly_rec , ply ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY r ( rpoly ) l l -tolerance 0;
+LVS_CHECK_PROPERTY r ( rpoly ) w w -tolerance 0;
+LVS_CHECK_PROPERTY r ( rpoly ) m m -tolerance 0;
+DEVICE R ( rpdiff ) rpdiff_nom psd ( POS ) psd ( NEG ) nwell ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( rpdiff_nom ) 
+ w = perimeter_coincide ( rpdiff_nom , psd ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rpdiff ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rpdiff ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rpdiff ) m m -tolerance 0;
+DEVICE R ( rndiff ) rndiff_nom_pw nsd ( POS ) nsd ( NEG ) pwell_all ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( rndiff_nom_pw ) 
+ w = perimeter_coincide ( rndiff_nom_pw , nsd ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+DEVICE R ( rndiff ) rndiff_nom_pt nsd ( POS ) nsd ( NEG ) ptub ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( rndiff_nom_pt ) 
+ w = perimeter_coincide ( rndiff_nom_pt , nsd ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rndiff ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rndiff ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rndiff ) m m -tolerance 0;
+DEVICE R ( rpdiff_v5 ) rpdiff_5v psd ( POS ) psd ( NEG ) nwell ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( rpdiff_5v ) 
+ w = perimeter_coincide ( rpdiff_5v , psd ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rpdiff_v5 ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rpdiff_v5 ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rpdiff_v5 ) m m -tolerance 0;
+DEVICE R ( rndiff_v5 ) rndiff_5v_pw nsd ( POS ) nsd ( NEG ) pwell_all ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( rndiff_5v_pw ) 
+ w = perimeter_coincide ( rndiff_5v_pw , nsd ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+DEVICE R ( rndiff_v5 ) rndiff_5v_pt nsd ( POS ) nsd ( NEG ) ptub ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( rndiff_5v_pt ) 
+ w = perimeter_coincide ( rndiff_5v_pt , nsd ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rndiff_v5 ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rndiff_v5 ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rndiff_v5 ) m m -tolerance 0;
+DEVICE R ( rpwell ) pwres_rec pwres_term ( POS ) pwres_term ( NEG ) dnwell ( SUB ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( pwres_rec ) 
+ w = perimeter_coincide ( pwres_rec , pwres_term ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( rpwell ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( rpwell ) w w -tolerance 0;
+LVS_CHECK_PROPERTY R ( rpwell ) m m -tolerance 0;
+LVS_REDUCE_DEVICE R -parallel yes [ 
+ tolerance w 1 
+ l 1 
+ 
+ EFFECTIVE m , w , l , segments 
+ m = SUM ( m ) 
+ w = SUM ( ( w * m ) ) 
+ l = SUM ( ( l * m ) ) / m 
+ segments = 1 
+ ];
+DEVICE R ( fuse_m4 ) m4fuse m4 ( POS ) m4 ( NEG ) ( POS NEG ) [ 
+ PROPERTY l , w , m , segments 
+ a = area ( m4fuse ) 
+ w = perimeter_coincide ( m4fuse , m4 ) * 0.5 
+ l = a / w 
+ m = 1 
+ segments = 1 
+ ];
+LVS_CHECK_PROPERTY R ( fuse_m4 ) l l -tolerance 0;
+LVS_CHECK_PROPERTY R ( fuse_m4 ) w w -tolerance 0;
+LVS_REDUCE_DEVICE R -series POS NEG no;
+DEVICE D ( dnsd_pw ) dnsd_pw pwell_all nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pw ) 
+ a = area ( dnsd_pw ) 
+ m = 1 
+ ];
+DEVICE D ( dnsd_pw ) dnsd_pt ptub nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pt ) 
+ a = area ( dnsd_pt ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dnsd_pw ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw ) m m -tolerance 0;
+DEVICE D ( dnsd_pw_esd ) dnsd_pw_esd pwell_all nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pw_esd ) 
+ a = area ( dnsd_pw_esd ) 
+ m = 1 
+ ];
+DEVICE D ( dnsd_pw_esd ) dnsd_pt_esd ptub nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pt_esd ) 
+ a = area ( dnsd_pt_esd ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dnsd_pw_esd ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_esd ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_esd ) m m -tolerance 0;
+DEVICE D ( dnsd_pw_esd_v5 ) dnsd_pw_esd_v5 pwell_all nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pw_esd_v5 ) 
+ a = area ( dnsd_pw_esd_v5 ) 
+ m = 1 
+ ];
+DEVICE D ( dnsd_pw_esd_v5 ) dnsd_pt_esd_v5 ptub nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pt_esd_v5 ) 
+ a = area ( dnsd_pt_esd_v5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dnsd_pw_esd_v5 ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_esd_v5 ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_esd_v5 ) m m -tolerance 0;
+DEVICE D ( dnsd_pw_lvt ) dnsd_pw_lvt pwell_all nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pw_lvt ) 
+ a = area ( dnsd_pw_lvt ) 
+ m = 1 
+ ];
+DEVICE D ( dnsd_pw_lvt ) dnsd_pt_lvt ptub nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pt_lvt ) 
+ a = area ( dnsd_pt_lvt ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dnsd_pw_lvt ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_lvt ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_lvt ) m m -tolerance 0;
+DEVICE D ( dnsd_pw_nat ) dnsd_pw_nat pwell_all nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pw_nat ) 
+ a = area ( dnsd_pw_nat ) 
+ m = 1 
+ ];
+DEVICE D ( dnsd_pw_nat ) dnsd_pt_nat ptub nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pt_nat ) 
+ a = area ( dnsd_pt_nat ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dnsd_pw_nat ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_nat ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_nat ) m m -tolerance 0;
+DEVICE D ( dnsd_pw_v5 ) dnsd_pw_v5 pwell_all nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pw_v5 ) 
+ a = area ( dnsd_pw_v5 ) 
+ m = 1 
+ ];
+DEVICE D ( dnsd_pw_v5 ) dnsd_pt_v5 ptub nsd [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnsd_pt_v5 ) 
+ a = area ( dnsd_pt_v5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dnsd_pw_v5 ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_v5 ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dnsd_pw_v5 ) m m -tolerance 0;
+DEVICE D ( dpsd_nw ) dpsd_nw psd nwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpsd_nw ) 
+ a = area ( dpsd_nw ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dpsd_nw ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw ) m m -tolerance 0;
+DEVICE D ( dpsd_nw_esd ) dpsd_nw_esd psd nwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpsd_nw_esd ) 
+ a = area ( dpsd_nw_esd ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dpsd_nw_esd ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_esd ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_esd ) m m -tolerance 0;
+DEVICE D ( dpsd_nw_esd_v5 ) dpsd_nw_esd_v5 psd nwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpsd_nw_esd_v5 ) 
+ a = area ( dpsd_nw_esd_v5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dpsd_nw_esd_v5 ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_esd_v5 ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_esd_v5 ) m m -tolerance 0;
+DEVICE D ( dpsd_nw_hvt ) dpsd_nw_hvt psd nwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpsd_nw_hvt ) 
+ a = area ( dpsd_nw_hvt ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dpsd_nw_hvt ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_hvt ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_hvt ) m m -tolerance 0;
+DEVICE D ( dpsd_nw_lvt ) dpsd_nw_lvt psd nwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpsd_nw_lvt ) 
+ a = area ( dpsd_nw_lvt ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dpsd_nw_lvt ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_lvt ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_lvt ) m m -tolerance 0;
+DEVICE D ( dpsd_nw_v5 ) dpsd_nw_v5 psd nwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpsd_nw_v5 ) 
+ a = area ( dpsd_nw_v5 ) 
+ m = 1 
+ ];
+LVS_CHECK_PROPERTY D ( dpsd_nw_v5 ) a a -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_v5 ) p p -tolerance 0;
+LVS_CHECK_PROPERTY D ( dpsd_nw_v5 ) m m -tolerance 0;
+DEVICE D ( ddnw_sub ) dnw_sub_nom pwell_all dnwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnw_sub_nom ) 
+ a = area ( dnw_sub_nom ) 
+ m = 1 
+ ];
+DEVICE D ( dipw_dnw ) dpw_dnw_nom ptub dnwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpw_dnw_nom ) 
+ a = area ( dpw_dnw_nom ) 
+ m = 1 
+ ];
+DEVICE D ( dipw_dnw ) dpw_dnw_nom_pwres ptub dnwell < ptub_b > < ptub_c > < pwres > [ 
+ PROPERTY w , l , a , p 
+ w = perimeter_coincide ( pwres , ptub_c ) 
+ l = ( area ( ptub_b ) / w ) / 2 
+ a = l * w 
+ p = 2 * l + w 
+ ];
+DEVICE D ( ddnw_sub_v5 ) dnw_sub_v5 pwell_all dnwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnw_sub_v5 ) 
+ a = area ( dnw_sub_v5 ) 
+ m = 1 
+ ];
+DEVICE D ( dipw_dnw_v5 ) dpw_dnw_v5 ptub dnwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpw_dnw_v5 ) 
+ a = area ( dpw_dnw_v5 ) 
+ m = 1 
+ ];
+DEVICE D ( dipw_dnw_v5 ) dpw_dnw_v5_pwres ptub dnwell < ptub_b > < ptub_c > < pwres > [ 
+ PROPERTY w , l , a , p 
+ w = perimeter_coincide ( pwres , ptub_c ) 
+ l = ( area ( ptub_b ) / w ) / 2 
+ a = l * w 
+ p = 2 * l + w 
+ ];
+DEVICE D ( ddnw_sub_v12 ) dnw_sub_v12 pwell_all dnwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnw_sub_v12 ) 
+ a = area ( dnw_sub_v12 ) 
+ m = 1 
+ ];
+DEVICE D ( dipw_dnw_v12 ) dpw_dnw_v12 ptub dnwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpw_dnw_v12 ) 
+ a = area ( dpw_dnw_v12 ) 
+ m = 1 
+ ];
+DEVICE D ( dipw_dnw_v12 ) dpw_dnw_v12_pwres ptub dnwell < ptub_b > < ptub_c > < pwres > [ 
+ PROPERTY w , l , a , p 
+ w = perimeter_coincide ( pwres , ptub_c ) 
+ l = ( area ( ptub_b ) / w ) / 2 
+ a = l * w 
+ p = 2 * l + w 
+ ];
+DEVICE D ( ddnw_sub_v20 ) dnw_sub_v20 pwell_all dnwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dnw_sub_v20 ) 
+ a = area ( dnw_sub_v20 ) 
+ m = 1 
+ ];
+DEVICE D ( dipw_dnw_v20 ) dpw_dnw_v20 ptub dnwell [ 
+ PROPERTY a , p , m 
+ p = perimeter ( dpw_dnw_v20 ) 
+ a = area ( dpw_dnw_v20 ) 
+ m = 1 
+ ];
+DEVICE D ( dipw_dnw_v20 ) dpw_dnw_v20_pwres ptub dnwell < ptub_b > < ptub_c > < pwres > [ 
+ PROPERTY w , l , a , p 
+ w = perimeter_coincide ( pwres , ptub_c ) 
+ l = ( area ( ptub_b ) / w ) / 2 
+ a = l * w 
+ p = 2 * l + w 
+ ];
+LVS_CHECK_PROPERTY D ( ddnw_sub ) a a -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( ddnw_sub ) p p -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( dipw_dnw ) a a -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( dipw_dnw ) p p -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( ddnw_sub_v5 ) a a -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( ddnw_sub_v5 ) p p -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( dipw_dnw_v5 ) a a -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( dipw_dnw_v5 ) p p -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( ddnw_sub_v12 ) a a -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( ddnw_sub_v12 ) p p -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( dipw_dnw_v12 ) a a -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( dipw_dnw_v12 ) p p -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( ddnw_sub_v20 ) a a -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( ddnw_sub_v20 ) p p -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( dipw_dnw_v20 ) a a -tolerance 0.005;
+LVS_CHECK_PROPERTY D ( dipw_dnw_v20 ) p p -tolerance 0.005;
+LVS_REDUCE_DEVICE D -parallel yes [ 
+ effective a , p , m 
+ a = SUM ( a ) 
+ p = SUM ( p ) 
+ m = SUM ( m ) 
+ ];
+LVS_REDUCE_DEVICE D -series POS NEG no;
+DEVICE C ( cm3m4 ) cap_34 m4 ( POS ) m3 ( NEG ) [ 
+ PROPERTY a , p 
+ a = area ( cap_34 ) 
+ p = perimeter ( cap_34 ) 
+ ];
+DEVICE C ( cm4m5 ) cap_45 m5 ( POS ) m4 ( NEG ) [ 
+ PROPERTY a , p 
+ a = area ( cap_45 ) 
+ p = perimeter ( cap_45 ) 
+ ];
+LVS_REDUCE_DEVICE C -parallel yes [ 
+ tolerance a 1 
+ p 1 
+ EFFECTIVE a , p , m 
+ a = SUM ( a ) 
+ p = SUM ( p ) 
+ m = SUM ( m ) 
+ ];
+LVS_CHECK_PROPERTY C a a -tolerance 0;
+LVS_CHECK_PROPERTY C p p -tolerance 0;
+LVS_CHECK_PROPERTY C m m -tolerance 0;
+DEVICE Q ( npn_1x1 ) npn_1x1_rec nwell ( C ) ptubtap ( B ) nsd ( E ) pwell_all ( S ) [ 
+ PROPERTY a , p 
+ a = area ( E ) 
+ p = perimeter ( E ) 
+ ];
+DEVICE Q ( npn_1x1_v5 ) npn_1x1_rec_v5 nwell ( C ) ptubtap ( B ) nsd ( E ) pwell_all ( S ) [ 
+ PROPERTY a , p 
+ a = area ( E ) 
+ p = perimeter ( E ) 
+ ];
+DEVICE Q ( npn_1x2 ) npn_1x2_rec nwell ( C ) ptubtap ( B ) nsd ( E ) pwell_all ( S ) [ 
+ PROPERTY a , p 
+ a = area ( E ) 
+ p = perimeter ( E ) 
+ ];
+DEVICE Q ( pnp ) pnp_rec_1x ptap ( C ) ntap ( B ) psd ( E ) pwell_all ( S ) [ 
+ PROPERTY a , p 
+ a = area ( E ) 
+ p = perimeter ( E ) 
+ ];
+DEVICE Q ( pnp_5x ) pnp_rec_5x ptap ( C ) ntap ( B ) psd ( E ) pwell_all ( S ) [ 
+ PROPERTY a , p 
+ a = area ( E ) 
+ p = perimeter ( E ) 
+ ];
+LVS_CHECK_PROPERTY Q m m -tolerance 0;
+LVS_CHECK_PROPERTY Q a a -tolerance 0;
+LVS_CHECK_PROPERTY Q p p -tolerance 0;
+LVS_REDUCE_DEVICE Q -parallel yes [ 
+ tolerance a 1 
+ p 1 
+ EFFECTIVE a , p , m 
+ m = SUM ( m ) 
+ a = SUM ( a ) 
+ p = SUM ( ( p * m ) ) / m 
+ ];
+
+
+########################################################################
+Optimizing Rules ...
+########################################################################
+[WARN] Neither hcell nor -automatch option is specified.
+Operation 'CAT' at line 346 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 625 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 626 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 627 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 630 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 631 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 632 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 633 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 638 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 639 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 640 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 642 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 644 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 647 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 650 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 651 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 652 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 653 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 654 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 655 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 656 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 657 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 658 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 659 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 660 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 661 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 662 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 663 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 664 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 665 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 666 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 667 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 671 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 673 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 674 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'SELECT -interact' at line 712 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'SELECT -interact' at line 712 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'NOT' at line 712 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Operation 'SIZE' at line 712 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul is not selected for executing, remove it.
+Two 'SIZE' operations at line 688 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul and at line 689 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul are merged into one 'SIZE' operation with -underover option.
+Two 'SIZE' operations at line 694 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul and at line 695 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul are merged into one 'SIZE' operation with -underover option.
+Two 'SIZE' operations at line 700 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul and at line 701 in file /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/LVS/pvs_lvs.rul are merged into one 'SIZE' operation with -underover option.
+Completed execution early, as requested by the "-get_rules" or "-gen_tags"
+
+   ONE LAYER BOOLEAN: Cumulative Time CPU =        0(s) REAL =        0(s)
+   TWO LAYER BOOLEAN: Cumulative Time CPU =        0(s) REAL =        0(s)
+ POLYGON TOPOLOGICAL: Cumulative Time CPU =        0(s) REAL =        0(s)
+ POLYGON MEASUREMENT: Cumulative Time CPU =        0(s) REAL =        0(s)
+                SIZE: Cumulative Time CPU =        0(s) REAL =        0(s)
+    EDGE TOPOLOGICAL: Cumulative Time CPU =        0(s) REAL =        0(s)
+    EDGE MEASUREMENT: Cumulative Time CPU =        0(s) REAL =        0(s)
+               STAMP: Cumulative Time CPU =        0(s) REAL =        0(s)
+       ONE LAYER DRC: Cumulative Time CPU =        0(s) REAL =        0(s)
+       TWO LAYER DRC: Cumulative Time CPU =        0(s) REAL =        0(s)
+            NET AREA: Cumulative Time CPU =        0(s) REAL =        0(s)
+             DENSITY: Cumulative Time CPU =        0(s) REAL =        0(s)
+       MISCELLANEOUS: Cumulative Time CPU =        0(s) REAL =        0(s)
+             CONNECT: Cumulative Time CPU =        0(s) REAL =        0(s)
+              DEVICE: Cumulative Time CPU =        0(s) REAL =        0(s)
+                 ERC: Cumulative Time CPU =        0(s) REAL =        0(s)
+       PATTERN_MATCH: Cumulative Time CPU =        0(s) REAL =        0(s)
+            DFM FILL: Cumulative Time CPU =        0(s) REAL =        0(s)
+
+
+Total CPU Time                    : 1(s)
+Total Real Time                   : 1(s)
+Peak Memory Used                  : 18(M)
+Total Original Geometry           : 0(0)
+Total ERC RuleChecks              : 0
+Total ERC Results                 : 0 (0)
+
+
+Netlist Extraction Finished Normally. Mon Apr 24 04:57:49 2023
+
+

@@ -1,0 +1,37 @@
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.13 09/23/2020 01:40 (sjfhua018) $
+sub-version 4.1_USR6_HF9, integ signature 2020-09-23-0023
+run on ice05 at Wed May  4 11:12:08 2022
+
+Schematic                                      | Layout                                      | Status
+--------------------------------------------------------------------------------------------------------------
+TwoStage_layout schematic Operational_Amplifier| TwoStage_layout layout Operational_Amplifier| errors,        *
+                                               |                                             | fatal pin errs *
+
+Mismatch between Schematic and Layout
+   1 cell with errors
+
+Schematic:
+  Library:Operational_Amplifier
+  Cell   :TwoStage_layout
+  View   :schematic
+
+Layout:
+  Library:Operational_Amplifier
+  Cell   :TwoStage_layout
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     1 cells have 1 mal-formed device problems
+     1 cells have 6 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     1 cells have 5 Net mismatches
+     1 cells have 21 Device mismatches
+     1 cells have 2 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

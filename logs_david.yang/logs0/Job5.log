@@ -1,0 +1,156 @@
+\# Program start time:     UTC 2022.04.19 22:22:01.584
+\# Local time: EDT (UTC-04:00) 2022.04.19 18:22:01.584
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 11/10/2020 19:41 (cpgsrv13) $
+\o Hierarchy:		/afs/ee.cooper.edu/dist/cadence-2021/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.15  (64-bit addresses)
+\# Command line:	/afs/ee.cooper.edu/dist/cadence-2021/installs/ic/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso21356 -mpshost ice05 -davinciService DaVinciService_21356_1650406001 -log /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/logs_david.yang/logs0/Job5.log -licenseLockFileName /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/.tmp_david.yang/.ice05_21356 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 5
+\# Host name (type):	ice05 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.59.1.el7.x86_64 #1 SMP Wed Feb 23 16:47:03 UTC 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:95 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 3850)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x1000000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        556 MB
+\# Available memory:	      9,147 MB
+\# System memory:	     15,937 MB
+\# Maximum memory size:	     15,537 MB
+\# Max mem available:	      9,304 MB
+\# Initial memory used:	        156 MB
+\#        process size:	      1,488 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		david.yang
+\o Working Directory:	ice05:/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65
+\# Process Id:		11349
+\o 
+\o COPYRIGHT (C) 1992-2020  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2020  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\# Available memory:          8,973 MB at UTC 2022.04.19 22:22:12.415
+\# Memory report: Maximum memory size now 9,207 MB at UTC 2022.04.19 22:22:12.415
+\# Thread usage report: 9 active threads, active load 1.00 at UTC 2022.04.19 22:22:12.415
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\# Memory report: using         296 MB, process size 1,707 MB at UTC 2022.04.19 22:22:17.136
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso21356, host=ice05). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 11349 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\w *WARNING* The directory: '/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Test' does not exist
+\w 	but was defined in libFile '/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib' for Lib 'Test'.
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\a _treeSetOpcGUI(t)
+\r t
+\o Loading vqp.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = Operational_Amplifier
+\o 	Cell         = TwoStage_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Operational_Amplifier:TwoStage_tb:1_none_Interactive.2
+\o 	Results DB   = /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.2.rdb
+\o 	Results Dir  = /afs/ee.cooper.edu/user/d/david.yang/simulation/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.2/11/Operational_Amplifier:TwoStage_tb:1
+\o 	Results Loc  = /afs/ee.cooper.edu/user/d/david.yang/simulation/Operational_Amplifier/TwoStage_tb/adexl/results/data
+\o 	Project Dir  = /afs/ee.cooper.edu/user/d/david.yang/simulation
+\o 	Setup DB loc = /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Test' does not exist
+\w 	but was defined in libFile '/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib' for Lib 'Test'.
+\o Initializing from libInit.il for library tsmcN65...
+\o    --  /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/pcode1.cxt
+\o    --  /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/pcode2.cxt
+\o    --  tsmcPdkParamTable.il
+\o    --  tsmcN65_updateCDFs.il
+\o    --  tsmc_esti.ile
+\o    --  /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/tsmcN65gp_v1d0c.cxt
+\o    --  /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/tsmcN65_newAMS.cxt
+\o    --  /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/tsmcN65_newRTMOM.cxt
+\o    --  /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/tsmcN65GP_v1d0.cxt
+\o    --  tsmcN65.cxt
+\o    --  tsmcN65Tool.cxt
+\o    --  tif_tcf_crn65gp_v1.0a.cxt
+\o    --  /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/tsmcN65GP_v1d0.cxt
+\w *WARNING* (loadContext): context //afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/64bit/tsmcN65GP_v1d0.cxt already loaded
+\o    --  /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/tsmcN65_newRTMOM.cxt
+\w *WARNING* (loadContext): context //afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/64bit/tsmcN65_newRTMOM.cxt already loaded
+\o    --  /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/tsmcN65_newAMS.cxt
+\w *WARNING* (loadContext): context //afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../skill/64bit/tsmcN65_newAMS.cxt already loaded
+\o Loading PDK Display File '/afs/ee.cooper.edu/dist/cadence-tools/tsmc65/cadence_oa_pdk_customized/tsmcN65/../display.drf'
+\o Loading spectrei.cxt 
+\# Memory report: using         491 MB, process size 1,962 MB at UTC 2022.04.19 22:22:19.113
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\# Memory report: Maximum memory size now 8,855 MB at UTC 2022.04.19 22:22:22.409
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\p > 
+\# Memory report: Maximum memory size now 9,337 MB at UTC 2022.04.19 22:27:32.408

@@ -1,0 +1,25 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 unmatched connect pin
+1 0 ((S "M2<1>" "nch")(("D" "net8")("G" "Vin-")("S" "net5<0>")("B" "VSS")))
+1 0 ((S "M2<0>" "nch")(("D" "net8")("G" "Vin-")("S" "net5<1>")("B" "VSS")))
+1 0 ((S "M7<1>" "nch")(("D" "Vout+")("G" "net2")("S" "VSS")("B" "VSS")))
+1 0 ((S "M9<1>" "nch")(("D" "Iref")("G" "Iref")("S" "VSS")("B" "VSS")))
+1 0 ((S "M10<1>" "nch")(("D" "net5<0>")("G" "Iref")("S" "VSS")("B" "VSS")))
+1 0 ((S "M10<0>" "nch")(("D" "net5<1>")("G" "Iref")("S" "VSS")("B" "VSS")))
+1 0 ((S "M8<1>" "nch")(("D" "Vout-")("G" "net2")("S" "VSS")("B" "VSS")))
+1 0 ((S "M0<1>" "nch")(("D" "net3")("G" "Vin+")("S" "net5<0>")("B" "VSS")))
+1 0 ((S "M0<0>" "nch")(("D" "net3")("G" "Vin+")("S" "net5<1>")("B" "VSS")))
+1 0 ((S "M6<1>" "pch")(("D" "Vout-")("G" "net8")("S" "VDD")("B" "VDD")))
+1 0 ((S "M3<1>" "pch")(("D" "net3")("G" "net4")("S" "VDD")("B" "VDD")))
+1 0 ((S "M4<1>" "pch")(("D" "net8")("G" "net4")("S" "VDD")("B" "VDD")))
+1 0 ((S "M5<1>" "pch")(("D" "Vout+")("G" "net3")("S" "VDD")("B" "VDD")))
+1 0 ((S "R2" "rppolywo")(("PLUS" "net3")("MINUS" "net4")))
+1 0 ((S "R3" "rppolywo")(("PLUS" "net4")("MINUS" "net8")))
+1 0 ((S "R5" "rppolywo")(("PLUS" "net2")("MINUS" "Vout-")))
+1 0 ((S "R4" "rppolywo")(("PLUS" "Vout+")("MINUS" "net2")))
+1 0 ((L "avD23_1" "nch")(("D" "avC1")("G" "avC1")("S" "avC1")("B" "net4")))
+1 0 ((L "avD23_2" "nch")(("D" "net5<0>")("G" "avC1")("S" "avC1")("B" "net4")))
+1 0 ((L "avD23_10" "nch")(("D" "net5<1>")("G" "avC1")("S" "avC1")("B" "net4")))
+1 0 ((L "avD139_1" "pch")(("D" "avC1")("G" "avC1")("S" "avC1")("B" "net2")))

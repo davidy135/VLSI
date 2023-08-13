@@ -1,0 +1,13 @@
+RX_Frontend 1000
+met4.INFO.ONLY.DEN:L267937
+1 1 1 Jun  4 14:17:37 2023
+DENSITY met4_to_check -gt 0.000000 -window 700.000000 700.000000 -inside_of layer fill_extent -rdb met4_density_info_only.rdb met4.INFO.ONLY.DEN:L267937
+p 1 4
+DV 0.2811266104
+DA 6917.005641
+DA met4_to_check 1944.55435
+-1 -1
+83810 -1
+83810 82530
+-1 82530
+

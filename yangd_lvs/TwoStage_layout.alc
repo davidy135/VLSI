@@ -1,0 +1,10 @@
+!<alc> v1 157
+0   17    0 rppolywo layout tsmcN65 l="12.83u" in1=R2
+0   16    0 rppolywo layout tsmcN65 l="255n" in1=R8
+0   15    0 pch layout tsmcN65 ad="1.575p" as="1.575p" fingers="15" l="150n" nrd="6.667m" nrs="6.667m" pd="19.15u" ps="19.15u" sa="175n" id_=a84b00701794d460 in1=M428029
+0   14    0 pch layout tsmcN65 ad="10p" as="11.5p" fingers="10" l="100n" nrd="1m" nrs="1m" pd="102u" ps="122.3u" sa="175n" sb="175n" id_=f8d4dbef87c6e0 in1=M628029
+0   13    0 nch layout tsmcN65 ad="25.75p" as="25.75p" fingers="25" l="200n" nrd="400u" nrs="400u" pd="265.1u" ps="265.1u" sa="175n" id_=9a0d03322bb1f7e3 in1=M928029
+0   12    0 nch layout tsmcN65 ad="10p" as="11.5p" fingers="10" l="200n" nrd="1m" nrs="1m" pd="102u" ps="122.3u" sa="175n" sb="175n" id_=f8d4dbef87c6e0 in1=M828029
+0   11    0 nch layout tsmcN65 ad="2p" as="2.15p" fingers="20" l="100n" nrd="5m" nrs="5m" pd="24u" ps="26.3u" sa="175n" sb="175n" w="1u" id_=68a34944e in1=M228129
+0   10    0 mimcap_woum_rf_9m_1p0 layout tsmcN65 lt="12u" wt="12u" in1=C0
+0   18    0 TwoStage_layout layout Operational_Amplifier

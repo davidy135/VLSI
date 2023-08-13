@@ -1,0 +1,235 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+*WARNING* LIB S130 from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 16 redefines
+LIB S130 from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE S130
+before DEFINE S130
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE S130
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130hd from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 28 redefines
+LIB scs130hd from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130hd
+before DEFINE scs130hd
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130hd
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130hdll from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 29 redefines
+LIB scs130hdll from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130hdll
+before DEFINE scs130hdll
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130hdll
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130hvl from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 30 redefines
+LIB scs130hvl from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130hvl
+before DEFINE scs130hvl
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130hvl
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130lp from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 31 redefines
+LIB scs130lp from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130lp
+before DEFINE scs130lp
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130lp
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130ls from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 32 redefines
+LIB scs130ls from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130ls
+before DEFINE scs130ls
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130ls
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130ms from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 33 redefines
+LIB scs130ms from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130ms
+before DEFINE scs130ms
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130ms
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB s130iom0 from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 40 redefines
+LIB s130iom0 from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE s130iom0
+before DEFINE s130iom0
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE s130iom0
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 11/10/2020 19:36 (cpgsrv13) $
+          : sub-version  IC6.1.8-64b.500.15 
+Started at: 30-May-2023  13:28:47
+User Name : david.yang
+Host Name : conway
+Directory : /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+*WARNING* LIB s130_esd from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 41 redefines
+LIB s130_esd from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE s130_esd
+before DEFINE s130_esd
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE s130_esd
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+The file being loaded is "/afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/S130/libInit.il"
+The file being loaded from Library "S130"
+"Loading Skywater's Pcell technical data & callbacks"
+"Exiting libInit.il"
+WARNING (XSTRM-20): Output Stream file '/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/RX_Frontend.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/S130/S130.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 RX_Frontend
+strmFile                                /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/RX_Frontend.gds
+topCell                                 RX_Frontend
+view                                    layout
+runDir                                  /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs
+logFile                                 /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/PIPO1.LOG
+techLib                                 S130
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/S130/S130.layermap
+userSkillFile                           /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+convertPin                              geometryAndText
+
+INFO (XSTRM-223): 1. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_1.
+INFO (XSTRM-223): 2. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_2.
+INFO (XSTRM-223): 3. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_3.
+INFO (XSTRM-223): 4. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_4.
+INFO (XSTRM-223): 5. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_5.
+INFO (XSTRM-223): 6. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_6.
+INFO (XSTRM-223): 7. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_7.
+INFO (XSTRM-223): 8. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_8.
+INFO (XSTRM-223): 9. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_9.
+INFO (XSTRM-223): 10. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_10.
+INFO (XSTRM-223): 11. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_11.
+INFO (XSTRM-223): 12. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_12.
+INFO (XSTRM-223): 13. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_13.
+INFO (XSTRM-223): 14. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_14.
+INFO (XSTRM-223): 15. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_15.
+INFO (XSTRM-223): 16. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_16.
+INFO (XSTRM-223): 17. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_17.
+INFO (XSTRM-223): 18. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_18.
+INFO (XSTRM-223): 19. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_19.
+INFO (XSTRM-223): 20. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_20.
+INFO (XSTRM-223): 21. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_21.
+INFO (XSTRM-223): 22. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_22.
+INFO (XSTRM-223): 23. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_23.
+INFO (XSTRM-223): 24. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_24.
+INFO (XSTRM-223): 25. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_25.
+INFO (XSTRM-223): 26. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_26.
+INFO (XSTRM-223): 27. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_27.
+INFO (XSTRM-223): 28. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_28.
+INFO (XSTRM-223): 29. Translating stdVia S130/M4M5/layout as STRUCTURE M4M5_CDNS_29.
+INFO (XSTRM-223): 30. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_30.
+INFO (XSTRM-223): 31. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_31.
+INFO (XSTRM-223): 32. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_32.
+INFO (XSTRM-223): 33. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_33.
+INFO (XSTRM-223): 34. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_34.
+INFO (XSTRM-223): 35. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_35.
+INFO (XSTRM-223): 36. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_36.
+INFO (XSTRM-223): 37. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_37.
+INFO (XSTRM-223): 38. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_38.
+INFO (XSTRM-223): 39. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_39.
+INFO (XSTRM-223): 40. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_40.
+INFO (XSTRM-223): 41. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_41.
+INFO (XSTRM-223): 42. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_42.
+INFO (XSTRM-223): 43. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_43.
+INFO (XSTRM-223): 44. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_44.
+INFO (XSTRM-223): 45. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_45.
+INFO (XSTRM-223): 46. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_46.
+INFO (XSTRM-223): 47. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_47.
+INFO (XSTRM-223): 48. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_48.
+INFO (XSTRM-223): 49. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_49.
+INFO (XSTRM-223): 50. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_50.
+INFO (XSTRM-223): 51. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_51.
+INFO (XSTRM-223): 52. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_52.
+INFO (XSTRM-223): 53. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_53.
+INFO (XSTRM-223): 54. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_54.
+INFO (XSTRM-223): 55. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_55.
+INFO (XSTRM-223): 56. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_56.
+INFO (XSTRM-223): 57. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_57.
+INFO (XSTRM-223): 58. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_58.
+INFO (XSTRM-223): 59. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_59.
+INFO (XSTRM-223): 60. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_60.
+INFO (XSTRM-223): 61. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_61.
+INFO (XSTRM-223): 62. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_62.
+INFO (XSTRM-223): 63. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_63.
+INFO (XSTRM-223): 64. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_64.
+INFO (XSTRM-223): 65. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_65.
+INFO (XSTRM-223): 66. Translating stdVia S130/M4M5/layout as STRUCTURE M4M5_CDNS_66.
+INFO (XSTRM-223): 67. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_67.
+INFO (XSTRM-223): 68. Translating stdVia S130/M4M5/layout as STRUCTURE M4M5_CDNS_68.
+INFO (XSTRM-223): 69. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_69.
+INFO (XSTRM-223): 70. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_70.
+INFO (XSTRM-223): 71. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_71.
+INFO (XSTRM-223): 72. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_72.
+INFO (XSTRM-223): 73. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_73.
+INFO (XSTRM-223): 74. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_74.
+INFO (XSTRM-223): 75. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_75.
+INFO (XSTRM-223): 76. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_76.
+INFO (XSTRM-223): 77. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_77.
+INFO (XSTRM-223): 78. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_78.
+INFO (XSTRM-223): 79. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_79.
+INFO (XSTRM-223): 80. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_80.
+INFO (XSTRM-223): 81. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_81.
+INFO (XSTRM-223): 82. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_82.
+INFO (XSTRM-223): 83. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_83.
+INFO (XSTRM-223): 84. Translating cellView S130/cm4m5/layout as STRUCTURE cm4m5_CDNS_84.
+INFO (XSTRM-223): 85. Translating cellView S130/rpoly/layout as STRUCTURE rpoly_CDNS_85.
+INFO (XSTRM-223): 86. Translating cellView S130/cm4m5/layout as STRUCTURE cm4m5_CDNS_86.
+INFO (XSTRM-223): 87. Translating cellView S130/nmos/layout as STRUCTURE nmos_CDNS_87.
+INFO (XSTRM-223): 88. Translating cellView S130/rpoly/layout as STRUCTURE rpoly_CDNS_88.
+INFO (XSTRM-223): 89. Translating cellView S130/nmos/layout as STRUCTURE nmos_CDNS_89.
+INFO (XSTRM-223): 90. Translating cellView S130/nmos_lvt/layout as STRUCTURE nmos_lvt_CDNS_90.
+INFO (XSTRM-223): 91. Translating cellView S130/rpoly/layout as STRUCTURE rpoly_CDNS_91.
+INFO (XSTRM-223): 92. Translating cellView S130/cm4m5/layout as STRUCTURE cm4m5_CDNS_92.
+INFO (XSTRM-223): 93. Translating cellView S130/rpoly/layout as STRUCTURE rpoly_CDNS_93.
+INFO (XSTRM-223): 94. Translating cellView S130/nmos/layout as STRUCTURE nmos_CDNS_94.
+INFO (XSTRM-223): 95. Translating cellView S130/nmos/layout as STRUCTURE nmos_CDNS_95.
+INFO (XSTRM-223): 96. Translating cellView RX_Frontend/RX_Frontend/layout as STRUCTURE RX_Frontend.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       25
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  350
+	Rectangles:                             8701
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           1290
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               3699
+	Text:                                   0
+	TextDisplay:                            1014
+	Cells:                                  96
+
+Elapsed Time: 0.3s   User Time: 0.3s   CPU Time: 0.0s   Peak VM: 21144KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

@@ -1,0 +1,167 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
+
+Running simulation in directory: "/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/cdlout_schematic/".
+
+*WARNING* LIB S130 from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 16 redefines
+LIB S130 from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE S130
+before DEFINE S130
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE S130
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130hd from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 28 redefines
+LIB scs130hd from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130hd
+before DEFINE scs130hd
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130hd
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130hdll from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 29 redefines
+LIB scs130hdll from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130hdll
+before DEFINE scs130hdll
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130hdll
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130hvl from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 30 redefines
+LIB scs130hvl from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130hvl
+before DEFINE scs130hvl
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130hvl
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130lp from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 31 redefines
+LIB scs130lp from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130lp
+before DEFINE scs130lp
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130lp
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130ls from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 32 redefines
+LIB scs130ls from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130ls
+before DEFINE scs130ls
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130ls
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130ms from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 33 redefines
+LIB scs130ms from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130ms
+before DEFINE scs130ms
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130ms
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB s130iom0 from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 40 redefines
+LIB s130iom0 from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE s130iom0
+before DEFINE s130iom0
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE s130iom0
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB s130_esd from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 41 redefines
+LIB s130_esd from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE s130_esd
+before DEFINE s130_esd
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE s130_esd
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB S130 from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 16 redefines
+LIB S130 from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE S130
+before DEFINE S130
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE S130
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130hd from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 28 redefines
+LIB scs130hd from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130hd
+before DEFINE scs130hd
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130hd
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130hdll from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 29 redefines
+LIB scs130hdll from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130hdll
+before DEFINE scs130hdll
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130hdll
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130hvl from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 30 redefines
+LIB scs130hvl from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130hvl
+before DEFINE scs130hvl
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130hvl
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130lp from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 31 redefines
+LIB scs130lp from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130lp
+before DEFINE scs130lp
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130lp
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130ls from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 32 redefines
+LIB scs130ls from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130ls
+before DEFINE scs130ls
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130ls
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB scs130ms from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 33 redefines
+LIB scs130ms from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE scs130ms
+before DEFINE scs130ms
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE scs130ms
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB s130iom0 from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 40 redefines
+LIB s130iom0 from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE s130iom0
+before DEFINE s130iom0
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE s130iom0
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+*WARNING* LIB s130_esd from File /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib Line 41 redefines
+LIB s130_esd from File /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+Insert UNDEFINE s130_esd
+before DEFINE s130_esd
+    in /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/cds.lib
+Or remove or comment out DEFINE s130_esd
+    in /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/cds.lib
+to suppress this warning message.
+The file being loaded is "/afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/S130/libInit.il"
+The file being loaded from Library "S130"
+"Loading Skywater's Pcell technical data & callbacks"
+"Exiting libInit.il"
+Running Artist Hierarchical Netlisting ...
+Loading cdf.cxt 
+End netlisting May  8 12:41:37 2023
+
+Running simin
+
+Running runSim()...
+
+
+Running runsim with simulator: "auCdl"
+Begin simulation:    May  8 12:41:37 2023
+
+auCdl netlisting completed
+End simulation:      May  8 12:41:37 2023
+INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.

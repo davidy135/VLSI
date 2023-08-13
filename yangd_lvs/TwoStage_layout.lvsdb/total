@@ -1,0 +1,5 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 device net parameter pin rewire total
+1  5 (( ( S "TwoStage_layout layout Operational_Amplifier" )( L "TwoStage_layout schematic Operational_Amplifier" ) )(( 3 0 14 )( 1 5 6 )( 0 4 17 )))

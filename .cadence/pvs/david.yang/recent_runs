@@ -1,0 +1,4 @@
+1685902662 0 1685902662 "/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/RX_Frontend.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1651375542 0 1651375542 "/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs" "lvsbrowser" "" "" "" "/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/" "auCdl" "auCdl schematic" "/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/lay_cellMap.txt" "" "" "" "" true
+1651374586 0 1651374586 "/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/TwoStage_layout.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1651028085 0 1651028085 "/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/TwoStage.drc_errors.ascii" "drcbrowser" "" "" "" "" "" "" "" "" "" "" "" true

@@ -1,0 +1,6 @@
+CADENCE IHNL11144
+
+RX_Frontend LNA_tapeout schematic cds0
+RX_Frontend Mixer schematic cds1
+RX_Frontend Oscillator schematic cds2
+RX_Frontend RX_Frontend schematic cds3

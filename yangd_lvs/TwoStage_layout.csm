@@ -1,0 +1,7 @@
+Schematic                                      | Layout                                      | Status
+--------------------------------------------------------------------------------------------------------------
+TwoStage_layout schematic Operational_Amplifier| TwoStage_layout layout Operational_Amplifier| errors,        *
+                                               |                                             | fatal pin errs *
+
+Mismatch between Schematic and Layout
+   1 cell with errors

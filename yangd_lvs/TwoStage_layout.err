@@ -1,0 +1,298 @@
+================================================================================
+Rule No. 4 : n_psub_StampErrorMult
+
+Real Error Count : 13; Flat Error Count : 33
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : rppolywo layout tsmcN65 l="12.83u" in1=R2
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 58.890       45.670      61.330       59.580
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.200     -0.220     13.710      2.220
+
+--------------------------------------------------------------------------------
+Cell Name : rppolywo layout tsmcN65 l="255n" in1=R8
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 2                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        2                 58.930       64.320      60.265       66.760
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.200     -0.220      1.135      2.220
+
+--------------------------------------------------------------------------------
+Cell Name : pch layout tsmcN65 ad="1.575p" as="1.575p" fingers="15" l="150n" nrd="6.667m" nrs="6.667m" pd="19.15u" ps="19.15u" sa="175n" id_=a84b00701794d460 in1=M428029
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 56.000       88.110      61.840       89.790
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.395     -0.340      5.445      1.340
+
+--------------------------------------------------------------------------------
+Cell Name : pch layout tsmcN65 ad="10p" as="11.5p" fingers="10" l="100n" nrd="1m" nrs="1m" pd="102u" ps="122.3u" sa="175n" sb="175n" id_=f8d4dbef87c6e0 in1=M628029
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 47.150       83.605      50.740       94.285
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.395     -0.340      3.195     10.340
+
+--------------------------------------------------------------------------------
+Cell Name : nch layout tsmcN65 ad="25.75p" as="25.75p" fingers="25" l="200n" nrd="400u" nrs="400u" pd="265.1u" ps="265.1u" sa="175n" id_=9a0d03322bb1f7e3 in1=M928029
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 32.740       31.005      43.150       41.685
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.305     -0.340     10.105     10.340
+
+--------------------------------------------------------------------------------
+Cell Name : nch layout tsmcN65 ad="10p" as="11.5p" fingers="10" l="200n" nrd="1m" nrs="1m" pd="102u" ps="122.3u" sa="175n" sb="175n" id_=f8d4dbef87c6e0 in1=M828029
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 21.745       31.000      26.155       41.680
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.305     -0.340      4.105     10.340
+
+--------------------------------------------------------------------------------
+Cell Name : nch layout tsmcN65 ad="2p" as="2.15p" fingers="20" l="100n" nrd="5m" nrs="5m" pd="24u" ps="26.3u" sa="175n" sb="175n" w="1u" id_=68a34944e in1=M228129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 55.330       35.190      61.740       36.870
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.305     -0.340      6.105      1.340
+
+--------------------------------------------------------------------------------
+Cell Name : mimcap_woum_rf_9m_1p0 layout tsmcN65 lt="12u" wt="12u" in1=C0
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 2                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        2                 22.330       45.670      57.850       81.190
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X      -10.000    -10.000     25.520     25.520
+
+--------------------------------------------------------------------------------
+Cell Name : TwoStage_layout layout Operational_Amplifier
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             5              5                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                 21.240       29.670     103.450       95.250
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       21.240     29.670     61.740     95.250
+   2      X       55.330     29.670     62.920     95.250
+   3      X       55.330     36.870     61.740     37.990
+   4      X       62.840     29.670     72.950     95.250
+   5      X       69.930     29.670    103.450     95.250
+
+================================================================================
+Rule No. 6 : psub_StampErrorMult
+
+Real Error Count : 11; Flat Error Count : 25
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : rppolywo layout tsmcN65 l="12.83u" in1=R2
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 58.890       45.670      61.330       59.580
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.200     -0.220     13.710      2.220
+
+--------------------------------------------------------------------------------
+Cell Name : rppolywo layout tsmcN65 l="255n" in1=R8
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 2                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        2                 58.930       64.320      60.265       66.760
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.200     -0.220      1.135      2.220
+
+--------------------------------------------------------------------------------
+Cell Name : nch layout tsmcN65 ad="25.75p" as="25.75p" fingers="25" l="200n" nrd="400u" nrs="400u" pd="265.1u" ps="265.1u" sa="175n" id_=9a0d03322bb1f7e3 in1=M928029
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 32.740       31.005      43.150       41.685
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.305     -0.340     10.105     10.340
+
+--------------------------------------------------------------------------------
+Cell Name : nch layout tsmcN65 ad="10p" as="11.5p" fingers="10" l="200n" nrd="1m" nrs="1m" pd="102u" ps="122.3u" sa="175n" sb="175n" id_=f8d4dbef87c6e0 in1=M828029
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 21.745       31.000      26.155       41.680
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.305     -0.340      4.105     10.340
+
+--------------------------------------------------------------------------------
+Cell Name : nch layout tsmcN65 ad="2p" as="2.15p" fingers="20" l="100n" nrd="5m" nrs="5m" pd="24u" ps="26.3u" sa="175n" sb="175n" w="1u" id_=68a34944e in1=M228129
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 4                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        4                 55.330       35.190      61.740       36.870
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       -0.305     -0.340      6.105      1.340
+
+--------------------------------------------------------------------------------
+Cell Name : mimcap_woum_rf_9m_1p0 layout tsmcN65 lt="12u" wt="12u" in1=C0
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 2                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        2                 22.330       45.670      57.850       81.190
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X      -10.000    -10.000     25.520     25.520
+
+--------------------------------------------------------------------------------
+Cell Name : TwoStage_layout layout Operational_Amplifier
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             5              5                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                 21.240       29.670     103.450       95.250
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       21.240     29.670     79.165     95.250
+   2      X       55.330     36.870     61.740     37.990
+   3      X       57.850     29.670     69.330     82.080
+   4      X       64.430     59.580     65.780     82.080
+   5      X       65.780     29.670    103.450     95.250
+
+================================================================================
+Rule No. 44 : malformed device ngate
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : TwoStage_layout layout Operational_Amplifier
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                 44.470       31.345      54.620       41.345
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X       44.470     31.345     54.620     41.345
+

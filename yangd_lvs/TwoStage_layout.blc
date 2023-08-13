@@ -1,0 +1,7 @@
+"mimcap_woum_sin_rf(Generic)" "mimcap_woum_rf(Generic)"
+"rppolywo(Generic)" "rppolywo(Generic)"
+"nch(MOS)" "nch(MOS)"
+"pch(MOS)" "pch(MOS)"
+"TwoStage_layout layout Operational_Amplifier" "TwoStage_layout schematic Operational_Amplifier" "mimcap_woum_sin_rf(Generic)" "nch(MOS)" "rppolywo(Generic)" "pch(MOS)"
+Devices filtered from layout
+"pnwdio"

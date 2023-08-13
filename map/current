@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "RX_Frontend"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/"
+ )
+( model
+( "RX_Frontend/RX_Frontend/schematic" "RX_Frontend" )
+( "RX_Frontend/LNA_tapeout/schematic" "LNA_tapeout" )
+( "RX_Frontend/Mixer/schematic" "Mixer" )
+( "RX_Frontend/Oscillator/schematic" "Oscillator" )
+ )
+( "RX_Frontend" "ihnl/cds3/map" )
+( "Mixer" "ihnl/cds1/map" )
+( "Oscillator" "ihnl/cds2/map" )
+( "LNA_tapeout" "ihnl/cds0/map" )
+ )

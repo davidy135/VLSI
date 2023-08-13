@@ -1,0 +1,13 @@
+RX_Frontend 1000
+met2.global.min.DEN.3:L267930
+1 1 1 Jun  4 14:17:37 2023
+DENSITY met2_to_check -lt 0.300000 -inside_of layer fill_extent -rdb met2_global_low.rdb met2.global.min.DEN.3:L267930
+p 1 4
+DV 0.03579705047
+DA 6917.005641
+DA met2_to_check 247.6084
+-1 -1
+83810 -1
+83810 82530
+-1 82530
+

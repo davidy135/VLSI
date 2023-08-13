@@ -1,0 +1,1 @@
+technology "s130" -ruleSet "default" -techLib "/afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/SAMPLES/pvtech.lib";

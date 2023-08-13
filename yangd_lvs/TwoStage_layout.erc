@@ -1,0 +1,281 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'rppolywo layout tsmcN65 l="12.83u" in1=R2':
+  info: Assign pin label "MINUS" at (0.075, 1.000) to layer `metal1'.
+  info: Assign pin label "PLUS" at (13.435, 1.000) to layer `metal1'.
+
+ Label in cell 'rppolywo layout tsmcN65 l="255n" in1=R8':
+  info: Assign pin label "MINUS" at (0.075, 1.000) to layer `metal1'.
+  info: Assign pin label "PLUS" at (0.860, 1.000) to layer `metal1'.
+
+ Label in cell 'pch layout tsmcN65 ad="1.575p" as="1.575p" fingers="15" l="150n" nrd="6.667m" nrs="6.667m" pd="19.15u" ps="19.15u" sa="175n" id_=a84b00701794d460 in1=M428029':
+  info: Assign pin label "S" at (-0.100, 0.500) to layer `metal1'.
+  info: Assign pin label "D" at (0.250, 0.500) to layer `metal1'.
+  info: Assign pin label "S" at (0.600, 0.500) to layer `metal1'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.600, 0.500) renamed S;1.
+  info: Assign pin label "D" at (0.950, 0.500) to layer `metal1'.
+  info: Nets C4 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (0.950, 0.500) renamed D;1.
+  info: Assign pin label "S" at (1.300, 0.500) to layer `metal1'.
+  info: Nets C5 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.300, 0.500) renamed S;2.
+  info: Assign pin label "D" at (1.650, 0.500) to layer `metal1'.
+  info: Nets C6 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.650, 0.500) renamed D;2.
+  info: Assign pin label "S" at (2.000, 0.500) to layer `metal1'.
+  info: Nets C7 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.000, 0.500) renamed S;3.
+  info: Assign pin label "D" at (2.350, 0.500) to layer `metal1'.
+  info: Nets C8 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.350, 0.500) renamed D;3.
+  info: Assign pin label "S" at (2.700, 0.500) to layer `metal1'.
+  info: Nets C9 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.700, 0.500) renamed S;4.
+  info: Assign pin label "D" at (3.050, 0.500) to layer `metal1'.
+  info: Nets C10 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (3.050, 0.500) renamed D;4.
+  info: Assign pin label "S" at (3.400, 0.500) to layer `metal1'.
+  info: Nets C11 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (3.400, 0.500) renamed S;5.
+  info: Assign pin label "D" at (3.750, 0.500) to layer `metal1'.
+  info: Nets C12 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (3.750, 0.500) renamed D;5.
+  info: Assign pin label "S" at (4.100, 0.500) to layer `metal1'.
+  info: Nets C13 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (4.100, 0.500) renamed S;6.
+  info: Assign pin label "D" at (4.450, 0.500) to layer `metal1'.
+  info: Nets C14 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (4.450, 0.500) renamed D;6.
+  info: Assign pin label "S" at (4.800, 0.500) to layer `metal1'.
+  info: Nets C15 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (4.800, 0.500) renamed S;7.
+  info: Assign pin label "D" at (5.150, 0.500) to layer `metal1'.
+  info: Nets C16 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (5.150, 0.500) renamed D;7.
+
+ Label in cell 'pch layout tsmcN65 ad="10p" as="11.5p" fingers="10" l="100n" nrd="1m" nrs="1m" pd="102u" ps="122.3u" sa="175n" sb="175n" id_=f8d4dbef87c6e0 in1=M628029':
+  info: Assign pin label "S" at (-0.100, 5.000) to layer `metal1'.
+  info: Assign pin label "D" at (0.200, 5.000) to layer `metal1'.
+  info: Assign pin label "S" at (0.500, 5.000) to layer `metal1'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.500, 5.000) renamed S;1.
+  info: Assign pin label "D" at (0.800, 5.000) to layer `metal1'.
+  info: Nets C4 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (0.800, 5.000) renamed D;1.
+  info: Assign pin label "S" at (1.100, 5.000) to layer `metal1'.
+  info: Nets C5 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.100, 5.000) renamed S;2.
+  info: Assign pin label "D" at (1.400, 5.000) to layer `metal1'.
+  info: Nets C6 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.400, 5.000) renamed D;2.
+  info: Assign pin label "S" at (1.700, 5.000) to layer `metal1'.
+  info: Nets C7 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.700, 5.000) renamed S;3.
+  info: Assign pin label "D" at (2.000, 5.000) to layer `metal1'.
+  info: Nets C8 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.000, 5.000) renamed D;3.
+  info: Assign pin label "S" at (2.300, 5.000) to layer `metal1'.
+  info: Nets C9 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.300, 5.000) renamed S;4.
+  info: Assign pin label "D" at (2.600, 5.000) to layer `metal1'.
+  info: Nets C10 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.600, 5.000) renamed D;4.
+  info: Assign pin label "S" at (2.900, 5.000) to layer `metal1'.
+  info: Nets C11 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.900, 5.000) renamed S;5.
+
+ Label in cell 'nch layout tsmcN65 ad="25.75p" as="25.75p" fingers="25" l="200n" nrd="400u" nrs="400u" pd="265.1u" ps="265.1u" sa="175n" id_=9a0d03322bb1f7e3 in1=M928029':
+  info: Assign pin label "S" at (-0.100, 5.000) to layer `metal1'.
+  info: Assign pin label "D" at (0.300, 5.000) to layer `metal1'.
+  info: Assign pin label "S" at (0.700, 5.000) to layer `metal1'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.700, 5.000) renamed S;1.
+  info: Assign pin label "D" at (1.100, 5.000) to layer `metal1'.
+  info: Nets C4 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.100, 5.000) renamed D;1.
+  info: Assign pin label "S" at (1.500, 5.000) to layer `metal1'.
+  info: Nets C5 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.500, 5.000) renamed S;2.
+  info: Assign pin label "D" at (1.900, 5.000) to layer `metal1'.
+  info: Nets C6 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.900, 5.000) renamed D;2.
+  info: Assign pin label "S" at (2.300, 5.000) to layer `metal1'.
+  info: Nets C7 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.300, 5.000) renamed S;3.
+  info: Assign pin label "D" at (2.700, 5.000) to layer `metal1'.
+  info: Nets C8 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.700, 5.000) renamed D;3.
+  info: Assign pin label "S" at (3.100, 5.000) to layer `metal1'.
+  info: Nets C9 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (3.100, 5.000) renamed S;4.
+  info: Assign pin label "D" at (3.500, 5.000) to layer `metal1'.
+  info: Nets C10 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (3.500, 5.000) renamed D;4.
+  info: Assign pin label "S" at (3.900, 5.000) to layer `metal1'.
+  info: Nets C11 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (3.900, 5.000) renamed S;5.
+  info: Assign pin label "D" at (4.300, 5.000) to layer `metal1'.
+  info: Nets C12 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (4.300, 5.000) renamed D;5.
+  info: Assign pin label "S" at (4.700, 5.000) to layer `metal1'.
+  info: Nets C13 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (4.700, 5.000) renamed S;6.
+  info: Assign pin label "D" at (5.100, 5.000) to layer `metal1'.
+  info: Nets C14 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (5.100, 5.000) renamed D;6.
+  info: Assign pin label "S" at (5.500, 5.000) to layer `metal1'.
+  info: Nets C15 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (5.500, 5.000) renamed S;7.
+  info: Assign pin label "D" at (5.900, 5.000) to layer `metal1'.
+  info: Nets C16 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (5.900, 5.000) renamed D;7.
+  info: Assign pin label "S" at (6.300, 5.000) to layer `metal1'.
+  info: Nets C17 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (6.300, 5.000) renamed S;8.
+  info: Assign pin label "D" at (6.700, 5.000) to layer `metal1'.
+  info: Nets C18 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (6.700, 5.000) renamed D;8.
+  info: Assign pin label "S" at (7.100, 5.000) to layer `metal1'.
+  info: Nets C19 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (7.100, 5.000) renamed S;9.
+  info: Assign pin label "D" at (7.500, 5.000) to layer `metal1'.
+  info: Nets C20 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (7.500, 5.000) renamed D;9.
+  info: Assign pin label "S" at (7.900, 5.000) to layer `metal1'.
+  info: Nets C21 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (7.900, 5.000) renamed S;10.
+  info: Assign pin label "D" at (8.300, 5.000) to layer `metal1'.
+  info: Nets C22 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (8.300, 5.000) renamed D;10.
+  info: Assign pin label "S" at (8.700, 5.000) to layer `metal1'.
+  info: Nets C23 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (8.700, 5.000) renamed S;11.
+  info: Assign pin label "D" at (9.100, 5.000) to layer `metal1'.
+  info: Nets C24 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (9.100, 5.000) renamed D;11.
+  info: Assign pin label "S" at (9.500, 5.000) to layer `metal1'.
+  info: Nets C25 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (9.500, 5.000) renamed S;12.
+  info: Assign pin label "D" at (9.900, 5.000) to layer `metal1'.
+  info: Nets C26 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (9.900, 5.000) renamed D;12.
+
+ Label in cell 'nch layout tsmcN65 ad="10p" as="11.5p" fingers="10" l="200n" nrd="1m" nrs="1m" pd="102u" ps="122.3u" sa="175n" sb="175n" id_=f8d4dbef87c6e0 in1=M828029':
+  info: Assign pin label "S" at (-0.100, 5.000) to layer `metal1'.
+  info: Assign pin label "D" at (0.300, 5.000) to layer `metal1'.
+  info: Assign pin label "S" at (0.700, 5.000) to layer `metal1'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.700, 5.000) renamed S;1.
+  info: Assign pin label "D" at (1.100, 5.000) to layer `metal1'.
+  info: Nets C4 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.100, 5.000) renamed D;1.
+  info: Assign pin label "S" at (1.500, 5.000) to layer `metal1'.
+  info: Nets C5 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.500, 5.000) renamed S;2.
+  info: Assign pin label "D" at (1.900, 5.000) to layer `metal1'.
+  info: Nets C6 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.900, 5.000) renamed D;2.
+  info: Assign pin label "S" at (2.300, 5.000) to layer `metal1'.
+  info: Nets C7 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.300, 5.000) renamed S;3.
+  info: Assign pin label "D" at (2.700, 5.000) to layer `metal1'.
+  info: Nets C8 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.700, 5.000) renamed D;3.
+  info: Assign pin label "S" at (3.100, 5.000) to layer `metal1'.
+  info: Nets C9 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (3.100, 5.000) renamed S;4.
+  info: Assign pin label "D" at (3.500, 5.000) to layer `metal1'.
+  info: Nets C10 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (3.500, 5.000) renamed D;4.
+  info: Assign pin label "S" at (3.900, 5.000) to layer `metal1'.
+  info: Nets C11 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (3.900, 5.000) renamed S;5.
+
+ Label in cell 'nch layout tsmcN65 ad="2p" as="2.15p" fingers="20" l="100n" nrd="5m" nrs="5m" pd="24u" ps="26.3u" sa="175n" sb="175n" w="1u" id_=68a34944e in1=M228129':
+  info: Assign pin label "S" at (-0.100, 0.500) to layer `metal1'.
+  info: Assign pin label "D" at (0.200, 0.500) to layer `metal1'.
+  info: Assign pin label "S" at (0.500, 0.500) to layer `metal1'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.500, 0.500) renamed S;1.
+  info: Assign pin label "D" at (0.800, 0.500) to layer `metal1'.
+  info: Nets C4 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (0.800, 0.500) renamed D;1.
+  info: Assign pin label "S" at (1.100, 0.500) to layer `metal1'.
+  info: Nets C5 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.100, 0.500) renamed S;2.
+  info: Assign pin label "D" at (1.400, 0.500) to layer `metal1'.
+  info: Nets C6 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.400, 0.500) renamed D;2.
+  info: Assign pin label "S" at (1.700, 0.500) to layer `metal1'.
+  info: Nets C7 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.700, 0.500) renamed S;3.
+  info: Assign pin label "D" at (2.000, 0.500) to layer `metal1'.
+  info: Nets C8 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.000, 0.500) renamed D;3.
+  info: Assign pin label "S" at (2.300, 0.500) to layer `metal1'.
+  info: Nets C9 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.300, 0.500) renamed S;4.
+  info: Assign pin label "D" at (2.600, 0.500) to layer `metal1'.
+  info: Nets C10 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.600, 0.500) renamed D;4.
+  info: Assign pin label "S" at (2.900, 0.500) to layer `metal1'.
+  info: Nets C11 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.900, 0.500) renamed S;5.
+  info: Assign pin label "D" at (3.200, 0.500) to layer `metal1'.
+  info: Nets C12 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (3.200, 0.500) renamed D;5.
+  info: Assign pin label "S" at (3.500, 0.500) to layer `metal1'.
+  info: Nets C13 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (3.500, 0.500) renamed S;6.
+  info: Assign pin label "D" at (3.800, 0.500) to layer `metal1'.
+  info: Nets C14 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (3.800, 0.500) renamed D;6.
+  info: Assign pin label "S" at (4.100, 0.500) to layer `metal1'.
+  info: Nets C15 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (4.100, 0.500) renamed S;7.
+  info: Assign pin label "D" at (4.400, 0.500) to layer `metal1'.
+  info: Nets C16 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (4.400, 0.500) renamed D;7.
+  info: Assign pin label "S" at (4.700, 0.500) to layer `metal1'.
+  info: Nets C17 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (4.700, 0.500) renamed S;8.
+  info: Assign pin label "D" at (5.000, 0.500) to layer `metal1'.
+  info: Nets C18 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (5.000, 0.500) renamed D;8.
+  info: Assign pin label "S" at (5.300, 0.500) to layer `metal1'.
+  info: Nets C19 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (5.300, 0.500) renamed S;9.
+  info: Assign pin label "D" at (5.600, 0.500) to layer `metal1'.
+  info: Nets C20 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (5.600, 0.500) renamed D;9.
+  info: Assign pin label "S" at (5.900, 0.500) to layer `metal1'.
+  info: Nets C21 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (5.900, 0.500) renamed S;10.
+
+ Label in cell 'mimcap_woum_rf_9m_1p0 layout tsmcN65 lt="12u" wt="12u" in1=C0':
+  info: Assign pin label "PLUS" at (-1.670, 7.760) to layer `metal8'.
+  info: Assign pin label "MINUS" at (17.190, 7.760) to layer `metal8'.
+  info: Assign pin label "BULK" at (1.000, 7.330) to layer `metal1'.
+  info: Assign pin label "BULK" at (7.760, 1.000) to layer `metal1'.
+  info: Assign pin label "BULK" at (7.760, 14.520) to layer `metal1'.
+  info: Assign pin label "BULK" at (14.520, 8.190) to layer `metal1'.
+
+ Label in cell 'TwoStage_layout layout Operational_Amplifier':
+  info: Assign pin label "VSS" at (62.355, 31.865) to layer `metal8'.
+  info: Assign pin label "VDD" at (62.340, 93.770) to layer `metal8'.
+  WARN: Multiple label discarded: "VDD" at (62.340, 93.770) and "VSS" on net C1.
+  WARN: There is a Warning on net C1: multiple Labels on a single Net,
+        therefore, "Iref" at (43.765, 41.000) is discarded.
+  WARN: There is a Warning on net C1: multiple Labels on a single Net,
+        therefore, "Vin+" at (60.915, 37.385) is discarded.
+  WARN: There is a Warning on net C1: multiple Labels on a single Net,
+        therefore, "Vin-" at (63.765, 37.485) is discarded.
+  WARN: There is a Warning on net C1: multiple Labels on a single Net,
+        therefore, "Vout+" at (51.180, 75.670) is discarded.
+  WARN: There is a Warning on net C1: multiple Labels on a single Net,
+        therefore, "Vout-" at (73.485, 75.650) is discarded.
+
+***** End of Label Report *****
+

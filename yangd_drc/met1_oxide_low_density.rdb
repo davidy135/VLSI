@@ -1,0 +1,13 @@
+RX_Frontend 1000
+met1.oxide.low.DEN.1:L267923
+1 1 1 Jun  4 14:17:37 2023
+DENSITY met1_to_check_oxide -lt 0.800000 -window 700.000000 700.000000 -step 70.000000 70.000000 -inside_of layer fill_extent -rdb met1_oxide_low_density.rdb met1.oxide.low.DEN.1:L267923
+p 1 4
+DV 0.27810897155
+DA 6917.005641
+DA met1_to_check_oxide 1923.681325
+-1 -1
+83810 -1
+83810 82530
+-1 82530
+

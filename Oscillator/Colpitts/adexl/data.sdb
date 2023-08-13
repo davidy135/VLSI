@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>Oscillator:Colpitts:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>Colpitts</value>
+					</option>
+					<option>lib
+						<value>Oscillator</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>Oscillator:Colpitts:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>Colpitts</value>
+					</option>
+					<option>lib
+						<value>Oscillator</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>C1
+				<value>150f</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>C2
+				<value>300f</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>F1
+				<value>20</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>F2
+				<value>10</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Id
+				<value>800u</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L1
+				<value>100n</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L2
+				<value>100n</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>R
+				<value>30k</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Vb
+				<value>500m</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>1</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W1
+				<value>300u</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W2
+				<value>500u</value>
+				<dependentTests>
+					<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>Oscillator:Colpitts:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Colpitts</value>
+							</option>
+							<option>lib
+								<value>Oscillator</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Oscillator:Colpitts:1_none_Interactive.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>Colpitts</value>
+							</option>
+							<option>lib
+								<value>Oscillator</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>C1
+						<value>150f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>300f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>20</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>10</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Id
+						<value>800u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>30k</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>300u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>500u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Oscillator:Colpitts:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>May 12 11:00:51 2022</timestamp>
+			<uuid>{698baf3d-f81d-48e8-9852-503141352435}</uuid>
+			<resultsname>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Oscillator/Colpitts/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ice05_david.yang_110051180</localpsfdir>
+			<psfdir>/afs/ee.cooper.edu/user/d/david.yang/simulation/Oscillator/Colpitts/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Oscillator/Colpitts/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Oscillator/Colpitts/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

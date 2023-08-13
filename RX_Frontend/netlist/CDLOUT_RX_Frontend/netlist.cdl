@@ -1,0 +1,69 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on May  4 14:13:45 2023 *
+***********************************************************
+
+
+*pvsViewList = auLvs schematic
+*pvsStopList = ("auLvs")
+*pvsSimName  = auLvs
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+
+
+.subckt LNA_tapeout Ind Iref VDD VSS Vin Vout
+*PVSCELL netlisted from RX_Frontend LNA_tapeout schematic
+  CC0 VDD Vout cm4m5 A=47.3688 P=27.53 m=1
+  CC1 Iref VSS cm4m5 A=1.0 P=4.0 m=1
+  MMN3 Vout VDD net1 VSS nmos W=2.0 L=0.15 M=400
+  MMN4 net1 Iref Ind VSS nmos W=1.0 L=0.15 M=50
+  MMN5 Iref Iref VSS VSS nmos W=1.0 L=0.15 M=50
+  XRNP1 rpoly $PINS MINUS=Vin PLUS=Ind
+.ends LNA_tapeout
+
+
+.subckt Mixer VDD VSS Vif+ Vif- Vlo+ Vlo- Vrf
+*PVSCELL netlisted from RX_Frontend Mixer schematic
+  MMN0 net1 Vrf VSS VSS nmos W=7.0 L=0.15 M=50
+  MMN1 Vif+ Vlo+ net1 VSS nmos W=7.0 L=0.15 M=30
+  MMN2 Vif- Vlo- net1 VSS nmos W=7.0 L=0.15 M=30
+  XRNP0 rpoly $PINS MINUS=Vif+ PLUS=VDD
+  XRNP1 rpoly $PINS MINUS=Vif- PLUS=VDD
+.ends Mixer
+
+
+.subckt Oscillator VSS Vout+ Vout-
+*PVSCELL netlisted from RX_Frontend Oscillator schematic
+  CC0 net1 Vout+ cm4m5 A=1.0 P=4.0 m=1
+  CC1 net2 Vout- cm4m5 A=1.0 P=4.0 m=1
+  MMN0 Vout- Vout+ VSS VSS nmos_lvt W=7.0 L=0.15 M=100
+  MMN1 Vout+ Vout- VSS VSS nmos_lvt W=7.0 L=0.15 M=100
+  XRNP0 rpoly $PINS MINUS=net1 PLUS=net2
+.ends Oscillator
+
+
+.subckt RX_Frontend Iref_RF LNA_ind VDD_Mixer VDD_RF VSS Vbias_LO+ Vbias_LO-
++  Vbias_RF Vif+ Vif- Vin_RF
+*PVSCELL netlisted from RX_Frontend RX_Frontend schematic
+  XI3 LNA_tapeout $PINS Ind=LNA_ind Iref=Iref_RF VDD=VDD_RF VSS=VSS Vin=Vin_RF
++  Vout=net1
+  XI1 Mixer $PINS VDD=VDD_Mixer VSS=VSS Vif+=Vif+ Vif-=Vif- Vlo+=net4 Vlo-=net6
++  Vrf=net2
+  XI2 Oscillator $PINS VSS=VSS Vout+=net3 Vout-=net5
+  CC0 net1 net2 cm4m5 A=4.0 P=8.0 m=1
+  CC1 net3 net4 cm4m5 A=4.0 P=8.0 m=1
+  CC2 net5 net6 cm4m5 A=4.0 P=8.0 m=1
+  XRNP0 rpoly $PINS MINUS=Vbias_RF PLUS=net2
+  XRNP1 rpoly $PINS MINUS=Vbias_LO+ PLUS=net4
+  XRNP2 rpoly $PINS MINUS=Vbias_LO- PLUS=net6
+.ends RX_Frontend
+
+
+***********************************************************
+*             Completed at May  4 14:13:45 2023           *
+***********************************************************

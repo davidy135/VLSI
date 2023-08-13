@@ -1,0 +1,17 @@
+*WARNING* 14 same-label  warnings found in cell 'pch layout tsmcN65 ad="1.575p" as="1.575p" fingers="15" l="150n" nrd="6.667m" nrs="6.667m" pd="19.15u" ps="19.15u" sa="175n" id_=a84b00701794d460 in1=M428029'.
+*WARNING* 9 same-label  warnings found in cell 'pch layout tsmcN65 ad="10p" as="11.5p" fingers="10" l="100n" nrd="1m" nrs="1m" pd="102u" ps="122.3u" sa="175n" sb="175n" id_=f8d4dbef87c6e0 in1=M628029'.
+*WARNING* 24 same-label  warnings found in cell 'nch layout tsmcN65 ad="25.75p" as="25.75p" fingers="25" l="200n" nrd="400u" nrs="400u" pd="265.1u" ps="265.1u" sa="175n" id_=9a0d03322bb1f7e3 in1=M928029'.
+*WARNING* 9 same-label  warnings found in cell 'nch layout tsmcN65 ad="10p" as="11.5p" fingers="10" l="200n" nrd="1m" nrs="1m" pd="102u" ps="122.3u" sa="175n" sb="175n" id_=f8d4dbef87c6e0 in1=M828029'.
+*WARNING* 19 same-label  warnings found in cell 'nch layout tsmcN65 ad="2p" as="2.15p" fingers="20" l="100n" nrd="5m" nrs="5m" pd="24u" ps="26.3u" sa="175n" sb="175n" w="1u" id_=68a34944e in1=M228129'.
+*WARNING* Multiple label discarded: "VDD" at (62.340, 93.770) and "VSS" on net C1.
+*WARNING* Net C1: multiple Labels on a single Net, 
+therefore, "Iref" at (43.765, 41.000) is discarded.
+*WARNING* Net C1: multiple Labels on a single Net, 
+therefore, "Vin+" at (60.915, 37.385) is discarded.
+*WARNING* Net C1: multiple Labels on a single Net, 
+therefore, "Vin-" at (63.765, 37.485) is discarded.
+*WARNING* Net C1: multiple Labels on a single Net, 
+therefore, "Vout+" at (51.180, 75.670) is discarded.
+*WARNING* Net C1: multiple Labels on a single Net, 
+therefore, "Vout-" at (73.485, 75.650) is discarded.
+*WARNING* 6 net(s) with multi-label warnings found in cell 'TwoStage_layout layout Operational_Amplifier'.

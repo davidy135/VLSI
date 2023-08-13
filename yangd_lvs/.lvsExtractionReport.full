@@ -1,0 +1,261 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : TwoStage_layout.rep
+ERC Summary File         : TwoStage_layout.sum
+LVS Comparison Report    : TwoStage_layout.rep.cls
+LVS Softchk Report       : TwoStage_layout.softchk
+Layout Name              : /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/TwoStage_layout.gds ("TwoStage_layout")
+User Name                : david.ya
+Creation Time            : Sat Apr 30 23:25:33 2022
+Current directory        : /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs
+PVS Version              : 20.10-p029 Mon Sep 28 20:09:41 PDT 2020
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK result file "TwoStage_layout.softchk"
+    LVS_SOFTCHK DNW -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK PROBEM1_T -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK PROBEM2_T -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK PROBEM3_T -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK PROBEM4_T -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK PROBEM5_T -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK PROBEM6_T -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK PROBEM7_T -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK poly_term -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK RFDMY_hia_psub -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK rfdmy56 -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK HVNW -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nxwell -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK HVPSUB -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK HVPW -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK RFDMY_hia -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK coll1 -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK n_psub -TYPE CONTACT   Total Result        1 (       1)
+    LVS_SOFTCHK psub -TYPE CONTACT   Total Result        1 (       1)
+    LVS_SOFTCHK psub_term -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK rwel -TYPE CONTACT   Total Result        0 (       0)
+
+Warnings and errors of connectivity for cell "TwoStage_layout"
+--------------------------------------------------------------
+
+[WARN] Different labels for net 1, it is assigned to "VDD":
+    [1] Label "Iref" on layer 3227(metal1_text) at (43.765, 41.000)
+    [2] Label "VDD" on layer 3235(metal8_text) at (62.340, 93.770)
+    [3] Label "Vin+" on layer 3227(metal1_text) at (60.915, 37.385)
+    [4] Label "Vin-" on layer 3227(metal1_text) at (63.765, 37.485)
+    [5] Label "Vout+" on layer 3227(metal1_text) at (51.180, 75.670)
+    [6] Label "Vout-" on layer 3227(metal1_text) at (73.485, 75.650)
+    [7] Label "VSS" on layer 3235(metal8_text) at (62.355, 31.865)
+
+[WARN] Stamping conflict in SCONNECT(Multiple source nets stamp one target net):
+    LVS_SOFTCHK psub -TYPE CONTACT   Total Result        1 (       1)
+    LVS_SOFTCHK n_psub -TYPE CONTACT   Total Result        1 (       1)
+
+
+
+Warnings and errors of extraction for cell "TwoStage_layout"
+------------------------------------------------------------
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((22.050, 31.340), (25.850, 41.340)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((22.050, 31.200), (32.115, 41.480)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((27.650, 31.340), (31.450, 41.340)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((22.050, 31.200), (32.115, 41.480)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((33.045, 31.345), (42.845, 41.345)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((33.045, 31.205), (54.630, 41.485)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((44.645, 31.345), (54.445, 41.345)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((33.045, 31.205), (54.630, 41.485)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((55.635, 38.330), (61.435, 39.330)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((55.635, 35.390), (61.435, 39.470)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((55.635, 35.530), (61.435, 36.530)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((55.635, 35.390), (61.435, 39.470)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((63.225, 38.330), (69.025, 39.330)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((63.225, 35.390), (69.025, 39.470)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((63.225, 35.530), (69.025, 36.530)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((63.225, 35.390), (69.025, 39.470)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((70.235, 31.345), (80.035, 41.345)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((70.235, 31.205), (91.735, 41.485)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((81.835, 31.345), (91.635, 41.345)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((70.235, 31.205), (91.735, 41.485)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((93.240, 31.345), (97.040, 41.345)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((92.535, 31.205), (102.640, 41.485)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MN(nch), device layer ngate, location ((98.840, 31.345), (102.640, 41.345)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((21.240, 29.670), (103.450, 95.250)) contains a pin of layer psub with net number 6.
+    Location ((92.535, 31.205), (102.640, 41.485)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MP(pch), device layer pgate, location ((47.545, 83.945), (50.345, 93.945)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((46.960, 83.270), (78.035, 94.380)) contains a pin of layer nxwell with net number 2.
+    Location ((47.545, 83.805), (54.945, 94.085)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MP(pch), device layer pgate, location ((52.145, 83.945), (54.945, 93.945)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((46.960, 83.270), (78.035, 94.380)) contains a pin of layer nxwell with net number 2.
+    Location ((47.545, 83.805), (54.945, 94.085)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MP(pch), device layer pgate, location ((56.395, 91.250), (61.445, 92.250)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((46.960, 83.270), (78.035, 94.380)) contains a pin of layer nxwell with net number 2.
+    Location ((56.395, 88.310), (68.285, 92.390)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MP(pch), device layer pgate, location ((56.395, 88.450), (61.445, 89.450)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((46.960, 83.270), (78.035, 94.380)) contains a pin of layer nxwell with net number 2.
+    Location ((56.395, 88.310), (68.285, 92.390)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MP(pch), device layer pgate, location ((63.235, 91.250), (68.285, 92.250)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((46.960, 83.270), (78.035, 94.380)) contains a pin of layer nxwell with net number 2.
+    Location ((56.395, 88.310), (68.285, 92.390)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MP(pch), device layer pgate, location ((63.235, 88.450), (68.285, 89.450)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((46.960, 83.270), (78.035, 94.380)) contains a pin of layer nxwell with net number 2.
+    Location ((56.395, 88.310), (68.285, 92.390)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MP(pch), device layer pgate, location ((69.755, 83.945), (72.555, 93.945)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((46.960, 83.270), (78.035, 94.380)) contains a pin of layer nxwell with net number 2.
+    Location ((69.755, 83.800), (77.155, 94.080)) contains a pin of layer poly with net name "VDD".
+
+[ERROR] Malformed device:
+    Type MP(pch), device layer pgate, location ((74.355, 83.945), (77.155, 93.945)) contains a malformed device
+    Reason: can't match any device statement.
+    2 relevant objects found:
+    Location ((46.960, 83.270), (78.035, 94.380)) contains a pin of layer nxwell with net number 2.
+    Location ((69.755, 83.800), (77.155, 94.080)) contains a pin of layer poly with net name "VDD".
+
+
+Clean cell list (added by extraction report parser )
+ for cell "M1_OD_CDNS_40"
+ for cell "M1_PO_CDNS_21"
+ for cell "M1_PO_CDNS_30"
+ for cell "M1_PO_CDNS_39"
+ for cell "M1_PO_CDNS_43"
+ for cell "M2_M1_CDNS_13"
+ for cell "M2_M1_CDNS_23"
+ for cell "M2_M1_CDNS_3"
+ for cell "M2_M1_CDNS_36"
+ for cell "M2_M1_CDNS_37"
+ for cell "M2_M1_CDNS_38"
+ for cell "M2_M1_CDNS_42"
+ for cell "M2_M1_CDNS_44"
+ for cell "M3_M2_CDNS_11"
+ for cell "M3_M2_CDNS_22"
+ for cell "M3_M2_CDNS_24"
+ for cell "M3_M2_CDNS_35"
+ for cell "M3_M2_CDNS_4"
+ for cell "M4_M3_CDNS_15"
+ for cell "M4_M3_CDNS_20"
+ for cell "M4_M3_CDNS_25"
+ for cell "M4_M3_CDNS_34"
+ for cell "M5_M4_CDNS_14"
+ for cell "M5_M4_CDNS_19"
+ for cell "M5_M4_CDNS_26"
+ for cell "M5_M4_CDNS_33"
+ for cell "M6_M5_CDNS_18"
+ for cell "M6_M5_CDNS_27"
+ for cell "M6_M5_CDNS_32"
+ for cell "M6_M5_CDNS_6"
+ for cell "M7_M6_CDNS_17"
+ for cell "M7_M6_CDNS_2"
+ for cell "M7_M6_CDNS_28"
+ for cell "M7_M6_CDNS_31"
+ for cell "M8_M7_CDNS_1"
+ for cell "M8_M7_CDNS_16"
+ for cell "M8_M7_CDNS_29"
+ for cell "M8_M7_CDNS_5"
+ for cell "VIAonctm_CDNS_53"
+ for cell "couple_via_CDNS_54"
+ for cell "mimcap_woum_rf_9m_1p0_CDNS_47"
+ for cell "mimcap_woum_sin_rf"
+ for cell "nch_CDNS_57"
+ for cell "nch_CDNS_58"
+ for cell "nch_CDNS_61"
+ for cell "pch_CDNS_59"
+ for cell "pch_CDNS_60"
+ for cell "rppolywo"
+ for cell "rppolywo_CDNS_45"
+ for cell "rppolywo_CDNS_46"

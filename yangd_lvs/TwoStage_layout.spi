@@ -1,0 +1,112 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : TwoStage_layout                              *
+* Netlisted  : Sat Apr 30 23:25:34 2022                     *
+* PVS Version: 20.10-p029 Mon Sep 28 20:09:41 PDT 2020      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(nch) ngate tndiff(D) poly(G) tndiff(S) psub(B)
+*.DEVTMPLT 1 MP(pch) pgate tpdiff(D) poly(G) tpdiff(S) nxwell(B)
+*.DEVTMPLT 2 mimcap_woum_sin_rf() RCTM_RF1P0_woum ctm(PLUS) cbm(MINUS) RF_MIM_TERM(BULK)
+*.DEVTMPLT 3 probe1() PROBEM1 metal1(TOP) PROBEM1_T(BULK)
+*.DEVTMPLT 4 probe2() PROBEM2 metal2(TOP) PROBEM2_T(BULK)
+*.DEVTMPLT 5 probe3() PROBEM3 metal3(TOP) PROBEM3_T(BULK)
+*.DEVTMPLT 6 probe4() PROBEM4 metal4(TOP) PROBEM4_T(BULK)
+*.DEVTMPLT 7 probe5() PROBEM5 metal5(TOP) PROBEM5_T(BULK)
+*.DEVTMPLT 8 probe6() PROBEM6 metal6(TOP) PROBEM6_T(BULK)
+*.DEVTMPLT 9 probe7() PROBEM7 metal7(TOP) PROBEM7_T(BULK)
+*.DEVTMPLT 10 rppolywo() rppolywo_r poly(PLUS) poly(MINUS)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: probe7                                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt probe7 TOP BULK
+.ends probe7
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: probe4                                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt probe4 TOP BULK
+.ends probe4
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: probe1                                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt probe1 TOP BULK
+.ends probe1
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: mimcap_woum_sin_rf                              *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt mimcap_woum_sin_rf PLUS MINUS BULK
+.ends mimcap_woum_sin_rf
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rppolywo                                        *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rppolywo PLUS MINUS
+.ends rppolywo
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: probe5                                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt probe5 TOP BULK
+.ends probe5
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: probe2                                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt probe2 TOP BULK
+.ends probe2
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: probe6                                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt probe6 TOP BULK
+.ends probe6
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: probe3                                          *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt probe3 TOP BULK
+.ends probe3
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rppolywo_CDNS_45                                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rppolywo_CDNS_45 1 2
+** N=3 EP=2 FDC=1
+X0 1 2 rppolywo w=2e-06 l=2.55e-07 $X=340 $Y=0 $dt=10
+.ends rppolywo_CDNS_45
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rppolywo_CDNS_46                                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rppolywo_CDNS_46 1
+** N=2 EP=1 FDC=1
+X0 1 1 rppolywo w=2e-06 l=1.283e-05 $X=340 $Y=0 $dt=10
+.ends rppolywo_CDNS_46
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: mimcap_woum_rf_9m_1p0_CDNS_47                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt mimcap_woum_rf_9m_1p0_CDNS_47 BULK PLUS MINUS
+** N=4 EP=3 FDC=1
+X4 PLUS MINUS BULK mimcap_woum_sin_rf lt=1.2e-05 wt=1.2e-05 mimflag=1 lay=7 $X=1760 $Y=1760 $dt=2
+.ends mimcap_woum_rf_9m_1p0_CDNS_47
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: TwoStage_layout                                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt TwoStage_layout VDD
+** N=1457 EP=1 FDC=8
+X652 VDD 4 rppolywo_CDNS_45 $T=60065 64540 1 180 $X=58930 $Y=64320
+X653 5 VDD rppolywo_CDNS_45 $T=65565 64540 1 180 $X=64430 $Y=64320
+X654 VDD rppolywo_CDNS_46 $T=61110 45870 0 90 $X=58890 $Y=45670
+X655 VDD rppolywo_CDNS_46 $T=60070 81450 0 270 $X=59850 $Y=67740
+X656 VDD rppolywo_CDNS_46 $T=64620 67940 0 90 $X=62400 $Y=67740
+X657 VDD rppolywo_CDNS_46 $T=63560 59380 0 270 $X=63340 $Y=45670
+X658 VDD VDD 4 mimcap_woum_rf_9m_1p0_CDNS_47 $T=32330 55670 0 0 $X=22330 $Y=45670
+X659 VDD VDD 5 mimcap_woum_rf_9m_1p0_CDNS_47 $T=92350 55670 1 180 $X=66830 $Y=45670
+.ends TwoStage_layout

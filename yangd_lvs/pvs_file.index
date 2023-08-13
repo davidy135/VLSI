@@ -1,0 +1,35 @@
+# This PVS File Index Registry was created automatically
+# Do not attempt to modify this file as any change may lead
+# to PVS Debug Environment malfunction.
+# 
+"Run Directory" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs
+"Current Directory" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65
+"Cadence Directory" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/.cadence/
+"Job Signature" internal none IPVS_1685469030_45763
+"PVS Job Mode" internal none lvs
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.preset.autosave
+"Technology Name" internal none "s130"
+"Technology RuleSet" internal none "default"
+"Technology Mapping File" internal none /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/pvtech.lib
+"Technology Rule File" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+"PVS Version" internal none 20.10-p029
+"Binary Name" internal none pvsgui
+"PVS Build Date" internal none "Mon Sep 28 20:09:41 PDT 2020"
+"PVS Job Time" internal none 1685469033
+"DFII version" internal none 6.1.8.0
+"Run Directory" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs
+"PVS Job Mode" internal none svs
+"Rule File" input text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+"Schematic Top Cell" internal none RX_Frontend
+"Schematic Netlist" input text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/RX_Frontend.spi
+"Check Schematic" internal none ENABLED
+"Schematic Data II is in Control File" internal none ENABLED
+"Schematic Top Cell II" internal none RX_Frontend
+"Do not check rules files before run" internal none ENABLED
+"Control File" input text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/pvslvsctl
+"PVS Job Log" log text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/pvsuilvs.log
+"PVS Version" internal none 20.10-p029
+"Binary Name" internal none pvsvirt
+"PVS Build Date" internal none "Mon Sep 28 20:09:41 PDT 2020"
+"PVS Job Time" internal none 1685469033

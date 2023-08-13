@@ -1,0 +1,16 @@
+
+/afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : RX_Frontend_37837.db
+ECDB dir        : ./
+Top Cell        : RX_Frontend
+CDL netlist     : svdb/RX_Frontend.net
+Layer map file  : svdb/RX_Frontend.ecdbmap
+Text map file   : svdb/RX_Frontend.ports
+Dependency map  : RX_Frontend.lmap.perc
+Lvs file        : svdb/RX_Frontend.lvsfile
+Float net file  : .RX_Frontend.info.softchk
+debug           : 0
+Source Library  : RX_Frontend_37837

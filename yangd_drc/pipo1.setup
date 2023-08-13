@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"RX_Frontend"
+logFile	"/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc"
+strmFile	"/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/RX_Frontend.gds"
+strmVersion	5
+techLib	"S130"
+topCell	"RX_Frontend"
+view	"layout"

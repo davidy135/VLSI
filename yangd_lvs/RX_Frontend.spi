@@ -1,0 +1,468 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : RX_Frontend                                  *
+* Netlisted  : Tue May 30 13:28:52 2023                     *
+* PVS Version: 20.10-p029 Mon Sep 28 20:09:41 PDT 2020      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(nmos) ngate_nom_pw nsd(D) ply(G) nsd(S) pwell_all(B)
+*.DEVTMPLT 1 MN(nmos) ngate_nom_pw nsd(D) ply(G) nsd(S) ptub(B)
+*.DEVTMPLT 2 MN(nmos_lvt) ngate_lvt_pw nsd(D) ply(G) nsd(S) pwell_all(B)
+*.DEVTMPLT 3 R(rpoly) rpoly_rec ply(POS) ply(NEG)
+*.DEVTMPLT 4 C(cm4m5) cap_45 m5(POS) m4(NEG)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rpoly_CDNS_85                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rpoly_CDNS_85 MINUS PLUS
+** N=3 EP=2 FDC=1
+R0 PLUS MINUS L=0.52 W=1 m=1 segments=1 $[rpoly] $X=0 $Y=0 $dt=3
+.ends rpoly_CDNS_85
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: cm4m5_CDNS_86                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt cm4m5_CDNS_86 PLUS MINUS
+** N=2 EP=2 FDC=1
+C0 PLUS MINUS $A=1 $P=4 $[cm4m5] $X=0 $Y=0 $dt=4
+.ends cm4m5_CDNS_86
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos_CDNS_87                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos_CDNS_87 s d b g
+** N=4 EP=4 FDC=50
+M0 d g s b nmos L=0.15 W=1 $X=0 $Y=0 $dt=0
+M1 s g d b nmos L=0.15 W=1 $X=430 $Y=0 $dt=0
+M2 d g s b nmos L=0.15 W=1 $X=860 $Y=0 $dt=0
+M3 s g d b nmos L=0.15 W=1 $X=1290 $Y=0 $dt=0
+M4 d g s b nmos L=0.15 W=1 $X=1720 $Y=0 $dt=0
+M5 s g d b nmos L=0.15 W=1 $X=2150 $Y=0 $dt=0
+M6 d g s b nmos L=0.15 W=1 $X=2580 $Y=0 $dt=0
+M7 s g d b nmos L=0.15 W=1 $X=3010 $Y=0 $dt=0
+M8 d g s b nmos L=0.15 W=1 $X=3440 $Y=0 $dt=0
+M9 s g d b nmos L=0.15 W=1 $X=3870 $Y=0 $dt=0
+M10 d g s b nmos L=0.15 W=1 $X=4300 $Y=0 $dt=0
+M11 s g d b nmos L=0.15 W=1 $X=4730 $Y=0 $dt=0
+M12 d g s b nmos L=0.15 W=1 $X=5160 $Y=0 $dt=0
+M13 s g d b nmos L=0.15 W=1 $X=5590 $Y=0 $dt=0
+M14 d g s b nmos L=0.15 W=1 $X=6020 $Y=0 $dt=0
+M15 s g d b nmos L=0.15 W=1 $X=6450 $Y=0 $dt=0
+M16 d g s b nmos L=0.15 W=1 $X=6880 $Y=0 $dt=0
+M17 s g d b nmos L=0.15 W=1 $X=7310 $Y=0 $dt=0
+M18 d g s b nmos L=0.15 W=1 $X=7740 $Y=0 $dt=0
+M19 s g d b nmos L=0.15 W=1 $X=8170 $Y=0 $dt=0
+M20 d g s b nmos L=0.15 W=1 $X=8600 $Y=0 $dt=0
+M21 s g d b nmos L=0.15 W=1 $X=9030 $Y=0 $dt=0
+M22 d g s b nmos L=0.15 W=1 $X=9460 $Y=0 $dt=0
+M23 s g d b nmos L=0.15 W=1 $X=9890 $Y=0 $dt=0
+M24 d g s b nmos L=0.15 W=1 $X=10320 $Y=0 $dt=0
+M25 s g d b nmos L=0.15 W=1 $X=10750 $Y=0 $dt=0
+M26 d g s b nmos L=0.15 W=1 $X=11180 $Y=0 $dt=0
+M27 s g d b nmos L=0.15 W=1 $X=11610 $Y=0 $dt=0
+M28 d g s b nmos L=0.15 W=1 $X=12040 $Y=0 $dt=0
+M29 s g d b nmos L=0.15 W=1 $X=12470 $Y=0 $dt=0
+M30 d g s b nmos L=0.15 W=1 $X=12900 $Y=0 $dt=0
+M31 s g d b nmos L=0.15 W=1 $X=13330 $Y=0 $dt=0
+M32 d g s b nmos L=0.15 W=1 $X=13760 $Y=0 $dt=0
+M33 s g d b nmos L=0.15 W=1 $X=14190 $Y=0 $dt=0
+M34 d g s b nmos L=0.15 W=1 $X=14620 $Y=0 $dt=0
+M35 s g d b nmos L=0.15 W=1 $X=15050 $Y=0 $dt=0
+M36 d g s b nmos L=0.15 W=1 $X=15480 $Y=0 $dt=0
+M37 s g d b nmos L=0.15 W=1 $X=15910 $Y=0 $dt=0
+M38 d g s b nmos L=0.15 W=1 $X=16340 $Y=0 $dt=0
+M39 s g d b nmos L=0.15 W=1 $X=16770 $Y=0 $dt=0
+M40 d g s b nmos L=0.15 W=1 $X=17200 $Y=0 $dt=0
+M41 s g d b nmos L=0.15 W=1 $X=17630 $Y=0 $dt=0
+M42 d g s b nmos L=0.15 W=1 $X=18060 $Y=0 $dt=0
+M43 s g d b nmos L=0.15 W=1 $X=18490 $Y=0 $dt=0
+M44 d g s b nmos L=0.15 W=1 $X=18920 $Y=0 $dt=0
+M45 s g d b nmos L=0.15 W=1 $X=19350 $Y=0 $dt=0
+M46 d g s b nmos L=0.15 W=1 $X=19780 $Y=0 $dt=0
+M47 s g d b nmos L=0.15 W=1 $X=20210 $Y=0 $dt=0
+M48 d g s b nmos L=0.15 W=1 $X=20640 $Y=0 $dt=0
+M49 s g d b nmos L=0.15 W=1 $X=21070 $Y=0 $dt=0
+.ends nmos_CDNS_87
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rpoly_CDNS_88                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rpoly_CDNS_88 PLUS MINUS
+** N=13 EP=2 FDC=11
+R0 PLUS 13 L=2 W=1 m=1 segments=1 $[rpoly] $X=0 $Y=0 $dt=3
+R1 12 13 L=2 W=1 m=1 segments=1 $[rpoly] $X=1210 $Y=0 $dt=3
+R2 12 11 L=2 W=1 m=1 segments=1 $[rpoly] $X=2420 $Y=0 $dt=3
+R3 10 11 L=2 W=1 m=1 segments=1 $[rpoly] $X=3630 $Y=0 $dt=3
+R4 10 9 L=2 W=1 m=1 segments=1 $[rpoly] $X=4840 $Y=0 $dt=3
+R5 8 9 L=2 W=1 m=1 segments=1 $[rpoly] $X=6050 $Y=0 $dt=3
+R6 8 7 L=2 W=1 m=1 segments=1 $[rpoly] $X=7260 $Y=0 $dt=3
+R7 6 7 L=2 W=1 m=1 segments=1 $[rpoly] $X=8470 $Y=0 $dt=3
+R8 6 5 L=2 W=1 m=1 segments=1 $[rpoly] $X=9680 $Y=0 $dt=3
+R9 4 5 L=2 W=1 m=1 segments=1 $[rpoly] $X=10890 $Y=0 $dt=3
+R10 4 MINUS L=2 W=1 m=1 segments=1 $[rpoly] $X=12100 $Y=0 $dt=3
+.ends rpoly_CDNS_88
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos_CDNS_89                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos_CDNS_89 s d b g
+** N=4 EP=4 FDC=30
+M0 d g s b nmos L=0.15 W=7 $X=0 $Y=0 $dt=0
+M1 s g d b nmos L=0.15 W=7 $X=430 $Y=0 $dt=0
+M2 d g s b nmos L=0.15 W=7 $X=860 $Y=0 $dt=0
+M3 s g d b nmos L=0.15 W=7 $X=1290 $Y=0 $dt=0
+M4 d g s b nmos L=0.15 W=7 $X=1720 $Y=0 $dt=0
+M5 s g d b nmos L=0.15 W=7 $X=2150 $Y=0 $dt=0
+M6 d g s b nmos L=0.15 W=7 $X=2580 $Y=0 $dt=0
+M7 s g d b nmos L=0.15 W=7 $X=3010 $Y=0 $dt=0
+M8 d g s b nmos L=0.15 W=7 $X=3440 $Y=0 $dt=0
+M9 s g d b nmos L=0.15 W=7 $X=3870 $Y=0 $dt=0
+M10 d g s b nmos L=0.15 W=7 $X=4300 $Y=0 $dt=0
+M11 s g d b nmos L=0.15 W=7 $X=4730 $Y=0 $dt=0
+M12 d g s b nmos L=0.15 W=7 $X=5160 $Y=0 $dt=0
+M13 s g d b nmos L=0.15 W=7 $X=5590 $Y=0 $dt=0
+M14 d g s b nmos L=0.15 W=7 $X=6020 $Y=0 $dt=0
+M15 s g d b nmos L=0.15 W=7 $X=6450 $Y=0 $dt=0
+M16 d g s b nmos L=0.15 W=7 $X=6880 $Y=0 $dt=0
+M17 s g d b nmos L=0.15 W=7 $X=7310 $Y=0 $dt=0
+M18 d g s b nmos L=0.15 W=7 $X=7740 $Y=0 $dt=0
+M19 s g d b nmos L=0.15 W=7 $X=8170 $Y=0 $dt=0
+M20 d g s b nmos L=0.15 W=7 $X=8600 $Y=0 $dt=0
+M21 s g d b nmos L=0.15 W=7 $X=9030 $Y=0 $dt=0
+M22 d g s b nmos L=0.15 W=7 $X=9460 $Y=0 $dt=0
+M23 s g d b nmos L=0.15 W=7 $X=9890 $Y=0 $dt=0
+M24 d g s b nmos L=0.15 W=7 $X=10320 $Y=0 $dt=0
+M25 s g d b nmos L=0.15 W=7 $X=10750 $Y=0 $dt=0
+M26 d g s b nmos L=0.15 W=7 $X=11180 $Y=0 $dt=0
+M27 s g d b nmos L=0.15 W=7 $X=11610 $Y=0 $dt=0
+M28 d g s b nmos L=0.15 W=7 $X=12040 $Y=0 $dt=0
+M29 s g d b nmos L=0.15 W=7 $X=12470 $Y=0 $dt=0
+.ends nmos_CDNS_89
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos_lvt_CDNS_90                                *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos_lvt_CDNS_90 s d b g 5
+** N=5 EP=5 FDC=100
+M0 d g s 5 nmos_lvt L=0.15 W=7 AD=1.9075 AS=1.9075 PD=7.545 PS=7.545 NRD=0 NRS=0 m=1 $X=0 $Y=0 $dt=2
+M1 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=430 $Y=0 $dt=2
+M2 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=860 $Y=0 $dt=2
+M3 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=1290 $Y=0 $dt=2
+M4 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=1720 $Y=0 $dt=2
+M5 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=2150 $Y=0 $dt=2
+M6 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=2580 $Y=0 $dt=2
+M7 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=3010 $Y=0 $dt=2
+M8 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=3440 $Y=0 $dt=2
+M9 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=3870 $Y=0 $dt=2
+M10 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=4300 $Y=0 $dt=2
+M11 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=4730 $Y=0 $dt=2
+M12 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=5160 $Y=0 $dt=2
+M13 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=5590 $Y=0 $dt=2
+M14 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=6020 $Y=0 $dt=2
+M15 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=6450 $Y=0 $dt=2
+M16 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=6880 $Y=0 $dt=2
+M17 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=7310 $Y=0 $dt=2
+M18 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=7740 $Y=0 $dt=2
+M19 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=8170 $Y=0 $dt=2
+M20 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=8600 $Y=0 $dt=2
+M21 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=9030 $Y=0 $dt=2
+M22 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=9460 $Y=0 $dt=2
+M23 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=9890 $Y=0 $dt=2
+M24 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=10320 $Y=0 $dt=2
+M25 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=10750 $Y=0 $dt=2
+M26 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=11180 $Y=0 $dt=2
+M27 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=11610 $Y=0 $dt=2
+M28 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=12040 $Y=0 $dt=2
+M29 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=12470 $Y=0 $dt=2
+M30 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=12900 $Y=0 $dt=2
+M31 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=13330 $Y=0 $dt=2
+M32 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=13760 $Y=0 $dt=2
+M33 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=14190 $Y=0 $dt=2
+M34 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=14620 $Y=0 $dt=2
+M35 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=15050 $Y=0 $dt=2
+M36 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=15480 $Y=0 $dt=2
+M37 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=15910 $Y=0 $dt=2
+M38 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=16340 $Y=0 $dt=2
+M39 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=16770 $Y=0 $dt=2
+M40 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=17200 $Y=0 $dt=2
+M41 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=17630 $Y=0 $dt=2
+M42 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=18060 $Y=0 $dt=2
+M43 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=18490 $Y=0 $dt=2
+M44 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=18920 $Y=0 $dt=2
+M45 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=19350 $Y=0 $dt=2
+M46 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=19780 $Y=0 $dt=2
+M47 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=20210 $Y=0 $dt=2
+M48 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=20640 $Y=0 $dt=2
+M49 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=21070 $Y=0 $dt=2
+M50 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=21500 $Y=0 $dt=2
+M51 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=21930 $Y=0 $dt=2
+M52 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=22360 $Y=0 $dt=2
+M53 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=22790 $Y=0 $dt=2
+M54 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=23220 $Y=0 $dt=2
+M55 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=23650 $Y=0 $dt=2
+M56 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=24080 $Y=0 $dt=2
+M57 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=24510 $Y=0 $dt=2
+M58 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=24940 $Y=0 $dt=2
+M59 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=25370 $Y=0 $dt=2
+M60 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=25800 $Y=0 $dt=2
+M61 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=26230 $Y=0 $dt=2
+M62 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=26660 $Y=0 $dt=2
+M63 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=27090 $Y=0 $dt=2
+M64 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=27520 $Y=0 $dt=2
+M65 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=27950 $Y=0 $dt=2
+M66 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=28380 $Y=0 $dt=2
+M67 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=28810 $Y=0 $dt=2
+M68 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=29240 $Y=0 $dt=2
+M69 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=29670 $Y=0 $dt=2
+M70 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=30100 $Y=0 $dt=2
+M71 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=30530 $Y=0 $dt=2
+M72 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=30960 $Y=0 $dt=2
+M73 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=31390 $Y=0 $dt=2
+M74 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=31820 $Y=0 $dt=2
+M75 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=32250 $Y=0 $dt=2
+M76 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=32680 $Y=0 $dt=2
+M77 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=33110 $Y=0 $dt=2
+M78 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=33540 $Y=0 $dt=2
+M79 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=33970 $Y=0 $dt=2
+M80 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=34400 $Y=0 $dt=2
+M81 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=34830 $Y=0 $dt=2
+M82 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=35260 $Y=0 $dt=2
+M83 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=35690 $Y=0 $dt=2
+M84 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=36120 $Y=0 $dt=2
+M85 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=36550 $Y=0 $dt=2
+M86 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=36980 $Y=0 $dt=2
+M87 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=37410 $Y=0 $dt=2
+M88 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=37840 $Y=0 $dt=2
+M89 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=38270 $Y=0 $dt=2
+M90 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=38700 $Y=0 $dt=2
+M91 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=39130 $Y=0 $dt=2
+M92 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=39560 $Y=0 $dt=2
+M93 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=39990 $Y=0 $dt=2
+M94 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=40420 $Y=0 $dt=2
+M95 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=40850 $Y=0 $dt=2
+M96 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=41280 $Y=0 $dt=2
+M97 s g d 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=41710 $Y=0 $dt=2
+M98 d g s 5 nmos_lvt L=0.15 W=7 AD=1.96 AS=1.96 PD=7.56 PS=7.56 NRD=0 NRS=0 m=1 $X=42140 $Y=0 $dt=2
+M99 s g d 5 nmos_lvt L=0.15 W=7 AD=1.9075 AS=1.9075 PD=7.545 PS=7.545 NRD=0 NRS=0 m=1 $X=42570 $Y=0 $dt=2
+.ends nmos_lvt_CDNS_90
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rpoly_CDNS_91                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rpoly_CDNS_91 MINUS PLUS
+** N=3 EP=2 FDC=1
+R0 PLUS MINUS L=0.2 W=9 m=1 segments=1 $[rpoly] $X=0 $Y=0 $dt=3
+.ends rpoly_CDNS_91
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: cm4m5_CDNS_92                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt cm4m5_CDNS_92 PLUS MINUS
+** N=2 EP=2 FDC=1
+C0 PLUS MINUS $A=4 $P=8 $[cm4m5] $X=0 $Y=0 $dt=4
+.ends cm4m5_CDNS_92
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rpoly_CDNS_93                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rpoly_CDNS_93 MINUS PLUS
+** N=3 EP=2 FDC=1
+R0 PLUS MINUS L=2 W=1 m=1 segments=1 $[rpoly] $X=0 $Y=0 $dt=3
+.ends rpoly_CDNS_93
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos_CDNS_94                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos_CDNS_94 1 d b g s
+** N=5 EP=5 FDC=100
+M0 d g 1 b nmos L=0.15 W=2 $X=0 $Y=0 $dt=0
+M1 s g d b nmos L=0.15 W=2 $X=430 $Y=0 $dt=0
+M2 d g s b nmos L=0.15 W=2 $X=860 $Y=0 $dt=0
+M3 s g d b nmos L=0.15 W=2 $X=1290 $Y=0 $dt=0
+M4 d g s b nmos L=0.15 W=2 $X=1720 $Y=0 $dt=0
+M5 s g d b nmos L=0.15 W=2 $X=2150 $Y=0 $dt=0
+M6 d g s b nmos L=0.15 W=2 $X=2580 $Y=0 $dt=0
+M7 s g d b nmos L=0.15 W=2 $X=3010 $Y=0 $dt=0
+M8 d g s b nmos L=0.15 W=2 $X=3440 $Y=0 $dt=0
+M9 s g d b nmos L=0.15 W=2 $X=3870 $Y=0 $dt=0
+M10 d g s b nmos L=0.15 W=2 $X=4300 $Y=0 $dt=0
+M11 s g d b nmos L=0.15 W=2 $X=4730 $Y=0 $dt=0
+M12 d g s b nmos L=0.15 W=2 $X=5160 $Y=0 $dt=0
+M13 s g d b nmos L=0.15 W=2 $X=5590 $Y=0 $dt=0
+M14 d g s b nmos L=0.15 W=2 $X=6020 $Y=0 $dt=0
+M15 s g d b nmos L=0.15 W=2 $X=6450 $Y=0 $dt=0
+M16 d g s b nmos L=0.15 W=2 $X=6880 $Y=0 $dt=0
+M17 s g d b nmos L=0.15 W=2 $X=7310 $Y=0 $dt=0
+M18 d g s b nmos L=0.15 W=2 $X=7740 $Y=0 $dt=0
+M19 s g d b nmos L=0.15 W=2 $X=8170 $Y=0 $dt=0
+M20 d g s b nmos L=0.15 W=2 $X=8600 $Y=0 $dt=0
+M21 s g d b nmos L=0.15 W=2 $X=9030 $Y=0 $dt=0
+M22 d g s b nmos L=0.15 W=2 $X=9460 $Y=0 $dt=0
+M23 s g d b nmos L=0.15 W=2 $X=9890 $Y=0 $dt=0
+M24 d g s b nmos L=0.15 W=2 $X=10320 $Y=0 $dt=0
+M25 s g d b nmos L=0.15 W=2 $X=10750 $Y=0 $dt=0
+M26 d g s b nmos L=0.15 W=2 $X=11180 $Y=0 $dt=0
+M27 s g d b nmos L=0.15 W=2 $X=11610 $Y=0 $dt=0
+M28 d g s b nmos L=0.15 W=2 $X=12040 $Y=0 $dt=0
+M29 s g d b nmos L=0.15 W=2 $X=12470 $Y=0 $dt=0
+M30 d g s b nmos L=0.15 W=2 $X=12900 $Y=0 $dt=0
+M31 s g d b nmos L=0.15 W=2 $X=13330 $Y=0 $dt=0
+M32 d g s b nmos L=0.15 W=2 $X=13760 $Y=0 $dt=0
+M33 s g d b nmos L=0.15 W=2 $X=14190 $Y=0 $dt=0
+M34 d g s b nmos L=0.15 W=2 $X=14620 $Y=0 $dt=0
+M35 s g d b nmos L=0.15 W=2 $X=15050 $Y=0 $dt=0
+M36 d g s b nmos L=0.15 W=2 $X=15480 $Y=0 $dt=0
+M37 s g d b nmos L=0.15 W=2 $X=15910 $Y=0 $dt=0
+M38 d g s b nmos L=0.15 W=2 $X=16340 $Y=0 $dt=0
+M39 s g d b nmos L=0.15 W=2 $X=16770 $Y=0 $dt=0
+M40 d g s b nmos L=0.15 W=2 $X=17200 $Y=0 $dt=0
+M41 s g d b nmos L=0.15 W=2 $X=17630 $Y=0 $dt=0
+M42 d g s b nmos L=0.15 W=2 $X=18060 $Y=0 $dt=0
+M43 s g d b nmos L=0.15 W=2 $X=18490 $Y=0 $dt=0
+M44 d g s b nmos L=0.15 W=2 $X=18920 $Y=0 $dt=0
+M45 s g d b nmos L=0.15 W=2 $X=19350 $Y=0 $dt=0
+M46 d g s b nmos L=0.15 W=2 $X=19780 $Y=0 $dt=0
+M47 s g d b nmos L=0.15 W=2 $X=20210 $Y=0 $dt=0
+M48 d g s b nmos L=0.15 W=2 $X=20640 $Y=0 $dt=0
+M49 s g d b nmos L=0.15 W=2 $X=21070 $Y=0 $dt=0
+M50 d g s b nmos L=0.15 W=2 $X=21500 $Y=0 $dt=0
+M51 s g d b nmos L=0.15 W=2 $X=21930 $Y=0 $dt=0
+M52 d g s b nmos L=0.15 W=2 $X=22360 $Y=0 $dt=0
+M53 s g d b nmos L=0.15 W=2 $X=22790 $Y=0 $dt=0
+M54 d g s b nmos L=0.15 W=2 $X=23220 $Y=0 $dt=0
+M55 s g d b nmos L=0.15 W=2 $X=23650 $Y=0 $dt=0
+M56 d g s b nmos L=0.15 W=2 $X=24080 $Y=0 $dt=0
+M57 s g d b nmos L=0.15 W=2 $X=24510 $Y=0 $dt=0
+M58 d g s b nmos L=0.15 W=2 $X=24940 $Y=0 $dt=0
+M59 s g d b nmos L=0.15 W=2 $X=25370 $Y=0 $dt=0
+M60 d g s b nmos L=0.15 W=2 $X=25800 $Y=0 $dt=0
+M61 s g d b nmos L=0.15 W=2 $X=26230 $Y=0 $dt=0
+M62 d g s b nmos L=0.15 W=2 $X=26660 $Y=0 $dt=0
+M63 s g d b nmos L=0.15 W=2 $X=27090 $Y=0 $dt=0
+M64 d g s b nmos L=0.15 W=2 $X=27520 $Y=0 $dt=0
+M65 s g d b nmos L=0.15 W=2 $X=27950 $Y=0 $dt=0
+M66 d g s b nmos L=0.15 W=2 $X=28380 $Y=0 $dt=0
+M67 s g d b nmos L=0.15 W=2 $X=28810 $Y=0 $dt=0
+M68 d g s b nmos L=0.15 W=2 $X=29240 $Y=0 $dt=0
+M69 s g d b nmos L=0.15 W=2 $X=29670 $Y=0 $dt=0
+M70 d g s b nmos L=0.15 W=2 $X=30100 $Y=0 $dt=0
+M71 s g d b nmos L=0.15 W=2 $X=30530 $Y=0 $dt=0
+M72 d g s b nmos L=0.15 W=2 $X=30960 $Y=0 $dt=0
+M73 s g d b nmos L=0.15 W=2 $X=31390 $Y=0 $dt=0
+M74 d g s b nmos L=0.15 W=2 $X=31820 $Y=0 $dt=0
+M75 s g d b nmos L=0.15 W=2 $X=32250 $Y=0 $dt=0
+M76 d g s b nmos L=0.15 W=2 $X=32680 $Y=0 $dt=0
+M77 s g d b nmos L=0.15 W=2 $X=33110 $Y=0 $dt=0
+M78 d g s b nmos L=0.15 W=2 $X=33540 $Y=0 $dt=0
+M79 s g d b nmos L=0.15 W=2 $X=33970 $Y=0 $dt=0
+M80 d g s b nmos L=0.15 W=2 $X=34400 $Y=0 $dt=0
+M81 s g d b nmos L=0.15 W=2 $X=34830 $Y=0 $dt=0
+M82 d g s b nmos L=0.15 W=2 $X=35260 $Y=0 $dt=0
+M83 s g d b nmos L=0.15 W=2 $X=35690 $Y=0 $dt=0
+M84 d g s b nmos L=0.15 W=2 $X=36120 $Y=0 $dt=0
+M85 s g d b nmos L=0.15 W=2 $X=36550 $Y=0 $dt=0
+M86 d g s b nmos L=0.15 W=2 $X=36980 $Y=0 $dt=0
+M87 s g d b nmos L=0.15 W=2 $X=37410 $Y=0 $dt=0
+M88 d g s b nmos L=0.15 W=2 $X=37840 $Y=0 $dt=0
+M89 s g d b nmos L=0.15 W=2 $X=38270 $Y=0 $dt=0
+M90 d g s b nmos L=0.15 W=2 $X=38700 $Y=0 $dt=0
+M91 s g d b nmos L=0.15 W=2 $X=39130 $Y=0 $dt=0
+M92 d g s b nmos L=0.15 W=2 $X=39560 $Y=0 $dt=0
+M93 s g d b nmos L=0.15 W=2 $X=39990 $Y=0 $dt=0
+M94 d g s b nmos L=0.15 W=2 $X=40420 $Y=0 $dt=0
+M95 s g d b nmos L=0.15 W=2 $X=40850 $Y=0 $dt=0
+M96 d g s b nmos L=0.15 W=2 $X=41280 $Y=0 $dt=0
+M97 s g d b nmos L=0.15 W=2 $X=41710 $Y=0 $dt=0
+M98 d g s b nmos L=0.15 W=2 $X=42140 $Y=0 $dt=0
+M99 s g d b nmos L=0.15 W=2 $X=42570 $Y=0 $dt=0
+.ends nmos_CDNS_94
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos_CDNS_95                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos_CDNS_95 s d b g
+** N=4 EP=4 FDC=50
+M0 d g s b nmos L=0.15 W=7 $X=0 $Y=0 $dt=0
+M1 s g d b nmos L=0.15 W=7 $X=430 $Y=0 $dt=0
+M2 d g s b nmos L=0.15 W=7 $X=860 $Y=0 $dt=0
+M3 s g d b nmos L=0.15 W=7 $X=1290 $Y=0 $dt=0
+M4 d g s b nmos L=0.15 W=7 $X=1720 $Y=0 $dt=0
+M5 s g d b nmos L=0.15 W=7 $X=2150 $Y=0 $dt=0
+M6 d g s b nmos L=0.15 W=7 $X=2580 $Y=0 $dt=0
+M7 s g d b nmos L=0.15 W=7 $X=3010 $Y=0 $dt=0
+M8 d g s b nmos L=0.15 W=7 $X=3440 $Y=0 $dt=0
+M9 s g d b nmos L=0.15 W=7 $X=3870 $Y=0 $dt=0
+M10 d g s b nmos L=0.15 W=7 $X=4300 $Y=0 $dt=0
+M11 s g d b nmos L=0.15 W=7 $X=4730 $Y=0 $dt=0
+M12 d g s b nmos L=0.15 W=7 $X=5160 $Y=0 $dt=0
+M13 s g d b nmos L=0.15 W=7 $X=5590 $Y=0 $dt=0
+M14 d g s b nmos L=0.15 W=7 $X=6020 $Y=0 $dt=0
+M15 s g d b nmos L=0.15 W=7 $X=6450 $Y=0 $dt=0
+M16 d g s b nmos L=0.15 W=7 $X=6880 $Y=0 $dt=0
+M17 s g d b nmos L=0.15 W=7 $X=7310 $Y=0 $dt=0
+M18 d g s b nmos L=0.15 W=7 $X=7740 $Y=0 $dt=0
+M19 s g d b nmos L=0.15 W=7 $X=8170 $Y=0 $dt=0
+M20 d g s b nmos L=0.15 W=7 $X=8600 $Y=0 $dt=0
+M21 s g d b nmos L=0.15 W=7 $X=9030 $Y=0 $dt=0
+M22 d g s b nmos L=0.15 W=7 $X=9460 $Y=0 $dt=0
+M23 s g d b nmos L=0.15 W=7 $X=9890 $Y=0 $dt=0
+M24 d g s b nmos L=0.15 W=7 $X=10320 $Y=0 $dt=0
+M25 s g d b nmos L=0.15 W=7 $X=10750 $Y=0 $dt=0
+M26 d g s b nmos L=0.15 W=7 $X=11180 $Y=0 $dt=0
+M27 s g d b nmos L=0.15 W=7 $X=11610 $Y=0 $dt=0
+M28 d g s b nmos L=0.15 W=7 $X=12040 $Y=0 $dt=0
+M29 s g d b nmos L=0.15 W=7 $X=12470 $Y=0 $dt=0
+M30 d g s b nmos L=0.15 W=7 $X=12900 $Y=0 $dt=0
+M31 s g d b nmos L=0.15 W=7 $X=13330 $Y=0 $dt=0
+M32 d g s b nmos L=0.15 W=7 $X=13760 $Y=0 $dt=0
+M33 s g d b nmos L=0.15 W=7 $X=14190 $Y=0 $dt=0
+M34 d g s b nmos L=0.15 W=7 $X=14620 $Y=0 $dt=0
+M35 s g d b nmos L=0.15 W=7 $X=15050 $Y=0 $dt=0
+M36 d g s b nmos L=0.15 W=7 $X=15480 $Y=0 $dt=0
+M37 s g d b nmos L=0.15 W=7 $X=15910 $Y=0 $dt=0
+M38 d g s b nmos L=0.15 W=7 $X=16340 $Y=0 $dt=0
+M39 s g d b nmos L=0.15 W=7 $X=16770 $Y=0 $dt=0
+M40 d g s b nmos L=0.15 W=7 $X=17200 $Y=0 $dt=0
+M41 s g d b nmos L=0.15 W=7 $X=17630 $Y=0 $dt=0
+M42 d g s b nmos L=0.15 W=7 $X=18060 $Y=0 $dt=0
+M43 s g d b nmos L=0.15 W=7 $X=18490 $Y=0 $dt=0
+M44 d g s b nmos L=0.15 W=7 $X=18920 $Y=0 $dt=0
+M45 s g d b nmos L=0.15 W=7 $X=19350 $Y=0 $dt=0
+M46 d g s b nmos L=0.15 W=7 $X=19780 $Y=0 $dt=0
+M47 s g d b nmos L=0.15 W=7 $X=20210 $Y=0 $dt=0
+M48 d g s b nmos L=0.15 W=7 $X=20640 $Y=0 $dt=0
+M49 s g d b nmos L=0.15 W=7 $X=21070 $Y=0 $dt=0
+.ends nmos_CDNS_95
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: RX_Frontend                                     *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt RX_Frontend
+** N=24 EP=0 FDC=844
+X672 10 9 rpoly_CDNS_85 $T=3610 51205 0 0 $X=3610 $Y=50935
+X673 4 2 cm4m5_CDNS_86 $T=2655 45765 0 0 $X=2515 $Y=45625
+X674 20 19 cm4m5_CDNS_86 $T=31710 22225 0 90 $X=30570 $Y=22085
+X675 6 7 cm4m5_CDNS_86 $T=39465 23485 0 0 $X=39325 $Y=23345
+X676 9 8 2 4 nmos_CDNS_87 $T=6135 10500 0 90 $X=5005 $Y=10025
+X677 2 4 2 4 nmos_CDNS_87 $T=32130 29305 0 90 $X=31000 $Y=28830
+X678 14 13 rpoly_CDNS_88 $T=47105 63820 0 180 $X=34005 $Y=61550
+X679 14 15 rpoly_CDNS_88 $T=50010 61820 0 0 $X=50010 $Y=61550
+X680 22 13 2 1 nmos_CDNS_89 $T=50190 23505 0 90 $X=43060 $Y=23030
+X681 15 22 2 21 nmos_CDNS_89 $T=50190 41260 0 90 $X=43060 $Y=40785
+X682 18 7 2 19 2 nmos_lvt_CDNS_90 $T=31805 2815 0 0 $X=31330 $Y=2005
+X683 18 19 23 7 2 nmos_lvt_CDNS_90 $T=31805 11815 0 0 $X=31330 $Y=11005
+X684 20 6 rpoly_CDNS_91 $T=36155 20650 0 90 $X=35685 $Y=20650
+X685 5 3 cm4m5_CDNS_92 $T=25035 57860 0 0 $X=24895 $Y=57720
+X686 7 1 cm4m5_CDNS_92 $T=68150 32250 0 90 $X=66010 $Y=32110
+X687 19 21 cm4m5_CDNS_92 $T=68170 42335 0 90 $X=66030 $Y=42195
+X688 12 3 rpoly_CDNS_93 $T=27325 63270 0 0 $X=27325 $Y=63000
+X689 16 1 rpoly_CDNS_93 $T=71285 34020 0 270 $X=71015 $Y=33020
+X690 17 21 rpoly_CDNS_93 $T=72485 43990 0 270 $X=72215 $Y=42990
+X691 8 5 2 11 8 nmos_CDNS_94 $T=12850 8475 0 90 $X=10720 $Y=8000
+X692 24 5 2 11 8 nmos_CDNS_94 $T=17870 8475 0 90 $X=15740 $Y=8000
+X693 8 5 2 11 8 nmos_CDNS_94 $T=22725 8475 0 90 $X=20595 $Y=8000
+X694 8 5 2 11 8 nmos_CDNS_94 $T=27975 8475 0 90 $X=25845 $Y=8000
+X695 2 22 2 3 nmos_CDNS_95 $T=62130 28255 0 90 $X=55000 $Y=27780
+C0 11 5 $A=47.3688 $P=27.53 $[cm4m5] $X=12975 $Y=55135 $dt=4
+.ends RX_Frontend

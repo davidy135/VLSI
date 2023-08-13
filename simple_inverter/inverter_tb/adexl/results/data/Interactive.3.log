@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Jan  8 14:13:48 2022 
+Best design point: 1
+Design specs: 
+	simple_inverter:inverter_tb:1	corner	Nominal - 
+Design parameters: 
+	V_DD		500m
+
+Interactive.3
+Number of points completed: 6
+Number of simulation errors: 0
+Interactive.3 completed. 
+Current time: Sat Jan  8 14:14:01 2022 

@@ -1,0 +1,144 @@
+TwoStage_layout 1000
+mnpg
+0 0 2 Apr 30 23:25:34 2022
+Rule File Pathname: /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+MOS connected to both power and ground
+mppg
+0 0 2 Apr 30 23:25:34 2022
+Rule File Pathname: /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+MOS connected to both power and ground
+mnpg_ldd1
+0 0 2 Apr 30 23:25:34 2022
+Rule File Pathname: /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+MOS connected to both power and ground
+mppg_ldd1
+0 0 2 Apr 30 23:25:34 2022
+Rule File Pathname: /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+MOS connected to both power and ground
+floating.nxwell_float
+9 9 2 Apr 30 23:25:34 2022
+Rule File Pathname: /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+nxwell_float is not connected to POWER
+p 1 4
+51005 90005
+51525 90005
+51525 92625
+51005 92625
+p 2 4
+51005 90005
+51525 90005
+51525 92625
+51005 92625
+p 3 4
+51055 90085
+51475 90085
+51475 92545
+51055 92545
+p 4 4
+51055 90085
+51475 90085
+51475 92545
+51055 92545
+p 5 4
+51055 90085
+51475 90085
+51475 92545
+51055 92545
+p 6 4
+56090 88110
+61750 88110
+61750 89790
+56090 89790
+p 7 4
+47240 83605
+50650 83605
+50650 94285
+47240 94285
+p 8 10
+46155 82080
+79165 82080
+79165 95245
+45385 95245
+45385 82080
+46155 82080
+46155 94475
+78395 94475
+78395 82850
+46155 82850
+p 9 60
+74050 83270
+78035 83270
+78035 94380
+46960 94380
+46960 83270
+47240 83270
+47240 94285
+50650 94285
+50650 83605
+47240 83605
+47240 83270
+51005 83270
+51005 92625
+51525 92625
+51525 90005
+51005 90005
+51005 83270
+51840 83270
+51840 94285
+55250 94285
+55250 83605
+51840 83605
+51840 83270
+56090 83270
+56090 92590
+61750 92590
+61750 90910
+56090 90910
+56090 89790
+61750 89790
+61750 88110
+56090 88110
+56090 83270
+62930 83270
+62930 92590
+68590 92590
+68590 90910
+62930 90910
+62930 89790
+68590 89790
+68590 88110
+62930 88110
+62930 83270
+69450 83270
+69450 94285
+72860 94285
+72860 83605
+69450 83605
+69450 83270
+73185 83270
+73185 92660
+73705 92660
+73705 90040
+73185 90040
+73185 83270
+74050 83270
+74050 94285
+77460 94285
+77460 83605
+74050 83605
+floating.nxwell_hv
+0 0 2 Apr 30 23:25:34 2022
+Rule File Pathname: /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+nxwell_hv is not connected to POWER
+floating.psub
+0 0 2 Apr 30 23:25:34 2022
+Rule File Pathname: /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+psub is not connected to GROUND
+npvss49
+0 0 2 Apr 30 23:25:34 2022
+Rule File Pathname: /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+ntap connected to GROUND
+ppvdd49
+0 0 2 Apr 30 23:25:34 2022
+Rule File Pathname: /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_lvs/.technology.rul
+ptap connected to POWER

@@ -1,0 +1,16 @@
+Checking out SoftShare license Phys_Ver_Sys_Results_Mgr 20.1 Qty: 1 ... failed.
+
+ERROR (LMF-03005): License call failed for feature Phys_Ver_Sys_Results_Mgr, version 20.100 and quantity 1. The license server search path is defined as 5280@piracy.ee.cooper.edu:27020@license.cooper.edu. The FLEXnet error message is as follows,
+    FLEXnet ERROR(-5, 0, 0): No such feature exists.
+
+Run 'lic_error LMF-03005' for more information.
+Unable to queue for a license on the license server.
+License checkout failed.
+Checking out SoftShare license Phys_Ver_Sys_Results_Mgr 20.1 Qty: 1 ... failed.
+
+ERROR (LMF-03005): License call failed for feature Phys_Ver_Sys_Results_Mgr, version 20.100 and quantity 1. The license server search path is defined as 5280@piracy.ee.cooper.edu:27020@license.cooper.edu. The FLEXnet error message is as follows,
+    FLEXnet ERROR(-5, 0, 0): No such feature exists.
+
+Run 'lic_error LMF-03005' for more information.
+Unable to queue for a license on the license server.
+License checkout failed.

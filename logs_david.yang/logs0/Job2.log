@@ -1,0 +1,45 @@
+\# Program start time:     UTC 2022.04.27 18:26:40.243
+\# Local time: EDT (UTC-04:00) 2022.04.27 14:26:40.243
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 11/10/2020 19:41 (cpgsrv13) $
+\o Hierarchy:		/afs/ee.cooper.edu/dist/cadence-2021/installs/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.15  (64-bit addresses)
+\# Command line:	/afs/ee.cooper.edu/dist/cadence-2021/installs/ic/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso6372 -mpshost ice05 -davinciService DaVinciService_6372_1651083862 -log /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/logs_david.yang/logs0/Job2.log -licenseLockFileName /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/.tmp_david.yang/.ice05_6372 -interactiveA -interactiveE -interactiveRTT -nostdin -nograph -axlChildIdFlag 2
+\# Host name (type):	ice05 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.62.1.el7.x86_64 #1 SMP Tue Apr 5 16:57:59 UTC 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:95 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 13711)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        573 MB
+\# Available memory:	      9,683 MB
+\# System memory:	     15,937 MB
+\# Maximum memory size:	     15,520 MB
+\# Max mem available:	      9,839 MB
+\# Initial memory used:	        156 MB
+\#        process size:	      1,488 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		david.yang
+\o Working Directory:	ice05:/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65
+\# Process Id:		13896
+\o 
+\o COPYRIGHT (C) 1992-2020  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2020  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.

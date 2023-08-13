@@ -1,0 +1,8 @@
+vuiLVSdebugRunInfo = list( nil
+   'layoutLibrary "Operational_Amplifier"
+   'layoutCell "TwoStage_layout"
+   'layoutView "layout"
+   'schematicLibrary "Operational_Amplifier"
+   'schematicCell "TwoStage_layout"
+   'schematicView "schematic"
+)

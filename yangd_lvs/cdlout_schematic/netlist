@@ -1,0 +1,136 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  RX_Frontend
+* Top Cell Name: RX_Frontend
+* View Name:     schematic
+* Netlisted on:  May  8 12:41:37 2023
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: RX_Frontend
+* Cell Name:    LNA_tapeout
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT LNA_tapeout Ind Iref VDD VSS Vin Vout
+*.PININFO Ind:I Iref:I VDD:I VSS:I Vin:I Vout:O
+MMN5 Iref Iref VSS VSS nmos W=1 L=0.15 M=50
+MMN4 net1 Iref Ind VSS nmos W=1 L=0.15 M=50
+CC1 VSS Iref cm4m5 A=1 P=4 m=1
+CC0 Vout VDD cm4m5 A=47.3688 P=27.53 m=1
+RRNP1 $PINS MINUS=Vin PLUS=Ind model=rpoly w=1.000 l=0.52 m=1 segments=1 
++ rType=Series 
+MMN3 Vout VDD net1 VSS nmos W=2 L=0.15 M=400
+.ENDS
+
+************************************************************************
+* Library Name: RX_Frontend
+* Cell Name:    Mixer
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Mixer VDD VSS Vif+ Vif- Vlo+ Vlo- Vrf
+*.PININFO VDD:I VSS:I Vlo+:I Vlo-:I Vrf:I Vif+:O Vif-:O
+MMN2 Vif- Vlo- net1 VSS nmos W=7 L=0.15 M=30
+MMN1 Vif+ Vlo+ net1 VSS nmos W=7 L=0.15 M=30
+RRNP1_1_1 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_2 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_3 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_4 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_5 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_6 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_7 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_8 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_9 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_10 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP1_1_11 $PINS MINUS=Vif- PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_1 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_2 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_3 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_4 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_5 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_6 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_7 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_8 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_9 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_10 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+RRNP0_1_11 $PINS MINUS=Vif+ PLUS=VDD model=rpoly w=1.000 l=2 m=1 segments=11 
++ rType=Series 
+MMN0 net1 Vrf VSS VSS nmos W=7 L=0.15 M=50
+.ENDS
+
+************************************************************************
+* Library Name: RX_Frontend
+* Cell Name:    Oscillator
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Oscillator VSS Vout+ Vout-
+*.PININFO VSS:I Vout+:O Vout-:O
+CC1 Vout- net2 cm4m5 A=1 P=4 m=1
+CC0 Vout+ net1 cm4m5 A=1 P=4 m=1
+MMN1 Vout+ Vout- VSS VSS nmos_lvt W=7 L=0.15 M=100
+MMN0 Vout- Vout+ VSS VSS nmos_lvt W=7 L=0.15 M=100
+RRNP0 $PINS MINUS=net1 PLUS=net2 model=rpoly w=9 l=0.2 m=1 segments=1 
++ rType=Series 
+.ENDS
+
+************************************************************************
+* Library Name: RX_Frontend
+* Cell Name:    RX_Frontend
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT RX_Frontend Iref_RF LNA_ind VDD_Mixer VDD_RF VSS Vbias_LO+ Vbias_LO- 
++ Vbias_RF Vif+ Vif- Vin_RF
+*.PININFO Iref_RF:I LNA_ind:I VDD_Mixer:I VDD_RF:I VSS:I Vbias_LO+:I 
+*.PININFO Vbias_LO-:I Vbias_RF:I Vin_RF:I Vif+:O Vif-:O
+XI3 LNA_ind Iref_RF VDD_RF VSS Vin_RF net1 / LNA_tapeout
+XI1 VDD_Mixer VSS Vif+ Vif- net4 net6 net2 / Mixer
+XI2 VSS net3 net5 / Oscillator
+CC2 net6 net5 cm4m5 A=4 P=8 m=1
+CC1 net4 net3 cm4m5 A=4 P=8 m=1
+CC0 net2 net1 cm4m5 A=4 P=8 m=1
+RRNP2 $PINS MINUS=Vbias_LO- PLUS=net6 model=rpoly w=1.000 l=2.000 m=1 
++ segments=1 rType=Series 
+RRNP1 $PINS MINUS=Vbias_LO+ PLUS=net4 model=rpoly w=1.000 l=2.000 m=1 
++ segments=1 rType=Series 
+RRNP0 $PINS MINUS=Vbias_RF PLUS=net2 model=rpoly w=1.000 l=2.000 m=1 
++ segments=1 rType=Series 
+.ENDS
+

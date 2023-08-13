@@ -1,0 +1,38 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Apr 19 18:21:46 2022 
+Best design point: 1
+Design specs: 
+	Operational_Amplifier:TwoStage_tb:1	corner	Nominal - 
+	Unity gain f		6.33G
+	Phase 2		24.67
+Design parameters: 
+	VCM		500m
+	Vb		1
+	Vb1		500m
+	Vcm		500m
+	l1		150n
+	W1		250n
+	L2		140n
+	W2		350n
+	L1		110n
+	L3		60n
+	L4		60n
+	L5		220n
+	W3		300n
+	W4		300n
+	W5		200n
+	Im		800u
+	f1		2
+	f2		2
+	f3		2
+	f4		2
+	f5		2
+	Cc		50f
+	Rc		100M
+
+Interactive.2
+Number of points completed: 12
+Number of simulation errors: 4
+Interactive.2 completed. 
+Current time: Tue Apr 19 18:22:24 2022 

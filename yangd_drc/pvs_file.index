@@ -1,0 +1,113 @@
+# This PVS File Index Registry was created automatically
+# Do not attempt to modify this file as any change may lead
+# to PVS Debug Environment malfunction.
+# 
+"Run Directory" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc
+"Current Directory" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65
+"Cadence Directory" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/.cadence/
+"Job Signature" internal none IPVS_1685902650_6093
+"PVS Job Mode" internal none drc
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/.preset.autosave
+"Technology Name" internal none "s130"
+"Technology RuleSet" internal none "default"
+"Technology Mapping File" internal none /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/PV/PVS/pvtech.lib
+"Technology Rule File" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/.technology.rul
+"PVS Version" internal none 20.10-p029
+"Binary Name" internal none pvsgui
+"PVS Build Date" internal none "Mon Sep 28 20:09:41 PDT 2020"
+"PVS Job Time" internal none 1685902650
+"DFII version" internal none 6.1.8.0
+"Run Directory" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc
+"PVS Job Mode" internal none drc
+"Rule File" input text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/.technology.rul
+"Cell Tree" output text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/cell_tree.txt
+"Layout Scale" internal none 0.001
+"Layout TechLib" internal none S130
+"Layout Library Name" internal none RX_Frontend
+"Layout Cell Name" internal none RX_Frontend
+"Layout View Name" internal none layout
+"Layout ConvertPin" internal text geometry
+"Layout HierDepth" internal none 32
+"Layout MaxVertices" internal none 2048
+"Layout Top Cell" internal none RX_Frontend
+"Layout GDSII" input none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/RX_Frontend.gds
+"Intermediate GDSII File" output none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/RX_Frontend.gds
+"Intermediate GDSII File creation Errors" output none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/PIPO1.LOG
+"Intermediate OASIS File creation Errors" output none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/PIPO1.LOG
+"Layout ReplaceBusBitChar" input none nil
+"Layout NoConvertHalfWidthPath" input none nil
+"Job Signature" internal none IPVS_1685902650_6093
+"Do not check rules files before run" internal none ENABLED
+"Control File" input text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/pvsdrcctl
+"PVS Job Log" log text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/pvsuidrc.log
+"PIPO Setup File I" internal text  /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/pipo1.setup
+"PIPO Log I" log text  /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/PIPO1.LOG
+"PIPO Output I" internal text  /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/PIPO1.OUT
+"Input Layout" input none OA: RX_Frontend RX_Frontend layout
+"Output Layout Cellmap I" internal text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/lay_cellMap.txt
+"PVS Version" internal none 20.10-p029
+"Binary Name" internal none pvsvirt
+"PVS Build Date" internal none "Mon Sep 28 20:09:41 PDT 2020"
+"PVS Job Time" internal none 1685902651
+"Cell Tree" output text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/cell_tree.txt
+"PVS Job Mode" internal none drc
+"Rule File" input text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/.technology.rul
+"Density RDB " output rdb anchor.1_density.db
+"Density RDB diff.INFO.ONLY.DEN" output rdb diff_density_info_only.rdb
+"Density RDB MR_diff.low.DEN.1" output rdb diff_low_density.rdb
+"Density RDB MR_diff.high.DEN.2" output rdb diff_high_density.rdb
+"Density RDB poly.INFO.ONLY.DEN" output rdb poly_density_info_only.rdb
+"Density RDB poly.low.DEN.1" output rdb poly_low_density.rdb
+"Density RDB poly.high.DEN.2" output rdb poly_high_density.rdb
+"Density RDB met1.INFO.ONLY.DEN" output rdb met1_density_info_only.rdb
+"Density RDB met1.oxide.low.DEN.1" output rdb met1_oxide_low_density.rdb
+"Density RDB met1.global.max.DEN.2" output rdb met1_global_high.rdb
+"Density RDB met1.global.min.DEN.3" output rdb met1_global_low.rdb
+"Density RDB met2.INFO.ONLY.DEN" output rdb met2_density_info_only.rdb
+"Density RDB met2.oxide.low.DEN.1" output rdb met2_oxide_low_density.rdb
+"Density RDB met2.global.max.DEN.2" output rdb met2_global_high.rdb
+"Density RDB met2.global.min.DEN.3" output rdb met2_global_low.rdb
+"Density RDB met3.INFO.ONLY.DEN" output rdb met3_density_info_only.rdb
+"Density RDB met3.oxide.low.DEN.1" output rdb met3_oxide_low_density.rdb
+"Density RDB met3.global.max.DEN.2" output rdb met3_global_high.rdb
+"Density RDB met3.global.min.DEN.3" output rdb met3_global_low.rdb
+"Density RDB met4.INFO.ONLY.DEN" output rdb met4_density_info_only.rdb
+"Density RDB met4.oxide.low.DEN.1" output rdb met4_oxide_low_density.rdb
+"Density RDB met4.global.max.DEN.2" output rdb met4_global_high.rdb
+"Density RDB met4.global.min.DEN.3" output rdb met4_global_low.rdb
+"Density RDB met5.INFO.ONLY.DEN" output rdb met5_density_info_only.rdb
+"Density RDB met5.global.max.DEN.2" output rdb met5_global_high.rdb
+"Density RDB met5.global.min.DEN.3" output rdb met5_global_low.rdb
+"Antenna RDB met1.stress.DEN.1" output rdb met1.stress.DEN.1.db
+"Antenna RDB met2.stress.DEN.1" output rdb met2.stress.DEN.1.db
+"Antenna RDB met3.stress.DEN.1" output rdb met3.stress.DEN.1.db
+"Antenna RDB met4.stress.DEN.1" output rdb met4.stress.DEN.1.db
+"Antenna RDB met1.slot.DEN.1" output rdb met1.slot.DEN.1.db
+"Antenna RDB met2.slot.DEN.1" output rdb met2.slot.DEN.1.db
+"Antenna RDB met3.slot.DEN.1" output rdb met3.slot.DEN.1.db
+"Antenna RDB met4.slot.DEN.1" output rdb met4.slot.DEN.1.db
+"Antenna RDB met5.slot.DEN.1" output rdb met5.slot.DEN.1.db
+"Antenna RDB " output rdb ar_poly.db
+"Antenna RDB " output rdb ar_licon.db
+"Antenna RDB " output rdb ar_Li.db
+"Antenna RDB " output rdb ar_mcon.db
+"Antenna RDB " output rdb ar_met1.db
+"Antenna RDB " output rdb ar_via.db
+"Antenna RDB " output rdb ar_met2.db
+"Antenna RDB " output rdb ar_via2.db
+"Antenna RDB " output rdb ar_met3.db
+"Antenna RDB " output rdb ar_via3.db
+"Antenna RDB " output rdb ar_met4.db
+"Antenna RDB " output rdb ar_via4.db
+"Antenna RDB " output rdb ar_met5.db
+"Layout GDSII" input none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/RX_Frontend.gds
+"DRC Summary" output text /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/RX_Frontend.sum
+"ASCII DRC Report Database" output rdb /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/RX_Frontend.drc_errors.ascii
+"Run Directory" internal none /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/yangd_drc/
+"UI Data" internal none ENABLED
+"Report MaxResults" internal none 1000
+"PVS Version" internal none 20.10-p029
+"Binary Name" internal none pvs
+"PVS Build Date" internal none "Mon Sep 28 20:09:41 PDT 2020"
+"PVS Job Time" internal none 1685902651

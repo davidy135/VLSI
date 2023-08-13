@@ -1,0 +1,26 @@
+Checking out SoftShare license Phys_Ver_Sys_LVS_XL 20.1 Qty: 1 ... failed.
+
+ERROR (LMF-03005): License call failed for feature Phys_Ver_Sys_LVS_XL, version 20.100 and quantity 1. The license server search path is defined as 5280@piracy.ee.cooper.edu:27020@license.cooper.edu. The FLEXnet error message is as follows,
+    FLEXnet ERROR(-5, 0, 0): No such feature exists.
+
+Run 'lic_error LMF-03005' for more information.
+Unable to queue for a license on the license server.
+License checkout failed.
+ERROR: Could not obtain license 'Phys_Ver_Sys_LVS_XL'.
+Checking out SoftShare license Pegasus_LVS 20.3 Qty: 1 ... succeeded (1s).
+Tool:      pvsBuildNetlist 20.10000-p029, sub-version p029
+
+COMMAND LINE INTERFACE
+   help                  This information 
+   cdl                   Load cdl     file
+   vlg                   Load verilog file
+   out                   Output filename  
+   top                   Top cell name    
+   q                     Exit             
+
+CmdLine: /afs/ee.cooper.edu/dist/cadence-2021/installs/pvs/tools.lnx86/pvs/bin/64bit/pvsBuildNetlist -o /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/RX_Frontend/netlist/RX_Frontend.cdlnd -tc RX_Frontend -global_log_file /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/RX_Frontend/netlist/pvsuibnl.log 
+> o /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/RX_Frontend/netlist/RX_Frontend.cdlnd
+> tc RX_Frontend
+> q
+Quiting...
+Checking in all SoftShare licenses.

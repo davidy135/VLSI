@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      david.yang
+HostName                       conway.ee.cooper.edu
+ProcessIdentifier              43224
+ProcessCreationTime_UTC        1685459225
+ProcessCreationTime_Readable   Tue May 30 11:07:05 2023 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/RX_Frontend/Frontend_tb/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Tue May 30 11:14:02 2023 EDT

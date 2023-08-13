@@ -1,0 +1,43 @@
+15 3
+0 STD_IND_CHECK 1
+VIA8 is needed for connection of M9 and M8 in Std. inductor.
+0 STD_IND_CHECK.1 1
+VIA7 INTERACT std_mu_z inductor is forbidden.
+0 CT_IND_CHECK 1
+VIA8 is needed for connection of M9 and M8 in Cnt. inductor.
+0 CT_IND_CHECK.1 1
+VIA6 INTERACT sym_ct_mu_z inductor is forbidden.
+0 SYM_IND_CHECK 1
+VIA8 is needed for connection of M9 and M8 in Sym. inductor.
+0 SYM_IND_CHECK.1 1
+VIA7 INTERACT sym_mu_z inductor is forbidden.
+1 mnpg 1 connected
+MOS connected to both power and ground
+1 mppg 1 connected
+MOS connected to both power and ground
+1 mnpg_ldd1 1 connected
+MOS connected to both power and ground
+1 mppg_ldd1 1 connected
+MOS connected to both power and ground
+1 floating.nxwell_float 1 connected
+nxwell_float is not connected to POWER
+1 floating.nxwell_hv 1 connected
+nxwell_hv is not connected to POWER
+1 floating.psub 1 connected
+psub is not connected to GROUND
+1 npvss49 1 connected
+ntap connected to GROUND
+1 ppvdd49 1 connected
+ptap connected to POWER
+1 ERC_WELL_TO_PG_CHECK 2
+npvss49
+ppvdd49
+1 ERC_DS_TO_PG_CHECK 4
+mnpg
+mppg
+mnpg_ldd1
+mppg_ldd1
+1 ERC_FLOATING_WELL_CHECK 3
+floating.nxwell_float
+floating.nxwell_hv
+floating.psub

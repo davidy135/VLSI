@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      david.yang
+HostName                       ice05.ee.cooper.edu
+ProcessIdentifier              29390
+ProcessCreationTime_UTC        1652371557
+ProcessCreationTime_Readable   Thu May 12 12:05:57 2022 EDT
+AppIdentifier                  /afs/ee.cooper.edu/dist/cadence-2021/installs/ic/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Oscillator/Colpitts/adexl/data.sdb
+TimeEditLocked                 Thu May 12 12:06:38 2022 EDT

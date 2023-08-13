@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+RX_Frontend/LNA_tapeout/schematic LNA_tapeout
+RX_Frontend/RX_Frontend/schematic RX_Frontend
+RX_Frontend/Mixer/schematic Mixer
+RX_Frontend/Oscillator/schematic Oscillator
+$endmodel
+$net
+$endnet
+$param
+$endparam

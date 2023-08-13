@@ -1,0 +1,9 @@
+[General]
+cut-box-item=
+net=VDD
+topCell=TwoStage_layout
+
+[ecdb]
+date=Sat Apr 30 18:29:39 2022
+name=.TwoStage_layout.ecdb
+size=258754

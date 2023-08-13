@@ -1,0 +1,189 @@
+1651028092
+1 G.4:M1i 10
+"Adjacent edges with length less than min. width is not allowed."
+ EDGE_LENGTH M$$PVS$$
+$$PVS$$1s -lt 0.090000 G.4:M1i:X
+ EDGE_EXPAND G.4:M1i:X -by 0.010000 G.4:M1i:M1i_ShortE$$PVS$$
+$$PVS$$xp
+ VERTEX G.4:M1i:M1i_ShortExp -gt 4.000000 G.4:M1i:_EPTMPL263605
+ SELECT -insi$$PVS$$
+$$PVS$$de G.4:M1i:_EPTMPL263605 SRAM_EXCLUDE -not G.4:M1i:M1i_SmallJog
+ EDGE_BOOLEAN M1$$PVS$$
+$$PVS$$i G.4:M1i:M1i_SmallJog -inside G.4:M1i:L263607
+2 OD.DN.2 8
+"Min. OD density over window 150 step 75 >= 20%"
+ NOT OD.DN.2:ERR_WIN OD_EXC OD.$$PVS$$
+$$PVS$$DN.2:_EPTMPL263953
+ WITH_WIDTH OD.DN.2:_EPTMPL263953 -ge 37.500000 OD.DN.2:F
+ DE$$PVS$$
+$$PVS$$NSITY OD.DN.2:F ODx CHIP_NOT_ODEXC -lt 0.200000 -window 150.000000 150.000000 -s$$PVS$$
+$$PVS$$tep 75.000000 75.000000 -inside_of layer CHIPx -backup -print OD.DN.2L.density O$$PVS$$
+$$PVS$$D.DN.2:L263955
+3 PP.EN.1 8
+"{NP or PP} enclosure of PO (except DPO) >= 0.15 um"
+ ENC POLY IMP -lt 0.150000 $$PVS$$
+$$PVS$$-abut lt 90.000000 -single_point -output region PP.EN.1:L264774
+ NOT POLY SRAM_E$$PVS$$
+$$PVS$$XCLUDE PP.EN.1:_EPTMPL264775
+ NOT PP.EN.1:_EPTMPL264775 LOGO PP.EN.1:_EPTMPL2647$$PVS$$
+$$PVS$$76
+ NOT PP.EN.1:_EPTMPL264776 IMP PP.EN.1:L264777
+4 M1.S.1 3
+"Spacing >= 0.09 um"
+ EXTE M1 -lt 0.090000 -abut lt 90.000000 -single_point -out$$PVS$$
+$$PVS$$put region M1.S.1:L265207
+5 M1.DN.1 13
+"M1 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+ NOT M1x$$PVS$$
+$$PVS$$ M1_EXC_LOW M1.DN.1:M1_CHECK
+ DENSITY M1.DN.1:M1_CHECK M1.DN.1:CHIP_CHECK -lt 0.$$PVS$$
+$$PVS$$100000 -window 75.000000 75.000000 -step 37.500000 37.500000 -inside_of layer CH$$PVS$$
+$$PVS$$IPx -backup M1.DN.1:ERR_WIN
+ NOT M1.DN.1:ERR_WIN M1_EXC_LOW M1.DN.1:_EPTMPL26525$$PVS$$
+$$PVS$$3
+ WITH_WIDTH M1.DN.1:_EPTMPL265253 -ge 18.750000 M1.DN.1:F
+ DENSITY M1.DN.1:F M$$PVS$$
+$$PVS$$1.DN.1:M1_CHECK M1.DN.1:CHIP_CHECK -lt 0.100000 -window 75.000000 75.000000 -ste$$PVS$$
+$$PVS$$p 37.500000 37.500000 -inside_of layer CHIPx -backup -print M1.DN.1.density M1.D$$PVS$$
+$$PVS$$N.1:L265255
+6 M2.DN.1 13
+"M2 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+ NOT M2x$$PVS$$
+$$PVS$$ M1_EXC_LOW M2.DN.1:M2_CHECK
+ DENSITY M2.DN.1:M2_CHECK M1.DN.1:CHIP_CHECK -lt 0.$$PVS$$
+$$PVS$$100000 -window 75.000000 75.000000 -step 37.500000 37.500000 -inside_of layer CH$$PVS$$
+$$PVS$$IPx -backup M2.DN.1:ERR_WIN
+ NOT M2.DN.1:ERR_WIN M1_EXC_LOW M2.DN.1:_EPTMPL26554$$PVS$$
+$$PVS$$2
+ WITH_WIDTH M2.DN.1:_EPTMPL265542 -ge 18.750000 M2.DN.1:F
+ DENSITY M2.DN.1:F M$$PVS$$
+$$PVS$$2.DN.1:M2_CHECK M1.DN.1:CHIP_CHECK -lt 0.100000 -window 75.000000 75.000000 -ste$$PVS$$
+$$PVS$$p 37.500000 37.500000 -inside_of layer CHIPx -backup -print M2.DN.1.density M2.D$$PVS$$
+$$PVS$$N.1:L265544
+7 M3.DN.1 13
+"M3 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+ NOT M3x$$PVS$$
+$$PVS$$ M1_EXC_LOW M3.DN.1:M3_CHECK
+ DENSITY M3.DN.1:M3_CHECK M1.DN.1:CHIP_CHECK -lt 0.$$PVS$$
+$$PVS$$100000 -window 75.000000 75.000000 -step 37.500000 37.500000 -inside_of layer CH$$PVS$$
+$$PVS$$IPx -backup M3.DN.1:ERR_WIN
+ NOT M3.DN.1:ERR_WIN M1_EXC_LOW M3.DN.1:_EPTMPL26583$$PVS$$
+$$PVS$$0
+ WITH_WIDTH M3.DN.1:_EPTMPL265830 -ge 18.750000 M3.DN.1:F
+ DENSITY M3.DN.1:F M$$PVS$$
+$$PVS$$3.DN.1:M3_CHECK M1.DN.1:CHIP_CHECK -lt 0.100000 -window 75.000000 75.000000 -ste$$PVS$$
+$$PVS$$p 37.500000 37.500000 -inside_of layer CHIPx -backup -print M3.DN.1.density M3.D$$PVS$$
+$$PVS$$N.1:L265832
+8 M4.DN.1 13
+"M4 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+ NOT M4x$$PVS$$
+$$PVS$$ M1_EXC_LOW M4.DN.1:M4_CHECK
+ DENSITY M4.DN.1:M4_CHECK M1.DN.1:CHIP_CHECK -lt 0.$$PVS$$
+$$PVS$$100000 -window 75.000000 75.000000 -step 37.500000 37.500000 -inside_of layer CH$$PVS$$
+$$PVS$$IPx -backup M4.DN.1:ERR_WIN
+ NOT M4.DN.1:ERR_WIN M1_EXC_LOW M4.DN.1:_EPTMPL26613$$PVS$$
+$$PVS$$1
+ WITH_WIDTH M4.DN.1:_EPTMPL266131 -ge 18.750000 M4.DN.1:F
+ DENSITY M4.DN.1:F M$$PVS$$
+$$PVS$$4.DN.1:M4_CHECK M1.DN.1:CHIP_CHECK -lt 0.100000 -window 75.000000 75.000000 -ste$$PVS$$
+$$PVS$$p 37.500000 37.500000 -inside_of layer CHIPx -backup -print M4.DN.1.density M4.D$$PVS$$
+$$PVS$$N.1:L266133
+9 M5.DN.1 13
+"M5 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+ NOT M5x$$PVS$$
+$$PVS$$ M1_EXC_LOW M5.DN.1:M5_CHECK
+ DENSITY M5.DN.1:M5_CHECK M1.DN.1:CHIP_CHECK -lt 0.$$PVS$$
+$$PVS$$100000 -window 75.000000 75.000000 -step 37.500000 37.500000 -inside_of layer CH$$PVS$$
+$$PVS$$IPx -backup M5.DN.1:ERR_WIN
+ NOT M5.DN.1:ERR_WIN M1_EXC_LOW M5.DN.1:_EPTMPL26643$$PVS$$
+$$PVS$$2
+ WITH_WIDTH M5.DN.1:_EPTMPL266432 -ge 18.750000 M5.DN.1:F
+ DENSITY M5.DN.1:F M$$PVS$$
+$$PVS$$5.DN.1:M5_CHECK M1.DN.1:CHIP_CHECK -lt 0.100000 -window 75.000000 75.000000 -ste$$PVS$$
+$$PVS$$p 37.500000 37.500000 -inside_of layer CHIPx -backup -print M5.DN.1.density M5.D$$PVS$$
+$$PVS$$N.1:L266434
+10 M6.DN.1 13
+"M6 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+ NOT M6x$$PVS$$
+$$PVS$$ M1_EXC_LOW M6.DN.1:M6_CHECK
+ DENSITY M6.DN.1:M6_CHECK M1.DN.1:CHIP_CHECK -lt 0.$$PVS$$
+$$PVS$$100000 -window 75.000000 75.000000 -step 37.500000 37.500000 -inside_of layer CH$$PVS$$
+$$PVS$$IPx -backup M6.DN.1:ERR_WIN
+ NOT M6.DN.1:ERR_WIN M1_EXC_LOW M6.DN.1:_EPTMPL26673$$PVS$$
+$$PVS$$3
+ WITH_WIDTH M6.DN.1:_EPTMPL266733 -ge 18.750000 M6.DN.1:F
+ DENSITY M6.DN.1:F M$$PVS$$
+$$PVS$$6.DN.1:M6_CHECK M1.DN.1:CHIP_CHECK -lt 0.100000 -window 75.000000 75.000000 -ste$$PVS$$
+$$PVS$$p 37.500000 37.500000 -inside_of layer CHIPx -backup -print M6.DN.1.density M6.D$$PVS$$
+$$PVS$$N.1:L266735
+11 M7.DN.1 14
+"M7 local density must be >= 0.1 range over 75 um x 75 um step 37.5 um"
+ NOT M7x$$PVS$$
+$$PVS$$ M7_EXC_LOW M7.DN.1:M7_CHECK
+ NOT CHIP M7_EXC_LOW M7.DN.1:CHIP_CHECK
+ DENSITY M7$$PVS$$
+$$PVS$$.DN.1:M7_CHECK M7.DN.1:CHIP_CHECK -lt 0.100000 -window 75.000000 75.000000 -step$$PVS$$
+$$PVS$$ 37.500000 37.500000 -inside_of layer CHIPx -backup M7.DN.1:ERR_WIN
+ NOT M7.DN.1$$PVS$$
+$$PVS$$:ERR_WIN M7_EXC_LOW M7.DN.1:_EPTMPL267034
+ WITH_WIDTH M7.DN.1:_EPTMPL267034 -ge $$PVS$$
+$$PVS$$18.750000 M7.DN.1:F
+ DENSITY M7.DN.1:F M7.DN.1:M7_CHECK M7.DN.1:CHIP_CHECK -lt 0$$PVS$$
+$$PVS$$.100000 -window 75.000000 75.000000 -step 37.500000 37.500000 -inside_of layer C$$PVS$$
+$$PVS$$HIPx -backup -print M7.DN.1.density M7.DN.1:L267036
+12 M8.DN.1 13
+"M8 local density must be >= 0.2 range over 75 um x 75 um step 37.5 um"
+ NOT M8x$$PVS$$
+$$PVS$$ M1_EXC_LOW M8.DN.1:M8_CHECK
+ DENSITY M8.DN.1:M8_CHECK M1.DN.1:CHIP_CHECK -lt 0.$$PVS$$
+$$PVS$$200000 -window 75.000000 75.000000 -step 37.500000 37.500000 -inside_of layer CH$$PVS$$
+$$PVS$$IPx -backup M8.DN.1:ERR_WIN
+ NOT M8.DN.1:ERR_WIN M1_EXC_LOW M8.DN.1:_EPTMPL26720$$PVS$$
+$$PVS$$9
+ WITH_WIDTH M8.DN.1:_EPTMPL267209 -ge 18.750000 M8.DN.1:F
+ DENSITY M8.DN.1:F M$$PVS$$
+$$PVS$$8.DN.1:M8_CHECK M1.DN.1:CHIP_CHECK -lt 0.200000 -window 75.000000 75.000000 -ste$$PVS$$
+$$PVS$$p 37.500000 37.500000 -inside_of layer CHIPx -backup -print M8.DN.1.density M8.D$$PVS$$
+$$PVS$$N.1:L267211
+13 M9.DN.2 14
+"Min M9 density must be >= 0.2 range over any 75 um x 75 um area by step 37.5 um$$PVS$$
+$$PVS$$"
+ NOT M9x M9DN2L_EXC M9.DN.2:M9_CHECK
+ NOT CHIP M9DN2L_EXC M9.DN.2:CHIP_CHECK
+ $$PVS$$
+$$PVS$$DENSITY M9.DN.2:M9_CHECK M9.DN.2:CHIP_CHECK -lt 0.200000 -window 75.000000 75.00$$PVS$$
+$$PVS$$0000 -step 37.500000 37.500000 -inside_of layer CHIPx -backup M9.DN.2:ERR_WIN
+ N$$PVS$$
+$$PVS$$OT M9.DN.2:ERR_WIN M9DN2L_EXC M9.DN.2:_EPTMPL267318
+ WITH_WIDTH M9.DN.2:_EPTMPL2$$PVS$$
+$$PVS$$67318 -ge 18.750000 M9.DN.2:F
+ DENSITY M9.DN.2:F M9.DN.2:M9_CHECK M9.DN.2:CHIP_C$$PVS$$
+$$PVS$$HECK -lt 0.200000 -window 75.000000 75.000000 -step 37.500000 37.500000 -inside_$$PVS$$
+$$PVS$$of layer CHIPx -backup -print M9.DN.2L.density M9.DN.2:L267320
+14 LUP.6 15
+"Any point inside NMOS source/drain space to the nearest PW STRAP in the same PW$$PVS$$
+$$PVS$$ <= 30 um"
+"Any point inside PMOS source/drain space to the nearest NW STRAP in $$PVS$$
+$$PVS$$the same NW <= 30 um"
+"In SRAM bit cell region, the rule is relaxed to 40 um"
+ N$$PVS$$
+$$PVS$$OT PACT_CHECK_NON_SRAM NSTP_OS LUP.6:L269982
+ OR NSTP_OS NSTP_OS_SRAM LUP.6:_EPT$$PVS$$
+$$PVS$$MPL269983
+ NOT PACT_CHECK_SRAM LUP.6:_EPTMPL269983 LUP.6:L269984
+ NOT NACT_CHECK$$PVS$$
+$$PVS$$_NON_SRAM PSTP_OS LUP.6:L269985
+ OR PSTP_OS PSTP_OS_SRAM LUP.6:_EPTMPL269986
+ NO$$PVS$$
+$$PVS$$T NACT_CHECK_SRAM LUP.6:_EPTMPL269986 LUP.6:L269987
+15 DRM.R.1 3
+"DRM.R.1 is a warining message to remind the users to check the related DRMs. Pl$$PVS$$
+$$PVS$$ease refer to DRM.R.1 in the DRM for the details."
+ COPY CHIPx DRM.R.1:L270634
+16 NW.S.2 6
+"Space of two NW1V with different potentials >= 1 um"
+ EXTE NW.S.2:NW1V_NODAL -l$$PVS$$
+$$PVS$$t 1.000000 -abut lt 90.000000 -not_connected -single_point -output region NW.S.2$$PVS$$
+$$PVS$$:_EPTMPL263705
+ SELECT -inside NW.S.2:_EPTMPL263705 SRAM_EXCLUDE -not NW.S.2:L26$$PVS$$
+$$PVS$$3706

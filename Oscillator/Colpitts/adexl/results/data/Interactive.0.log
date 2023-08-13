@@ -1,0 +1,30 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu May 12 11:00:52 2022 
+Best design point: 1
+Design specs: 
+	Oscillator:Colpitts:1	corner	Nominal - 
+	Loop Gain at 0 deg		16.4
+	P2P		1.043
+	PN (2MHz)		-158.7
+	FoM		173.5
+	Power		1.447m
+Design parameters: 
+	C1		150f
+	C2		300f
+	F1		20
+	F2		10
+	Id		800u
+	L1		100n
+	L2		100n
+	R		30K
+	Vb		500m
+	VDD		1
+	W1		300u
+	W2		500u
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Thu May 12 11:02:32 2022 

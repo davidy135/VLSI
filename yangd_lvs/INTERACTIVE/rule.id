@@ -1,0 +1,41 @@
+1651358005
+1 SHORT     1. Vin- - VDD in TwoStage_layout 4
+2 shorted texts:
+"VDD" at (62.340 94.670) on layer "metal8" SN 34354
+"Vin-" at ($$PVS$$
+$$PVS$$63.665 37.385) on layer "metal1" SN 10434
+2 SHORT     2. Vin+ - VDD in TwoStage_layout 4
+2 shorted texts:
+"VDD" at (62.340 94.670) on layer "metal8" SN 34354
+"Vin+" at ($$PVS$$
+$$PVS$$61.015 37.385) on layer "metal1" SN 10412
+3 Hot traps     2 1
+ Most probable location after 2 paths found
+4 SHORT     3. Vout- - VDD in TwoStage_layout 4
+2 shorted texts:
+"VDD" at (62.340 94.670) on layer "metal8" SN 34354
+"Vout-" at $$PVS$$
+$$PVS$$(73.485 75.650) on layer "metal1" SN 9455
+5 Hot traps     3 1
+ Most probable location after 3 paths found
+6 SHORT     4. Vout+ - VDD in TwoStage_layout 4
+2 shorted texts:
+"VDD" at (62.340 94.670) on layer "metal8" SN 34354
+"Vout+" at $$PVS$$
+$$PVS$$(51.180 75.670) on layer "metal1" SN 9372
+7 Hot traps     4 1
+ Most probable location after 4 paths found
+8 SHORT     5. Iref - VDD in TwoStage_layout 4
+2 shorted texts:
+"VDD" at (62.340 94.670) on layer "metal8" SN 34354
+"Iref" at ($$PVS$$
+$$PVS$$43.665 41.100) on layer "metal1" SN 10401
+9 Hot traps     5 1
+ Most probable location after 5 paths found
+10 SHORT     6. VSS - VDD in TwoStage_layout 4
+2 shorted texts:
+"VDD" at (62.340 94.670) on layer "metal8" SN 34354
+"VSS" at (6$$PVS$$
+$$PVS$$2.355 31.865) on layer "metal8" SN 34343
+11 Hot traps     6 1
+ Most probable location after 6 paths found

@@ -1,0 +1,124 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 11/10/2020 19:36 (cpgsrv13) $
+          : sub-version  IC6.1.8-64b.500.15 
+Started at: 05-Jun-2023  13:03:06
+User Name : david.yang
+Host Name : conway
+Directory : /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file 'RX_Frontend_out.gds' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/S130/S130.layermap
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 RX_Frontend
+strmFile                                RX_Frontend_out.gds
+topCell                                 RX_Frontend_out
+view                                    layout
+logFile                                 strmOut.log
+techLib                                 S130
+layerMap                                /afs/ee.cooper.edu/dist/skywater/S130_V2.1.305/V2.1.305/LIBS/S130/S130.layermap
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_685984586400.
+INFO (XSTRM-223): 2. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_685984586401.
+INFO (XSTRM-223): 3. Translating stdVia S130/M4M5/layout as STRUCTURE M4M5_CDNS_685984586402.
+INFO (XSTRM-223): 4. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_685984586403.
+INFO (XSTRM-223): 5. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_685984586404.
+INFO (XSTRM-223): 6. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_685984586405.
+INFO (XSTRM-223): 7. Translating stdVia S130/M4M5/layout as STRUCTURE M4M5_CDNS_685984586406.
+INFO (XSTRM-223): 8. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_685984586407.
+INFO (XSTRM-223): 9. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_685984586408.
+INFO (XSTRM-223): 10. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_685984586409.
+INFO (XSTRM-223): 11. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_6859845864010.
+INFO (XSTRM-223): 12. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_6859845864011.
+INFO (XSTRM-223): 13. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_6859845864012.
+INFO (XSTRM-223): 14. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_6859845864013.
+INFO (XSTRM-223): 15. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864014.
+INFO (XSTRM-223): 16. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_6859845864015.
+INFO (XSTRM-223): 17. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_6859845864016.
+INFO (XSTRM-223): 18. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_6859845864017.
+INFO (XSTRM-223): 19. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_6859845864018.
+INFO (XSTRM-223): 20. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_6859845864019.
+INFO (XSTRM-223): 21. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_6859845864020.
+INFO (XSTRM-223): 22. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864021.
+INFO (XSTRM-223): 23. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_6859845864022.
+INFO (XSTRM-223): 24. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864023.
+INFO (XSTRM-223): 25. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864024.
+INFO (XSTRM-223): 26. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864025.
+INFO (XSTRM-223): 27. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_6859845864026.
+INFO (XSTRM-223): 28. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_6859845864027.
+INFO (XSTRM-223): 29. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_6859845864028.
+INFO (XSTRM-223): 30. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_6859845864029.
+INFO (XSTRM-223): 31. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864030.
+INFO (XSTRM-223): 32. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864031.
+INFO (XSTRM-223): 33. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864032.
+INFO (XSTRM-223): 34. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864033.
+INFO (XSTRM-223): 35. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864034.
+INFO (XSTRM-223): 36. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_6859845864035.
+INFO (XSTRM-223): 37. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_6859845864036.
+INFO (XSTRM-223): 38. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864037.
+INFO (XSTRM-223): 39. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864038.
+INFO (XSTRM-223): 40. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864039.
+INFO (XSTRM-223): 41. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864040.
+INFO (XSTRM-223): 42. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_6859845864041.
+INFO (XSTRM-223): 43. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864042.
+INFO (XSTRM-223): 44. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_6859845864043.
+INFO (XSTRM-223): 45. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864044.
+INFO (XSTRM-223): 46. Translating stdVia S130/M3M4/layout as STRUCTURE M3M4_CDNS_6859845864045.
+INFO (XSTRM-223): 47. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864046.
+INFO (XSTRM-223): 48. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864047.
+INFO (XSTRM-223): 49. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864048.
+INFO (XSTRM-223): 50. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864049.
+INFO (XSTRM-223): 51. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864050.
+INFO (XSTRM-223): 52. Translating stdVia S130/L1M1/layout as STRUCTURE L1M1_CDNS_6859845864051.
+INFO (XSTRM-223): 53. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864052.
+INFO (XSTRM-223): 54. Translating stdVia S130/M1M2/layout as STRUCTURE M1M2_CDNS_6859845864053.
+INFO (XSTRM-223): 55. Translating stdVia S130/PYL1/layout as STRUCTURE PYL1_CDNS_6859845864054.
+INFO (XSTRM-223): 56. Translating stdVia S130/M2M3/layout as STRUCTURE M2M3_CDNS_6859845864055.
+INFO (XSTRM-223): 57. Translating cellView S130/nmos/layout as STRUCTURE nmos_CDNS_685984586400.
+INFO (XSTRM-223): 58. Translating cellView S130/cm4m5/layout as STRUCTURE cm4m5_CDNS_685984586401.
+INFO (XSTRM-223): 59. Translating cellView S130/nmos_lvt/layout as STRUCTURE nmos_lvt_CDNS_685984586402.
+INFO (XSTRM-223): 60. Translating cellView S130/rpoly/layout as STRUCTURE rpoly_CDNS_685984586403.
+INFO (XSTRM-223): 61. Translating cellView S130/nmos/layout as STRUCTURE nmos_CDNS_685984586404.
+INFO (XSTRM-223): 62. Translating cellView S130/rpoly/layout as STRUCTURE rpoly_CDNS_685984586405.
+INFO (XSTRM-223): 63. Translating cellView S130/nmos/layout as STRUCTURE nmos_CDNS_685984586406.
+INFO (XSTRM-223): 64. Translating cellView S130/cm4m5/layout as STRUCTURE cm4m5_CDNS_685984586407.
+INFO (XSTRM-223): 65. Translating cellView S130/rpoly/layout as STRUCTURE rpoly_CDNS_685984586408.
+INFO (XSTRM-223): 66. Translating cellView S130/nmos/layout as STRUCTURE nmos_CDNS_685984586409.
+INFO (XSTRM-223): 67. Translating cellView S130/rpoly/layout as STRUCTURE rpoly_CDNS_6859845864010.
+INFO (XSTRM-223): 68. Translating cellView RX_Frontend/RX_Frontend_out/layout as STRUCTURE RX_Frontend_out.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       27
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  350
+	Rectangles:                             7810
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           1267
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               2890
+	Text:                                   0
+	TextDisplay:                            1012
+	Cells:                                  68
+
+Elapsed Time: 0.3s   User Time: 0.3s   CPU Time: 0.0s   Peak VM: 20640KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

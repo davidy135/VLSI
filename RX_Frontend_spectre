@@ -1,0 +1,83 @@
+// Generated for: spectre
+// Generated on: Jun  2 23:43:04 2023
+// Design library name: RX_Frontend
+// Design cell name: RX_Frontend
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "models.all.scs" section=tt
+
+// Library name: RX_Frontend
+// Cell name: LNA_tapeout
+// View name: schematic
+subckt LNA_tapeout Ind Iref VDD VSS Vin Vout
+    MN5 (Iref Iref VSS VSS) nmos nf=50 w=50 l=0.15 m=1 as=7.25 ad=7 \
+        ps=16.5 pd=14 nrd=0.0028 nrs=0.0028 sa=0.265 sb=0.265 sd=0.28
+    MN4 (net1 Iref Ind VSS) nmos nf=50 w=50 l=0.15 m=1 as=7.25 ad=7 \
+        ps=16.5 pd=14 nrd=0.0028 nrs=0.0028 sa=0.265 sb=0.265 sd=0.28
+    C1 (VSS Iref) cm4m5 w=2 l=2 m=1
+    C0 (Vout VDD) cm4m5 w=6.885 l=6.88 m=1
+RNP1 (Ind Vin) rpoly w=1 l=0.52 m=1
+    MN3 (Vout VDD net1 VSS) nmos nf=100 w=200 l=0.15 m=4 as=28.5 ad=28 \
+        ps=32.5 pd=28 nrd=0.0007 nrs=0.0007 sa=0.265 sb=0.265 sd=0.28
+ends LNA_tapeout
+// End of subcircuit definition.
+
+// Library name: RX_Frontend
+// Cell name: Mixer
+// View name: schematic
+subckt Mixer VDD VSS Vif\+ Vif\- Vlo\+ Vlo\- Vrf
+    MN2 (Vif\- Vlo\- net1 VSS) nmos nf=30 w=210 l=0.15 m=1 as=31.15 \
+        ad=29.4 ps=22.9 pd=8.4 nrd=0.000667 nrs=0.000667 sa=0.265 sb=0.265 \
+        sd=0.28
+    MN1 (Vif\+ Vlo\+ net1 VSS) nmos nf=30 w=210 l=0.15 m=1 as=31.15 \
+        ad=29.4 ps=22.9 pd=8.4 nrd=0.000667 nrs=0.000667 sa=0.265 sb=0.265 \
+        sd=0.28
+    MN0 (net1 Vrf VSS VSS) nmos nf=50 w=350 l=0.15 m=1 as=50.75 ad=49 \
+        ps=28.5 pd=14 nrd=0.0004 nrs=0.0004 sa=0.265 sb=0.265 sd=0.28
+RNP5 (net3 Vif\-) rpoly w=1 l=11 m=1
+RNP4 (VDD net3) rpoly w=1 l=11 m=1
+RNP3 (net2 Vif\+) rpoly w=1 l=11 m=1
+RNP0 (VDD net2) rpoly w=1 l=11 m=1
+ends Mixer
+// End of subcircuit definition.
+
+// Library name: RX_Frontend
+// Cell name: Oscillator
+// View name: schematic
+subckt Oscillator VSS Vout\+ Vout\-
+    C1 (Vout\- net2) cm4m5 w=2 l=2 m=1
+    C0 (Vout\+ net1) cm4m5 w=2 l=2 m=1
+    MN1 (Vout\+ Vout\- VSS VSS) nmos_lvt nf=100 w=700 l=0.15 m=1 as=99.75 \
+        ad=98 ps=42.5 pd=28 nrd=0.0002 nrs=0.0002 sa=0.265 sb=0.265 \
+        sd=0.28
+    MN0 (Vout\- Vout\+ VSS VSS) nmos_lvt nf=100 w=700 l=0.15 m=1 as=99.75 \
+        ad=98 ps=42.5 pd=28 nrd=0.0002 nrs=0.0002 sa=0.265 sb=0.265 \
+        sd=0.28
+RNP0 (net2 net1) rpoly w=9 l=0.2 m=1
+ends Oscillator
+// End of subcircuit definition.
+
+// Library name: RX_Frontend
+// Cell name: RX_Frontend
+// View name: schematic
+I3 (LNA_ind Iref_RF VDD_RF VSS Vin_RF net7) LNA_tapeout
+I1 (VDD_Mixer VSS Vif\+ Vif\- net1 net4 net2) Mixer
+I2 (VSS net3 net5) Oscillator
+C2 (net4 net5) cm4m5 w=2 l=2 m=1
+C1 (net1 net3) cm4m5 w=2 l=2 m=1
+C0 (net2 net7) cm4m5 w=2 l=2 m=1
+RNP2 (net4 Vbias_LO\-) rpoly w=1 l=2 m=1
+RNP1 (net1 Vbias_LO\+) rpoly w=1 l=2 m=1
+RNP0 (net2 Vbias_RF) rpoly w=1 l=2 m=1
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 gmin=1e-12 rforce=1 maxnotes=5 \
+    maxwarns=5 digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub

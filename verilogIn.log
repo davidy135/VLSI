@@ -1,0 +1,96 @@
+@(#)$CDS: ihdl version 6.1.8-64b 11/10/2020 19:36 (cpgsrv13) $  Thu Dec 15 02:52:50 2022
+
+WARNING (VERILOGIN-19): The library, sample, is not specified in the cds.lib file. Add the library in the
+cds.lib file and run the command again.
+INFO (VERILOGIN-589): Using xmvlog binary for compilation.
+INFO (VERILOGIN-378): Checked-in symbol EDFCNQD1. Module is a cell
+WARNING (VERILOGIN-548): Extra pin found on symbol DFCNQD1 in the library syn as compared to its HDL module
+description.
+INFO (VERILOGIN-575): Symbol 'DFCNQD1' was not imported because it already exists in library 'syn'.
+To overwrite the symbol, select an appropriate option from the Overwrite Symbol
+Views drop-down list and try again.
+INFO (VERILOGIN-378): Checked-in symbol DFQD1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol DFSNQD1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol IND3D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol MOAI22D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI22D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol BUFTD1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol BUFTD2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol DFKCSND1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol ND2D0. Module is a cell
+WARNING (VERILOGIN-548): Extra pin found on symbol INVD0 in the library syn as compared to its HDL module
+description.
+INFO (VERILOGIN-575): Symbol 'INVD0' was not imported because it already exists in library 'syn'.
+To overwrite the symbol, select an appropriate option from the Overwrite Symbol
+Views drop-down list and try again.
+INFO (VERILOGIN-378): Checked-in symbol NR2XD0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI21D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AO22D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol ND3D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AO21D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AN2D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AO211D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol IND2D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol INR2XD0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol MAOI22D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI211D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI22D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AO32D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI21D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI32D0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol MUX2ND0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI32D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol CKND2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol BUFTD0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI211D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI31D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI221D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI211XD0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol MOAI22D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol IND3D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI22D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol INVD1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol ND2D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol NR2XD1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI221D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol MUX4ND1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI221D4. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI21D4. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI31D4. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI22D2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI32D4. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI31D2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI21D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI22D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI221D4. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI21D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI222D4. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol DFCNQD2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI211XD1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol AOI221D2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol OAI32D2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol IND3D2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol INR3D1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol CKND2D2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol ND3D2. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol EDFCND1. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol TIEL. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol BUFFD2. Module is a cell
+WARNING (VERILOGIN-548): Extra pin found on symbol CKBD1 in the library syn as compared to its HDL module
+description.
+INFO (VERILOGIN-575): Symbol 'CKBD1' was not imported because it already exists in library 'syn'.
+To overwrite the symbol, select an appropriate option from the Overwrite Symbol
+Views drop-down list and try again.
+WARNING (VERILOGIN-548): Extra pin found on symbol BUFFD1 in the library syn as compared to its HDL module
+description.
+INFO (VERILOGIN-575): Symbol 'BUFFD1' was not imported because it already exists in library 'syn'.
+To overwrite the symbol, select an appropriate option from the Overwrite Symbol
+Views drop-down list and try again.
+INFO (VERILOGIN-378): Checked-in symbol CKBD0. Module is a cell
+INFO (VERILOGIN-378): Checked-in symbol CKBD3. Module is a cell
+INFO (VERILOGIN-357): Checked in symbol intrCntrl.
+WARNING (VERILOGIN-32): Unable to create the symbol instance for \priority_tbl_reg[23] . Ensure that the file symbol.oa
+that contains the symbol definitions for the library cell view exists in the
+symbol directory.
+INFO (VERILOGIN-372): Checked-in schematic intrCntrl.
+INFO (VERILOGIN-206): End of Logfile.

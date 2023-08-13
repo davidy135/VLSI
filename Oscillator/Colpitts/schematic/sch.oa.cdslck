@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      david.yang
+HostName                       ice05.ee.cooper.edu
+ProcessIdentifier              29390
+ProcessCreationTime_UTC        1652371575
+ProcessCreationTime_Readable   Thu May 12 12:06:15 2022 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Oscillator/Colpitts/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu May 12 12:06:25 2022 EDT

@@ -1,0 +1,2331 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">Operational_Amplifier:TwoStage_tb:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>TwoStage_tb</value>
+					</option>
+					<option>lib
+						<value>Operational_Amplifier</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>Operational_Amplifier:TwoStage_tb:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>TwoStage_tb</value>
+					</option>
+					<option>lib
+						<value>Operational_Amplifier</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<disabledtests>
+			<test>Operational_Amplifier:Two_stage_tb:1</test>
+		</disabledtests>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+		<vars>
+			<var>VCM
+				<value>500m</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Vcm
+				<value>500m</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L1
+				<value>60n</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L2
+				<value>300n</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L3
+				<value>60n</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L4
+				<value>500n</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L5
+				<value>400n</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W1
+				<value>200n:200n:10u</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W2
+				<value>200n</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W3
+				<value>10u</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W4
+				<value>200u</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W5
+				<value>200n</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Im
+				<value>.4</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>f1
+				<value>1:50</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>f2
+				<value>2</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>f3
+				<value>2</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>f4
+				<value>2</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>f5
+				<value>2</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Cc
+				<value>50f</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Rc
+				<value>10k</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">CONFIG/Operational_Amplifier/TwoStage_tb
+				<value>schematic</value>
+			</var>
+			<var>Amp
+				<value>10m</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>CL
+				<value>10u</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>CW
+				<value>10u</value>
+				<dependentTests>
+					<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<specs></specs>
+		<jobpolicyname>ADE XL Default</jobpolicyname>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Operational_Amplifier:TwoStage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:TwoStage_tb:1_none_Interactive.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 13 23:59:42 2022</timestamp>
+			<uuid>{32031e9c-5aba-4c74-802f-cccbf61fb93e}</uuid>
+			<resultsname>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ice05_david.yang_235942899</localpsfdir>
+			<psfdir>/afs/ee.cooper.edu/user/d/david.yang/simulation/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Operational_Amplifier:TwoStage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:TwoStage_tb:1_none_Interactive.1</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test>Operational_Amplifier:Two_stage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Two_stage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:Two_stage_tb:1_none_Interactive.1</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>Gain
+								<units>dB</units>
+							</output>
+							<output>Unity gain f
+								<units>Hz</units>
+							</output>
+							<output>IDC("/VDD/MINUS")
+								<units>A</units>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>Two_stage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>Operational_Amplifier:TwoStage_tb:1</test>
+				</disabledtests>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<vars>
+					<var>VCM
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb1
+						<value>.5</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vcm
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:Two_stage_tb:1</dependentTest>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>l1
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>250n:250n:1.5u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>140n,180n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>350n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>110n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L3
+						<value>60n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L4
+						<value>60n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L5
+						<value>220n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W3
+						<value>300n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W4
+						<value>300n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W5
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Im
+						<value>800u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f1
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f3
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f4
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f5
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Cc
+						<value>50f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rc
+						<value>100M</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">CONFIG/Operational_Amplifier/TwoStage_tb
+						<value>schematic</value>
+					</var>
+				</vars>
+				<specs>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Gain
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Gain</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>35</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M0" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M0" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M1" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M1" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M2" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M2" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M3" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M3" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M4" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M4" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M5" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M5" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M6" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M6" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M7" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M7" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M8" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M8" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M9" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M9" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.IDC("/VDD/MINUS")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>IDC("/VDD/MINUS")</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>4m</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+				</specs>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 19 18:17:43 2022</timestamp>
+			<uuid>{1c8d1f94-497d-4392-925d-c8cfdf54cd5d}</uuid>
+			<resultsname>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ice05_david.yang_181743351</localpsfdir>
+			<psfdir>/afs/ee.cooper.edu/user/d/david.yang/simulation/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Operational_Amplifier:TwoStage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:TwoStage_tb:1_none_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Operational_Amplifier:Two_stage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Two_stage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:Two_stage_tb:1_none_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>Gain
+								<units>dB</units>
+							</output>
+							<output>Unity gain f
+								<units>Hz</units>
+							</output>
+							<output>IDC("/VDD/MINUS")
+								<units>A</units>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>Two_stage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>Operational_Amplifier:Two_stage_tb:1</test>
+				</disabledtests>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<vars>
+					<var>VCM
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb1
+						<value>.5</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vcm
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:Two_stage_tb:1</dependentTest>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>l1
+						<value>150n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>250n:250n:1.5u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>140n,180n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>350n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>110n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L3
+						<value>60n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L4
+						<value>60n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L5
+						<value>220n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W3
+						<value>300n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W4
+						<value>300n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W5
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Im
+						<value>800u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f1
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f3
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f4
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f5
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Cc
+						<value>50f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rc
+						<value>100M</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">CONFIG/Operational_Amplifier/TwoStage_tb
+						<value>schematic</value>
+					</var>
+				</vars>
+				<specs>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Gain
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Gain</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>35</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Unity gain f
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Unity gain f</resname>
+						<specType>min</specType>
+						<min>5G</min>
+						<max></max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Unity gain phase
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Unity gain phase</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>-120</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M0" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M0" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M1" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M1" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M2" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M2" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M3" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M3" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M4" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M4" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M5" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M5" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M6" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M6" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M7" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M7" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M8" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M8" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M9" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M9" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.IDC("/VDD/MINUS")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>IDC("/VDD/MINUS")</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>4m</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+				</specs>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 19 18:21:44 2022</timestamp>
+			<uuid>{a80b5baa-0c60-4df6-8688-e1f4f8c7d949}</uuid>
+			<resultsname>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ice05_david.yang_182144794</localpsfdir>
+			<psfdir>/afs/ee.cooper.edu/user/d/david.yang/simulation/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>W1
+						<value>250n</value>
+					</var>
+					<var>L2
+						<value>110n</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Operational_Amplifier:TwoStage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:TwoStage_tb:1_none_Interactive.3</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Operational_Amplifier:Two_stage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Two_stage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:Two_stage_tb:1_none_Interactive.3</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>Gain
+								<units>dB</units>
+							</output>
+							<output>Unity gain f
+								<units>Hz</units>
+							</output>
+							<output>IDC("/VDD/MINUS")
+								<units>A</units>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>Two_stage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>Operational_Amplifier:Two_stage_tb:1</test>
+				</disabledtests>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<vars>
+					<var>VCM
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb1
+						<value>.5</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vcm
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:Two_stage_tb:1</dependentTest>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L3
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L4
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L5
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W3
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W4
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W5
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Im
+						<value>.4</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f1
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f3
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f4
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f5
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Cc
+						<value>50f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rc
+						<value>10k</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">CONFIG/Operational_Amplifier/TwoStage_tb
+						<value>schematic</value>
+					</var>
+				</vars>
+				<specs>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Gain
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Gain</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>35</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Unity gain f
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Unity gain f</resname>
+						<specType>min</specType>
+						<min>5G</min>
+						<max></max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Unity gain phase
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Unity gain phase</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>-120</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M0" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M0" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M1" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M1" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M2" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M2" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M3" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M3" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M4" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M4" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M5" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M5" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M6" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M6" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M7" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M7" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M8" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M8" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M9" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M9" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.IDC("/VDD/MINUS")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>IDC("/VDD/MINUS")</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>4m</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+				</specs>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 15:14:19 2022</timestamp>
+			<uuid>{2966f549-050d-4965-98e9-9a2475ef6a0c}</uuid>
+			<resultsname>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.3.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ice05_david.yang_151419050</localpsfdir>
+			<psfdir>/afs/ee.cooper.edu/user/d/david.yang/simulation/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.3</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.3</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.3.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.3.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>W1
+						<value>250n</value>
+					</var>
+					<var>L2
+						<value>110n</value>
+					</var>
+					<var>W2
+						<value>300n</value>
+					</var>
+					<var>L1
+						<value>60n</value>
+					</var>
+					<var>L3
+						<value>90n</value>
+					</var>
+					<var>L4
+						<value>120n</value>
+					</var>
+					<var>L5
+						<value>60n</value>
+					</var>
+					<var>W3
+						<value>260n</value>
+					</var>
+					<var>W4
+						<value>330n</value>
+					</var>
+					<var>W5
+						<value>230n</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.4
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Operational_Amplifier:TwoStage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:TwoStage_tb:1_none_Interactive.4</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">Operational_Amplifier:Two_stage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>Two_stage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:Two_stage_tb:1_none_Interactive.4</value>
+							</option>
+						</tooloptions>
+						<outputs>
+							<output>Gain
+								<units>dB</units>
+							</output>
+							<output>Unity gain f
+								<units>Hz</units>
+							</output>
+							<output>IDC("/VDD/MINUS")
+								<units>A</units>
+							</output>
+						</outputs>
+						<origoptions>
+							<option>cell
+								<value>Two_stage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>Operational_Amplifier:Two_stage_tb:1</test>
+				</disabledtests>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<vars>
+					<var>VCM
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vb1
+						<value>.5</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vcm
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:Two_stage_tb:1</dependentTest>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>200n:200n:400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>200n:200n:600n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L3
+						<value>200n:200n:400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L4
+						<value>200n:200n:400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L5
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W3
+						<value>200n:200n:400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W4
+						<value>200n:200n:400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W5
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Im
+						<value>.4</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f1
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f3
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f4
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f5
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Cc
+						<value>50f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rc
+						<value>10k</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">CONFIG/Operational_Amplifier/TwoStage_tb
+						<value>schematic</value>
+					</var>
+				</vars>
+				<specs>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Gain
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Gain</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>35</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Unity gain f
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Unity gain f</resname>
+						<specType>min</specType>
+						<min>5G</min>
+						<max></max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.Unity gain phase
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>Unity gain phase</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>-120</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M0" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M0" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M1" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M1" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M2" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M2" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M3" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M3" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M4" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M4" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M5" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M5" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M6" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M6" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M7" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M7" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M8" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M8" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.OP("/I0/M9" "region")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>OP("/I0/M9" "region")</resname>
+						<specType>tol</specType>
+						<min></min>
+						<max></max>
+						<target>2</target>
+						<tol>1</tol>
+						<tolType>%</tolType>
+					</spec>
+					<spec>Operational_Amplifier:Two_stage_tb:1.IDC("/VDD/MINUS")
+						<testname>Operational_Amplifier:Two_stage_tb:1</testname>
+						<resname>IDC("/VDD/MINUS")</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>4m</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+				</specs>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 20 15:22:46 2022</timestamp>
+			<uuid>{0db08a64-81ea-49de-842f-03040d053862}</uuid>
+			<resultsname>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.4.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.4.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ice05_david.yang_152246392</localpsfdir>
+			<psfdir>/afs/ee.cooper.edu/user/d/david.yang/simulation/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.4</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.4</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.4.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.4.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>W1
+						<value>250n</value>
+					</var>
+					<var>L2
+						<value>110n</value>
+					</var>
+					<var>W2
+						<value>300n</value>
+					</var>
+					<var>L1
+						<value>60n</value>
+					</var>
+					<var>L3
+						<value>90n</value>
+					</var>
+					<var>L4
+						<value>120n</value>
+					</var>
+					<var>W3
+						<value>260n</value>
+					</var>
+					<var>W4
+						<value>330n</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.5
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">Operational_Amplifier:TwoStage_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Operational_Amplifier:TwoStage_tb:1_none_Interactive.5</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>TwoStage_tb</value>
+							</option>
+							<option>lib
+								<value>Operational_Amplifier</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<disabledtests>
+					<test>Operational_Amplifier:Two_stage_tb:1</test>
+				</disabledtests>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<vars>
+					<var>VCM
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Vcm
+						<value>500m</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>60n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>300n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L3
+						<value>60n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L4
+						<value>500n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L5
+						<value>400n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>200n:200n:10u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W3
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W4
+						<value>200u</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W5
+						<value>200n</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Im
+						<value>.4</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f1
+						<value>1:50</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f3
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f4
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>f5
+						<value>2</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Cc
+						<value>50f</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Rc
+						<value>10k</value>
+						<dependentTests>
+							<dependentTest enabled="1">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">CONFIG/Operational_Amplifier/TwoStage_tb
+						<value>schematic</value>
+					</var>
+					<var>Amp
+						<value>10m</value>
+						<dependentTests>
+							<dependentTest omitted="0">Operational_Amplifier:TwoStage_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<specs></specs>
+				<jobpolicyname>ADE XL Default</jobpolicyname>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 23 13:40:23 2022</timestamp>
+			<uuid>{639d1b49-4837-41a0-ad45-10f0f69be60b}</uuid>
+			<resultsname>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.5.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.5.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/ice05_david.yang_134023513</localpsfdir>
+			<psfdir>/afs/ee.cooper.edu/user/d/david.yang/simulation/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.5</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.5</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/afs/ee.cooper.edu/user/d/david.yang/VLSI_tsmc65/Operational_Amplifier/TwoStage_tb/adexl/results/data/Interactive.5.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.5.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>W1
+						<value>1u</value>
+					</var>
+					<var>f1
+						<value>50</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>
